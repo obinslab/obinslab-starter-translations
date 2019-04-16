@@ -1,24 +1,23 @@
 <p align="center">
-  <a href="http://en.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
+  <a href="http://www.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
 </p>
 
 # Obinslab Starter Translations
 
-English | [简体中文](./README-zh_CN.md)
+[English](./README.md) | 简体中文
 
-It's a translation project for [Obinslab Starter](http://en.obins.net/obinslab-starter).
+这里是 [Obinslab Starter](http://www.obins.net/obinslab-starter)的软件界面翻译项目
 
-Obinslab Starter let you customize keyboard layouts, light effects and macros for your ANNE PRO2.
+Obinslab Starter 是用于自定义ANNE PRO键盘配列、灯效、宏的桌面软件
 
-Follow <a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> on Twitter for important announcements.
+关注我们的Twitter<a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> 获取最新公告。
 
-## How to start a translation
-Check if a translation file for your language is already exist in folder `locales`. If exist, then just modify on it; If not, clone `en.yml` to `language-code.yml`
+## 如何开始翻译
+检查本项目`locales`文件夹下是否已经存在翻译文件。如果文件存在，则可直接更新这个文件；如果文件不存在，则可将拷贝`en.yml`为`language-code.yml`
 
-For example: If you want create/update `Japanese` language, just edit a file named `ja.yml`.
+举例来说：我们想翻译`Japanese`，我们需要编辑名为`ja.yml`的文件
 
-Obinslab Starter uses Chromium's `l10n_util` library to fetch the locale. Possible
-`language-code` are listed below:
+Obinslab Starter 使用 Chromium的 `l10n_util` 库来获取语言环境。 `language-code`可能的值如下:
 
 | Language Code | Language Name |
 |---------------|---------------|
@@ -156,20 +155,19 @@ Obinslab Starter uses Chromium's `l10n_util` library to fetch the locale. Possib
 | zh-TW | Chinese (Traditional) |
 | zu | Zulu |
 
-## How to preview your translation
+## 如何语言修改过的语言包
 
-1. Put file `language-code.yml` in folder `locales` under `Resources`. Edit `locales.json`, and add your language `id` and `name`.
+1. 将文件`language-code.yml`放在`Resources`下的`locales`文件夹中。编辑`locales.json`，添加语言对应的`id`和`name`。
 
-    Folder `locales` is usually at:
+    文件夹`locales`通常在如下位置:
     - Windows
     `C:\Program Files\Obinslab Starter\resources\locales`
 
     - Mac Osx
     `/Applications/Obinslab Starter.app/Contents/Resources/locales`
 
+2. 打开或重启 Obinslab Starter, 打开 `首选项`, 选择新语言
 
-2. Start/Restart Obinslab Starter, go to `preferences`, select new language
-
-## Contribution
+## 贡献语言包
 
 Fork -> Modify -> Pull request
