@@ -1,0 +1,256 @@
+# Common
+common.operate.failed: Operate Failed
+common.operate.success: Operate Success
+common.tooltip_title: Message
+common.input.placeholder: Please input name
+common.rename: Rename
+common.import: Import
+common.export: Export
+common.add: Add
+common.create: Create
+common.add.success: Add Success
+common.add.failed: Add Failed
+common.delete: Delete
+common.delete.success: Delete Success
+common.delete.failed: Delete Failed
+common.copy: Copy
+common.copy.success: Copy Success
+common.copy_text: Copy
+common.paste: Paste
+common.reset: Reset
+common.clone: Clone
+common.cancel: Cancel
+common.ok: Ok
+common.save: Save
+common.save_as: Save As
+common.save.success: Save Success
+common.download: Download
+common.download_all: Download All
+common.download.success: Download Success
+common.download.failed: Download Failed
+common.confirm.show_detail: Show Detail
+common.network.connection.error: Network Connection Error
+common.please_quit_edit: Please Quit Edit
+common.time_unit.hours: ' Hours'
+common.time_unit.millisecond: Milliseconds
+
+# Tray
+app.tray.show_window: Open Obinslab Starter
+app.tray.preferences: Preferences
+app.tray.help: Help
+app.tray.quit: Quit
+
+# Manage Menu
+app.manage: Manage
+app.manage.preferences: Preferences
+app.manage.device_list: Device List
+app.manage.feedback: Feedback
+app.manage.help: Help
+
+# Feedback
+feedback: Feedback
+feedback.title: Feedback
+feedback.content: Content
+feedback.content.no_empty: Please input content
+feedback.content.max_1000: Maximal 1000 characters
+feedback.email.label: Email(Optional)
+feedback.email.placeholder: Please input your Email
+feedback.email.not_valid: Invalid e-mail address
+feedback.submit: Submit
+feedback.submit.error: Submit Error, Please try again
+feedback.submit.success: Submit Success, Click to Close
+feedback.support_email: 'Support Email: '
+
+# 首选项
+preferences.setting: Setting
+preferences.setting.language: Language
+preferences.setting.theme: Theme
+preferences.setting.theme.dark: Dark
+preferences.setting.theme.light: Light
+preferences.setting.update_channel: Upgrade Source
+preferences.setting.update_channel.beta: Development
+preferences.setting.update_channel.latest: Release
+preferences.setting.animation: Animation on First Screen
+preferences.setting.animation.on: On
+preferences.setting.animation.off: Off
+preferences.setting.x_action: Close Action on Main Panel
+preferences.setting.minimize_to_tray: Minimize to Tray
+preferences.setting.quit_program: Quit Program
+preferences.setting.auto_launch: Launch At Login
+preferences.setting.auto_launch.yes: Yes
+preferences.setting.auto_launch.no: No
+preferences.update: Update
+preferences.update.check: Check New Version
+preferences.update.check.failed: Please try again
+preferences.update.version.current: Current Version
+preferences.update.version.new: New version
+preferences.update.version.no_new: No new version
+preferences.update.download: Download
+preferences.update.download.done: Update package has been downloaded
+preferences.update.install_now: Install now
+preferences.about: About
+
+# 首屏
+home.welcome: Hello World
+home.please_connect_kbd_with_cable: Please connect your device via USB
+home.open_device_failed: Open device failed
+home.open_device_failed_linux:
+  Open device failed, please refer to chapter 1.3 on User Manual
+
+# 键盘信息，全局设置
+kbd.general: General
+kbd.general.info: Information
+kbd.general.info.device_model: Device Model
+kbd.general.info.serial_number: Serial Number
+kbd.general.info.battery: Battery
+kbd.general.info.running_time: Running Time
+kbd.general.setting: Setting
+kbd.general.setting.layout: Layout
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.capslock_led: CapsLock Led
+kbd.general.setting.auto_sleep: Auto Sleep
+kbd.general.setting.options.disable: Disable
+kbd.general.setting.options.enable: Enable
+kbd.general.setting.options.default: Default
+kbd.general.setting.options.custom: Custom
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: All
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Bluetooth Bind
+kbd.general.bluetooth.clean_bind: Clean Bind
+
+# 键盘固件升级
+kbd.firmware: Firmware Upgrade
+kbd.firmware.key: Application Processor
+kbd.firmware.led: Light Processor
+kbd.firmware.ble: Bluetooth Processor
+kbd.firmware.list: Firmware List
+kbd.firmware.annepro1.download.firmware: Download Firmware
+kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
+kbd.firmware.annepro1.download.dfu_tool: Download Dfu Tool
+kbd.firmware.find_new_version: 'Find new firmware: '
+kbd.firmware.no_new_version: Current firmware is latest
+kbd.fireware.upgrade.btn: Upgrade
+kbd.firmware.upgrade.btn.to_latest: Upgrade to Latest
+kbd.firmware.upgrade.title: Firmware Upgrade
+kbd.firmware.upgrade.content: Please don't unplug USB canble during upgrade
+kbd.firmware.upgrade.status.downloading: Downloading firmware...
+kbd.firmware.upgrade.status.download_failed: Download firmware failed
+kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode...
+kbd.firmware.upgrade.status.writing_key: Write data to application processor...
+kbd.firmware.upgrade.status.writing_led: Write data to light processor...
+kbd.firmware.upgrade.status.writing_ble: Write data to bluetooth processor...
+kbd.firmware.upgrade.status.restart: Restarting keyboard...
+kbd.firmware.upgrade.status.success:
+  Firmware upgrade success, Please replug keyboard.
+
+# 键盘灯光
+kbd.led: Light
+kbd.led.effect.group: Light Group
+kbd.led.effect.group.reset: Reset
+kbd.led.effect.group.delete.confirm_content: Make sure to delete the light?
+kbd.led.effect.list: Light List
+kbd.led.effect.list.limit.annepro1_three:
+  Limited tree light effect in one group for ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen:
+  Limited sixteen light effect in one group
+kbd.led.effect.type: Dynamic Light Effect
+kbd.led.effect.delete.confirm_content: Make sure to delete the light?
+kbd.led.effect.preview: Preview
+kbd.led.effect.dynamic_colors: Dynamic Light Color Table
+kbd.led.color.palette: Color Palette
+kbd.led.color.default: Default
+kbd.led.color.custom: Custom
+kbd.led.color.custom.save: Save current color
+# 按键分组
+kbd.keycap.group.alphabet: Character
+kbd.keycap.group.numbers: Number
+kbd.keycap.group.bigs: Big Key
+kbd.keycap.group.all: All
+# 动态灯效类型
+dynamic_none: None
+dynamic_breath: Breath
+dynamic_breath_grad: Breath Grad
+dynamic_poptang: Poptang
+dynamic_rainbow: Rainbow
+dynamic_breath_single: Breath single
+# 默认灯效
+intl.light.group.default: Default
+intl.led.red: Red
+intl.led.yellow: Yellow
+intl.led.green: Green
+intl.led.cyan: Cyan
+intl.led.blue: Blue
+intl.led.purple: Purple
+intl.led.static.single: Static single
+intl.led.static.multi: Static multi
+intl.dynamic.breath: Breath
+intl.dynamic.breath.grad: Breath grad
+intl.dynamic.poptang: Poptang
+intl.dynamic.breath.rainbow: Rainbow
+intl.dynamic.breath.single: Breath single
+
+# 键盘配列
+kbd.layout: Layout
+kbd.layout.reset.confirm_content: Make sure to reset this layout to default?
+kbd.layout.delete.confirm_content: Make sure to delete the layout?
+kbd.layout.set_keycap_null: Set null
+# 键盘码，分组名称
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: System
+kbd.keycode_group.alphabet: Character
+kbd.keycode_group.number: Number
+kbd.keycode_group.modifier: Modifier
+kbd.keycode_group.arrow: Arrow
+kbd.keycode_group.function: Function
+kbd.keycode_group.media: Media
+kbd.keycode_group.keypad: Keypad
+kbd.keycode_group.other: Other
+# 键盘码，图形说明
+icon.left_gui: Left Win/Cmd
+icon.right_gui: Right Win/Cmd
+icon.mute: Mute
+icon.volume.up: Volume Up
+icon.volume.down: Volume Down
+icon.bl.toggle: Toggle Light
+icon.bl.color: Switch Light
+icon.bl.increase: Brightness Plus
+icon.bl.decrease: Brightness Minus
+icon.bl.battery: Battery Level
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Game Wheel
+icon.prev.track: Prev Track
+icon.next.track: Next Track
+icon.play.pause: Play Pause
+# The active layout read from keyboard
+intl.layout.current: Current
+# default keyboard layouts
+intl.keymap.qwerty: Qwerty
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# 键盘宏程序
+kbd.macro: Macro
+kbd.macro.group: Macro Group
+kbd.macro.group.delete.confirm_content: Make sure to delete the macro group?
+kbd.macro.add: Add macro
+kbd.macro.please_add_macro_group: Please add a macro group
+kbd.macro.please_add_macro: Please add a macro
+kbd.macro.delete.confirm_content: Make sure to delete the macro?
+kbd.macro.amount_limit.annepro2_sixteen: 最多可添加16个宏
+kbd.macro.amount_limit.annepro_eight: ANNE PRO1最多可添加8个宏
+kbd.macro.code: Macro Code
+kbd.macro.code.rec: Rec Macro
+kbd.macro.code.empty: Empty Macro Code
+kbd.macro.code.exceeded: Macro Code Exceeded
+kbd.macro.code.missing_release_key: Missing release key
+kbd.macro.code.missing_press_key: Missing press key
+kbd.macro.code.value.insert_timer_block: Insert Time Block
+kbd.macro.code.value.move_up: Move Up
+kbd.macro.code.value.move_down: Move Down
