@@ -24,10 +24,9 @@ common.ok: 确定
 common.save: 保存
 common.save_as: 另存为
 common.save.success: 保存成功
-common.download: 下载
-common.download_all: 下载全部
-common.download.success: 下载成功
-common.download.failed: 下载失败
+common.apply: 应用
+common.apply.success: 应用成功
+common.apply.failed: 应用失败
 common.confirm.show_detail: 查看详情
 common.network.connection.error: 网络连接出错
 common.please_quit_edit: 请退出编辑
@@ -37,15 +36,14 @@ common.time_unit.millisecond: 毫秒
 # 托盘
 app.tray.show_window: 打开Obinslab Starter
 app.tray.preferences: 首选项
-app.tray.help: 帮助
 app.tray.quit: 退出
+app.tray.still_running_here: Obinslab Starter仍在后台运行
 
 # 管理菜单
 app.manage: 管理
 app.manage.preferences: 首选项
 app.manage.device_list: 设备列表
 app.manage.feedback: 反馈
-app.manage.help: 帮助
 
 # 用户反馈
 feedback: 反馈
@@ -88,6 +86,7 @@ preferences.update.version.no_new: 未发现新版本
 preferences.update.download: 下载更新
 preferences.update.download.done: 更新包已经下载完成
 preferences.update.install_now: 立刻安装
+preferences.help: 帮助
 preferences.about: 关于
 
 # 首屏
@@ -143,7 +142,7 @@ kbd.firmware.upgrade.status.writing_key: 写入应用处理器...
 kbd.firmware.upgrade.status.writing_led: 写入灯光处理器...
 kbd.firmware.upgrade.status.writing_ble: 写入蓝牙处理器...
 kbd.firmware.upgrade.status.restart: 键盘重启...
-kbd.firmware.upgrade.status.success: 固件升级成功，请拔插一下键盘
+kbd.firmware.upgrade.status.success: 固件升级成功
 
 # 键盘灯光
 kbd.led: 灯光
@@ -250,3 +249,6 @@ kbd.macro.code.missing_press_key: 缺少按键按下
 kbd.macro.code.value.insert_timer_block: 插入时间
 kbd.macro.code.value.move_up: 上移
 kbd.macro.code.value.move_down: 下移
+
+# 其他信息
+msg.open_device_failed: 打开设备失败
