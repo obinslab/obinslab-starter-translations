@@ -24,10 +24,9 @@ common.ok: Ok
 common.save: Save
 common.save_as: Save As
 common.save.success: Save Success
-common.download: Download
-common.download_all: Download All
-common.download.success: Download Success
-common.download.failed: Download Failed
+common.apply: Apply
+common.apply.success: Apply Success
+common.apply.failed: Apply Failed
 common.confirm.show_detail: Show Detail
 common.network.connection.error: Network Connection Error
 common.please_quit_edit: Please Quit Edit
@@ -37,15 +36,14 @@ common.time_unit.millisecond: Milliseconds
 # Tray
 app.tray.show_window: Open Obinslab Starter
 app.tray.preferences: Preferences
-app.tray.help: Help
 app.tray.quit: Quit
+app.tray.still_running_here: Obinslab Starter is still running here.
 
 # Manage Menu
 app.manage: Manage
 app.manage.preferences: Preferences
 app.manage.device_list: Device List
 app.manage.feedback: Feedback
-app.manage.help: Help
 
 # Feedback
 feedback: Feedback
@@ -88,6 +86,7 @@ preferences.update.version.no_new: No new version
 preferences.update.download: Download
 preferences.update.download.done: Update package has been downloaded
 preferences.update.install_now: Install now
+preferences.help: Help
 preferences.about: About
 
 # 首屏
@@ -144,8 +143,7 @@ kbd.firmware.upgrade.status.writing_key: Write data to application processor...
 kbd.firmware.upgrade.status.writing_led: Write data to light processor...
 kbd.firmware.upgrade.status.writing_ble: Write data to bluetooth processor...
 kbd.firmware.upgrade.status.restart: Restarting keyboard...
-kbd.firmware.upgrade.status.success:
-  Firmware upgrade success, Please replug keyboard.
+kbd.firmware.upgrade.status.success: Firmware upgrade success.
 
 # 键盘灯光
 kbd.led: Light
@@ -254,3 +252,6 @@ kbd.macro.code.missing_press_key: Missing press key
 kbd.macro.code.value.insert_timer_block: Insert Time Block
 kbd.macro.code.value.move_up: Move Up
 kbd.macro.code.value.move_down: Move Down
+
+# Other Messages
+msg.open_device_failed: Open Device Failed
