@@ -43,7 +43,7 @@ app.tray.still_running_here: Obinslab Starter Seguirá Abierto Aquí.
 app.manage: Manejar
 app.manage.preferences: Preferencias
 app.manage.device_list: Lista de Dispositivos
-app.manage.feedback: Valoración y Comentariosfeedback
+app.manage.feedback: Valoración y Comentarios
 
 # Feedback
 feedback: Valoración y Comentarios
@@ -237,8 +237,8 @@ kbd.macro: Macro
 kbd.macro.group: Grupo de Macros
 kbd.macro.group.delete.confirm_content: Quiere eliminar este Grupo de Macros?
 kbd.macro.add: Añadir Macro
-kbd.macro.please_add_macro_group: Please add a macro group Por favor añada un grupo de macros
-kbd.macro.please_add_macro: Please add a macro Por favor añada una macro
+kbd.macro.please_add_macro_group: Por favor añada un grupo de macros
+kbd.macro.please_add_macro: Por favor añada una macro
 kbd.macro.delete.confirm_content: Quiere eliminar esta macro?
 kbd.macro.amount_limit.annepro2_sixteen: Se pueden agregar hasta 16 macros en ANNE PRO 2
 kbd.macro.amount_limit.annepro_eight: Se pueden agregar hasta ocho macros en ANNE PRO 1
