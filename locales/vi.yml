@@ -1,0 +1,264 @@
+# Vietnamese Translation for Obinslab Starter
+# Contributed by Hồ Trọng Tín
+# Facebook: @hoetrongtin
+# Instagram: @im.hoetrongtin
+# Reddit: u/IsThereAnyoneHere
+# Github: @omgursocute
+
+# Common
+common.operate.failed: Thực hiện thất bại
+common.operate.success: Thực hiện thành công
+common.tooltip_title: Thông báo
+common.input.placeholder: Hãy nhập tên
+common.rename: Đổi tên
+common.import: Nhập vào
+common.export: Xuất ra
+common.add: Thêm
+common.create: Tạo
+common.add.success: Thêm thành công
+common.add.failed: Thêm thất bại
+common.delete: Xoá
+common.delete.success: Xoá thành công
+common.delete.failed: Xoá thất bại
+common.copy: Sao chép
+common.copy.success: Sao chép thành công
+common.copy_text: Sao chép
+common.paste: Dán
+common.reset: Cài đặt lại
+common.clone: Nhân bản
+common.cancel: Thoát
+common.ok: OK
+common.save: Lưu
+common.save_as: Lưu dưới tên khác
+common.save.success: Lưu thành công
+common.apply: Áp dụng
+common.apply.success: Áp dụng thành công
+common.apply.failed: Áp dụng thất bại
+common.confirm.show_detail: Xem chi tiết
+common.network.connection.error: Lỗi kết nối mạng
+common.please_quit_edit: Vui lòng thoát chế độ chỉnh sửa
+common.time_unit.hours: ' Giờ'
+common.time_unit.millisecond: Mili giây
+
+# Tray
+app.tray.show_window: Mở Obinslab Starter
+app.tray.preferences: Tuỳ chọn
+app.tray.quit: Kết thúc
+app.tray.still_running_here: Obinslab Starter vẫn đang hoạt động ở đây.
+
+# Manage Menu
+app.manage: Quản lý
+app.manage.preferences: Tuỳ chọn
+app.manage.device_list: Danh sách thiết bị
+app.manage.feedback: Phản hồi
+
+# Feedback
+feedback: Phản hồi
+feedback.title: Phản hồi
+feedback.content: Nội dung
+feedback.content.no_empty: Vui lòng nhập nội dung
+feedback.content.max_1000: Tối đa 1000 ký tự
+feedback.email.label: Email (không bắt buộc)
+feedback.email.placeholder: Vui lòng nhập địa chỉ email
+feedback.email.not_valid: Địa chỉ email không hợp lệ
+feedback.submit: Gửi
+feedback.submit.error: Lỗi khi gửi, vui lòng thử lại
+feedback.submit.success: Gửi thành công, nhấn để đóng
+feedback.support_email: 'Email hỗ trợ: '
+
+# 首选项
+preferences.setting: Cài đặt
+preferences.setting.language: Ngôn ngữ
+preferences.setting.theme: Nền
+preferences.setting.theme.dark: Tối
+preferences.setting.theme.light: Sáng
+preferences.setting.update_channel: Nguồn cập nhật
+preferences.setting.update_channel.beta: Thử nghiệm
+preferences.setting.update_channel.latest: Chính thức
+preferences.setting.animation: Hiệu ứng ở màn hình bên ngoài
+preferences.setting.animation.on: Bật
+preferences.setting.animation.off: Tắt
+preferences.setting.x_action: Nút Tắt ở Thanh công cụ
+preferences.setting.minimize_to_tray: Hạ xuống Khay công cụ
+preferences.setting.quit_program: Kết thúc chương trình
+preferences.setting.auto_launch: Chạy sau khi khởi động máy tính
+preferences.setting.auto_launch.yes: Có
+preferences.setting.auto_launch.no: Không
+preferences.update: Cập nhật
+preferences.update.check: Kiểm tra phiên bản mới
+preferences.update.check.failed: Vui lòng thử lại
+preferences.update.version.current: Phiên bản hiện tại
+preferences.update.version.new: Phiên bản mới
+preferences.update.version.no_new: Không có phiên bản mới
+preferences.update.download: Tải
+preferences.update.download.done: Gói cập nhật đã được tải xuống
+preferences.update.install_now: Tải ngay
+preferences.help: Hỗ trợ
+preferences.about: Thông tin
+
+# 首屏
+home.welcome: Quét lại các thiết bị
+home.please_connect_kbd_with_cable: Vui lòng kết nối thiết bị qua cổng USB
+home.open_device_failed: Mở thiết bị thất bại
+home.open_device_failed_linux:
+  Mở thiết bị thất bại, vui lòng xem chương 1.3 trong Hướng dẫn Sử dụng (bằng tiếng Anh)
+
+# 键盘信息，全局设置
+kbd.general: Cài đặt chung
+kbd.general.info: Thông tin
+kbd.general.info.device_model: Mẫu sản phẩm
+kbd.general.info.serial_number: Mã số Seri
+kbd.general.info.battery: Dung lượng pin
+kbd.general.info.running_time: Thời gian đã hoạt động
+kbd.general.setting: Cài đặt
+kbd.general.setting.layout: Bố cục phím
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.magic_fn: MagicFn
+kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.capslock_led: Đèn Capslock
+kbd.general.setting.auto_sleep: Tự động ngủ
+kbd.general.setting.options.disable: Tắt
+kbd.general.setting.options.enable: Bật
+kbd.general.setting.options.default: Mặc định
+kbd.general.setting.options.custom: Tuỳ chỉnh
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: Toàn bộ
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Ghép nối Bluetooth
+kbd.general.bluetooth.clean_bind: Xoá mọi ghép nối
+
+# 键盘固件升级
+kbd.firmware: Cập nhật phần mềm
+kbd.firmware.key: Bộ xử lý chương trình
+kbd.firmware.led: Bộ xử lý đèn LED
+kbd.firmware.ble: Bộ xử lý Bluetooth
+kbd.firmware.list: Danh sách phần mềm
+kbd.firmware.annepro1.download.firmware: Tải phần mềm
+kbd.firmware.annepro1.download.latest_firmware: Tải phần mềm mới nhất
+kbd.firmware.annepro1.download.dfu_tool: Tải công cụ DFU
+kbd.firmware.find_new_version: 'Tìm phần mềm mới: '
+kbd.firmware.no_new_version: Phiên bản hiện tại là mới nhất
+kbd.fireware.upgrade.btn: Nâng cấp
+kbd.firmware.upgrade.btn.to_latest: Nâng cấp phiên bản mới nhất
+kbd.firmware.upgrade.title: Cập nhật phần mềm
+kbd.firmware.upgrade.content: Vui lòng không ngắt kết nối USB khi đang cập nhật
+kbd.firmware.upgrade.status.downloading: Tải phần mềm...
+kbd.firmware.upgrade.status.download_failed: Tải phần mềm thất bại
+kbd.firmware.upgrade.status.entering_aip: Bắt đầu chế độ cập nhật...
+kbd.firmware.upgrade.status.writing_key: Cài đặt dữ liệu vào bộ xử lý chương trình...
+kbd.firmware.upgrade.status.writing_led: Cài đặt dữ liệu vào bộ xử lý đèn LED...
+kbd.firmware.upgrade.status.writing_ble: Cài đặt dữ liệu vào bộ xử lý Bluetooth...
+kbd.firmware.upgrade.status.restart: Khởi động lại bàn phím...
+kbd.firmware.upgrade.status.success: Cập nhật phần mềm thành công.
+
+# 键盘灯光
+kbd.led: Đèn
+kbd.led.effect.group: Nhóm chế độ
+kbd.led.effect.group.reset: Cài đặt lại
+kbd.led.effect.group.delete.confirm_content: Bạn muốn xoá nhóm này chứ?
+kbd.led.effect.list: Danh sách chế độ
+kbd.led.effect.list.limit.annepro1_three:
+  ANNE PRO 1 chỉ được thiết lập tối đa ba chế độ trong một nhóm
+kbd.led.effect.list.limit.annepro2_sixteen:
+  Chỉ được thiết lập tối đa mười sáu chế độ trong một nhóm
+kbd.led.effect.type: Hiệu ứng đèn chuyển động
+kbd.led.effect.delete.confirm_content: Bạn muốn xoá chế độ này chứ?
+kbd.led.effect.preview: Xem trước
+kbd.led.effect.dynamic_colors: Bảng màu chuyển động
+kbd.led.color.palette: Bảng màu
+kbd.led.color.default: Mặc định
+kbd.led.color.custom: Tuỳ chỉnh
+kbd.led.color.custom.save: Lưu màu đang chọn
+# 按键分组
+kbd.keycap.group.alphabet: Ký tự
+kbd.keycap.group.numbers: Chữ số
+kbd.keycap.group.bigs: Phím lớn
+kbd.keycap.group.all: Tất cả
+# 动态灯效类型
+dynamic_none: Không
+dynamic_breath: Nhịp thở
+dynamic_breath_grad: Nhịp thở (liên tục)
+dynamic_poptang: Toả ra
+dynamic_rainbow: Cầu vồng
+dynamic_breath_single: Nhịp thở (một nút)
+# 默认灯效
+intl.light.group.default: Mặc định
+intl.led.red: Đỏ
+intl.led.yellow: Vàng
+intl.led.green: Lục
+intl.led.cyan: Lục Lam
+intl.led.blue: Lam
+intl.led.purple: Tím
+intl.led.static.single: Đơn tĩnh
+intl.led.static.multi: Đa tĩnh
+intl.dynamic.breath: Nhịp thở
+intl.dynamic.breath.grad: Nhịp thở (liên tục)
+intl.dynamic.poptang: Toả ra
+intl.dynamic.breath.rainbow: Cầu vồng
+intl.dynamic.breath.single: Nhịp thở (một nút)
+
+# 键盘配列
+kbd.layout: Bố cục phím
+kbd.layout.reset.confirm_content: Bạn có muốn cài lại bố cục này như ban đầu?
+kbd.layout.delete.confirm_content: Bạn có muốn xoá bố cục này?
+kbd.layout.set_keycap_null: Xoá chức năng
+# 键盘码，分组名称
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: Hệ thống
+kbd.keycode_group.alphabet: Ký tự
+kbd.keycode_group.number: Chữ số
+kbd.keycode_group.modifier: Cụm chuyển đổi
+kbd.keycode_group.arrow: Mũi tên
+kbd.keycode_group.function: Chức năng
+kbd.keycode_group.media: Đa phương tiện
+kbd.keycode_group.keypad: Cụm phím số
+kbd.keycode_group.other: OKhác
+# 键盘码，图形说明
+icon.left_gui: Win/Cmd Trái
+icon.right_gui: Win/Cmd Phải
+icon.mute: Tắt âm thanh
+icon.volume.up: Tăng âm lượng
+icon.volume.down: Giảm âm lượng
+icon.bl.toggle: Bật tắt đèn
+icon.bl.color: Đổi chế độ đèn
+icon.bl.increase: Tăng độ sáng
+icon.bl.decrease: Giảm độ sáng
+icon.bl.battery: Dung lượng pin
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Tay lái chơi game
+icon.prev.track: Bài trước đó
+icon.next.track: Bài tiếp theo
+icon.play.pause: Chơi/Dừng
+# The active layout read from keyboard
+intl.layout.current: Hiện tại
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: DVORAK
+
+# 键盘宏程序
+kbd.macro: Macro
+kbd.macro.group: Nhóm macro
+kbd.macro.group.delete.confirm_content: Bạn có muốn xoá nhóm macro?
+kbd.macro.add: Thêm macro
+kbd.macro.please_add_macro_group: Vui lòng thêm nhóm macro
+kbd.macro.please_add_macro: Vui lòng thêm macro
+kbd.macro.delete.confirm_content: Bạn có muốn xoá macro?
+kbd.macro.amount_limit.annepro2_sixteen: Chỉ có thể chứa tối đa 16 macro
+kbd.macro.amount_limit.annepro_eight: ANNE PRO1 chỉ có thể chứa tối đa 8 macro
+kbd.macro.code: Mã macro
+kbd.macro.code.rec: Ghi lại Macro
+kbd.macro.code.empty: Mã macro trống
+kbd.macro.code.exceeded: Mã macro vượt quá cho phép
+kbd.macro.code.missing_release_key: Thiếu hành động thả phím
+kbd.macro.code.missing_press_key: Thiếu hành động nhấn phím
+kbd.macro.code.value.insert_timer_block: Thêm khối thời gian
+kbd.macro.code.value.move_up: Dịch chuyển lên trên
+kbd.macro.code.value.move_down: Dịch chuyển xuống dưới
+
+# Other Messages
+msg.open_device_failed: Mở thiết bị thất bại
