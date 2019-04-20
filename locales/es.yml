@@ -1,0 +1,256 @@
+# Common
+common.operate.failed: No se Pudo Operar
+common.operate.success: Operación Realizada Con Éxito
+common.tooltip_title: Mensaje
+common.input.placeholder: Por Favor introduzca Nombre
+common.rename: Renombrar
+common.import: Importar
+common.export: Exportar
+common.add: Añadir
+common.create: Crear
+common.add.success: Añadido Con Éxito
+common.add.failed: No Se Pudo Añadir
+common.delete: Elimirar
+common.delete.success: Eliminado Con Éxito
+common.delete.failed: No se pudo Eliminar
+common.copy: Copiar
+common.copy.success: Copiado Con Éxito
+common.copy_text: Copiar
+common.paste: Pegar
+common.reset: Reiniciar
+common.clone: Clonar
+common.cancel: Cancelar
+common.ok: Ok
+common.save: Guardar
+common.save_as: Guardar Como
+common.save.success: Guardado Con Éxito
+common.apply: Aplicar
+common.apply.success: Aplicado Con Éxito
+common.apply.failed: No se pudo Aplicar
+common.confirm.show_detail: Mostrar Detalle
+common.network.connection.error: Error En Conexión De Red
+common.please_quit_edit: Por favor Salga Del Modo Edición
+common.time_unit.hours: ' Horas'
+common.time_unit.millisecond: Milisegundos
+
+# Tray
+app.tray.show_window: Abrir Obinslab Starter
+app.tray.preferences: Preferencias
+app.tray.quit: Salir
+app.tray.still_running_here: Obinslab Starter Seguirá Abierto Aquí.
+
+# Manage Menu
+app.manage: Manejar
+app.manage.preferences: Preferencias
+app.manage.device_list: Lista de Dispositivos
+app.manage.feedback: Valoración y Comentariosfeedback
+
+# Feedback
+feedback: Valoración y Comentarios
+feedback.title: Valoración y Comentarios
+feedback.content: Contenido
+feedback.content.no_empty: Por favor introduzca contenido.
+feedback.content.max_1000: Máximo 1000 caracteres
+feedback.email.label: Email(Opcional)
+feedback.email.placeholder: Por favor introduzca su Email.
+feedback.email.not_valid: Direccion de Email invalida.
+feedback.submit: Enviar
+feedback.submit.error: Error de envio, Por favor intentelo de nuevo
+feedback.submit.success: Enviado con exito, Click para cerrar
+feedback.support_email: 'Email de Soporte: '
+
+# 首选项
+preferences.setting: Ajustes
+preferences.setting.language: Idioma
+preferences.setting.theme: Tema
+preferences.setting.theme.dark: Oscuro
+preferences.setting.theme.light: Luminoso
+preferences.setting.update_channel: Actualizar Fuente
+preferences.setting.update_channel.beta: Desarrollo
+preferences.setting.update_channel.latest: Lanzamiento
+preferences.setting.animation: Animacion en pantalla de bienvenida
+preferences.setting.animation.on: Encendido
+preferences.setting.animation.off: Apagado
+preferences.setting.x_action: Cerrar Acción en Panel Principal
+preferences.setting.minimize_to_tray: Minimizar a la bandeja
+preferences.setting.quit_program: Cerrar Programa
+preferences.setting.auto_launch: Abrir al Inicio
+preferences.setting.auto_launch.yes: Si
+preferences.setting.auto_launch.no: No
+preferences.update: Actualizar
+preferences.update.check: Comprobar Nueva Versión
+preferences.update.check.failed: Por favor intentelo de nuevo
+preferences.update.version.current: Versión Actual
+preferences.update.version.new: Nueva Versión
+preferences.update.version.no_new: No Hay Una Nueva Versión 
+preferences.update.download: Descargar
+preferences.update.download.done: El Paquete de Actualización Ha Sido Descargado
+preferences.update.install_now: Instalar Ahora
+preferences.help: Ayuda
+preferences.about: Sobre Nosotros
+
+# 首屏
+home.welcome: Hola Mundo
+home.please_connect_kbd_with_cable:  Por favor Conecte su Dispositivo Vía USB
+home.open_device_failed: No Se Pudo Abrir el Dispositivo
+home.open_device_failed_linux: No se pudo abrir el dispositivo, por favor consulte el apartado 1.3 del Manual de Ususario
+
+# 键盘信息，全局设置
+kbd.general: General
+kbd.general.info: Información
+kbd.general.info.device_model: Modelo de Dispositivo
+kbd.general.info.serial_number: Número de Serie
+kbd.general.info.battery: Batería
+kbd.general.info.running_time: Tiempo Funcionando
+kbd.general.setting: Ajustes
+kbd.general.setting.layout: Distribución
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.capslock_led: Bloq Mayús Led
+kbd.general.setting.auto_sleep: Reposo Automático
+kbd.general.setting.options.disable: Deshabilitar
+kbd.general.setting.options.enable: Habilitar
+kbd.general.setting.options.default: Por Defecto
+kbd.general.setting.options.custom: Personalizado
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: Todos
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Enlazado Bluetooth 
+kbd.general.bluetooth.clean_bind: Eliminar Enlaces
+
+# 键盘固件升级
+kbd.firmware: Actualización de Firmware
+kbd.firmware.key: Procesador de Aplicación
+kbd.firmware.led: Procesador de Iluminación
+kbd.firmware.ble: Procesador de Bluetooth
+kbd.firmware.list: Lista de Firmware
+kbd.firmware.annepro1.download.firmware: Descargar Firmware
+kbd.firmware.annepro1.download.latest_firmware: Descargar el Último Firmware
+kbd.firmware.annepro1.download.dfu_tool: Descargar Herramienta DFU
+kbd.firmware.find_new_version: 'Encontrar Nueva Version de Firmware: '
+kbd.firmware.no_new_version: La versión de Firmware actual es la mas reciente
+kbd.fireware.upgrade.btn: Actualizar
+kbd.firmware.upgrade.btn.to_latest: Actualizar a la versión mas reciente
+kbd.firmware.upgrade.title: Actualizar Firmware
+kbd.firmware.upgrade.content: Por favor no desconecte el USB durante la actualización
+kbd.firmware.upgrade.status.downloading: Decargando firmware...
+kbd.firmware.upgrade.status.download_failed: La Descarga del Firmware Falló
+kbd.firmware.upgrade.status.entering_aip: Entrado en modo Actualización...
+kbd.firmware.upgrade.status.writing_key: Escribiendo datos en el procesador de aplicación...
+kbd.firmware.upgrade.status.writing_led: Escribiendo datos en el procesador de iluminación...
+kbd.firmware.upgrade.status.writing_ble: Escribiendo datos en el procesador de bluetooth...
+kbd.firmware.upgrade.status.restart: Reiniciando teclado...
+kbd.firmware.upgrade.status.success: Firmware actualizado con éxito.
+
+# 键盘灯光
+kbd.led: Light
+kbd.led.effect.group: Grupo de Iluminación
+kbd.led.effect.group.reset: Reiniciar
+kbd.led.effect.group.delete.confirm_content: Quiere eliminar esta iluminación?
+kbd.led.effect.list: Lista de iluminaciones
+kbd.led.effect.list.limit.annepro1_three:
+  Máximo tres efectos de iluminación en un grupo en ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen:
+  Máximo dieciseís efectos de iluminación en un grupo en ANNE PRO 2
+kbd.led.effect.type: Efecto de iluminación dinámico
+kbd.led.effect.delete.confirm_content: Quiere eliminar esta iluminación?
+kbd.led.effect.preview: Previsualización
+kbd.led.effect.dynamic_colors: Tabla de Color Dinamico de la Iluminación
+kbd.led.color.palette: Paleta de Colores
+kbd.led.color.default: Por Defecto
+kbd.led.color.custom: Personalizado
+kbd.led.color.custom.save: Guardar color actual
+# 按键分组
+kbd.keycap.group.alphabet: Caracter
+kbd.keycap.group.numbers: Número
+kbd.keycap.group.bigs: Teclas Grandes
+kbd.keycap.group.all: Todas
+# 动态灯效类型
+dynamic_none: Ninguno
+dynamic_breath: Respiración 
+dynamic_breath_grad: Respiración Gradual
+dynamic_poptang: Poptang
+dynamic_rainbow: Arcoiris
+dynamic_breath_single: Respiración unica
+# 默认灯效
+intl.light.group.default: Por defecto
+intl.led.red: Rojo
+intl.led.yellow: Amarillo
+intl.led.green: Verde
+intl.led.cyan: Cian
+intl.led.blue: Azul
+intl.led.purple: Morado
+intl.led.static.single: Estático unico
+intl.led.static.multi: Estático multiple
+intl.dynamic.breath:  Respiración
+intl.dynamic.breath.grad: Respiración Gradual
+intl.dynamic.poptang: Poptang
+intl.dynamic.breath.rainbow: Arcoiris
+intl.dynamic.breath.single: Respiración unica
+
+# 键盘配列
+kbd.layout: Distribución
+kbd.layout.reset.confirm_content: Quiere reiniciar a la distribución por defecto ?
+kbd.layout.delete.confirm_content: Quiere eliminar esta distribución?
+kbd.layout.set_keycap_null: Vaciar
+# 键盘码，分组名称
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: Sistema
+kbd.keycode_group.alphabet: Caracter
+kbd.keycode_group.number: Número
+kbd.keycode_group.modifier: Modificador
+kbd.keycode_group.arrow: Flecha
+kbd.keycode_group.function: Función
+kbd.keycode_group.media: Media
+kbd.keycode_group.keypad: Teclado
+kbd.keycode_group.other: Otros
+# 键盘码，图形说明
+icon.left_gui: Win/Cmd Izquierdo
+icon.right_gui: Win/Cmd Derecho
+icon.mute: Silenciar
+icon.volume.up: Subir Volumen
+icon.volume.down: Bajar Volumen
+icon.bl.toggle: Conmutar iluminación
+icon.bl.color: Cambiar iluminación
+icon.bl.increase: Subir Brillo
+icon.bl.decrease: Bajar Brillo
+icon.bl.battery: Nivel de Bateria
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Volante de juegos
+icon.prev.track: Pista Previa
+icon.next.track: Pista Siguiente
+icon.play.pause: Play Pause
+# The active layout read from keyboard
+intl.layout.current: Actual
+# default keyboard layouts
+intl.keymap.qwerty: Qwerty
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# 键盘宏程序
+kbd.macro: Macro
+kbd.macro.group: Grupo de Macros
+kbd.macro.group.delete.confirm_content: Quiere eliminar este Grupo de Macros?
+kbd.macro.add: Añadir Macro
+kbd.macro.please_add_macro_group: Please add a macro group Por favor añada un grupo de macros
+kbd.macro.please_add_macro: Please add a macro Por favor añada una macro
+kbd.macro.delete.confirm_content: Quiere eliminar esta macro?
+kbd.macro.amount_limit.annepro2_sixteen: Se pueden agregar hasta 16 macros en ANNE PRO 2
+kbd.macro.amount_limit.annepro_eight: Se pueden agregar hasta ocho macros en ANNE PRO 1
+kbd.macro.code: Código Macro
+kbd.macro.code.rec: Grabar Macro
+kbd.macro.code.empty: Vaciar Código Macro
+kbd.macro.code.exceeded: Código Macro Excedido 
+kbd.macro.code.missing_release_key: Falta liberación de tecla
+kbd.macro.code.missing_press_key: Falta presionado de tecla
+kbd.macro.code.value.insert_timer_block: Insertar bloque de tiempo
+kbd.macro.code.value.move_up: Mover Arriba
+kbd.macro.code.value.move_down: Mover Abajo
+
+# Other Messages
+msg.open_device_failed: Abrir Dispositivo Fallo
