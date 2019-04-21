@@ -1,5 +1,5 @@
 # Common
-common.operate.failed: No se Pudo Operar
+common.operate.failed: No se Pudo Realizar la Operación
 common.operate.success: Operación Realizada Con Éxito
 common.tooltip_title: Mensaje
 common.input.placeholder: Por Favor introduzca Nombre
@@ -10,7 +10,7 @@ common.add: Añadir
 common.create: Crear
 common.add.success: Añadido Con Éxito
 common.add.failed: No Se Pudo Añadir
-common.delete: Elimirar
+common.delete: Eliminar
 common.delete.success: Eliminado Con Éxito
 common.delete.failed: No se pudo Eliminar
 common.copy: Copiar
@@ -64,14 +64,14 @@ preferences.setting: Ajustes
 preferences.setting.language: Idioma
 preferences.setting.theme: Tema
 preferences.setting.theme.dark: Oscuro
-preferences.setting.theme.light: Luminoso
-preferences.setting.update_channel: Actualizar Fuente
+preferences.setting.theme.light: Claro
+preferences.setting.update_channel: Fuente de Actualizaciones
 preferences.setting.update_channel.beta: Desarrollo
 preferences.setting.update_channel.latest: Lanzamiento
-preferences.setting.animation: Animacion en pantalla de bienvenida
+preferences.setting.animation: Animación de bienvenida
 preferences.setting.animation.on: Encendido
 preferences.setting.animation.off: Apagado
-preferences.setting.x_action: Cerrar Acción en Panel Principal
+preferences.setting.x_action: Acción de Botón Cerrar
 preferences.setting.minimize_to_tray: Minimizar a la bandeja
 preferences.setting.quit_program: Cerrar Programa
 preferences.setting.auto_launch: Abrir al Inicio
@@ -79,7 +79,7 @@ preferences.setting.auto_launch.yes: Si
 preferences.setting.auto_launch.no: No
 preferences.update: Actualizar
 preferences.update.check: Comprobar Nueva Versión
-preferences.update.check.failed: Por favor intentelo de nuevo
+preferences.update.check.failed: Por favor inténtelo de nuevo
 preferences.update.version.current: Versión Actual
 preferences.update.version.new: Nueva Versión
 preferences.update.version.no_new: No Hay Una Nueva Versión 
@@ -101,7 +101,7 @@ kbd.general.info: Información
 kbd.general.info.device_model: Modelo de Dispositivo
 kbd.general.info.serial_number: Número de Serie
 kbd.general.info.battery: Batería
-kbd.general.info.running_time: Tiempo Funcionando
+kbd.general.info.running_time: Tiempo de uso
 kbd.general.setting: Ajustes
 kbd.general.setting.layout: Distribución
 kbd.general.setting.tap_layout: Tap
@@ -112,12 +112,12 @@ kbd.general.setting.auto_sleep: Reposo Automático
 kbd.general.setting.options.disable: Deshabilitar
 kbd.general.setting.options.enable: Habilitar
 kbd.general.setting.options.default: Por Defecto
-kbd.general.setting.options.custom: Personalizado
+kbd.general.setting.options.custom: Personalizada
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
-kbd.general.setting.options.capslock_all: Todos
+kbd.general.setting.options.capslock_all: Todas
 kbd.general.bluetooth: Bluetooth
-kbd.general.bluetooth.bind: Enlazado Bluetooth 
+kbd.general.bluetooth.bind: Conexiones Bluetooth 
 kbd.general.bluetooth.clean_bind: Eliminar Enlaces
 
 # 键盘固件升级
@@ -129,15 +129,15 @@ kbd.firmware.list: Lista de Firmware
 kbd.firmware.annepro1.download.firmware: Descargar Firmware
 kbd.firmware.annepro1.download.latest_firmware: Descargar el Último Firmware
 kbd.firmware.annepro1.download.dfu_tool: Descargar Herramienta DFU
-kbd.firmware.find_new_version: 'Encontrar Nueva Version de Firmware: '
+kbd.firmware.find_new_version: 'Nueva version de Firmware encontrada: '
 kbd.firmware.no_new_version: La versión de Firmware actual es la mas reciente
 kbd.fireware.upgrade.btn: Actualizar
-kbd.firmware.upgrade.btn.to_latest: Actualizar a la versión mas reciente
+kbd.firmware.upgrade.btn.to_latest: Actualizar al Último Firmware
 kbd.firmware.upgrade.title: Actualizar Firmware
-kbd.firmware.upgrade.content: Por favor no desconecte el USB durante la actualización
+kbd.firmware.upgrade.content: Por favor no desconecte el cable USB durante la actualización
 kbd.firmware.upgrade.status.downloading: Decargando firmware...
 kbd.firmware.upgrade.status.download_failed: La Descarga del Firmware Falló
-kbd.firmware.upgrade.status.entering_aip: Entrado en modo Actualización...
+kbd.firmware.upgrade.status.entering_aip: Entrando en modo Actualización...
 kbd.firmware.upgrade.status.writing_key: Escribiendo datos en el procesador de aplicación...
 kbd.firmware.upgrade.status.writing_led: Escribiendo datos en el procesador de iluminación...
 kbd.firmware.upgrade.status.writing_ble: Escribiendo datos en el procesador de bluetooth...
@@ -145,26 +145,26 @@ kbd.firmware.upgrade.status.restart: Reiniciando teclado...
 kbd.firmware.upgrade.status.success: Firmware actualizado con éxito.
 
 # 键盘灯光
-kbd.led: Light
+kbd.led: Iluminación
 kbd.led.effect.group: Grupo de Iluminación
 kbd.led.effect.group.reset: Reiniciar
-kbd.led.effect.group.delete.confirm_content: Quiere eliminar esta iluminación?
+kbd.led.effect.group.delete.confirm_content: Quiere eliminar este efecto de iluminación?
 kbd.led.effect.list: Lista de iluminaciones
 kbd.led.effect.list.limit.annepro1_three:
   Máximo tres efectos de iluminación en un grupo en ANNE PRO 1
 kbd.led.effect.list.limit.annepro2_sixteen:
   Máximo dieciseís efectos de iluminación en un grupo en ANNE PRO 2
-kbd.led.effect.type: Efecto de iluminación dinámico
+kbd.led.effect.type: Efecto Dinámico
 kbd.led.effect.delete.confirm_content: Quiere eliminar esta iluminación?
 kbd.led.effect.preview: Previsualización
-kbd.led.effect.dynamic_colors: Tabla de Color Dinamico de la Iluminación
+kbd.led.effect.dynamic_colors: Tabla de Color Efecto Dinámico
 kbd.led.color.palette: Paleta de Colores
 kbd.led.color.default: Por Defecto
 kbd.led.color.custom: Personalizado
 kbd.led.color.custom.save: Guardar color actual
 # 按键分组
-kbd.keycap.group.alphabet: Caracter
-kbd.keycap.group.numbers: Número
+kbd.keycap.group.alphabet: Letras
+kbd.keycap.group.numbers: Números
 kbd.keycap.group.bigs: Teclas Grandes
 kbd.keycap.group.all: Todas
 # 动态灯效类型
@@ -173,7 +173,7 @@ dynamic_breath: Respiración
 dynamic_breath_grad: Respiración Gradual
 dynamic_poptang: Poptang
 dynamic_rainbow: Arcoiris
-dynamic_breath_single: Respiración unica
+dynamic_breath_single: Respiración individual
 # 默认灯效
 intl.light.group.default: Por defecto
 intl.led.red: Rojo
@@ -182,13 +182,13 @@ intl.led.green: Verde
 intl.led.cyan: Cian
 intl.led.blue: Azul
 intl.led.purple: Morado
-intl.led.static.single: Estático unico
+intl.led.static.single: Estático individual
 intl.led.static.multi: Estático multiple
 intl.dynamic.breath:  Respiración
 intl.dynamic.breath.grad: Respiración Gradual
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arcoiris
-intl.dynamic.breath.single: Respiración unica
+intl.dynamic.breath.single: Respiración individual
 
 # 键盘配列
 kbd.layout: Distribución
@@ -212,11 +212,11 @@ icon.right_gui: Win/Cmd Derecho
 icon.mute: Silenciar
 icon.volume.up: Subir Volumen
 icon.volume.down: Bajar Volumen
-icon.bl.toggle: Conmutar iluminación
+icon.bl.toggle: Interruptor iluminación
 icon.bl.color: Cambiar iluminación
 icon.bl.increase: Subir Brillo
 icon.bl.decrease: Bajar Brillo
-icon.bl.battery: Nivel de Bateria
+icon.bl.battery: Nivel de Batería
 icon.ble.wl_1: Bluetooth 1
 icon.ble.wl_2: Bluetooth 2
 icon.ble.wl_3: Bluetooth 3
@@ -246,11 +246,11 @@ kbd.macro.code: Código Macro
 kbd.macro.code.rec: Grabar Macro
 kbd.macro.code.empty: Vaciar Código Macro
 kbd.macro.code.exceeded: Código Macro Excedido 
-kbd.macro.code.missing_release_key: Falta liberación de tecla
-kbd.macro.code.missing_press_key: Falta presionado de tecla
+kbd.macro.code.missing_release_key: Falta un bloque de liberación de tecla
+kbd.macro.code.missing_press_key: Falta un bloque de presionado de tecla
 kbd.macro.code.value.insert_timer_block: Insertar bloque de tiempo
 kbd.macro.code.value.move_up: Mover Arriba
 kbd.macro.code.value.move_down: Mover Abajo
 
 # Other Messages
-msg.open_device_failed: Abrir Dispositivo Fallo
+msg.open_device_failed: No Se Pudo Abrir el Dispositivo
