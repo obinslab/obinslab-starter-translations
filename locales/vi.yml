@@ -253,7 +253,7 @@ kbd.macro.amount_limit.annepro_eight: ANNE PRO1 chỉ có thể chứa tối đa
 kbd.macro.code: Mã macro
 kbd.macro.code.rec: Ghi lại Macro
 kbd.macro.code.empty: Mã macro trống
-kbd.macro.code.exceeded: Mã macro vượt quá cho phép
+kbd.macro.code.exceeded: Mã macro dài vượt quá cho phép
 kbd.macro.code.missing_release_key: Thiếu hành động thả phím
 kbd.macro.code.missing_press_key: Thiếu hành động nhấn phím
 kbd.macro.code.value.insert_timer_block: Thêm khối thời gian
