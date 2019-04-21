@@ -191,7 +191,7 @@ intl.led.cyan: Lục Lam
 intl.led.blue: Lam
 intl.led.purple: Tím
 intl.led.static.single: Đơn tĩnh
-intl.led.static.multi: Đa tĩnh
+intl.led.static.multi: Cầu vồng tĩnh
 intl.dynamic.breath: Nhịp thở
 intl.dynamic.breath.grad: Nhịp thở (liên tục)
 intl.dynamic.poptang: Toả ra
