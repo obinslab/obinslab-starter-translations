@@ -51,13 +51,13 @@ feedback.title: Feedback
 feedback.content: Contenu
 feedback.content.no_empty: S'il vous plaît entrer le contenu
 feedback.content.max_1000: Maximum de 1000 caractères
-feedback.email.label: Email(Optionnel)
+feedback.email.label: Email (Optionnel)
 feedback.email.placeholder: S'il vous plaît entrer votre Email
 feedback.email.not_valid: Adresse Email invalide
 feedback.submit: Soumettre
 feedback.submit.error: Échec d'envoi, merci de réessayer
 feedback.submit.success: Envoyé avec succès, cliquez pour fermer
-feedback.support_email: 'Email de support: '
+feedback.support_email: 'Email du support: '
 
 # Préférences
 preferences.setting: Paramètres
@@ -108,7 +108,7 @@ kbd.general.setting.layout: Disposition
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.magic_fn: Magic Fn
 kbd.general.setting.macro_trigger: Macro
-kbd.general.setting.capslock_led: LED de verrouillage des majuscules
+kbd.general.setting.capslock_led: LED de verrouillage majuscule
 kbd.general.setting.auto_sleep: Veille automatique
 kbd.general.setting.options.disable: Désactiver
 kbd.general.setting.options.enable: Activer
@@ -123,7 +123,7 @@ kbd.general.bluetooth.clean_bind: Supprimer les associations
 
 # Mise à niveau du firmware du clavier
 kbd.firmware: Mise à jour du firmware
-kbd.firmware.key: Processeur Principale
+kbd.firmware.key: Processeur Principal
 kbd.firmware.led: Processeur LED
 kbd.firmware.ble: Processeur Bluetooth
 kbd.firmware.list: Liste des firmwares
