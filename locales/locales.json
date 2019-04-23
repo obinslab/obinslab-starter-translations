@@ -4,4 +4,5 @@
 	{ "id": "es", "name": "Español" },
 	{ "id": "ms", "name": "Malay" },
 	{ "id": "vi", "name": "Tiếng Việt" }
+	{ "id": "fr", "name": "Français" }
 ]
