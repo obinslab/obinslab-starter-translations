@@ -71,14 +71,14 @@ preferences.setting.update_channel.latest: Release
 preferences.setting.animation: Animation à l’écran de démarrage
 preferences.setting.animation.on: Activé
 preferences.setting.animation.off: Désactivé
-preferences.setting.x_action: Close Action on Main Panel
+preferences.setting.x_action: Quitter le programme ou réduire
 preferences.setting.minimize_to_tray: Réduire dans la barre de tâche
 preferences.setting.quit_program: Quitter le programme
 preferences.setting.auto_launch: Démarrage au lancement
 preferences.setting.auto_launch.yes: Oui
 preferences.setting.auto_launch.no: Non
 preferences.update: Mise à jour
-preferences.update.check: Vérifier mise à jour
+preferences.update.check: Vérifier les mises à jour
 preferences.update.check.failed: Veuillez réessayer
 preferences.update.version.current: Version actuelle
 preferences.update.version.new: Nouvelle version
@@ -126,7 +126,7 @@ kbd.firmware: Mise à jour du firmware
 kbd.firmware.key: Processeur Principale
 kbd.firmware.led: Processeur LED
 kbd.firmware.ble: Processeur Bluetooth
-kbd.firmware.list: Liste des firmware
+kbd.firmware.list: Liste des firmwares
 kbd.firmware.annepro1.download.firmware: Télécharger firmware
 kbd.firmware.annepro1.download.latest_firmware: Télécharger le dernier firmware
 kbd.firmware.annepro1.download.dfu_tool: Télécharger l'outil DFU
