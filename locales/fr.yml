@@ -67,11 +67,11 @@ preferences.setting.theme.dark: Sombre
 preferences.setting.theme.light: Clair
 preferences.setting.update_channel: Source de mises à jour
 preferences.setting.update_channel.beta: Développement
-preferences.setting.update_channel.latest: Release
+preferences.setting.update_channel.latest: Stable
 preferences.setting.animation: Animation à l’écran de démarrage
 preferences.setting.animation.on: Activé
 preferences.setting.animation.off: Désactivé
-preferences.setting.x_action: Quitter le programme ou réduire
+preferences.setting.x_action: Quitter ou réduire Obinslab lors de la fermeture
 preferences.setting.minimize_to_tray: Réduire dans la barre de tâche
 preferences.setting.quit_program: Quitter le programme
 preferences.setting.auto_launch: Démarrage au lancement
@@ -99,7 +99,7 @@ home.open_device_failed_linux:
 # Informations sur le clavier, paramètres globaux
 kbd.general: Général
 kbd.general.info: Information
-kbd.general.info.device_model: Modèle d'appareil
+kbd.general.info.device_model: Modèle du clavier
 kbd.general.info.serial_number: Numéro de série
 kbd.general.info.battery: Batterie
 kbd.general.info.running_time: Temps d’utilisation
@@ -127,7 +127,7 @@ kbd.firmware.key: Processeur Principal
 kbd.firmware.led: Processeur LED
 kbd.firmware.ble: Processeur Bluetooth
 kbd.firmware.list: Liste des firmwares
-kbd.firmware.annepro1.download.firmware: Télécharger firmware
+kbd.firmware.annepro1.download.firmware: Télécharger le firmware
 kbd.firmware.annepro1.download.latest_firmware: Télécharger le dernier firmware
 kbd.firmware.annepro1.download.dfu_tool: Télécharger l'outil DFU
 kbd.firmware.find_new_version: 'Un nouveau firmware à été trouvé: '
@@ -135,7 +135,7 @@ kbd.firmware.no_new_version: Pas de nouveau firmware trouvé
 kbd.fireware.upgrade.btn: Mise à jour
 kbd.firmware.upgrade.btn.to_latest: Mettre à jour vers la dernière version
 kbd.firmware.upgrade.title: Mise à jour du firmware
-kbd.firmware.upgrade.content: Ne débranchez pas  le câble USB lors de la mise à niveau.
+kbd.firmware.upgrade.content: Ne débranchez pas le câble USB lors de la mise à jour.
 kbd.firmware.upgrade.status.downloading: Téléchargement du firmware...
 kbd.firmware.upgrade.status.download_failed: Échec de téléchargement du firmware
 kbd.firmware.upgrade.status.entering_aip: Entrer en mode de mise à jour...
@@ -195,14 +195,14 @@ intl.dynamic.breath.single: Respiration simple
 kbd.layout: Disposition
 kbd.layout.reset.confirm_content: Êtes vous sure de vouloir réinitialiser ce modèle?
 kbd.layout.delete.confirm_content: Êtes vous sure de vouloir supprimer ce modèle?
-kbd.layout.set_keycap_null: 
+kbd.layout.set_keycap_null: Supprimer la touche
 # Code du clavier, nom du groupe
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Système
 kbd.keycode_group.alphabet: Caractères
 kbd.keycode_group.number: Chiffres
 kbd.keycode_group.modifier: Modificateurs
-kbd.keycode_group.arrow: Flèche
+kbd.keycode_group.arrow: Touches directionnelles
 kbd.keycode_group.function: Fonction
 kbd.keycode_group.media: Média
 kbd.keycode_group.keypad: Pavé numérique
@@ -245,10 +245,10 @@ kbd.macro.amount_limit.annepro2_sixteen: Jusqu'à 16 macros peuvent être ajout�
 kbd.macro.amount_limit.annepro_eight: ANNE PRO 1 supporte jusqu'à 8 Macros
 kbd.macro.code: Code de la Macro
 kbd.macro.code.rec: Enregistrer la Macro
-kbd.macro.code.empty: Vider le code la Macro
+kbd.macro.code.empty: Vider le code de la Macro
 kbd.macro.code.exceeded: Dépassement du code de la Macro
-kbd.macro.code.missing_release_key: Manque relâchement touche
-kbd.macro.code.missing_press_key: Manque appuie touche
+kbd.macro.code.missing_release_key: Manque un relâchement touche
+kbd.macro.code.missing_press_key: Manque un appuie touche
 kbd.macro.code.value.insert_timer_block: Insérer une valeur de temps
 kbd.macro.code.value.move_up: Déplacer vers le haut
 kbd.macro.code.value.move_down: Déplacer vers le bas
