@@ -134,7 +134,7 @@ kbd.firmware.no_new_version: Current firmware is latest
 kbd.fireware.upgrade.btn: Upgrade
 kbd.firmware.upgrade.btn.to_latest: Upgrade to Latest
 kbd.firmware.upgrade.title: Firmware Upgrade
-kbd.firmware.upgrade.content: Please don't unplug USB canble during upgrade
+kbd.firmware.upgrade.content: Please don't unplug the USB cable during upgrade
 kbd.firmware.upgrade.status.downloading: Downloading firmware...
 kbd.firmware.upgrade.status.download_failed: Downloading firmware failed
 kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode...
