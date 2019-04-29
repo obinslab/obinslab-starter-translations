@@ -241,8 +241,8 @@ kbd.macro.add: Add macro
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
 kbd.macro.delete.confirm_content: Make sure to delete the macro?
-kbd.macro.amount_limit.annepro2_sixteen: 最多可添加16个宏
-kbd.macro.amount_limit.annepro_eight: ANNE PRO1最多可添加8个宏
+kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added to the Anne Pro 2
+kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Rec Macro
 kbd.macro.code.empty: Empty Macro Code
