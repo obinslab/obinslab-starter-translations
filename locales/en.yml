@@ -59,7 +59,7 @@ feedback.submit.error: Submit Error, Please try again
 feedback.submit.success: Submit Success, Click to Close
 feedback.support_email: 'Support Email: '
 
-# 首选项
+# Preference Window
 preferences.setting: Setting
 preferences.setting.language: Language
 preferences.setting.theme: Theme
@@ -89,14 +89,14 @@ preferences.update.install_now: Install now
 preferences.help: Help
 preferences.about: About
 
-# 首屏
+# Home Window
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Please connect your device via USB
 home.open_device_failed: Open device failed
 home.open_device_failed_linux:
   Open device failed, please refer to chapter 1.3 on User Manual
 
-# 键盘信息，全局设置
+# Main Window, General
 kbd.general: General
 kbd.general.info: Information
 kbd.general.info.device_model: Device Model
@@ -121,7 +121,7 @@ kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Bluetooth Bind
 kbd.general.bluetooth.clean_bind: Clean Bind
 
-# 键盘固件升级
+# Main Window, Firmware
 kbd.firmware: Firmware Upgrade
 kbd.firmware.key: Application Processor
 kbd.firmware.led: Light Processor
@@ -145,7 +145,7 @@ kbd.firmware.upgrade.status.writing_ble: Write data to bluetooth processor...
 kbd.firmware.upgrade.status.restart: Restarting keyboard...
 kbd.firmware.upgrade.status.success: Firmware upgrade success.
 
-# 键盘灯光
+# Main Window, LEDs
 kbd.led: Light
 kbd.led.effect.group: Light Group
 kbd.led.effect.group.reset: Reset
@@ -163,19 +163,19 @@ kbd.led.color.palette: Color Palette
 kbd.led.color.default: Default
 kbd.led.color.custom: Custom
 kbd.led.color.custom.save: Save current color
-# 按键分组
+# Keycap Groups
 kbd.keycap.group.alphabet: Character
 kbd.keycap.group.numbers: Number
 kbd.keycap.group.bigs: Big Key
 kbd.keycap.group.all: All
-# 动态灯效类型
+# Dynamic Light Effects
 dynamic_none: None
 dynamic_breath: Breath
 dynamic_breath_grad: Breath Grad
 dynamic_poptang: Poptang
 dynamic_rainbow: Rainbow
 dynamic_breath_single: Breath single
-# 默认灯效
+# Default LED group
 intl.light.group.default: Default
 intl.led.red: Red
 intl.led.yellow: Yellow
@@ -191,12 +191,12 @@ intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Rainbow
 intl.dynamic.breath.single: Breath single
 
-# 键盘配列
+# Main Window, Layout
 kbd.layout: Layout
 kbd.layout.reset.confirm_content: Make sure to reset this layout to default?
 kbd.layout.delete.confirm_content: Make sure to delete the layout?
 kbd.layout.set_keycap_null: Set null
-# 键盘码，分组名称
+# Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
 kbd.keycode_group.alphabet: Character
@@ -207,7 +207,7 @@ kbd.keycode_group.function: Function
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Keypad
 kbd.keycode_group.other: Other
-# 键盘码，图形说明
+# Key tooltips
 icon.left_gui: Left Win/Cmd
 icon.right_gui: Right Win/Cmd
 icon.mute: Mute
@@ -233,7 +233,7 @@ intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
-# 键盘宏程序
+# Main Window, Macros
 kbd.macro: Macro
 kbd.macro.group: Macro Group
 kbd.macro.group.delete.confirm_content: Make sure to delete the macro group?
