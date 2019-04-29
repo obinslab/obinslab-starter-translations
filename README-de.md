@@ -10,7 +10,7 @@
 
 Mit dem Obinslab Starter kann die Tastaturbelegung, Lichteffekte und Makros für deine ANNE PRO 2 angepasst werden.
 
-Folge <a href="https://twitter.com/obinslab" target="\_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> auf Twitter für wichtige Ankündigungen.
+Folge <a href="https://twitter.com/obinslab"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> auf Twitter für wichtige Ankündigungen.
 
 ## Wie man eine Übersetzung erstellt
 
