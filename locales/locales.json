@@ -1,8 +1,9 @@
 [
-	{ "id": "zh-CN", "name": "简体中文" }, 
-	{ "id": "en", "name": "English" }, 
+	{ "id": "zh-CN", "name": "简体中文" },
+	{ "id": "en", "name": "English" },
+	{ "id": "de", "name": "Deutsch" },
 	{ "id": "es", "name": "Español" },
+	{ "id": "fr", "name": "Français" },
 	{ "id": "ms", "name": "Malay" },
 	{ "id": "vi", "name": "Tiếng Việt" }
-	{ "id": "fr", "name": "Français" }
 ]
