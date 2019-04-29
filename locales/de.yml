@@ -8,8 +8,8 @@ common.import: Importieren
 common.export: Exportieren
 common.add: Hinzufügen
 common.create: Neu
-common.add.success: Add Success
-common.add.failed: Add Failed
+common.add.success: Erfolgreich hinzugefügt
+common.add.failed: Hinzufügen fehlgeschlagen
 common.delete: Löschen
 common.delete.success: Erfolgreich gelöscht
 common.delete.failed: Löschen fehlgeschlagen
