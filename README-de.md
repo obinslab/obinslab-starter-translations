@@ -166,7 +166,7 @@ Die verfügbaren `language-code`'s sind:
     - Windows
     `C:\Program Files\Obinslab Starter\resources\locales`
 
-    - Mac Osx
+    - macOS
     `/Applications/Obinslab Starter.app/Contents/Resources/locales`
 
 
