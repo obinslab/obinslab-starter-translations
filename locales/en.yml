@@ -1,6 +1,6 @@
 # Common
-common.operate.failed: Operate Failed
-common.operate.success: Operate Success
+common.operate.failed: Operation Failed
+common.operate.success: Operation Success
 common.tooltip_title: Message
 common.input.placeholder: Please input name
 common.rename: Rename
@@ -8,25 +8,25 @@ common.import: Import
 common.export: Export
 common.add: Add
 common.create: Create
-common.add.success: Add Success
-common.add.failed: Add Failed
+common.add.success: Adding Success
+common.add.failed: Adding Failed
 common.delete: Delete
-common.delete.success: Delete Success
-common.delete.failed: Delete Failed
+common.delete.success: Deleting Success
+common.delete.failed: Deleting Failed
 common.copy: Copy
-common.copy.success: Copy Success
-common.copy_text: Copy
+common.copy.success: Copying Success
+common.copy_text: Copying
 common.paste: Paste
 common.reset: Reset
 common.clone: Clone
 common.cancel: Cancel
-common.ok: Ok
+common.ok: OK
 common.save: Save
 common.save_as: Save As
-common.save.success: Save Success
+common.save.success: Saving Success
 common.apply: Apply
-common.apply.success: Apply Success
-common.apply.failed: Apply Failed
+common.apply.success: Applying Success
+common.apply.failed: Applying Failed
 common.confirm.show_detail: Show Detail
 common.network.connection.error: Network Connection Error
 common.please_quit_edit: Please Quit Edit
@@ -50,13 +50,13 @@ feedback: Feedback
 feedback.title: Feedback
 feedback.content: Content
 feedback.content.no_empty: Please input content
-feedback.content.max_1000: Maximal 1000 characters
-feedback.email.label: Email(Optional)
-feedback.email.placeholder: Please input your Email
+feedback.content.max_1000: Maximum 1000 characters
+feedback.email.label: Email (Optional)
+feedback.email.placeholder: Please input your email
 feedback.email.not_valid: Invalid e-mail address
 feedback.submit: Submit
-feedback.submit.error: Submit Error, Please try again
-feedback.submit.success: Submit Success, Click to Close
+feedback.submit.error: Submitting error, please try again
+feedback.submit.success: Submitting success, Click to Close
 feedback.support_email: 'Support Email: '
 
 # Preference Window
@@ -92,9 +92,8 @@ preferences.about: About
 # Home Window
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Please connect your device via USB
-home.open_device_failed: Open device failed
-home.open_device_failed_linux:
-  Open device failed, please refer to chapter 1.3 on User Manual
+home.open_device_failed: Opening device failed
+home.open_device_failed_linux: Opening device failed, please refer to chapter 1.3 on User Manual
 
 # Main Window, General
 kbd.general: General
@@ -137,11 +136,11 @@ kbd.firmware.upgrade.btn.to_latest: Upgrade to Latest
 kbd.firmware.upgrade.title: Firmware Upgrade
 kbd.firmware.upgrade.content: Please don't unplug USB canble during upgrade
 kbd.firmware.upgrade.status.downloading: Downloading firmware...
-kbd.firmware.upgrade.status.download_failed: Download firmware failed
+kbd.firmware.upgrade.status.download_failed: Downloading firmware failed
 kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode...
-kbd.firmware.upgrade.status.writing_key: Write data to application processor...
-kbd.firmware.upgrade.status.writing_led: Write data to light processor...
-kbd.firmware.upgrade.status.writing_ble: Write data to bluetooth processor...
+kbd.firmware.upgrade.status.writing_key: Writing data to application processor...
+kbd.firmware.upgrade.status.writing_led: Writing data to light processor...
+kbd.firmware.upgrade.status.writing_ble: Writing data to bluetooth processor...
 kbd.firmware.upgrade.status.restart: Restarting keyboard...
 kbd.firmware.upgrade.status.success: Firmware upgrade success.
 
@@ -149,14 +148,12 @@ kbd.firmware.upgrade.status.success: Firmware upgrade success.
 kbd.led: Light
 kbd.led.effect.group: Light Group
 kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Make sure to delete the light?
+kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
 kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three:
-  Limited tree light effect in one group for ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen:
-  Limited sixteen light effect in one group
+kbd.led.effect.list.limit.annepro1_three: Limited to three light effects in one group for ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: Limited to sixteen light effects in one group
 kbd.led.effect.type: Dynamic Light Effect
-kbd.led.effect.delete.confirm_content: Make sure to delete the light?
+kbd.led.effect.delete.confirm_content: Are you sure you want to delete this light effect?
 kbd.led.effect.preview: Preview
 kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.color.palette: Color Palette
@@ -193,8 +190,8 @@ intl.dynamic.breath.single: Breath single
 
 # Main Window, Layout
 kbd.layout: Layout
-kbd.layout.reset.confirm_content: Make sure to reset this layout to default?
-kbd.layout.delete.confirm_content: Make sure to delete the layout?
+kbd.layout.reset.confirm_content: Are you sure you want to reset this layout to default?
+kbd.layout.delete.confirm_content: Are you sure you want to delete this layout?
 kbd.layout.set_keycap_null: Set null
 # Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
@@ -236,13 +233,13 @@ intl.keymap.dvorak: Dvorak
 # Main Window, Macros
 kbd.macro: Macro
 kbd.macro.group: Macro Group
-kbd.macro.group.delete.confirm_content: Make sure to delete the macro group?
+kbd.macro.group.delete.confirm_content: Are you sure you want to delete this macro group?
 kbd.macro.add: Add macro
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
-kbd.macro.delete.confirm_content: Make sure to delete the macro?
-kbd.macro.amount_limit.annepro2_sixteen: 最多可添加16个宏
-kbd.macro.amount_limit.annepro_eight: ANNE PRO1最多可添加8个宏
+kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
+kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added to the Anne Pro 2
+kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Rec Macro
 kbd.macro.code.empty: Empty Macro Code
@@ -254,4 +251,4 @@ kbd.macro.code.value.move_up: Move Up
 kbd.macro.code.value.move_down: Move Down
 
 # Other Messages
-msg.open_device_failed: Open Device Failed
+msg.open_device_failed: Opening Device Failed

@@ -4,6 +4,7 @@
 	{ "id": "es", "name": "Español" },
 	{ "id": "fr", "name": "Français" },
 	{ "id": "ms", "name": "Malay" },
+        { "id": "nl", "name": "Dutch" },
 	{ "id": "vi", "name": "Tiếng Việt" },
 	{ "id": "zh-CN", "name": "简体中文" }
 ]
