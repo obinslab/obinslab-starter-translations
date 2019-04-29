@@ -162,7 +162,7 @@ Die verfügbaren `language-code`'s sind:
 
 1. Schiebe die `language-code.yml` Datei in den Ordner `locales`. Bearbeite darin die Datei `locales.json` und füge `id` und `name` der Sprache hinzu.
 
-    Der Ordner `locales` ist zu finden unter:
+    Den Ordner `locales` findest du unter:
     - Windows
     `C:\Program Files\Obinslab Starter\resources\locales`
 
