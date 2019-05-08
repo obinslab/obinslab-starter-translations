@@ -15,7 +15,7 @@ common.delete.success: Deleted Successfully
 common.delete.failed: Deleting Failed
 common.copy: Copy
 common.copy.success: Copied Successfully
-common.copy_text: Copying
+common.copy_text: Copy
 common.paste: Paste
 common.reset: Reset
 common.clone: Clone

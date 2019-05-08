@@ -1,5 +1,3 @@
-# NOT COMPLETE YET
-
 # Common
 common.operate.failed: Operatie mislukt
 common.operate.success: Operatie gelukt
@@ -153,7 +151,7 @@ kbd.led.effect.group.reset: Reset
 kbd.led.effect.group.delete.confirm_content: Weet je zeker dat je deze lichteffectgroep wilt verwijderen?
 kbd.led.effect.list: Lichtlijst
 kbd.led.effect.list.limit.annepro1_three: Je kan alleen maar 3 lichteffecten per 1 groep hebben 
-kbd.led.effect.list.limit.annepro2_sixteen: Je kan alleen maar 6 lichteffecten per 1 groep hebben
+kbd.led.effect.list.limit.annepro2_sixteen: Je kan alleen maar 16 lichteffecten per 1 groep hebben
 kbd.led.effect.type: Dynamisch lichteffect
 kbd.led.effect.delete.confirm_content: Weet je zeker dat je dit lichteffect wilt verwijderen?
 kbd.led.effect.preview: Preview
