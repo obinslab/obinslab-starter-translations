@@ -1,0 +1,254 @@
+# Common
+common.operate.failed: Operatie mislukt
+common.operate.success: Operatie gelukt
+common.tooltip_title: Message
+common.input.placeholder: Voer alsjeblieft de naam in
+common.rename: Andere naam geven
+common.import: Importeren
+common.export: Exporteren
+common.add: Toevoegen
+common.create: Creëren
+common.add.success: Toevoegen gelukt
+common.add.failed: Toevoegen mislukt
+common.delete: Verwijderen
+common.delete.success: Verwijderen gelukt
+common.delete.failed: Verwijderen mislukt
+common.copy: Kopiëren
+common.copy.success: Kopiëren gelukt
+common.copy_text: Kopiëren
+common.paste: Plakken
+common.reset: Opnieuw instellen
+common.clone: Klonen
+common.cancel: Annuleren
+common.ok: Oké
+common.save: Opslaan
+common.save_as: Opslaan als
+common.save.success: Opslaan gelukt
+common.apply: Toepassen
+common.apply.success: Toepassen gelukt
+common.apply.failed: Toepassen mislukt
+common.confirm.show_detail: Laat details zien
+common.network.connection.error: Netwerkverbindingsfout
+common.please_quit_edit: Stop met bewerken
+common.time_unit.hours: ' Uren'
+common.time_unit.millisecond: Milliseconden
+
+# Tray
+app.tray.show_window: Open Obinslab Starter
+app.tray.preferences: Voorkeuren
+app.tray.quit: Afsluiten
+app.tray.still_running_here: Obinslab Starter is op de achtergrond actief
+
+# Manage Menu
+app.manage: Manage
+app.manage.preferences: Voorkeuren
+app.manage.device_list: Lijst met apparaten
+app.manage.feedback: Feedback
+
+# Feedback
+feedback: Feedback
+feedback.title: Feedback
+feedback.content: Inhoud
+feedback.content.no_empty: Voer wat inhoud in
+feedback.content.max_1000: Maximaal 1000 tekens
+feedback.email.label: E-mailadres (optioneel)
+feedback.email.placeholder: Voer je e-mailadres in
+feedback.email.not_valid: Ongeldig e-mailadres
+feedback.submit: Indienen
+feedback.submit.error: Indienen mislukt, alsjeblieft opnieuw proberen
+feedback.submit.success: Indienen gelukt, klik om te sluiten
+feedback.support_email: 'Support e-mailadres: '
+
+# Preference Window
+preferences.setting: Setting
+preferences.setting.language: Taal
+preferences.setting.theme: Thema
+preferences.setting.theme.dark: Donker
+preferences.setting.theme.light: Licht
+preferences.setting.update_channel: Source upgraden
+preferences.setting.update_channel.beta: Ontwikkeling (bèta)
+preferences.setting.update_channel.latest: Release
+preferences.setting.animation: Animatie op het eerste scherm
+preferences.setting.animation.on: Aan
+preferences.setting.animation.off: Uit
+preferences.setting.x_action: Sluit actie op het hoofdpaneel
+preferences.setting.minimize_to_tray: Minimaliseren naar systeemvak
+preferences.setting.quit_program: Programma afsluiten
+preferences.setting.auto_launch: Start bij inloggen
+preferences.setting.auto_launch.yes: Ja
+preferences.setting.auto_launch.no: Nee
+preferences.update: Update
+preferences.update.check: Check voor een nieuwe versie
+preferences.update.check.failed: Opnieuw proberen
+preferences.update.version.current: Huidige versie
+preferences.update.version.new: Nieuwe versie
+preferences.update.version.no_new: Geen nieuwe versie
+preferences.update.download: Downloaden
+preferences.update.download.done: Update-pakket is gedownload
+preferences.update.install_now: Nu installeren
+preferences.help: Help
+preferences.about: About
+
+# Home Window
+home.welcome: Hallo Wereld
+home.please_connect_kbd_with_cable: Sluit uw apparaat via USB aan.
+home.open_device_failed: Apparaat openen mislukt
+home.open_device_failed_linux: Apparaat openen mislukt, raadpleeg hoofdstuk 1.3 van de gebruikershandeling
+
+# Main Window, General
+kbd.general: Algemeen
+kbd.general.info: Informatie
+kbd.general.info.device_model: Apparaat Model
+kbd.general.info.serial_number: Serienummer
+kbd.general.info.battery: Batterij
+kbd.general.info.running_time: Looptijd
+kbd.general.setting: Setting
+kbd.general.setting.layout: Layout
+kbd.general.setting.tap_layout: Tik
+kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.capslock_led: CapsLock Led
+kbd.general.setting.auto_sleep: Automatische slaapstand
+kbd.general.setting.options.disable: Uitschakelen
+kbd.general.setting.options.enable: Inschakelen
+kbd.general.setting.options.default: Standaard
+kbd.general.setting.options.custom: Custom
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: All
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Bluetooth binden
+kbd.general.bluetooth.clean_bind: Clean binden
+
+# Main Window, Firmware
+kbd.firmware: Firmware upgrade
+kbd.firmware.key: Applicatieprocessor
+kbd.firmware.led: Lichtprocessor
+kbd.firmware.ble: Bluetoothprocessor
+kbd.firmware.list: Firmwarelijst
+kbd.firmware.annepro1.download.firmware: Firmware downloaden
+kbd.firmware.annepro1.download.latest_firmware: Download laatste firmware
+kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
+kbd.firmware.find_new_version: 'Vind nieuwe firmware: '
+kbd.firmware.no_new_version: De huidige firmware is de laatste.
+kbd.fireware.upgrade.btn: Upgraden
+kbd.firmware.upgrade.btn.to_latest: Upgrade naar nieuwste
+kbd.firmware.upgrade.title: Firmware upgrade
+kbd.firmware.upgrade.content: Werp de USB-kabel NIET uit tijdens het upgraden
+kbd.firmware.upgrade.status.downloading: Firmware aan het downloaden...
+kbd.firmware.upgrade.status.download_failed: Firmware downloaden mislukt
+kbd.firmware.upgrade.status.entering_aip: Upgrademodus...
+kbd.firmware.upgrade.status.writing_key: Data aan het schrijven naar de applicatieprocessor...
+kbd.firmware.upgrade.status.writing_led: Data aan het schrijven naar de lichtprocessor...
+kbd.firmware.upgrade.status.writing_ble: Data aan het schrijven naar de bluetoothprocessor...
+kbd.firmware.upgrade.status.restart: Toetsenbord opnieuw op aan het starten...
+kbd.firmware.upgrade.status.success: Firmware upgraden gelukt.
+
+# Main Window, LEDs
+kbd.led: Light
+kbd.led.effect.group: Light Group
+kbd.led.effect.group.reset: Reset
+kbd.led.effect.group.delete.confirm_content: Weet je zeker dat je deze lichteffectgroep wilt verwijderen?
+kbd.led.effect.list: Lichtlijst
+kbd.led.effect.list.limit.annepro1_three: Je kan alleen maar 3 lichteffecten per 1 groep hebben 
+kbd.led.effect.list.limit.annepro2_sixteen: Je kan alleen maar 16 lichteffecten per 1 groep hebben
+kbd.led.effect.type: Dynamisch lichteffect
+kbd.led.effect.delete.confirm_content: Weet je zeker dat je dit lichteffect wilt verwijderen?
+kbd.led.effect.preview: Preview
+kbd.led.effect.dynamic_colors: Dynamisch lichteffect kleurentabel
+kbd.led.color.palette: Kleurenpalet
+kbd.led.color.default: Standaard
+kbd.led.color.custom: Custom
+kbd.led.color.custom.save: Huidige kleur opslaan
+# Keycap Groups
+kbd.keycap.group.alphabet: Karakter
+kbd.keycap.group.numbers: Number
+kbd.keycap.group.bigs: Big Key
+kbd.keycap.group.all: Allemaal
+# Dynamic Light Effects
+dynamic_none: None
+dynamic_breath: Breath
+dynamic_breath_grad: Breath Grad
+dynamic_poptang: Poptang
+dynamic_rainbow: Rainbow
+dynamic_breath_single: Breath single
+# Default LED group
+intl.light.group.default: Default
+intl.led.red: Red
+intl.led.yellow: Yellow
+intl.led.green: Green
+intl.led.cyan: Cyan
+intl.led.blue: Blue
+intl.led.purple: Purple
+intl.led.static.single: Static single
+intl.led.static.multi: Static multi
+intl.dynamic.breath: Breath
+intl.dynamic.breath.grad: Breath grad
+intl.dynamic.poptang: Poptang
+intl.dynamic.breath.rainbow: Rainbow
+intl.dynamic.breath.single: Breath single
+
+# Main Window, Layout
+kbd.layout: Layout
+kbd.layout.reset.confirm_content: Weet je zeker dat je deze layout wilt resetten?
+kbd.layout.delete.confirm_content: Weet je zeker dat je deze layout wilt verwijderen?
+kbd.layout.set_keycap_null: Set null
+# Sidebar titles
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: Systeem
+kbd.keycode_group.alphabet: Karakter
+kbd.keycode_group.number: Nummer
+kbd.keycode_group.modifier: Modifier
+kbd.keycode_group.arrow: Pijltje
+kbd.keycode_group.function: Functie
+kbd.keycode_group.media: Media
+kbd.keycode_group.keypad: Keypad
+kbd.keycode_group.other: Andere
+# Key tooltips
+icon.left_gui: Left Win/Cmd
+icon.right_gui: Right Win/Cmd
+icon.mute: Dempen
+icon.volume.up: Volume omhoog
+icon.volume.down: Volume verminderen
+icon.bl.toggle: Licht inschakelen
+icon.bl.color: Switch Licht
+icon.bl.increase: Helderheid Plus
+icon.bl.decrease: Helderheid Minus
+icon.bl.battery: Batterijniveau
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Game Wheel
+icon.prev.track: Vorig nummer
+icon.next.track: Volgende nummer
+icon.play.pause: Spelen Pauzeren
+# The active layout read from keyboard
+intl.layout.current: Huidige
+# default keyboard layouts
+intl.keymap.qwerty: Qwerty
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: Macro
+kbd.macro.group: Macro Groep
+kbd.macro.group.delete.confirm_content: Weet je zeker dat je deze macro groep wilt verwijderen?
+kbd.macro.add: Voeg macro toe
+kbd.macro.please_add_macro_group: Voeg alsjeblieft een macro groep toe
+kbd.macro.please_add_macro: Voeg alsjeblieft een macro toe
+kbd.macro.delete.confirm_content: Weet je zeker dat je deze macro wilt verwijderen?
+kbd.macro.amount_limit.annepro2_sixteen: Er kunnen maximaal 16 macro's toegevoegd worden
+kbd.macro.amount_limit.annepro_eight: Bij Anne Pro 1 kan er maximaal 8 macro's toegevoegd worden
+kbd.macro.code: Macro Code
+kbd.macro.code.rec: Rec Macro
+kbd.macro.code.empty: Lege Macro Code
+kbd.macro.code.exceeded: Macrocode overschreden
+kbd.macro.code.missing_release_key: Ontbrekende release toets.
+kbd.macro.code.missing_press_key: Ontbrekende press toets.
+kbd.macro.code.value.insert_timer_block: Tijdblok invoegen
+kbd.macro.code.value.move_up: Naar boven
+kbd.macro.code.value.move_down: Naar beneden
+
+# Other Messages
+msg.open_device_failed: Apparaat openen mislukt
