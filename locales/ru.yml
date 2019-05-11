@@ -15,7 +15,7 @@ common.delete.success: Успешно удалено
 common.delete.failed: Ошибка при удалении
 common.copy: Копировать
 common.copy.success: Успешно скопировано
-common.copy_text: Копировать
+common.copy_text: Копия
 common.paste: Вставить
 common.reset: Сбросить
 common.clone: Клонировать
