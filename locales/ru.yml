@@ -242,7 +242,7 @@ kbd.macro.amount_limit.annepro2_sixteen: Anne Pro 2 поддерживает 16 
 kbd.macro.amount_limit.annepro_eight: Anne Pro 1 поддерживает 8 макросов максимум
 kbd.macro.code: Код макроса
 kbd.macro.code.rec: Записать макрос
-kbd.macro.code.empty: Очистить код макроса
+kbd.macro.code.empty: Код макроса пуст
 kbd.macro.code.exceeded: Превышен лимит макроса
 kbd.macro.code.missing_release_key: Пропущено отжатие клавиши
 kbd.macro.code.missing_press_key: Пропущено нажатие клавиши
