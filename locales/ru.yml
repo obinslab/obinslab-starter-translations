@@ -1,7 +1,7 @@
 # Common
-common.operate.failed: Operation Failed
-common.operate.success: Operation Successful
-common.tooltip_title: Message
+common.operate.failed: Ошибка при выполнении операции
+common.operate.success: Операция успешно завершилась
+common.tooltip_title: Сообщение
 common.input.placeholder: Введите имя
 common.rename: Переименовать
 common.import: Импортировать
@@ -14,241 +14,241 @@ common.delete: Удалить
 common.delete.success: Успешно удалено
 common.delete.failed: Ошибка при удалении
 common.copy: Копировать
-common.copy.success: Copied Successfully
-common.copy_text: Copy
-common.paste: Paste
-common.reset: Reset
-common.clone: Clone
-common.cancel: Cancel
+common.copy.success: Успешно скопировано
+common.copy_text: Копировать
+common.paste: Вставить
+common.reset: Сбросить
+common.clone: Клонировать
+common.cancel: Отмена
 common.ok: OK
-common.save: Save
-common.save_as: Save As
-common.save.success: Saved Successfully
-common.apply: Apply
-common.apply.success: Applied Successfully
-common.apply.failed: Applying Failed
-common.confirm.show_detail: Show Detail
-common.network.connection.error: Network Connection Error
-common.please_quit_edit: Please Quit Edit
-common.time_unit.hours: ' Hours'
-common.time_unit.millisecond: Milliseconds
+common.save: Сохранить
+common.save_as: Сохранить как
+common.save.success: Успешно сохранено
+common.apply: Применить
+common.apply.success: Успешно применено
+common.apply.failed: Ошибка при применении
+common.confirm.show_detail: Показать детали
+common.network.connection.error: Ошибка сетевого соединения
+common.please_quit_edit: Пожалуйста, выйдите из режима редактирования
+common.time_unit.hours: ' часов'
+common.time_unit.millisecond: миллисекунд
 
 # Tray
-app.tray.show_window: Open Obinslab Starter
-app.tray.preferences: Preferences
-app.tray.quit: Quit
-app.tray.still_running_here: Obinslab Starter is still running here.
+app.tray.show_window: Открыть Obinslab Starter
+app.tray.preferences: Настройки
+app.tray.quit: Выйти
+app.tray.still_running_here: Obinslab Starter все еще запущен.
 
 # Manage Menu
-app.manage: Manage
-app.manage.preferences: Preferences
-app.manage.device_list: Device List
-app.manage.feedback: Feedback
+app.manage: Управление приложением
+app.manage.preferences: Параметры
+app.manage.device_list: Список устройств
+app.manage.feedback: Обратная связь
 
 # Feedback
-feedback: Feedback
-feedback.title: Feedback
-feedback.content: Content
-feedback.content.no_empty: Please input content
-feedback.content.max_1000: Maximum 1000 characters
-feedback.email.label: Email (Optional)
-feedback.email.placeholder: Please input your email
-feedback.email.not_valid: Invalid e-mail address
-feedback.submit: Submit
-feedback.submit.error: Submitting error, please try again
-feedback.submit.success: Submitted successfully, Click to Close
-feedback.support_email: 'Support Email: '
+feedback: Обратная связь
+feedback.title: Обратная связь
+feedback.content: Сообщение
+feedback.content.no_empty: Пожалуйста, заполните сообщение
+feedback.content.max_1000: Максимум 1000 символов
+feedback.email.label: Email (необязательный)
+feedback.email.placeholder: Пожалуйста, введите свой Email
+feedback.email.not_valid: Неправильный Email адрес
+feedback.submit: Отправить
+feedback.submit.error: Ошибка при отправке. Пожалуйста, повторите попытку
+feedback.submit.success: Успешно отправлено. Нажмите, чтобы закрыть
+feedback.support_email: 'Email службы поддержки: '
 
 # Preference Window
-preferences.setting: Setting
-preferences.setting.language: Language
-preferences.setting.theme: Theme
-preferences.setting.theme.dark: Dark
-preferences.setting.theme.light: Light
-preferences.setting.update_channel: Upgrade Source
-preferences.setting.update_channel.beta: Development
-preferences.setting.update_channel.latest: Release
-preferences.setting.animation: Animation on First Screen
-preferences.setting.animation.on: On
-preferences.setting.animation.off: Off
-preferences.setting.x_action: Close Action on Main Panel
-preferences.setting.minimize_to_tray: Minimize to Tray
-preferences.setting.quit_program: Quit Program
-preferences.setting.auto_launch: Launch At Login
-preferences.setting.auto_launch.yes: Yes
-preferences.setting.auto_launch.no: No
-preferences.update: Update
-preferences.update.check: Check New Version
-preferences.update.check.failed: Please try again
-preferences.update.version.current: Current Version
-preferences.update.version.new: New version
-preferences.update.version.no_new: No new version
-preferences.update.download: Download
-preferences.update.download.done: Update package has been downloaded
-preferences.update.install_now: Install now
-preferences.help: Help
-preferences.about: About
+preferences.setting: Опции
+preferences.setting.language: Язык
+preferences.setting.theme: Тема
+preferences.setting.theme.dark: Темная
+preferences.setting.theme.light: Светлая
+preferences.setting.update_channel: Пакеты обновлений
+preferences.setting.update_channel.beta: Бета-версии
+preferences.setting.update_channel.latest: Релизные версии 
+preferences.setting.animation: Анимация на стартовом экране
+preferences.setting.animation.on: Вкл.
+preferences.setting.animation.off: Выкл.
+preferences.setting.x_action: Действии при закрытии главного окна
+preferences.setting.minimize_to_tray: Свернуть в трей
+preferences.setting.quit_program: Выйти из программы
+preferences.setting.auto_launch: Запуск при авторизации
+preferences.setting.auto_launch.yes: Да
+preferences.setting.auto_launch.no: Нет
+preferences.update: Обновления
+preferences.update.check: Проверить наличие новой версии
+preferences.update.check.failed: Пожалуйста, повторите попытку
+preferences.update.version.current: Текущая версия
+preferences.update.version.new: Новая версия
+preferences.update.version.no_new: Новые версии отсутствуют
+preferences.update.download: Скачать
+preferences.update.download.done: Пакет обновления скачан
+preferences.update.install_now: Установить
+preferences.help: Помощь
+preferences.about: О программе
 
 # Home Window
 home.welcome: Hello World
-home.please_connect_kbd_with_cable: Please connect your device via USB
-home.open_device_failed: Opening device failed
-home.open_device_failed_linux: Opening device failed, please refer to chapter 1.3 on User Manual
+home.please_connect_kbd_with_cable: Пожалуйста, подключите ваше устройство по USB
+home.open_device_failed: Ошибка при открытии устройства
+home.open_device_failed_linux: Ошибка при открытии устройства. Пожалуйста, ознакомьтесь с главой 1.3 в руководстве пользователя
 
 # Main Window, General
-kbd.general: General
-kbd.general.info: Information
-kbd.general.info.device_model: Device Model
-kbd.general.info.serial_number: Serial Number
-kbd.general.info.battery: Battery
-kbd.general.info.running_time: Running Time
-kbd.general.setting: Setting
-kbd.general.setting.layout: Layout
-kbd.general.setting.tap_layout: Tap
-kbd.general.setting.magic_fn: Magic Fn
-kbd.general.setting.macro_trigger: Macro
-kbd.general.setting.capslock_led: CapsLock Led
-kbd.general.setting.auto_sleep: Auto Sleep
-kbd.general.setting.options.disable: Disable
-kbd.general.setting.options.enable: Enable
-kbd.general.setting.options.default: Default
-kbd.general.setting.options.custom: Custom
+kbd.general: Общие параметры
+kbd.general.info: Информация
+kbd.general.info.device_model: Модель устройства
+kbd.general.info.serial_number: Серийный номер
+kbd.general.info.battery: Батарея
+kbd.general.info.running_time: Время работы
+kbd.general.setting: Опции
+kbd.general.setting.layout: Раскладка
+kbd.general.setting.tap_layout: Режим Tap
+kbd.general.setting.magic_fn: Клавиша Magic Fn
+kbd.general.setting.macro_trigger: Макросы
+kbd.general.setting.capslock_led: Индикатор CapsLock
+kbd.general.setting.auto_sleep: Автовыключение
+kbd.general.setting.options.disable: Отключить
+kbd.general.setting.options.enable: Включить
+kbd.general.setting.options.default: По умолчанию
+kbd.general.setting.options.custom: Пользовательская
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
-kbd.general.setting.options.capslock_all: All
+kbd.general.setting.options.capslock_all: Все
 kbd.general.bluetooth: Bluetooth
-kbd.general.bluetooth.bind: Bluetooth Bind
-kbd.general.bluetooth.clean_bind: Clean Bind
+kbd.general.bluetooth.bind: Привязка Bluetooth
+kbd.general.bluetooth.clean_bind: Сбросить привязку
 
 # Main Window, Firmware
-kbd.firmware: Firmware Upgrade
+kbd.firmware: Обновление прошивки
 kbd.firmware.key: Application Processor
 kbd.firmware.led: Light Processor
 kbd.firmware.ble: Bluetooth Processor
-kbd.firmware.list: Firmware List
-kbd.firmware.annepro1.download.firmware: Download Firmware
-kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
-kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
-kbd.firmware.find_new_version: 'Find new firmware: '
-kbd.firmware.no_new_version: Current firmware is latest
-kbd.fireware.upgrade.btn: Upgrade
-kbd.firmware.upgrade.btn.to_latest: Upgrade to Latest
-kbd.firmware.upgrade.title: Firmware Upgrade
-kbd.firmware.upgrade.content: Please don't unplug the USB cable during upgrade
-kbd.firmware.upgrade.status.downloading: Downloading firmware...
-kbd.firmware.upgrade.status.download_failed: Downloading firmware failed
-kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode...
-kbd.firmware.upgrade.status.writing_key: Writing data to application processor...
-kbd.firmware.upgrade.status.writing_led: Writing data to light processor...
-kbd.firmware.upgrade.status.writing_ble: Writing data to bluetooth processor...
-kbd.firmware.upgrade.status.restart: Restarting keyboard...
-kbd.firmware.upgrade.status.success: Firmware upgraded successfully.
+kbd.firmware.list: Список прошивок
+kbd.firmware.annepro1.download.firmware: Скачать прошивку
+kbd.firmware.annepro1.download.latest_firmware: Скачать актуальную прошивку
+kbd.firmware.annepro1.download.dfu_tool: Скачать DFU Tool
+kbd.firmware.find_new_version: 'Найдена новая версия: '
+kbd.firmware.no_new_version: Текущая прошивка наиболее актуальная
+kbd.fireware.upgrade.btn: Обновить
+kbd.firmware.upgrade.btn.to_latest: Обновить до последней версии 
+kbd.firmware.upgrade.title: Обновление прошивки
+kbd.firmware.upgrade.content: Пожалуйста, не отсоединяйте USB кабель в процессе обновления
+kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
+kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
+kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления...
+kbd.firmware.upgrade.status.writing_key: Запись данных в application processor...
+kbd.firmware.upgrade.status.writing_led: Запись данных в light processor...
+kbd.firmware.upgrade.status.writing_ble: Запись данных в bluetooth processor...
+kbd.firmware.upgrade.status.restart: Перезапуск клавиатуры...
+kbd.firmware.upgrade.status.success: Прошивка успешно обновлена.
 
 # Main Window, LEDs
-kbd.led: Light
-kbd.led.effect.group: Light Group
-kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
-kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three: Limited to three light effects in one group for ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Limited to sixteen light effects in one group
-kbd.led.effect.type: Dynamic Light Effect
-kbd.led.effect.delete.confirm_content: Are you sure you want to delete this light effect?
-kbd.led.effect.preview: Preview
-kbd.led.effect.dynamic_colors: Dynamic Light Color Table
-kbd.led.color.palette: Color Palette
-kbd.led.color.default: Default
-kbd.led.color.custom: Custom
-kbd.led.color.custom.save: Save current color
+kbd.led: Подсветка
+kbd.led.effect.group: Группы эффектов
+kbd.led.effect.group.reset: Сбросить
+kbd.led.effect.group.delete.confirm_content: Вы уверены, что хотите удалить эту группу?
+kbd.led.effect.list: Список эффектов
+kbd.led.effect.list.limit.annepro1_three: Максимальное количество эффектов для одной группы - 3
+kbd.led.effect.list.limit.annepro2_sixteen: Максимальное количество эффектов для одной группы - 16
+kbd.led.effect.type: Динамический эффект
+kbd.led.effect.delete.confirm_content: Вы уверены, что хотите удалить этот эффект?
+kbd.led.effect.preview: Просмотр
+kbd.led.effect.dynamic_colors: Таблица цветов
+kbd.led.color.palette: Цветовая палитра
+kbd.led.color.default: Основные
+kbd.led.color.custom: Свои
+kbd.led.color.custom.save: Сохранить текущий цвет
 # Keycap Groups
-kbd.keycap.group.alphabet: Character
-kbd.keycap.group.numbers: Number
-kbd.keycap.group.bigs: Big Key
-kbd.keycap.group.all: All
+kbd.keycap.group.alphabet: Символы
+kbd.keycap.group.numbers: Цифры
+kbd.keycap.group.bigs: Большие
+kbd.keycap.group.all: Все
 # Dynamic Light Effects
-dynamic_none: None
-dynamic_breath: Breath
-dynamic_breath_grad: Breath Grad
+dynamic_none: Отсутствует
+dynamic_breath: Дыхание
+dynamic_breath_grad: Дыхание (градиент)
 dynamic_poptang: Poptang
-dynamic_rainbow: Rainbow
-dynamic_breath_single: Breath single
+dynamic_rainbow: Радуга
+dynamic_breath_single: Дыхание (нажатые клавиши)
 # Default LED group
-intl.light.group.default: Default
-intl.led.red: Red
-intl.led.yellow: Yellow
-intl.led.green: Green
-intl.led.cyan: Cyan
-intl.led.blue: Blue
-intl.led.purple: Purple
-intl.led.static.single: Static single
-intl.led.static.multi: Static multi
-intl.dynamic.breath: Breath
-intl.dynamic.breath.grad: Breath grad
+intl.light.group.default: Предустановленные
+intl.led.red: Красный
+intl.led.yellow: Желтый
+intl.led.green: Зеленый
+intl.led.cyan: Бирюзовый
+intl.led.blue: Синий
+intl.led.purple: Пурпурный
+intl.led.static.single: Статический одноцветный
+intl.led.static.multi: Статический многоцветный
+intl.dynamic.breath: Дыхание
+intl.dynamic.breath.grad: Дыхание (градиент)
 intl.dynamic.poptang: Poptang
-intl.dynamic.breath.rainbow: Rainbow
-intl.dynamic.breath.single: Breath single
+intl.dynamic.breath.rainbow: Радуга
+intl.dynamic.breath.single: Дыхание (нажатые клавиши)
 
 # Main Window, Layout
-kbd.layout: Layout
-kbd.layout.reset.confirm_content: Are you sure you want to reset this layout to default?
-kbd.layout.delete.confirm_content: Are you sure you want to delete this layout?
-kbd.layout.set_keycap_null: Set null
+kbd.layout: Раскладка
+kbd.layout.reset.confirm_content: Вы уверены, что хотите сбросить эту раскладку к заводским настройкам?
+kbd.layout.delete.confirm_content: Вы уверены, что хотите удалить эту раскладку?
+kbd.layout.set_keycap_null: Убрать значение
 # Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
-kbd.keycode_group.system: System
-kbd.keycode_group.alphabet: Character
-kbd.keycode_group.number: Number
-kbd.keycode_group.modifier: Modifier
-kbd.keycode_group.arrow: Arrow
-kbd.keycode_group.function: Function
-kbd.keycode_group.media: Media
-kbd.keycode_group.keypad: Keypad
-kbd.keycode_group.other: Other
+kbd.keycode_group.system: Системные
+kbd.keycode_group.alphabet: Символы
+kbd.keycode_group.number: Цифры
+kbd.keycode_group.modifier: Модификаторы
+kbd.keycode_group.arrow: Стрелки
+kbd.keycode_group.function: Функциональные
+kbd.keycode_group.media: Медиа
+kbd.keycode_group.keypad: Цифровой блок
+kbd.keycode_group.other: Другое
 # Key tooltips
-icon.left_gui: Left Win/Cmd
-icon.right_gui: Right Win/Cmd
-icon.mute: Mute
-icon.volume.up: Volume Up
-icon.volume.down: Volume Down
-icon.bl.toggle: Toggle Light
-icon.bl.color: Switch Light
-icon.bl.increase: Brightness Plus
-icon.bl.decrease: Brightness Minus
-icon.bl.battery: Battery Level
+icon.left_gui: Левый Win/Cmd
+icon.right_gui: Правый Win/Cmd
+icon.mute: Отключить звук
+icon.volume.up: Повысить громкость
+icon.volume.down: Понизить громкость
+icon.bl.toggle: Вкл./Выкл. подсветку
+icon.bl.color: Сменить тип подсветки
+icon.bl.increase: Повысить яркость
+icon.bl.decrease: Понизить яркость
+icon.bl.battery: Уровень заряда батареи
 icon.ble.wl_1: Bluetooth 1
 icon.ble.wl_2: Bluetooth 2
 icon.ble.wl_3: Bluetooth 3
 icon.ble.wl_4: Bluetooth 4
-icon.fn.wheel: Game Wheel
-icon.prev.track: Prev Track
-icon.next.track: Next Track
-icon.play.pause: Play Pause
+icon.fn.wheel: Игровой руль
+icon.prev.track: Предыдущий трек
+icon.next.track: Следующий трек
+icon.play.pause: Воспроизведение/Пауза
 # The active layout read from keyboard
-intl.layout.current: Current
+intl.layout.current: Текущая
 # default keyboard layouts
 intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
-kbd.macro: Macro
-kbd.macro.group: Macro Group
-kbd.macro.group.delete.confirm_content: Are you sure you want to delete this macro group?
-kbd.macro.add: Add macro
-kbd.macro.please_add_macro_group: Please add a macro group
-kbd.macro.please_add_macro: Please add a macro
-kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
-kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added to the Anne Pro 2
-kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
-kbd.macro.code: Macro Code
-kbd.macro.code.rec: Rec Macro
-kbd.macro.code.empty: Empty Macro Code
-kbd.macro.code.exceeded: Macro Code Exceeded
-kbd.macro.code.missing_release_key: Missing release key
-kbd.macro.code.missing_press_key: Missing press key
-kbd.macro.code.value.insert_timer_block: Insert Time Block
-kbd.macro.code.value.move_up: Move Up
-kbd.macro.code.value.move_down: Move Down
+kbd.macro: Макросы
+kbd.macro.group: Группы макросов
+kbd.macro.group.delete.confirm_content: Вы уверены, что хотите удалить эту группу макросов?
+kbd.macro.add: Добавить макрос
+kbd.macro.please_add_macro_group: Пожалуйста, добавьте группу макросов
+kbd.macro.please_add_macro: Пожалуйста, добавьте макрос
+kbd.macro.delete.confirm_content: Вы уверены, что хотите удалить этот макрос?
+kbd.macro.amount_limit.annepro2_sixteen: Anne Pro 2 поддерживает 16 макросов максимум
+kbd.macro.amount_limit.annepro_eight: Anne Pro 1 поддерживает 8 макросов максимум
+kbd.macro.code: Код макроса
+kbd.macro.code.rec: Записать макрос
+kbd.macro.code.empty: Очистить код макроса
+kbd.macro.code.exceeded: Превышен лимит макроса
+kbd.macro.code.missing_release_key: Пропущено отжатие клавиши
+kbd.macro.code.missing_press_key: Пропущено нажатие клавиши
+kbd.macro.code.value.insert_timer_block: Вставить временну́ю задержку
+kbd.macro.code.value.move_up: Переместить вверх
+kbd.macro.code.value.move_down: Переместить вниз
 
 # Other Messages
-msg.open_device_failed: Opening Device Failed
+msg.open_device_failed: Ошибка при открытии устройства
