@@ -4,7 +4,7 @@
 
 # Obinslab Starter Übersetzungen
 
-[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | Deutsch
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | Deutsch | [Русский](./README-ru.md)
 
 Übersetzungsprojekt für den [Obinslab Starter](http://en.obins.net/obinslab-starter).
 
