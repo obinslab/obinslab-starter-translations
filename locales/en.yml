@@ -1,6 +1,6 @@
 # Common
 common.operate.failed: Operation Failed
-common.operate.success: Operation Success
+common.operate.success: Operation Successful
 common.tooltip_title: Message
 common.input.placeholder: Please input name
 common.rename: Rename
@@ -87,15 +87,13 @@ preferences.update.download: Download
 preferences.update.download.done: Update package has been downloaded
 preferences.update.install_now: Install now
 preferences.help: Help
-preferences.help.user-manual: User Manual
 preferences.about: About
 
 # Home Window
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Please connect your device via USB
 home.open_device_failed: Opening device failed
-home.open_device_failed_linux:
-  Opening device failed, please refer to chapter 1.3 on User Manual
+home.open_device_failed_linux: Opening device failed, please refer to chapter 1.3 on User Manual
 
 # Main Window, General
 kbd.general: General
@@ -140,8 +138,7 @@ kbd.firmware.upgrade.content: Please don't unplug the USB cable during upgrade
 kbd.firmware.upgrade.status.downloading: Downloading firmware...
 kbd.firmware.upgrade.status.download_failed: Downloading firmware failed
 kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode...
-kbd.firmware.upgrade.status.writing_key:
-  Writing data to application processor...
+kbd.firmware.upgrade.status.writing_key: Writing data to application processor...
 kbd.firmware.upgrade.status.writing_led: Writing data to light processor...
 kbd.firmware.upgrade.status.writing_ble: Writing data to bluetooth processor...
 kbd.firmware.upgrade.status.restart: Restarting keyboard...
@@ -151,16 +148,12 @@ kbd.firmware.upgrade.status.success: Firmware upgraded successfully.
 kbd.led: Light
 kbd.led.effect.group: Light Group
 kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content:
-  Are you sure you want to delete this group?
+kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
 kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three:
-  Limited to three light effects in one group for ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen:
-  Limited to sixteen light effects in one group
+kbd.led.effect.list.limit.annepro1_three: Limited to three light effects in one group for ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: Limited to sixteen light effects in one group
 kbd.led.effect.type: Dynamic Light Effect
-kbd.led.effect.delete.confirm_content:
-  Are you sure you want to delete this light effect?
+kbd.led.effect.delete.confirm_content: Are you sure you want to delete this light effect?
 kbd.led.effect.preview: Preview
 kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.color.palette: Color Palette
@@ -179,8 +172,6 @@ dynamic_breath_grad: Breath Grad
 dynamic_poptang: Poptang
 dynamic_rainbow: Rainbow
 dynamic_breath_single: Breath single
-dynamic_trigger_breath: Breath(Trigger)
-dynamic_trigger_rainbow: Rainbow(Trigger)
 # Default LED group
 intl.light.group.default: Default
 intl.led.red: Red
@@ -196,13 +187,10 @@ intl.dynamic.breath.grad: Breath grad
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Rainbow
 intl.dynamic.breath.single: Breath single
-intl.dynamic.trigger.breath: Breath(Trigger)
-intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Main Window, Layout
 kbd.layout: Layout
-kbd.layout.reset.confirm_content:
-  Are you sure you want to reset this layout to default?
+kbd.layout.reset.confirm_content: Are you sure you want to reset this layout to default?
 kbd.layout.delete.confirm_content: Are you sure you want to delete this layout?
 kbd.layout.set_keycap_null: Set null
 # Sidebar titles
@@ -245,15 +233,13 @@ intl.keymap.dvorak: Dvorak
 # Main Window, Macros
 kbd.macro: Macro
 kbd.macro.group: Macro Group
-kbd.macro.group.delete.confirm_content:
-  Are you sure you want to delete this macro group?
+kbd.macro.group.delete.confirm_content: Are you sure you want to delete this macro group?
 kbd.macro.add: Add macro
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
 kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
-kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added
-kbd.macro.amount_limit.annepro_eight:
-  Only 8 macros can be added to the Anne Pro 1
+kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added to the Anne Pro 2
+kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Rec Macro
 kbd.macro.code.empty: Empty Macro Code
@@ -266,7 +252,3 @@ kbd.macro.code.value.move_down: Move Down
 
 # Other Messages
 msg.open_device_failed: Opening Device Failed
-msg.missing_required_data_field: Missing required data field
-msg.file_not_compatible_your_device: The file is not compatible with your device
-msg.crc_check_error: CRC check error, please don't edit the file exported
-msg.json_data_invalid: JSON data invalid

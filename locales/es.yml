@@ -59,7 +59,7 @@ feedback.submit.error: Error de envio, Por favor intentelo de nuevo
 feedback.submit.success: Enviado con exito, Click para cerrar
 feedback.support_email: 'Email de Soporte: '
 
-# Preference Window
+# 首选项
 preferences.setting: Ajustes
 preferences.setting.language: Idioma
 preferences.setting.theme: Tema
@@ -82,23 +82,20 @@ preferences.update.check: Comprobar Nueva Versión
 preferences.update.check.failed: Por favor inténtelo de nuevo
 preferences.update.version.current: Versión Actual
 preferences.update.version.new: Nueva Versión
-preferences.update.version.no_new: No Hay Una Nueva Versión
+preferences.update.version.no_new: No Hay Una Nueva Versión 
 preferences.update.download: Descargar
 preferences.update.download.done: El Paquete de Actualización Ha Sido Descargado
 preferences.update.install_now: Instalar Ahora
 preferences.help: Ayuda
-preferences.help.user-manual: Manual del usuario
 preferences.about: Sobre Nosotros
 
-# Home Window
+# 首屏
 home.welcome: Hola Mundo
-home.please_connect_kbd_with_cable: Por favor Conecte su Dispositivo Vía USB
+home.please_connect_kbd_with_cable:  Por favor Conecte su Dispositivo Vía USB
 home.open_device_failed: No Se Pudo Abrir el Dispositivo
-home.open_device_failed_linux:
-  No se pudo abrir el dispositivo, por favor consulte el apartado 1.3 del Manual
-  de Ususario
+home.open_device_failed_linux: No se pudo abrir el dispositivo, por favor consulte el apartado 1.3 del Manual de Ususario
 
-# Main Window, General
+# 键盘信息，全局设置
 kbd.general: General
 kbd.general.info: Información
 kbd.general.info.device_model: Modelo de Dispositivo
@@ -120,10 +117,10 @@ kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Todas
 kbd.general.bluetooth: Bluetooth
-kbd.general.bluetooth.bind: Conexiones Bluetooth
+kbd.general.bluetooth.bind: Conexiones Bluetooth 
 kbd.general.bluetooth.clean_bind: Eliminar Enlaces
 
-# Main Window, Firmware
+# 键盘固件升级
 kbd.firmware: Actualización de Firmware
 kbd.firmware.key: Procesador de Aplicación
 kbd.firmware.led: Procesador de Iluminación
@@ -137,26 +134,21 @@ kbd.firmware.no_new_version: La versión de Firmware actual es la mas reciente
 kbd.fireware.upgrade.btn: Actualizar
 kbd.firmware.upgrade.btn.to_latest: Actualizar al Último Firmware
 kbd.firmware.upgrade.title: Actualizar Firmware
-kbd.firmware.upgrade.content:
-  Por favor no desconecte el cable USB durante la actualización
+kbd.firmware.upgrade.content: Por favor no desconecte el cable USB durante la actualización
 kbd.firmware.upgrade.status.downloading: Decargando firmware...
 kbd.firmware.upgrade.status.download_failed: La Descarga del Firmware Falló
 kbd.firmware.upgrade.status.entering_aip: Entrando en modo Actualización...
-kbd.firmware.upgrade.status.writing_key:
-  Escribiendo datos en el procesador de aplicación...
-kbd.firmware.upgrade.status.writing_led:
-  Escribiendo datos en el procesador de iluminación...
-kbd.firmware.upgrade.status.writing_ble:
-  Escribiendo datos en el procesador de bluetooth...
+kbd.firmware.upgrade.status.writing_key: Escribiendo datos en el procesador de aplicación...
+kbd.firmware.upgrade.status.writing_led: Escribiendo datos en el procesador de iluminación...
+kbd.firmware.upgrade.status.writing_ble: Escribiendo datos en el procesador de bluetooth...
 kbd.firmware.upgrade.status.restart: Reiniciando teclado...
 kbd.firmware.upgrade.status.success: Firmware actualizado con éxito.
 
-# Main Window, LEDs
+# 键盘灯光
 kbd.led: Iluminación
 kbd.led.effect.group: Grupo de Iluminación
 kbd.led.effect.group.reset: Reiniciar
-kbd.led.effect.group.delete.confirm_content:
-  Quiere eliminar este efecto de iluminación?
+kbd.led.effect.group.delete.confirm_content: Quiere eliminar este efecto de iluminación?
 kbd.led.effect.list: Lista de iluminaciones
 kbd.led.effect.list.limit.annepro1_three:
   Máximo tres efectos de iluminación en un grupo en ANNE PRO 1
@@ -170,21 +162,19 @@ kbd.led.color.palette: Paleta de Colores
 kbd.led.color.default: Por Defecto
 kbd.led.color.custom: Personalizado
 kbd.led.color.custom.save: Guardar color actual
-# Keycap Groups
+# 按键分组
 kbd.keycap.group.alphabet: Letras
 kbd.keycap.group.numbers: Números
 kbd.keycap.group.bigs: Teclas Grandes
 kbd.keycap.group.all: Todas
-# Dynamic Light Effects
+# 动态灯效类型
 dynamic_none: Ninguno
-dynamic_breath: Respiración
+dynamic_breath: Respiración 
 dynamic_breath_grad: Respiración Gradual
 dynamic_poptang: Poptang
 dynamic_rainbow: Arcoiris
 dynamic_breath_single: Respiración individual
-dynamic_trigger_breath: Breath(Trigger)
-dynamic_trigger_rainbow: Rainbow(Trigger)
-# Default LED group
+# 默认灯效
 intl.light.group.default: Por defecto
 intl.led.red: Rojo
 intl.led.yellow: Amarillo
@@ -194,21 +184,18 @@ intl.led.blue: Azul
 intl.led.purple: Morado
 intl.led.static.single: Estático individual
 intl.led.static.multi: Estático multiple
-intl.dynamic.breath: Respiración
+intl.dynamic.breath:  Respiración
 intl.dynamic.breath.grad: Respiración Gradual
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arcoiris
 intl.dynamic.breath.single: Respiración individual
-intl.dynamic.trigger.breath: Breath(Trigger)
-intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
-# Main Window, Layout
+# 键盘配列
 kbd.layout: Distribución
-kbd.layout.reset.confirm_content:
-  Quiere reiniciar a la distribución por defecto ?
+kbd.layout.reset.confirm_content: Quiere reiniciar a la distribución por defecto ?
 kbd.layout.delete.confirm_content: Quiere eliminar esta distribución?
 kbd.layout.set_keycap_null: Vaciar
-# Sidebar titles
+# 键盘码，分组名称
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Sistema
 kbd.keycode_group.alphabet: Caracter
@@ -219,7 +206,7 @@ kbd.keycode_group.function: Función
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Teclado
 kbd.keycode_group.other: Otros
-# Key tooltips
+# 键盘码，图形说明
 icon.left_gui: Win/Cmd Izquierdo
 icon.right_gui: Win/Cmd Derecho
 icon.mute: Silenciar
@@ -245,7 +232,7 @@ intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
-# Main Window, Macros
+# 键盘宏程序
 kbd.macro: Macro
 kbd.macro.group: Grupo de Macros
 kbd.macro.group.delete.confirm_content: Quiere eliminar este Grupo de Macros?
@@ -253,14 +240,12 @@ kbd.macro.add: Añadir Macro
 kbd.macro.please_add_macro_group: Por favor añada un grupo de macros
 kbd.macro.please_add_macro: Por favor añada una macro
 kbd.macro.delete.confirm_content: Quiere eliminar esta macro?
-kbd.macro.amount_limit.annepro2_sixteen:
-  Se pueden agregar hasta 16 macros en ANNE PRO 2
-kbd.macro.amount_limit.annepro_eight:
-  Se pueden agregar hasta ocho macros en ANNE PRO 1
+kbd.macro.amount_limit.annepro2_sixteen: Se pueden agregar hasta 16 macros en ANNE PRO 2
+kbd.macro.amount_limit.annepro_eight: Se pueden agregar hasta ocho macros en ANNE PRO 1
 kbd.macro.code: Código Macro
 kbd.macro.code.rec: Grabar Macro
 kbd.macro.code.empty: Vaciar Código Macro
-kbd.macro.code.exceeded: Código Macro Excedido
+kbd.macro.code.exceeded: Código Macro Excedido 
 kbd.macro.code.missing_release_key: Falta un bloque de liberación de tecla
 kbd.macro.code.missing_press_key: Falta un bloque de presionado de tecla
 kbd.macro.code.value.insert_timer_block: Insertar bloque de tiempo
@@ -269,7 +254,3 @@ kbd.macro.code.value.move_down: Mover Abajo
 
 # Other Messages
 msg.open_device_failed: No Se Pudo Abrir el Dispositivo
-msg.missing_required_data_field: Missing required data field
-msg.file_not_compatible_your_device: The file is not compatible with your device
-msg.crc_check_error: CRC check error, please don't edit the file exported
-msg.json_data_invalid: JSON data invalid

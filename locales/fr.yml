@@ -7,7 +7,7 @@ common.rename: Renommer
 common.import: Importer
 common.export: Exporter
 common.add: Ajouter
-common.create: Créer
+common.create: Créer 
 common.add.success: Ajouté avec succès
 common.add.failed: Ne peut être ajouté
 common.delete: Supprimer
@@ -87,7 +87,6 @@ preferences.update.download: Téléchargement
 preferences.update.download.done: La mise à jour a été téléchargé
 preferences.update.install_now: Installer maintenant
 preferences.help: Aide
-preferences.help.user-manual: Manuel utilisateur
 preferences.about: À propos
 
 # Écran de démarrage
@@ -95,8 +94,7 @@ home.welcome: Bonjour le monde
 home.please_connect_kbd_with_cable: Veuillez connecter votre appareil via USB
 home.open_device_failed: Échec d'ouverture du périphérique
 home.open_device_failed_linux:
-  Échec d'ouverture du périphérique, veuillez vous reporter au chapitre 1.3 du
-  Manuel de l'utilisateur
+  Échec d'ouverture du périphérique, veuillez vous reporter au chapitre 1.3 du Manuel de l'utilisateur
 
 # Informations sur le clavier, paramètres globaux
 kbd.general: Général
@@ -137,17 +135,13 @@ kbd.firmware.no_new_version: Pas de nouveau firmware trouvé
 kbd.fireware.upgrade.btn: Mise à jour
 kbd.firmware.upgrade.btn.to_latest: Mettre à jour vers la dernière version
 kbd.firmware.upgrade.title: Mise à jour du firmware
-kbd.firmware.upgrade.content:
-  Ne débranchez pas le câble USB lors de la mise à jour.
+kbd.firmware.upgrade.content: Ne débranchez pas le câble USB lors de la mise à jour.
 kbd.firmware.upgrade.status.downloading: Téléchargement du firmware...
 kbd.firmware.upgrade.status.download_failed: Échec de téléchargement du firmware
 kbd.firmware.upgrade.status.entering_aip: Entrer en mode de mise à jour...
-kbd.firmware.upgrade.status.writing_key:
-  Écriture des données dans le processeur principal...
-kbd.firmware.upgrade.status.writing_led:
-  Écriture des données dans le processeur LED...
-kbd.firmware.upgrade.status.writing_ble:
-  Écriture des données dans le processeur Bluetooth...
+kbd.firmware.upgrade.status.writing_key: Écriture des données dans le processeur principal...
+kbd.firmware.upgrade.status.writing_led: Écriture des données dans le processeur LED...
+kbd.firmware.upgrade.status.writing_ble: Écriture des données dans le processeur Bluetooth...
 kbd.firmware.upgrade.status.restart: Redémarrage du clavier...
 kbd.firmware.upgrade.status.success: Succès de la mise à jour du firmware.
 
@@ -155,16 +149,14 @@ kbd.firmware.upgrade.status.success: Succès de la mise à jour du firmware.
 kbd.led: Rétroéclairage
 kbd.led.effect.group: Groupe d'éclairage
 kbd.led.effect.group.reset: Réinitialiser
-kbd.led.effect.group.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer cet éclairage?
+kbd.led.effect.group.delete.confirm_content: Êtes vous sure de vouloir supprimer cet éclairage?
 kbd.led.effect.list: Liste d'éclairage
 kbd.led.effect.list.limit.annepro1_three:
   Effet de lumière limité à un groupe pour le ANNE PRO 1
 kbd.led.effect.list.limit.annepro2_sixteen:
   Effet lumineux limité à seize dans un groupe
 kbd.led.effect.type: Effet du rétroéclairage
-kbd.led.effect.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer cet effet?
+kbd.led.effect.delete.confirm_content: Êtes vous sure de vouloir supprimer cet effet?
 kbd.led.effect.preview: Aperçu
 kbd.led.effect.dynamic_colors: Tableau dynamique des couleurs
 kbd.led.color.palette: Palette de couleur
@@ -183,8 +175,6 @@ dynamic_breath_grad: Respiration Grad
 dynamic_poptang: Poptang
 dynamic_rainbow: Arc-en-ciel
 dynamic_breath_single: Respiration simple
-dynamic_trigger_breath: Breath(Trigger)
-dynamic_trigger_rainbow: Rainbow(Trigger)
 # Effet lumineux par défaut
 intl.light.group.default: Défaut
 intl.led.red: Rouge
@@ -200,15 +190,11 @@ intl.dynamic.breath.grad: Respiration grad
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arc-en-ciel
 intl.dynamic.breath.single: Respiration simple
-intl.dynamic.trigger.breath: Breath(Trigger)
-intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Disposition du clavier
 kbd.layout: Disposition
-kbd.layout.reset.confirm_content:
-  Êtes vous sure de vouloir réinitialiser ce modèle?
-kbd.layout.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer ce modèle?
+kbd.layout.reset.confirm_content: Êtes vous sure de vouloir réinitialiser ce modèle?
+kbd.layout.delete.confirm_content: Êtes vous sure de vouloir supprimer ce modèle?
 kbd.layout.set_keycap_null: Supprimer la touche
 # Code du clavier, nom du groupe
 kbd.keycode_group.annepro: ANNE PRO
@@ -250,13 +236,11 @@ intl.keymap.dvorak: Dvorak
 # Macro
 kbd.macro: Macro
 kbd.macro.group: Groupe de Macros
-kbd.macro.group.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer ce groupe de Macros?
+kbd.macro.group.delete.confirm_content: Êtes vous sure de vouloir supprimer ce groupe de Macros?
 kbd.macro.add: Ajouter Macro
 kbd.macro.please_add_macro_group: S'il vous plaît ajouter un groupe de Macros
 kbd.macro.please_add_macro: S'il vous plaît ajouter une Macro
-kbd.macro.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer cette Macro?
+kbd.macro.delete.confirm_content: Êtes vous sure de vouloir supprimer cette Macro?
 kbd.macro.amount_limit.annepro2_sixteen: Jusqu'à 16 macros peuvent être ajoutées
 kbd.macro.amount_limit.annepro_eight: ANNE PRO 1 supporte jusqu'à 8 Macros
 kbd.macro.code: Code de la Macro
@@ -271,7 +255,3 @@ kbd.macro.code.value.move_down: Déplacer vers le bas
 
 # Autres messages
 msg.open_device_failed: Échec d'ouverture du périphérique
-msg.missing_required_data_field: Missing required data field
-msg.file_not_compatible_your_device: The file is not compatible with your device
-msg.crc_check_error: CRC check error, please don't edit the file exported
-msg.json_data_invalid: JSON data invalid

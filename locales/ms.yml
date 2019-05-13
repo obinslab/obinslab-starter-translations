@@ -59,7 +59,7 @@ feedback.submit.error: Gagal untuk serah, sila cuba lagi
 feedback.submit.success: Berjaya untuk penyerahan, Klik untuk tutup
 feedback.support_email: 'Email Sokongan: '
 
-# Preference Window
+# 首选项
 preferences.setting: Tetapan
 preferences.setting.language: Bahasa
 preferences.setting.theme: Tema
@@ -87,17 +87,15 @@ preferences.update.download: Muat Turun
 preferences.update.download.done: Selesai memuat turun pakej baru
 preferences.update.install_now: Pasang sekarang
 preferences.help: Bantuan
-preferences.help.user-manual: Manual pengguna
 preferences.about: Tentang
 
-# Home Window
+# 首屏
 home.welcome: Hai Dunia
 home.please_connect_kbd_with_cable: Sila sambungkan peranti anda melalui USB
 home.open_device_failed: Gagal untuk membuka peranti
-home.open_device_failed_linux:
-  Gagal untuk membuka peranti, sila rujuk bab 1.3 di manual pengguna
+home.open_device_failed_linux: Gagal untuk membuka peranti, sila rujuk bab 1.3 di manual pengguna
 
-# Main Window, General
+# 键盘信息，全局设置
 kbd.general: Am
 kbd.general.info: Maklumat
 kbd.general.info.device_model: Model Peranti
@@ -122,7 +120,7 @@ kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Sambungan Bluetooth
 kbd.general.bluetooth.clean_bind: Bersihkan Sambungan
 
-# Main Window, Firmware
+# 键盘固件升级
 kbd.firmware: Naik Taraf Firmware
 kbd.firmware.key: Pemproses Aplikasi
 kbd.firmware.led: Pemproses Lampu
@@ -136,29 +134,24 @@ kbd.firmware.no_new_version: Firmware semasa adalah terbaru
 kbd.fireware.upgrade.btn: Naik Taraf
 kbd.firmware.upgrade.btn.to_latest: Naik Taraf ke Terkini
 kbd.firmware.upgrade.title: Naik Taraf Firmware
-kbd.firmware.upgrade.content:
-  Tolong jangan cabut kabel USB semasa kenaikan taraf
+kbd.firmware.upgrade.content: Tolong jangan cabut kabel USB semasa kenaikan taraf
 kbd.firmware.upgrade.status.downloading: Memuat turun firmware...
 kbd.firmware.upgrade.status.download_failed: Gagal untuk memuat turun firmware
 kbd.firmware.upgrade.status.entering_aip: Memasuki mod kenaikan taraf...
-kbd.firmware.upgrade.status.writing_key:
-  Memasukkan data ke pemproses aplikasi...
+kbd.firmware.upgrade.status.writing_key: Memasukkan data ke pemproses aplikasi...
 kbd.firmware.upgrade.status.writing_led: Memasukkan data to pemproses lampu...
-kbd.firmware.upgrade.status.writing_ble:
-  Memasukkan data to pemproses Bluetooth...
+kbd.firmware.upgrade.status.writing_ble: Memasukkan data to pemproses Bluetooth...
 kbd.firmware.upgrade.status.restart: Memulakan semula papan kekunci...
 kbd.firmware.upgrade.status.success: Berjaya untuk menaikkan taraf firmware.
 
-# Main Window, LEDs
+# 键盘灯光
 kbd.led: Lampu
 kbd.led.effect.group: Kumpulan Lampu
 kbd.led.effect.group.reset: Tetapkan semula
 kbd.led.effect.group.delete.confirm_content: Anda pasti untuk padakam lampu ini?
 kbd.led.effect.list: Senarai Lampu
-kbd.led.effect.list.limit.annepro1_three:
-  Terhad kepada tiga kesanan cahaya dalam satu kumpulan untuk ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen:
-  Terhad kepada enam belas kesanan cahaya dalam satu kumpulan
+kbd.led.effect.list.limit.annepro1_three: Terhad kepada tiga kesanan cahaya dalam satu kumpulan untuk ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: Terhad kepada enam belas kesanan cahaya dalam satu kumpulan
 kbd.led.effect.type: Kesanan Cahaya Dinamik
 kbd.led.effect.delete.confirm_content: Anda pasti untuk padam lampu ini?
 kbd.led.effect.preview: Pratonton
@@ -167,21 +160,19 @@ kbd.led.color.palette: Palet Warna
 kbd.led.color.default: Lalai
 kbd.led.color.custom: Penyesuian
 kbd.led.color.custom.save: Simpan warna semasa
-# Keycap Groups
+# 按键分组
 kbd.keycap.group.alphabet: Abjad
 kbd.keycap.group.numbers: Nombor
 kbd.keycap.group.bigs: Kunci Besar
 kbd.keycap.group.all: Semua
-# Dynamic Light Effects
+# 动态灯效类型
 dynamic_none: Tiada
 dynamic_breath: Nafas
 dynamic_breath_grad: Grad Nafas
 dynamic_poptang: Poptang
 dynamic_rainbow: Pelangi
 dynamic_breath_single: Nafas tunggal
-dynamic_trigger_breath: Breath(Trigger)
-dynamic_trigger_rainbow: Rainbow(Trigger)
-# Default LED group
+# 默认灯效
 intl.light.group.default: Lalai
 intl.led.red: Merah
 intl.led.yellow: Kuning
@@ -196,16 +187,13 @@ intl.dynamic.breath.grad: Grad Nafas
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Pelangi
 intl.dynamic.breath.single: Nafas tunggal
-intl.dynamic.trigger.breath: Breath(Trigger)
-intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
-# Main Window, Layout
+# 键盘配列
 kbd.layout: Susun Atur
-kbd.layout.reset.confirm_content:
-  Anda pasti untuk menetapkan semula susun atur ini ke lalai?
+kbd.layout.reset.confirm_content: Anda pasti untuk menetapkan semula susun atur ini ke lalai?
 kbd.layout.delete.confirm_content: Anda pasti untuk padamkan susun atur ini?
 kbd.layout.set_keycap_null: Tetapkan kepada null
-# Sidebar titles
+# 键盘码，分组名称
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Sistem
 kbd.keycode_group.alphabet: Abjad
@@ -216,7 +204,7 @@ kbd.keycode_group.function: Fungsi
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Pad Kekunci
 kbd.keycode_group.other: Lain-lain
-# Key tooltips
+# 键盘码，图形说明
 icon.left_gui: Win/Cmd Kiri
 icon.right_gui: Win/Cmd Kanan
 icon.mute: Senyap
@@ -242,19 +230,16 @@ intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
-# Main Window, Macros
+# 键盘宏程序
 kbd.macro: Makro
 kbd.macro.group: Kumpulan Makro
-kbd.macro.group.delete.confirm_content:
-  Anda pasti untuk padamkan kumpulan makro ini?
+kbd.macro.group.delete.confirm_content: Anda pasti untuk padamkan kumpulan makro ini?
 kbd.macro.add: Tambah makro
 kbd.macro.please_add_macro_group: Tolong tambahkan kumpulan makro dahulu
 kbd.macro.please_add_macro: Tolong tambah makro dahulu
 kbd.macro.delete.confirm_content: Anda pasti untuk padamkan makro ini?
-kbd.macro.amount_limit.annepro2_sixteen:
-  Terhad kepada enam belas kumpulan makro dalam satu kumpulan
-kbd.macro.amount_limit.annepro_eight:
-  Terhad kepada lapan kumpulan makro dalam satu kumpulan bagi ANNE PRO 1
+kbd.macro.amount_limit.annepro2_sixteen: Terhad kepada enam belas kumpulan makro dalam satu kumpulan
+kbd.macro.amount_limit.annepro_eight: Terhad kepada lapan kumpulan makro dalam satu kumpulan bagi ANNE PRO 1
 kbd.macro.code: Kod Makro
 kbd.macro.code.rec: Rekod Makro
 kbd.macro.code.empty: Kosongkan Kod Makro
@@ -267,7 +252,3 @@ kbd.macro.code.value.move_down: Bergerak ke Bawah
 
 # Other Messages
 msg.open_device_failed: Gagal Membuka Peranti
-msg.missing_required_data_field: Missing required data field
-msg.file_not_compatible_your_device: The file is not compatible with your device
-msg.crc_check_error: CRC check error, please don't edit the file exported
-msg.json_data_invalid: JSON data invalid
