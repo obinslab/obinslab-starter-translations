@@ -179,7 +179,7 @@ kbd.keycap.group.all: Tất cả
 dynamic_none: Không
 dynamic_breath: Nhịp thở (ngắt quãng)
 dynamic_breath_grad: Nhịp thở (liên tục)
-dynamic_poptang: Toả ra
+dynamic_poptang: Lan toả
 dynamic_rainbow: Cầu vồng
 dynamic_breath_single: Nhịp thở (từng phím)
 # 默认灯效
@@ -194,7 +194,7 @@ intl.led.static.single: Đơn tĩnh
 intl.led.static.multi: Cầu vồng tĩnh
 intl.dynamic.breath: Nhịp thở (ngắt quãng)
 intl.dynamic.breath.grad: Nhịp thở (liên tục)
-intl.dynamic.poptang: Toả ra
+intl.dynamic.poptang: Lan toả
 intl.dynamic.breath.rainbow: Cầu vồng
 intl.dynamic.breath.single: Nhịp thở (từng phím)
 
