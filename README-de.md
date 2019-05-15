@@ -2,25 +2,27 @@
   <a href="http://en.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
 </p>
 
-#  Traducciones Obinslab Starter
+# Obinslab Starter Übersetzungen
 
-[English](./README.md) | [简体中文](./README-zh_CN.md) | Español | [Deutsch](./README-de.md) | [Русский](./README-ru.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | Deutsch | [Русский](./README-ru.md)
 
-Es un proyecto de traducción para [Obinslab Starter](http://en.obins.net/obinslab-starter).
+Übersetzungsprojekt für den [Obinslab Starter](http://en.obins.net/obinslab-starter).
 
-Obinslab Starter te permite personalizar distribuciones de teclado, efectos de ilumninacion y macros en tu ANNE PRO2.
+Mit dem Obinslab Starter kann die Tastaturbelegung, Lichteffekte und Makros für deine ANNE PRO 2 angepasst werden.
 
-Siguenos <a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> en Twitter para avisos importantes.
+Folge <a href="https://twitter.com/obinslab"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> auf Twitter für wichtige Ankündigungen.
 
-## Como comenzar una traducción
-Comprueba si existe ya un archivo de traducción para tu idioma en el directorio `locales`. Si existe , realiza la modificación sobre este; Si no, clona `en.yml` a `codigo-idioma.yml`
+## Wie man eine Übersetzung erstellt
 
-Por ejemplo: Si quieres crear/actualizar el idioma `Japones`, simplemente edita el archivo `ja.yml`.
+Überprüfe ob für deine Sprache eine Übersetzungsdatei im Ordner `locales` existiert. Wenn die Datei schon existiert, kannst du sie direkt bearbeiten. Wenn die Datei noch nicht existiert, kopiere die Datei `en.yml` und speichere sie als `language-code.yml`. (`language-code` ist der ISO Code der jeweiligen Sprache, siehe unten.)
 
-Obinslab Starter usa la libreria `l10n_util` de Chromium para extraer el lugar.Los posibles
-`language-code` son los siguientes:
+Beispiel: Wenn du die Sprache `Japanisch` ändern oder erstellen willst, bearbeite oder erstelle die Datei `ja.yml`.
 
-| Language Code | Language Name |
+Obinslab Starter nutzt Chromiums `l10n_util` Bibliothek, um die Übersetzungen zu holen.
+
+Die verfügbaren `language-code`'s sind:
+
+| `language-code` | Sprache |
 |---------------|---------------|
 | af | Afrikaans |
 | am | Amharic |
@@ -156,20 +158,20 @@ Obinslab Starter usa la libreria `l10n_util` de Chromium para extraer el lugar.L
 | zh-TW | Chinese (Traditional) |
 | zu | Zulu |
 
-## Como previsualizar tu traducción
+## Vorschau deiner Übersetzung in der Anwendung anzeigen
 
-1. Coloca el archivo `language-code.yml` en el directorio `locales` dentro de `Resources`. Edita `locales.json`, y añada el `id` y `name`.
+1. Schiebe die `language-code.yml` Datei in den Ordner `locales`. Bearbeite darin die Datei `locales.json` und füge `id` und `name` der Sprache hinzu.
 
-    El directorio `locales` normalmente se encuentra en:
+    Den Ordner `locales` findest du unter:
     - Windows
     `C:\Program Files\Obinslab Starter\resources\locales`
 
-    - Mac Osx
+    - macOS
     `/Applications/Obinslab Starter.app/Contents/Resources/locales`
 
 
-2. Inicie/Reinicie Obinslab Starter, vaya a `preferences`, selecione el nuevo idioma
+2. Starte den Obinslab Starter, gehe in die Einstellungen (Zahnrad -> Prefences) und wähle die neue Sprache aus.
 
-## Contribuciones
+## Wie du mitwirken kannst
 
-Fork -> Modify -> Pull request
+Fork -> Bearbeiten -> Pull Request öffnen
