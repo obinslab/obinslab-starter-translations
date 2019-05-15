@@ -179,7 +179,7 @@ kbd.keycap.group.all: Все
 dynamic_none: Отсутствует
 dynamic_breath: Дыхание
 dynamic_breath_grad: Дыхание (градиент)
-dynamic_poptang: Poptang
+dynamic_poptang: Крест
 dynamic_rainbow: Радуга
 dynamic_breath_single: Дыхание (нажатые клавиши)
 dynamic_trigger_breath: Дыхание (триггер)
@@ -196,7 +196,7 @@ intl.led.static.single: Статический одноцветный
 intl.led.static.multi: Статический многоцветный
 intl.dynamic.breath: Дыхание
 intl.dynamic.breath.grad: Дыхание (градиент)
-intl.dynamic.poptang: Poptang
+intl.dynamic.poptang: Крест
 intl.dynamic.breath.rainbow: Радуга
 intl.dynamic.breath.single: Дыхание (нажатые клавиши)
 intl.dynamic.trigger.breath: Дыхание (триггер)
