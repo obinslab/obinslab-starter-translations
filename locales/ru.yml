@@ -31,7 +31,7 @@ common.confirm.show_detail: Показать детали
 common.network.connection.error: Ошибка сетевого соединения
 common.please_quit_edit: Пожалуйста, выйдите из режима редактирования
 common.time_unit.hours: ' часов'
-common.time_unit.millisecond: мс
+common.time_unit.millisecond: миллисекунд
 
 # Tray
 app.tray.show_window: Открыть Obinslab Starter
@@ -53,14 +53,14 @@ feedback.content.no_empty: Пожалуйста, заполните сообще
 feedback.content.max_1000: Максимум 1000 символов
 feedback.email.label: Email (необязательный)
 feedback.email.placeholder: Пожалуйста, введите свой Email
-feedback.email.not_valid: Неправильный адрес электронной почты
+feedback.email.not_valid: Неправильный Email адрес
 feedback.submit: Отправить
 feedback.submit.error: Ошибка при отправке. Пожалуйста, повторите попытку
 feedback.submit.success: Успешно отправлено. Нажмите, чтобы закрыть
 feedback.support_email: 'Email службы поддержки: '
 
 # Preference Window
-preferences.setting: Настройки
+preferences.setting: Опции
 preferences.setting.language: Язык
 preferences.setting.theme: Тема
 preferences.setting.theme.dark: Темная
@@ -71,10 +71,10 @@ preferences.setting.update_channel.latest: Релизные версии
 preferences.setting.animation: Анимация на стартовом экране
 preferences.setting.animation.on: Вкл.
 preferences.setting.animation.off: Выкл.
-preferences.setting.x_action: Действие при закрытии главного окна
+preferences.setting.x_action: Действии при закрытии главного окна
 preferences.setting.minimize_to_tray: Свернуть в трей
 preferences.setting.quit_program: Выйти из программы
-preferences.setting.auto_launch: Запускать при входе в систему
+preferences.setting.auto_launch: Запуск при авторизации
 preferences.setting.auto_launch.yes: Да
 preferences.setting.auto_launch.no: Нет
 preferences.update: Обновления
@@ -87,13 +87,17 @@ preferences.update.download: Скачать
 preferences.update.download.done: Пакет обновления скачан
 preferences.update.install_now: Установить
 preferences.help: Помощь
+preferences.help.user-manual: Руководство пользователя
 preferences.about: О программе
 
 # Home Window
 home.welcome: Hello World
-home.please_connect_kbd_with_cable: Пожалуйста, подключите ваше устройство по USB
+home.please_connect_kbd_with_cable:
+  Пожалуйста, подключите ваше устройство по USB
 home.open_device_failed: Ошибка при открытии устройства
-home.open_device_failed_linux: Ошибка при открытии устройства. Пожалуйста, ознакомьтесь с главой 1.3 в руководстве пользователя
+home.open_device_failed_linux:
+  Ошибка при открытии устройства. Пожалуйста, ознакомьтесь с главой 1.3
+  в руководстве пользователя
 
 # Main Window, General
 kbd.general: Общие параметры
@@ -109,8 +113,8 @@ kbd.general.setting.magic_fn: Клавиша Magic Fn
 kbd.general.setting.macro_trigger: Макросы
 kbd.general.setting.capslock_led: Индикатор CapsLock
 kbd.general.setting.auto_sleep: Автовыключение
-kbd.general.setting.options.disable: Выкл.
-kbd.general.setting.options.enable: Вкл.
+kbd.general.setting.options.disable: Отключить
+kbd.general.setting.options.enable: Включить
 kbd.general.setting.options.default: По умолчанию
 kbd.general.setting.options.custom: Пользовательская
 kbd.general.setting.options.fn1: Fn1
@@ -134,11 +138,13 @@ kbd.firmware.no_new_version: Текущая прошивка наиболее а
 kbd.fireware.upgrade.btn: Обновить
 kbd.firmware.upgrade.btn.to_latest: Обновить до последней версии 
 kbd.firmware.upgrade.title: Обновление прошивки
-kbd.firmware.upgrade.content: Не отсоединяйте USB-кабель в процессе обновления
+kbd.firmware.upgrade.content:
+  Пожалуйста, не отсоединяйте USB кабель в процессе обновления
 kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
 kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
 kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления...
-kbd.firmware.upgrade.status.writing_key: Запись данных в application processor...
+kbd.firmware.upgrade.status.writing_key:
+  Запись данных в application processor...
 kbd.firmware.upgrade.status.writing_led: Запись данных в light processor...
 kbd.firmware.upgrade.status.writing_ble: Запись данных в bluetooth processor...
 kbd.firmware.upgrade.status.restart: Перезапуск клавиатуры...
@@ -148,12 +154,16 @@ kbd.firmware.upgrade.status.success: Прошивка успешно обнов�
 kbd.led: Подсветка
 kbd.led.effect.group: Группы эффектов
 kbd.led.effect.group.reset: Сбросить
-kbd.led.effect.group.delete.confirm_content: Вы уверены, что хотите удалить эту группу?
+kbd.led.effect.group.delete.confirm_content:
+  Вы уверены, что хотите удалить эту группу?
 kbd.led.effect.list: Список эффектов
-kbd.led.effect.list.limit.annepro1_three: Максимальное количество эффектов для одной группы — 3
-kbd.led.effect.list.limit.annepro2_sixteen: Максимальное количество эффектов для одной группы — 16
+kbd.led.effect.list.limit.annepro1_three:
+  Максимальное количество эффектов для одной группы - 3
+kbd.led.effect.list.limit.annepro2_sixteen:
+  Максимальное количество эффектов для одной группы - 16
 kbd.led.effect.type: Динамический эффект
-kbd.led.effect.delete.confirm_content: Вы уверены, что хотите удалить этот эффект?
+kbd.led.effect.delete.confirm_content:
+  Вы уверены, что хотите удалить этот эффект?
 kbd.led.effect.preview: Просмотр
 kbd.led.effect.dynamic_colors: Таблица цветов
 kbd.led.color.palette: Цветовая палитра
@@ -172,6 +182,8 @@ dynamic_breath_grad: Дыхание (градиент)
 dynamic_poptang: Poptang
 dynamic_rainbow: Радуга
 dynamic_breath_single: Дыхание (нажатые клавиши)
+dynamic_trigger_breath: Дыхание (триггер)
+dynamic_trigger_rainbow: Радуга (триггер)
 # Default LED group
 intl.light.group.default: Предустановленные
 intl.led.red: Красный
@@ -187,10 +199,13 @@ intl.dynamic.breath.grad: Дыхание (градиент)
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Радуга
 intl.dynamic.breath.single: Дыхание (нажатые клавиши)
+intl.dynamic.trigger.breath: Дыхание (триггер)
+intl.dynamic.trigger.rainbow: Радуга (триггер)
 
 # Main Window, Layout
 kbd.layout: Раскладка
-kbd.layout.reset.confirm_content: Вы уверены, что хотите сбросить эту раскладку к заводским настройкам?
+kbd.layout.reset.confirm_content:
+  Вы уверены, что хотите сбросить эту раскладку к заводским настройкам?
 kbd.layout.delete.confirm_content: Вы уверены, что хотите удалить эту раскладку?
 kbd.layout.set_keycap_null: Убрать значение
 # Sidebar titles
@@ -210,7 +225,7 @@ icon.right_gui: Правый Win/Cmd
 icon.mute: Отключить звук
 icon.volume.up: Повысить громкость
 icon.volume.down: Понизить громкость
-icon.bl.toggle: Вкл./выкл. подсветку
+icon.bl.toggle: Вкл./Выкл. подсветку
 icon.bl.color: Сменить тип подсветки
 icon.bl.increase: Повысить яркость
 icon.bl.decrease: Понизить яркость
@@ -233,13 +248,16 @@ intl.keymap.dvorak: Dvorak
 # Main Window, Macros
 kbd.macro: Макросы
 kbd.macro.group: Группы макросов
-kbd.macro.group.delete.confirm_content: Вы уверены, что хотите удалить эту группу макросов?
+kbd.macro.group.delete.confirm_content:
+  Вы уверены, что хотите удалить эту группу макросов?
 kbd.macro.add: Добавить макрос
 kbd.macro.please_add_macro_group: Пожалуйста, добавьте группу макросов
 kbd.macro.please_add_macro: Пожалуйста, добавьте макрос
 kbd.macro.delete.confirm_content: Вы уверены, что хотите удалить этот макрос?
-kbd.macro.amount_limit.annepro2_sixteen: Anne Pro 2 поддерживает 16 макросов максимум
-kbd.macro.amount_limit.annepro_eight: Anne Pro 1 поддерживает 8 макросов максимум
+kbd.macro.amount_limit.annepro2_sixteen:
+  Anne Pro 2 поддерживает 16 макросов максимум
+kbd.macro.amount_limit.annepro_eight:
+  Anne Pro 1 поддерживает 8 макросов максимум
 kbd.macro.code: Код макроса
 kbd.macro.code.rec: Записать макрос
 kbd.macro.code.empty: Код макроса пуст
@@ -252,3 +270,8 @@ kbd.macro.code.value.move_down: Переместить вниз
 
 # Other Messages
 msg.open_device_failed: Ошибка при открытии устройства
+msg.missing_required_data_field: Отсутствует обязательное поле данных
+msg.file_not_compatible_your_device: Файл не совместим с вашим устройством
+msg.crc_check_error:
+  Ошибка при проверке контрольной суммы. Не редактируйте экспортированный файл
+msg.json_data_invalid: Неверные данные в формате JSON
