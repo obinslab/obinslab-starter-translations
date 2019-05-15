@@ -138,7 +138,7 @@ kbd.firmware.no_new_version: Текущая прошивка наиболее а
 kbd.fireware.upgrade.btn: Обновить
 kbd.firmware.upgrade.btn.to_latest: Обновить до последней версии 
 kbd.firmware.upgrade.title: Обновление прошивки
-kbd.firmware.upgrade.content: Не отсоединяйте USB кабель в процессе обновления
+kbd.firmware.upgrade.content: Не отсоединяйте USB-кабель в процессе обновления
 kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
 kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
 kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления...
