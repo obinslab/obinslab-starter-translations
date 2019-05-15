@@ -31,7 +31,7 @@ common.confirm.show_detail: Показать детали
 common.network.connection.error: Ошибка сетевого соединения
 common.please_quit_edit: Пожалуйста, выйдите из режима редактирования
 common.time_unit.hours: ' часов'
-common.time_unit.millisecond: миллисекунд
+common.time_unit.millisecond: мс
 
 # Tray
 app.tray.show_window: Открыть Obinslab Starter
@@ -53,14 +53,14 @@ feedback.content.no_empty: Пожалуйста, заполните сообще
 feedback.content.max_1000: Максимум 1000 символов
 feedback.email.label: Email (необязательный)
 feedback.email.placeholder: Пожалуйста, введите свой Email
-feedback.email.not_valid: Неправильный Email адрес
+feedback.email.not_valid: Неправильный адрес электронной почты
 feedback.submit: Отправить
 feedback.submit.error: Ошибка при отправке. Пожалуйста, повторите попытку
 feedback.submit.success: Успешно отправлено. Нажмите, чтобы закрыть
 feedback.support_email: 'Email службы поддержки: '
 
 # Preference Window
-preferences.setting: Опции
+preferences.setting: Настройки
 preferences.setting.language: Язык
 preferences.setting.theme: Тема
 preferences.setting.theme.dark: Темная
@@ -71,10 +71,10 @@ preferences.setting.update_channel.latest: Релизные версии
 preferences.setting.animation: Анимация на стартовом экране
 preferences.setting.animation.on: Вкл.
 preferences.setting.animation.off: Выкл.
-preferences.setting.x_action: Действии при закрытии главного окна
+preferences.setting.x_action: Действие при закрытии главного окна
 preferences.setting.minimize_to_tray: Свернуть в трей
 preferences.setting.quit_program: Выйти из программы
-preferences.setting.auto_launch: Запуск при авторизации
+preferences.setting.auto_launch: Запускать при входе в систему
 preferences.setting.auto_launch.yes: Да
 preferences.setting.auto_launch.no: Нет
 preferences.update: Обновления
@@ -113,8 +113,8 @@ kbd.general.setting.magic_fn: Клавиша Magic Fn
 kbd.general.setting.macro_trigger: Макросы
 kbd.general.setting.capslock_led: Индикатор CapsLock
 kbd.general.setting.auto_sleep: Автовыключение
-kbd.general.setting.options.disable: Отключить
-kbd.general.setting.options.enable: Включить
+kbd.general.setting.options.disable: Выкл.
+kbd.general.setting.options.enable: Вкл.
 kbd.general.setting.options.default: По умолчанию
 kbd.general.setting.options.custom: Пользовательская
 kbd.general.setting.options.fn1: Fn1
@@ -138,8 +138,7 @@ kbd.firmware.no_new_version: Текущая прошивка наиболее а
 kbd.fireware.upgrade.btn: Обновить
 kbd.firmware.upgrade.btn.to_latest: Обновить до последней версии 
 kbd.firmware.upgrade.title: Обновление прошивки
-kbd.firmware.upgrade.content:
-  Пожалуйста, не отсоединяйте USB кабель в процессе обновления
+kbd.firmware.upgrade.content: Не отсоединяйте USB кабель в процессе обновления
 kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
 kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
 kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления...
@@ -158,9 +157,9 @@ kbd.led.effect.group.delete.confirm_content:
   Вы уверены, что хотите удалить эту группу?
 kbd.led.effect.list: Список эффектов
 kbd.led.effect.list.limit.annepro1_three:
-  Максимальное количество эффектов для одной группы - 3
+  Максимальное количество эффектов для одной группы — 3
 kbd.led.effect.list.limit.annepro2_sixteen:
-  Максимальное количество эффектов для одной группы - 16
+  Максимальное количество эффектов для одной группы — 16
 kbd.led.effect.type: Динамический эффект
 kbd.led.effect.delete.confirm_content:
   Вы уверены, что хотите удалить этот эффект?
@@ -225,7 +224,7 @@ icon.right_gui: Правый Win/Cmd
 icon.mute: Отключить звук
 icon.volume.up: Повысить громкость
 icon.volume.down: Понизить громкость
-icon.bl.toggle: Вкл./Выкл. подсветку
+icon.bl.toggle: Вкл./выкл. подсветку
 icon.bl.color: Сменить тип подсветки
 icon.bl.increase: Повысить яркость
 icon.bl.decrease: Понизить яркость
