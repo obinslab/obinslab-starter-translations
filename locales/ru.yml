@@ -270,7 +270,7 @@ kbd.macro.code.value.move_down: Переместить вниз
 # Other Messages
 msg.open_device_failed: Ошибка при открытии устройства
 msg.missing_required_data_field: Отсутствует обязательное поле данных
-msg.file_not_compatible_your_device: Файл не совместим с вашим устройством
+msg.file_not_compatible_your_device: Файл несовместим с вашим устройством
 msg.crc_check_error:
   Ошибка при проверке контрольной суммы. Не редактируйте экспортированный файл
 msg.json_data_invalid: Неверные данные в формате JSON
