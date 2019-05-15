@@ -87,13 +87,15 @@ preferences.update.download: Downloaden
 preferences.update.download.done: Update-pakket is gedownload
 preferences.update.install_now: Nu installeren
 preferences.help: Help
+preferences.help.user-manual: Gebruikershandleid
 preferences.about: About
 
 # Home Window
 home.welcome: Hallo Wereld
 home.please_connect_kbd_with_cable: Sluit uw apparaat via USB aan.
 home.open_device_failed: Apparaat openen mislukt
-home.open_device_failed_linux: Apparaat openen mislukt, raadpleeg hoofdstuk 1.3 van de gebruikershandeling
+home.open_device_failed_linux:
+  Apparaat openen mislukt, raadpleeg hoofdstuk 1.3 van de gebruikershandeling
 
 # Main Window, General
 kbd.general: Algemeen
@@ -138,9 +140,12 @@ kbd.firmware.upgrade.content: Werp de USB-kabel NIET uit tijdens het upgraden
 kbd.firmware.upgrade.status.downloading: Firmware aan het downloaden...
 kbd.firmware.upgrade.status.download_failed: Firmware downloaden mislukt
 kbd.firmware.upgrade.status.entering_aip: Upgrademodus...
-kbd.firmware.upgrade.status.writing_key: Data aan het schrijven naar de applicatieprocessor...
-kbd.firmware.upgrade.status.writing_led: Data aan het schrijven naar de lichtprocessor...
-kbd.firmware.upgrade.status.writing_ble: Data aan het schrijven naar de bluetoothprocessor...
+kbd.firmware.upgrade.status.writing_key:
+  Data aan het schrijven naar de applicatieprocessor...
+kbd.firmware.upgrade.status.writing_led:
+  Data aan het schrijven naar de lichtprocessor...
+kbd.firmware.upgrade.status.writing_ble:
+  Data aan het schrijven naar de bluetoothprocessor...
 kbd.firmware.upgrade.status.restart: Toetsenbord opnieuw op aan het starten...
 kbd.firmware.upgrade.status.success: Firmware upgraden gelukt.
 
@@ -148,12 +153,16 @@ kbd.firmware.upgrade.status.success: Firmware upgraden gelukt.
 kbd.led: Light
 kbd.led.effect.group: Light Group
 kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Weet je zeker dat je deze lichteffectgroep wilt verwijderen?
+kbd.led.effect.group.delete.confirm_content:
+  Weet je zeker dat je deze lichteffectgroep wilt verwijderen?
 kbd.led.effect.list: Lichtlijst
-kbd.led.effect.list.limit.annepro1_three: Je kan alleen maar 3 lichteffecten per 1 groep hebben 
-kbd.led.effect.list.limit.annepro2_sixteen: Je kan alleen maar 16 lichteffecten per 1 groep hebben
+kbd.led.effect.list.limit.annepro1_three:
+  Je kan alleen maar 3 lichteffecten per 1 groep hebben
+kbd.led.effect.list.limit.annepro2_sixteen:
+  Je kan alleen maar 16 lichteffecten per 1 groep hebben
 kbd.led.effect.type: Dynamisch lichteffect
-kbd.led.effect.delete.confirm_content: Weet je zeker dat je dit lichteffect wilt verwijderen?
+kbd.led.effect.delete.confirm_content:
+  Weet je zeker dat je dit lichteffect wilt verwijderen?
 kbd.led.effect.preview: Preview
 kbd.led.effect.dynamic_colors: Dynamisch lichteffect kleurentabel
 kbd.led.color.palette: Kleurenpalet
@@ -172,6 +181,8 @@ dynamic_breath_grad: Breath Grad
 dynamic_poptang: Poptang
 dynamic_rainbow: Rainbow
 dynamic_breath_single: Breath single
+dynamic_trigger_breath: Breath(Trigger)
+dynamic_trigger_rainbow: Rainbow(Trigger)
 # Default LED group
 intl.light.group.default: Default
 intl.led.red: Red
@@ -187,11 +198,15 @@ intl.dynamic.breath.grad: Breath grad
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Rainbow
 intl.dynamic.breath.single: Breath single
+intl.dynamic.trigger.breath: Breath(Trigger)
+intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Main Window, Layout
 kbd.layout: Layout
-kbd.layout.reset.confirm_content: Weet je zeker dat je deze layout wilt resetten?
-kbd.layout.delete.confirm_content: Weet je zeker dat je deze layout wilt verwijderen?
+kbd.layout.reset.confirm_content:
+  Weet je zeker dat je deze layout wilt resetten?
+kbd.layout.delete.confirm_content:
+  Weet je zeker dat je deze layout wilt verwijderen?
 kbd.layout.set_keycap_null: Set null
 # Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
@@ -233,13 +248,17 @@ intl.keymap.dvorak: Dvorak
 # Main Window, Macros
 kbd.macro: Macro
 kbd.macro.group: Macro Groep
-kbd.macro.group.delete.confirm_content: Weet je zeker dat je deze macro groep wilt verwijderen?
+kbd.macro.group.delete.confirm_content:
+  Weet je zeker dat je deze macro groep wilt verwijderen?
 kbd.macro.add: Voeg macro toe
 kbd.macro.please_add_macro_group: Voeg alsjeblieft een macro groep toe
 kbd.macro.please_add_macro: Voeg alsjeblieft een macro toe
-kbd.macro.delete.confirm_content: Weet je zeker dat je deze macro wilt verwijderen?
-kbd.macro.amount_limit.annepro2_sixteen: Er kunnen maximaal 16 macro's toegevoegd worden
-kbd.macro.amount_limit.annepro_eight: Bij Anne Pro 1 kan er maximaal 8 macro's toegevoegd worden
+kbd.macro.delete.confirm_content:
+  Weet je zeker dat je deze macro wilt verwijderen?
+kbd.macro.amount_limit.annepro2_sixteen:
+  Er kunnen maximaal 16 macro's toegevoegd worden
+kbd.macro.amount_limit.annepro_eight:
+  Bij Anne Pro 1 kan er maximaal 8 macro's toegevoegd worden
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Rec Macro
 kbd.macro.code.empty: Lege Macro Code
@@ -252,3 +271,7 @@ kbd.macro.code.value.move_down: Naar beneden
 
 # Other Messages
 msg.open_device_failed: Apparaat openen mislukt
+msg.missing_required_data_field: Missing required data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error, please don't edit the file exported
+msg.json_data_invalid: JSON data invalid

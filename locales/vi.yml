@@ -66,7 +66,7 @@ feedback.submit.error: Lỗi khi gửi, vui lòng thử lại
 feedback.submit.success: Gửi thành công, nhấn để đóng
 feedback.support_email: 'Email hỗ trợ: '
 
-# 首选项
+# Preference Window
 preferences.setting: Cài đặt
 preferences.setting.language: Ngôn ngữ
 preferences.setting.theme: Nền
@@ -94,16 +94,19 @@ preferences.update.download: Tải
 preferences.update.download.done: Gói cập nhật đã được tải xuống
 preferences.update.install_now: Tải ngay
 preferences.help: Hỗ trợ
+preferences.help.user-manual: Sách hướng dẫn sử dụng
 preferences.about: Thông tin
 
-# 首屏
-home.welcome: Quét lại các thiết bị
+# Home Window
+# home.welcome: Quét lại các thiết bị
+home.welcome: Hello World
 home.please_connect_kbd_with_cable: Vui lòng kết nối thiết bị qua cổng USB
 home.open_device_failed: Mở thiết bị thất bại
 home.open_device_failed_linux:
-  Mở thiết bị thất bại, vui lòng xem chương 1.3 trong Hướng dẫn Sử dụng (bằng tiếng Anh)
+  Mở thiết bị thất bại, vui lòng xem chương 1.3 trong Hướng dẫn Sử dụng (bằng 
+  tiếng Anh)
 
-# 键盘信息，全局设置
+# Main Window, General
 kbd.general: Cài đặt chung
 kbd.general.info: Thông tin
 kbd.general.info.device_model: Mẫu sản phẩm
@@ -128,7 +131,7 @@ kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Ghép nối Bluetooth
 kbd.general.bluetooth.clean_bind: Xoá mọi ghép nối
 
-# 键盘固件升级
+# Main Window, Firmware
 kbd.firmware: Cập nhật phần mềm
 kbd.firmware.key: Bộ xử lý chương trình
 kbd.firmware.led: Bộ xử lý đèn LED
@@ -146,13 +149,15 @@ kbd.firmware.upgrade.content: Vui lòng không ngắt kết nối USB khi đang 
 kbd.firmware.upgrade.status.downloading: Tải phần mềm...
 kbd.firmware.upgrade.status.download_failed: Tải phần mềm thất bại
 kbd.firmware.upgrade.status.entering_aip: Bắt đầu chế độ cập nhật...
-kbd.firmware.upgrade.status.writing_key: Cài đặt dữ liệu vào bộ xử lý chương trình...
+kbd.firmware.upgrade.status.writing_key: 
+ Cài đặt dữ liệu vào bộ xử lý chương trình...
 kbd.firmware.upgrade.status.writing_led: Cài đặt dữ liệu vào bộ xử lý đèn LED...
-kbd.firmware.upgrade.status.writing_ble: Cài đặt dữ liệu vào bộ xử lý Bluetooth...
+kbd.firmware.upgrade.status.writing_ble: 
+ Cài đặt dữ liệu vào bộ xử lý Bluetooth...
 kbd.firmware.upgrade.status.restart: Khởi động lại bàn phím...
 kbd.firmware.upgrade.status.success: Cập nhật phần mềm thành công.
 
-# 键盘灯光
+# Main Window, LEDs
 kbd.led: Đèn
 kbd.led.effect.group: Nhóm chế độ
 kbd.led.effect.group.reset: Cài đặt lại
@@ -170,19 +175,21 @@ kbd.led.color.palette: Bảng màu
 kbd.led.color.default: Mặc định
 kbd.led.color.custom: Tuỳ chỉnh
 kbd.led.color.custom.save: Lưu màu đang chọn
-# 按键分组
+# Keycap Groups
 kbd.keycap.group.alphabet: Ký tự
 kbd.keycap.group.numbers: Chữ số
 kbd.keycap.group.bigs: Phím lớn
 kbd.keycap.group.all: Tất cả
-# 动态灯效类型
+# Dynamic Light Effects
 dynamic_none: Không
 dynamic_breath: Nhịp thở (ngắt quãng)
 dynamic_breath_grad: Nhịp thở (liên tục)
-dynamic_poptang: Lan toả
+dynamic_poptang: Toả ra
 dynamic_rainbow: Cầu vồng
 dynamic_breath_single: Nhịp thở (từng phím)
-# 默认灯效
+dynamic_trigger_breath: Breath(Trigger)
+dynamic_trigger_rainbow: Rainbow(Trigger)
+# Default LED group
 intl.light.group.default: Mặc định
 intl.led.red: Đỏ
 intl.led.yellow: Vàng
@@ -194,16 +201,18 @@ intl.led.static.single: Đơn tĩnh
 intl.led.static.multi: Cầu vồng tĩnh
 intl.dynamic.breath: Nhịp thở (ngắt quãng)
 intl.dynamic.breath.grad: Nhịp thở (liên tục)
-intl.dynamic.poptang: Lan toả
+intl.dynamic.poptang: Toả ra
 intl.dynamic.breath.rainbow: Cầu vồng
 intl.dynamic.breath.single: Nhịp thở (từng phím)
+intl.dynamic.trigger.breath: Breath(Trigger)
+intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
-# 键盘配列
+# Main Window, Layout
 kbd.layout: Bố cục phím
 kbd.layout.reset.confirm_content: Bạn có muốn cài lại bố cục này như ban đầu?
 kbd.layout.delete.confirm_content: Bạn có muốn xoá bố cục này?
 kbd.layout.set_keycap_null: Xoá chức năng
-# 键盘码，分组名称
+# Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Hệ thống
 kbd.keycode_group.alphabet: Ký tự
@@ -214,7 +223,7 @@ kbd.keycode_group.function: Chức năng
 kbd.keycode_group.media: Đa phương tiện
 kbd.keycode_group.keypad: Cụm phím số
 kbd.keycode_group.other: OKhác
-# 键盘码，图形说明
+# Key tooltips
 icon.left_gui: Win/Cmd Trái
 icon.right_gui: Win/Cmd Phải
 icon.mute: Tắt âm thanh
@@ -240,7 +249,7 @@ intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: DVORAK
 
-# 键盘宏程序
+# Main Window, Macros
 kbd.macro: Macro
 kbd.macro.group: Nhóm macro
 kbd.macro.group.delete.confirm_content: Bạn có muốn xoá nhóm macro?
@@ -262,3 +271,7 @@ kbd.macro.code.value.move_down: Dịch chuyển xuống dưới
 
 # Other Messages
 msg.open_device_failed: Mở thiết bị thất bại
+msg.missing_required_data_field: Missing required data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error, please don't edit the file exported
+msg.json_data_invalid: JSON data invalid

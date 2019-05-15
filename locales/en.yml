@@ -87,6 +87,7 @@ preferences.update.download: Download
 preferences.update.download.done: Update package has been downloaded
 preferences.update.install_now: Install now
 preferences.help: Help
+preferences.help.user-manual: User Manual
 preferences.about: About
 
 # Home Window
@@ -172,6 +173,8 @@ dynamic_breath_grad: Breath Grad
 dynamic_poptang: Poptang
 dynamic_rainbow: Rainbow
 dynamic_breath_single: Breath single
+dynamic_trigger_breath: Breath(Trigger)
+dynamic_trigger_rainbow: Rainbow(Trigger)
 # Default LED group
 intl.light.group.default: Default
 intl.led.red: Red
@@ -187,6 +190,8 @@ intl.dynamic.breath.grad: Breath grad
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Rainbow
 intl.dynamic.breath.single: Breath single
+intl.dynamic.trigger.breath: Breath(Trigger)
+intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Main Window, Layout
 kbd.layout: Layout
@@ -238,7 +243,7 @@ kbd.macro.add: Add macro
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
 kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
-kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added to the Anne Pro 2
+kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added
 kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Rec Macro
@@ -252,3 +257,7 @@ kbd.macro.code.value.move_down: Move Down
 
 # Other Messages
 msg.open_device_failed: Opening Device Failed
+msg.missing_required_data_field: Missing required data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error, please don't edit the file exported
+msg.json_data_invalid: JSON data invalid

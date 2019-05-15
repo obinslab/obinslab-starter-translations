@@ -7,7 +7,7 @@ common.rename: Renommer
 common.import: Importer
 common.export: Exporter
 common.add: Ajouter
-common.create: Créer 
+common.create: Créer
 common.add.success: Ajouté avec succès
 common.add.failed: Ne peut être ajouté
 common.delete: Supprimer
@@ -87,6 +87,7 @@ preferences.update.download: Téléchargement
 preferences.update.download.done: La mise à jour a été téléchargé
 preferences.update.install_now: Installer maintenant
 preferences.help: Aide
+preferences.help.user-manual: Manuel utilisateur
 preferences.about: À propos
 
 # Écran de démarrage
@@ -175,6 +176,8 @@ dynamic_breath_grad: Respiration Grad
 dynamic_poptang: Poptang
 dynamic_rainbow: Arc-en-ciel
 dynamic_breath_single: Respiration simple
+dynamic_trigger_breath: Breath(Trigger)
+dynamic_trigger_rainbow: Rainbow(Trigger)
 # Effet lumineux par défaut
 intl.light.group.default: Défaut
 intl.led.red: Rouge
@@ -190,6 +193,8 @@ intl.dynamic.breath.grad: Respiration grad
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arc-en-ciel
 intl.dynamic.breath.single: Respiration simple
+intl.dynamic.trigger.breath: Breath(Trigger)
+intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Disposition du clavier
 kbd.layout: Disposition
@@ -255,3 +260,7 @@ kbd.macro.code.value.move_down: Déplacer vers le bas
 
 # Autres messages
 msg.open_device_failed: Échec d'ouverture du périphérique
+msg.missing_required_data_field: Missing required data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error, please don't edit the file exported
+msg.json_data_invalid: JSON data invalid
