@@ -30,7 +30,7 @@ common.apply.failed: Échec de l'application
 common.confirm.show_detail: Montrer les détails
 common.network.connection.error: Erreur de connexion réseau
 common.please_quit_edit: S'il vous plaît quitter l'édition
-common.time_unit.hours: ' Heures'
+common.time_unit.hours: " Heures"
 common.time_unit.millisecond: Millisecondes
 
 # Tray
@@ -57,7 +57,7 @@ feedback.email.not_valid: Adresse Email invalide
 feedback.submit: Soumettre
 feedback.submit.error: Échec d'envoi, merci de réessayer
 feedback.submit.success: Envoyé avec succès, cliquez pour fermer
-feedback.support_email: 'Email du support: '
+feedback.support_email: "Email du support: "
 
 # Préférences
 preferences.setting: Paramètres
@@ -132,22 +132,18 @@ kbd.firmware.list: Liste des firmwares
 kbd.firmware.annepro1.download.firmware: Télécharger le firmware
 kbd.firmware.annepro1.download.latest_firmware: Télécharger le dernier firmware
 kbd.firmware.annepro1.download.dfu_tool: Télécharger l'outil DFU
-kbd.firmware.find_new_version: 'Un nouveau firmware à été trouvé: '
+kbd.firmware.find_new_version: "Un nouveau firmware à été trouvé: "
 kbd.firmware.no_new_version: Pas de nouveau firmware trouvé
 kbd.fireware.upgrade.btn: Mise à jour
 kbd.firmware.upgrade.btn.to_latest: Mettre à jour vers la dernière version
 kbd.firmware.upgrade.title: Mise à jour du firmware
-kbd.firmware.upgrade.content:
-  Ne débranchez pas le câble USB lors de la mise à jour.
+kbd.firmware.upgrade.content: Ne débranchez pas le câble USB lors de la mise à jour.
 kbd.firmware.upgrade.status.downloading: Téléchargement du firmware...
 kbd.firmware.upgrade.status.download_failed: Échec de téléchargement du firmware
 kbd.firmware.upgrade.status.entering_aip: Rentre en mode de mise à jour...
-kbd.firmware.upgrade.status.writing_key:
-  Écriture des données dans le processeur principal...
-kbd.firmware.upgrade.status.writing_led:
-  Écriture des données dans le processeur LED...
-kbd.firmware.upgrade.status.writing_ble:
-  Écriture des données dans le processeur Bluetooth...
+kbd.firmware.upgrade.status.writing_key: Écriture des données dans le processeur principal...
+kbd.firmware.upgrade.status.writing_led: Écriture des données dans le processeur LED...
+kbd.firmware.upgrade.status.writing_ble: Écriture des données dans le processeur Bluetooth...
 kbd.firmware.upgrade.status.restart: Redémarrage du clavier...
 kbd.firmware.upgrade.status.success: Firmware mit à jour avec succès.
 
@@ -155,16 +151,12 @@ kbd.firmware.upgrade.status.success: Firmware mit à jour avec succès.
 kbd.led: Rétroéclairage
 kbd.led.effect.group: Groupe d'éclairage
 kbd.led.effect.group.reset: Réinitialiser
-kbd.led.effect.group.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer cet éclairage?
+kbd.led.effect.group.delete.confirm_content: Êtes vous sure de vouloir supprimer cet éclairage?
 kbd.led.effect.list: Liste d'éclairage
-kbd.led.effect.list.limit.annepro1_three:
-  Effet de lumière limité à un groupe pour le ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen:
-  Effet lumineux limité à seize dans un groupe
+kbd.led.effect.list.limit.annepro1_three: Effet de lumière limité à un groupe pour le ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: Effet lumineux limité à seize dans un groupe
 kbd.led.effect.type: Effet du rétroéclairage
-kbd.led.effect.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer cet effet?
+kbd.led.effect.delete.confirm_content: Êtes vous sure de vouloir supprimer cet effet?
 kbd.led.effect.preview: Aperçu
 kbd.led.effect.dynamic_colors: Tableau dynamique des couleurs
 kbd.led.color.palette: Palette de couleur
@@ -205,10 +197,8 @@ intl.dynamic.trigger.rainbow: Arc-en-ciel (Déclenchement)
 
 # Disposition du clavier
 kbd.layout: Disposition
-kbd.layout.reset.confirm_content:
-  Êtes vous sure de vouloir réinitialiser ce modèle?
-kbd.layout.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer ce modèle?
+kbd.layout.reset.confirm_content: Êtes vous sure de vouloir réinitialiser ce modèle?
+kbd.layout.delete.confirm_content: Êtes vous sure de vouloir supprimer ce modèle?
 kbd.layout.set_keycap_null: Supprimer la touche
 # Code du clavier, nom du groupe
 kbd.keycode_group.annepro: ANNE PRO
@@ -250,13 +240,11 @@ intl.keymap.dvorak: Dvorak
 # Macro
 kbd.macro: Macro
 kbd.macro.group: Groupe de Macros
-kbd.macro.group.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer ce groupe de Macros?
+kbd.macro.group.delete.confirm_content: Êtes vous sure de vouloir supprimer ce groupe de Macros?
 kbd.macro.add: Ajouter Macro
 kbd.macro.please_add_macro_group: S'il vous plaît ajouter un groupe de Macros
 kbd.macro.please_add_macro: S'il vous plaît ajouter une Macro
-kbd.macro.delete.confirm_content:
-  Êtes vous sure de vouloir supprimer cette Macro?
+kbd.macro.delete.confirm_content: Êtes vous sure de vouloir supprimer cette Macro?
 kbd.macro.amount_limit.annepro2_sixteen: Jusqu'à 16 macros peuvent être ajoutées
 kbd.macro.amount_limit.annepro_eight: L'ANNE PRO 1 supporte jusqu'à 8 Macros
 kbd.macro.code: Code de la Macro
