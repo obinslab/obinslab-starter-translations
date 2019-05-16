@@ -240,7 +240,7 @@ intl.keymap.dvorak: Dvorak
 # Macro
 kbd.macro: Macro
 kbd.macro.group: Groupe de Macros
-kbd.macro.group.delete.confirm_content: Êtes vous sure de vouloir supprimer ce groupe de Macros?
+kbd.macro.group.delete.confirm_content: Êtes vous sûr de vouloir supprimer ce groupe de Macros?
 kbd.macro.add: Ajouter Macro
 kbd.macro.please_add_macro_group: S'il vous plaît ajouter un groupe de Macros
 kbd.macro.please_add_macro: S'il vous plaît ajouter une Macro
