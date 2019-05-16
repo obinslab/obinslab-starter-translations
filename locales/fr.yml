@@ -94,9 +94,7 @@ preferences.about: À propos
 home.welcome: Bienvenue
 home.please_connect_kbd_with_cable: Veuillez connecter votre appareil via USB
 home.open_device_failed: Échec de connexion au périphérique
-home.open_device_failed_linux:
-  Échec de connexion au périphérique, veuillez vous reporter au chapitre 1.3 du
-  Manuel de l'utilisateur
+home.open_device_failed_linux: Échec de connexion au périphérique, veuillez vous reporter au chapitre 1.3 du manuel de l'utilisateur
 
 # Informations sur le clavier, paramètres globaux
 kbd.general: Général
