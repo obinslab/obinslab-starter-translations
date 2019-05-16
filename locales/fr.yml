@@ -244,7 +244,7 @@ kbd.macro.group.delete.confirm_content: Êtes vous sûr de vouloir supprimer ce 
 kbd.macro.add: Ajouter Macro
 kbd.macro.please_add_macro_group: S'il vous plaît ajouter un groupe de Macros
 kbd.macro.please_add_macro: S'il vous plaît ajouter une Macro
-kbd.macro.delete.confirm_content: Êtes vous sure de vouloir supprimer cette Macro?
+kbd.macro.delete.confirm_content: Êtes vous sûr de vouloir supprimer cette Macro?
 kbd.macro.amount_limit.annepro2_sixteen: Jusqu'à 16 macros peuvent être ajoutées
 kbd.macro.amount_limit.annepro_eight: L'ANNE PRO 1 supporte jusqu'à 8 Macros
 kbd.macro.code: Code de la Macro
