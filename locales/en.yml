@@ -30,7 +30,7 @@ common.apply.failed: Applying Failed
 common.confirm.show_detail: Show Detail
 common.network.connection.error: Network Connection Error
 common.please_quit_edit: Please Quit Edit
-common.time_unit.hours: ' Hours'
+common.time_unit.hours: " Hours"
 common.time_unit.millisecond: Milliseconds
 
 # Tray
@@ -57,7 +57,7 @@ feedback.email.not_valid: Invalid e-mail address
 feedback.submit: Submit
 feedback.submit.error: Submitting error, please try again
 feedback.submit.success: Submitted successfully, Click to Close
-feedback.support_email: 'Support Email: '
+feedback.support_email: "Support Email: "
 
 # Preference Window
 preferences.setting: Setting
@@ -130,7 +130,7 @@ kbd.firmware.list: Firmware List
 kbd.firmware.annepro1.download.firmware: Download Firmware
 kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
-kbd.firmware.find_new_version: 'Find new firmware: '
+kbd.firmware.find_new_version: "Find new firmware: "
 kbd.firmware.no_new_version: Current firmware is latest
 kbd.fireware.upgrade.btn: Upgrade
 kbd.firmware.upgrade.btn.to_latest: Upgrade to Latest

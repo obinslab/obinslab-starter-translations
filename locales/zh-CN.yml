@@ -30,7 +30,7 @@ common.apply.failed: 应用失败
 common.confirm.show_detail: 查看详情
 common.network.connection.error: 网络连接出错
 common.please_quit_edit: 请退出编辑
-common.time_unit.hours: ' 小时'
+common.time_unit.hours: " 小时"
 common.time_unit.millisecond: 毫秒
 
 # 托盘
@@ -57,7 +57,7 @@ feedback.email.not_valid: 输入的邮箱非有效
 feedback.submit: 提交
 feedback.submit.error: 提交失败，请重试
 feedback.submit.success: 提交成功，点击关闭
-feedback.support_email: '支持邮箱: '
+feedback.support_email: "支持邮箱: "
 
 # 首选项
 preferences.setting: 设置
