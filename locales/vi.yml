@@ -1,7 +1,8 @@
 # Vietnamese Translation for Obinslab Starter
 # Contributed by Hồ Trọng Tín
-# Facebook: @hoetrongtin
-# Instagram: @im.hoetrongtin
+# Facebook: @hoetrongtin / @omgursocute
+# Twitter: @omgursocuteomg
+# Instagram: @omgursocuteomg / @im.hoetrongtin
 # Reddit: u/IsThereAnyoneHere
 # Github: @omgursocute
 
@@ -98,13 +99,10 @@ preferences.help.user-manual: Sách hướng dẫn sử dụng
 preferences.about: Thông tin
 
 # Home Window
-# home.welcome: Quét lại các thiết bị
-home.welcome: Hello World
+home.welcome: Chào Thế giới
 home.please_connect_kbd_with_cable: Vui lòng kết nối thiết bị qua cổng USB
 home.open_device_failed: Mở thiết bị thất bại
-home.open_device_failed_linux:
-  Mở thiết bị thất bại, vui lòng xem chương 1.3 trong Hướng dẫn Sử dụng (bằng 
-  tiếng Anh)
+home.open_device_failed_linux: Mở thiết bị thất bại, vui lòng xem chương 1.3 trong Hướng dẫn Sử dụng
 
 # Main Window, General
 kbd.general: Cài đặt chung
@@ -164,9 +162,9 @@ kbd.led.effect.group.reset: Cài đặt lại
 kbd.led.effect.group.delete.confirm_content: Bạn muốn xoá nhóm này chứ?
 kbd.led.effect.list: Danh sách chế độ
 kbd.led.effect.list.limit.annepro1_three:
-  ANNE PRO 1 chỉ được thiết lập tối đa ba chế độ trong một nhóm
+  ANNE PRO 1 chỉ được thiết lập tối đa BA chế độ trong một nhóm
 kbd.led.effect.list.limit.annepro2_sixteen:
-  Chỉ được thiết lập tối đa mười sáu chế độ trong một nhóm
+  Chỉ được thiết lập tối đa MƯỜI SÁU chế độ trong một nhóm
 kbd.led.effect.type: Hiệu ứng đèn chuyển động
 kbd.led.effect.delete.confirm_content: Bạn muốn xoá chế độ này chứ?
 kbd.led.effect.preview: Xem trước
@@ -184,11 +182,11 @@ kbd.keycap.group.all: Tất cả
 dynamic_none: Không
 dynamic_breath: Nhịp thở (ngắt quãng)
 dynamic_breath_grad: Nhịp thở (liên tục)
-dynamic_poptang: Toả ra
+dynamic_poptang: Lan toả
 dynamic_rainbow: Cầu vồng
 dynamic_breath_single: Nhịp thở (từng phím)
-dynamic_trigger_breath: Breath(Trigger)
-dynamic_trigger_rainbow: Rainbow(Trigger)
+dynamic_trigger_breath: Nhịp thở (tốc độ gõ)
+dynamic_trigger_rainbow: Cầu vồng (tốc độ gõ)
 # Default LED group
 intl.light.group.default: Mặc định
 intl.led.red: Đỏ
@@ -201,11 +199,11 @@ intl.led.static.single: Đơn tĩnh
 intl.led.static.multi: Cầu vồng tĩnh
 intl.dynamic.breath: Nhịp thở (ngắt quãng)
 intl.dynamic.breath.grad: Nhịp thở (liên tục)
-intl.dynamic.poptang: Toả ra
+intl.dynamic.poptang: Lan toả
 intl.dynamic.breath.rainbow: Cầu vồng
 intl.dynamic.breath.single: Nhịp thở (từng phím)
-intl.dynamic.trigger.breath: Breath(Trigger)
-intl.dynamic.trigger.rainbow: Rainbow(Trigger)
+intl.dynamic.trigger.breath: Nhịp thở (tốc độ gõ)
+intl.dynamic.trigger.rainbow: Cầu vồng (tốc độ gõ)
 
 # Main Window, Layout
 kbd.layout: Bố cục phím
@@ -222,7 +220,7 @@ kbd.keycode_group.arrow: Mũi tên
 kbd.keycode_group.function: Chức năng
 kbd.keycode_group.media: Đa phương tiện
 kbd.keycode_group.keypad: Cụm phím số
-kbd.keycode_group.other: OKhác
+kbd.keycode_group.other: Khác
 # Key tooltips
 icon.left_gui: Win/Cmd Trái
 icon.right_gui: Win/Cmd Phải
@@ -245,9 +243,9 @@ icon.play.pause: Chơi/Dừng
 # The active layout read from keyboard
 intl.layout.current: Hiện tại
 # default keyboard layouts
-intl.keymap.qwerty: QWERTY
+intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
-intl.keymap.dvorak: DVORAK
+intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
 kbd.macro: Macro
@@ -258,7 +256,7 @@ kbd.macro.please_add_macro_group: Vui lòng thêm nhóm macro
 kbd.macro.please_add_macro: Vui lòng thêm macro
 kbd.macro.delete.confirm_content: Bạn có muốn xoá macro?
 kbd.macro.amount_limit.annepro2_sixteen: Chỉ có thể chứa tối đa 16 macro
-kbd.macro.amount_limit.annepro_eight: ANNE PRO1 chỉ có thể chứa tối đa 8 macro
+kbd.macro.amount_limit.annepro_eight: ANNE PRO 1 chỉ có thể chứa tối đa 8 macro
 kbd.macro.code: Mã macro
 kbd.macro.code.rec: Ghi lại Macro
 kbd.macro.code.empty: Mã macro trống
@@ -271,7 +269,7 @@ kbd.macro.code.value.move_down: Dịch chuyển xuống dưới
 
 # Other Messages
 msg.open_device_failed: Mở thiết bị thất bại
-msg.missing_required_data_field: Missing required data field
-msg.file_not_compatible_your_device: The file is not compatible with your device
-msg.crc_check_error: CRC check error, please don't edit the file exported
-msg.json_data_invalid: JSON data invalid
+msg.missing_required_data_field: Ô thông tin cần thiết bị trống
+msg.file_not_compatible_your_device: File này này không phù hợp với thiết bị của bạn
+msg.crc_check_error: Kiểm tra CRC bị lỗi, vui lòng không chỉnh sửa file xuất ra
+msg.json_data_invalid: Dữ liệu JSON không hợp lệ
