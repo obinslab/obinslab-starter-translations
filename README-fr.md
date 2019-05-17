@@ -14,6 +14,7 @@ Suivez <a href="https://twitter.com/obinslab" target="_blank"><img src="https://
 
 ## Comment débuter la traduction
 Vérifier si une traduction n'existe pas déjà dans votre langue dans le dossier 'locales'. Si la traduction existe déjà vous n'avez qu'a la modifier directement; Si non, dupliquer `en.yml` en `language-code.yml`
+
 Par exemple: Si vous voulez mettre à jour la traduction française, vous n'avez qu'a éditer le fichier nommé 'fr.yml'.
 
 Obinslab Starter utilise la librairie `l10n_util` de Chromium pour récupérer les locales. Les variables possibles sont listés ci dessous:
