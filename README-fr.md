@@ -19,7 +19,7 @@ Par exemple: Si vous voulez mettre à jour la traduction française, vous n'avez
 
 Obinslab Starter utilise la librairie `l10n_util` de Chromium pour récupérer les locales. 
 
-Les variables possibles sont listés ci dessous:
+Les variables possibles sont listées ci dessous:
 
 | Language Code | Language Name |
 |---------------|---------------|
@@ -169,7 +169,7 @@ Les variables possibles sont listés ci dessous:
     `/Applications/Obinslab Starter.app/Contents/Resources/locales`
 
 
-2. Redémarrer Obinslab Starter, allez dans `preferences`, et sélectionnez votre langue.
+2. Redémarrer Obinslab Starter, aller dans `preferences`, et sélectionner votre langue.
 
 ## Contribution
 
