@@ -17,7 +17,9 @@ Vérifier si une traduction n'existe pas déjà dans votre langue dans le dossie
 
 Par exemple: Si vous voulez mettre à jour la traduction française, vous n'avez qu'a éditer le fichier nommé 'fr.yml'.
 
-Obinslab Starter utilise la librairie `l10n_util` de Chromium pour récupérer les locales. Les variables possibles sont listés ci dessous:
+Obinslab Starter utilise la librairie `l10n_util` de Chromium pour récupérer les locales. 
+
+Les variables possibles sont listés ci dessous:
 
 | Language Code | Language Name |
 |---------------|---------------|
