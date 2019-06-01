@@ -1,0 +1,263 @@
+# Common
+common.operate.failed: การดำเนินการล้มเหลว
+common.operate.success: ประสบความสำเร็จในการดำเนินงาน
+common.tooltip_title: ข่าวสาร
+common.input.placeholder: กรุณาใส่ชื่อ
+common.rename: ตั้งชื่อใหม่
+common.import: นำเข้า
+common.export: ส่งออก
+common.add: เพิ่ม
+common.create: สร้าง
+common.add.success: เพิ่มสำเร็จแล้ว
+common.add.failed: การเพิ่มล้มเหลว
+common.delete: ลบ
+common.delete.success: ลบสำเร็จแล้ว
+common.delete.failed: การลบล้มเหลว
+common.copy: คัดลอก
+common.copy.success: คัดลอกสำเร็จแล้ว
+common.copy_text: คัดลอก
+common.paste: วาง
+common.reset: รีเซ็ต
+common.clone: โคลน
+common.cancel: ยกเลิก
+common.ok: ตกลง
+common.save: บันทึก
+common.save_as: บันทึกเป็น
+common.save.success: บันทึกเรียบร้อยแล้ว
+common.apply: ใช้
+common.apply.success: ใช้สำเร็จแล้ว
+common.apply.failed: การสมัครล้มเหลว
+common.confirm.show_detail: แสดงรายละเอียด
+common.network.connection.error: ข้อผิดพลาดการเชื่อมต่อเครือข่าย
+common.please_quit_edit: กรุณาออกจากการแก้ไข
+common.time_unit.hours: " ชั่วโมง"
+common.time_unit.millisecond: มิลลิวินาที
+
+# Tray
+app.tray.show_window: เปิด Obinslab Starter
+app.tray.preferences: การตั้งค่า
+app.tray.quit: ออก
+app.tray.still_running_here: Obinslab Starter ยังคงทำงานที่นี่
+
+# Manage Menu
+app.manage: จัดการ
+app.manage.preferences: การตั้งค่า
+app.manage.device_list: รายการอุปกรณ์
+app.manage.feedback: ผลตอบรับ
+
+# Feedback
+feedback: ผลตอบรับ
+feedback.title: ผลตอบรับ
+feedback.content: เนื้อหา
+feedback.content.no_empty: กรุณาใส่เนื้อหา
+feedback.content.max_1000: สูงสุด 1,000 ตัวอักษร
+feedback.email.label: อีเมล (ไม่บังคับ)
+feedback.email.placeholder: กรุณาใส่อีเมลของคุณ
+feedback.email.not_valid: ที่อยู่อีเมลที่ไม่ถูกต้อง
+feedback.submit: เสนอ
+feedback.submit.error: ข้อผิดพลาดในการส่งโปรดลองอีกครั้ง
+feedback.submit.success: ส่งสำเร็จแล้วคลิกเพื่อปิด
+feedback.support_email: "อีเมลสนับสนุน: "
+
+# Preference Window
+preferences.setting: การตั้งค่า
+preferences.setting.language: ภาษา
+preferences.setting.theme: ธีม
+preferences.setting.theme.dark: มืด
+preferences.setting.theme.light: สว่าง
+preferences.setting.update_channel: อัพเกรดแหล่งที่มา
+preferences.setting.update_channel.beta: พัฒนาการ
+preferences.setting.update_channel.latest: ปล่อย
+preferences.setting.animation: ภาพเคลื่อนไหวบนหน้าจอแรก
+preferences.setting.animation.on: เปิด
+preferences.setting.animation.off: ปิด
+preferences.setting.x_action: ปิดการทำงานบนแผงหลัก
+preferences.setting.minimize_to_tray: ย่อเล็กสุดไปที่ Tray
+preferences.setting.quit_program: ออกจากโปรแกรม
+preferences.setting.auto_launch: เปิดใช้ที่เข้าสู่ระบบ
+preferences.setting.auto_launch.yes: ใช่
+preferences.setting.auto_launch.no: ไม่
+preferences.update: ปรับปรุง
+preferences.update.check: ตรวจสอบเวอร์ชั่นใหม่
+preferences.update.check.failed: กรุณาลองอีกครั้ง
+preferences.update.version.current: เวอร์ชั่นปัจจุบัน
+preferences.update.version.new: เวอร์ชั่นใหม่
+preferences.update.version.no_new: ไม่มีเวอร์ชันใหม่
+preferences.update.download: ดาวน์โหลด
+preferences.update.download.done: ดาวน์โหลดแพ็คเกจการอัปเดตแล้ว
+preferences.update.install_now: ติดตั้งในขณะนี้
+preferences.help: ช่วยเหลือ
+preferences.help.user-manual: คู่มือการใช้
+preferences.about: เกี่ยวกับ
+
+# Home Window
+home.welcome: สวัสดีชาวโลก
+home.please_connect_kbd_with_cable: โปรดเชื่อมต่ออุปกรณ์ของคุณผ่าน USB
+home.open_device_failed: การเปิดอุปกรณ์ล้มเหลว
+home.open_device_failed_linux: การเปิดอุปกรณ์ล้มเหลวโปรดดูบทที่ 1.3 ในคู่มือผู้ใช้
+
+# Main Window, General
+kbd.general: ทั่วไป
+kbd.general.info: ข้อมูล
+kbd.general.info.device_model: รุ่นอุปกรณ์
+kbd.general.info.serial_number: หมายเลขซีเรียล
+kbd.general.info.battery: แบตเตอรี่
+kbd.general.info.running_time: ใช้เวลา
+kbd.general.setting: การตั้งค่า
+kbd.general.setting.layout: Layout
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.capslock_led: CapsLock Led
+kbd.general.setting.auto_sleep: Auto Sleep
+kbd.general.setting.options.disable: ปิดการใช้งาน
+kbd.general.setting.options.enable: เปิดการใช้งาน
+kbd.general.setting.options.default: ค่าเริ่มต้น
+kbd.general.setting.options.custom: กำหนดเอง
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: ทั้งหมด
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Bluetooth Bind
+kbd.general.bluetooth.clean_bind: Clean Bind
+
+# Main Window, Firmware
+kbd.firmware: อัพเกรดเฟิร์มแวร์
+kbd.firmware.key: แอปพลิเคชันตัวประมวลผล
+kbd.firmware.led: หน่วยประมวลผลแสง
+kbd.firmware.ble: บลูทูธ โปรเซสเซอร์
+kbd.firmware.list: รายการเฟิร์มแวร์
+kbd.firmware.annepro1.download.firmware: ดาวน์โหลดเฟิร์มแวร์
+kbd.firmware.annepro1.download.latest_firmware: ดาวน์โหลดเฟิร์มแวร์ล่าสุด
+kbd.firmware.annepro1.download.dfu_tool: ดาวน์โหลดเครื่องมือ DFU
+kbd.firmware.find_new_version: "ค้นหาเฟิร์มแวร์ใหม่: "
+kbd.firmware.no_new_version: เฟิร์มแวร์ปัจจุบันเป็นเวอร์ชั่นล่าสุด
+kbd.fireware.upgrade.btn: อัพเกรด
+kbd.firmware.upgrade.btn.to_latest: อัปเกรดเป็นรุ่นล่าสุด
+kbd.firmware.upgrade.title: อัพเกรดเฟิร์มแวร์
+kbd.firmware.upgrade.content: กรุณาอย่าถอดสายเคเบิล USB ในระหว่างการอัพเกรด
+kbd.firmware.upgrade.status.downloading: กำลังดาวน์โหลดเฟิร์มแวร์ ...
+kbd.firmware.upgrade.status.download_failed: การดาวน์โหลดเฟิร์มแวร์ล้มเหลว
+kbd.firmware.upgrade.status.entering_aip: กำลังเข้าสู่โหมดอัปเกรด ...
+kbd.firmware.upgrade.status.writing_key: กำลังเขียนข้อมูลไปยังตัวประมวลผลแอปพลิเคชัน ...
+kbd.firmware.upgrade.status.writing_led: กำลังเขียนข้อมูลไปยังโปรเซสเซอร์เบา ...
+kbd.firmware.upgrade.status.writing_ble: กำลังเขียนข้อมูลไปยังโปรเซสเซอร์บลูทูธ ...
+kbd.firmware.upgrade.status.restart: กำลังเริ่มแป้นพิมพ์ ...
+kbd.firmware.upgrade.status.success: อัปเกรดเฟิร์มแวร์สำเร็จแล้ว
+
+# Main Window, LEDs
+kbd.led: แสง
+kbd.led.effect.group: กลุ่มแสง
+kbd.led.effect.group.reset: รีเซ็ต
+kbd.led.effect.group.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบกลุ่มนี้?
+kbd.led.effect.list: Light List
+kbd.led.effect.list.limit.annepro1_three: จำกัด เอฟเฟกต์แสงเพียงสามรายการในกลุ่มเดียวสำหรับ ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: จำกัด เอฟเฟกต์แสงสิบหกชิ้นในกลุ่มเดียว
+kbd.led.effect.type: เอฟเฟกต์แสงแบบไดนามิก
+kbd.led.effect.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบเอฟเฟกต์แสงนี้?
+kbd.led.effect.preview: ดูตัวอย่าง
+kbd.led.effect.dynamic_colors: ตารางสีแสงแบบไดนามิก
+kbd.led.color.palette: จานสี
+kbd.led.color.default: ค่าเริ่มต้น
+kbd.led.color.custom: กำหนดเอง
+kbd.led.color.custom.save: บันทึกสีปัจจุบัน
+# Keycap Groups
+kbd.keycap.group.alphabet: Character
+kbd.keycap.group.numbers: Number
+kbd.keycap.group.bigs: Big Key
+kbd.keycap.group.all: All
+# Dynamic Light Effects
+dynamic_none: None
+dynamic_breath: ลมหายใจ
+dynamic_breath_grad: ลมหายใจ Grad
+dynamic_poptang: Poptang
+dynamic_rainbow: Rainbow
+dynamic_breath_single: ลมหายใจ เดียว
+dynamic_trigger_breath: ลมหายใจ(Trigger)
+dynamic_trigger_rainbow: Rainbow(Trigger)
+# Default LED group
+intl.light.group.default: Default
+intl.led.red: สีแดง
+intl.led.yellow: สีเหลือง
+intl.led.green: สีเขียว
+intl.led.cyan: สีฟ้า
+intl.led.blue: สีน้ำเงิน
+intl.led.purple: สีม่วง
+intl.led.static.single: คงที่เดียว
+intl.led.static.multi: คงที่หลาย
+intl.dynamic.breath: ลมหายใจ
+intl.dynamic.breath.grad: ลมหายใจ grad
+intl.dynamic.poptang: Poptang
+intl.dynamic.breath.rainbow: สีรุ้ง
+intl.dynamic.breath.single: ลมหายใจ เดียว
+intl.dynamic.trigger.breath: ลมหายใจ(Trigger)
+intl.dynamic.trigger.rainbow: สีรุ้ง(Trigger)
+
+# Main Window, Layout
+kbd.layout: แบบ
+kbd.layout.reset.confirm_content: คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตเค้าโครงนี้เป็นค่าเริ่มต้น?
+kbd.layout.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบเลย์เอาต์นี้?
+kbd.layout.set_keycap_null: ตั้งค่าเป็นศูนย์
+# Sidebar titles
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: ระบบ
+kbd.keycode_group.alphabet: Character
+kbd.keycode_group.number: จำนวน
+kbd.keycode_group.modifier: ส่วนขยาย
+kbd.keycode_group.arrow: Arrow
+kbd.keycode_group.function: Function
+kbd.keycode_group.media: Media
+kbd.keycode_group.keypad: Keypad
+kbd.keycode_group.other: Other
+# Key tooltips
+icon.left_gui: Left Win/Cmd
+icon.right_gui: Right Win/Cmd
+icon.mute: Mute
+icon.volume.up: ปรับระดับเสียงขึ้น
+icon.volume.down: ลดเสียงลง
+icon.bl.toggle: สลับแสง
+icon.bl.color: สวิตช์ไฟ
+icon.bl.increase: Brightness Plus
+icon.bl.decrease: Brightness Minus
+icon.bl.battery: Battery Level
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Game Wheel
+icon.prev.track: Prev Track
+icon.next.track: Next Track
+icon.play.pause: Play Pause
+# The active layout read from keyboard
+intl.layout.current: Current
+# default keyboard layouts
+intl.keymap.qwerty: Qwerty
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: มาโคร
+kbd.macro.group: กลุ่มมาโคร
+kbd.macro.group.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบกลุ่มแมโครนี้?
+kbd.macro.add: เพิ่มมาโคร
+kbd.macro.please_add_macro_group: โปรดเพิ่มกลุ่มแมโคร
+kbd.macro.please_add_macro: กรุณาเพิ่มมาโคร
+kbd.macro.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบมาโครนี้?
+kbd.macro.amount_limit.annepro2_sixteen: สามารถเพิ่มมาโครได้เพียง 16 ตัว
+kbd.macro.amount_limit.annepro_eight: สามารถเพิ่มมาโครได้เพียง 8 ตัวใน Anne Pro 1
+kbd.macro.code: Macro Code
+kbd.macro.code.rec: Rec Macro
+kbd.macro.code.empty: Macro Code ว่างเปล่า
+kbd.macro.code.exceeded: Macro Code Exceeded
+kbd.macro.code.missing_release_key: ไม่มีรหัสปลดล็อค
+kbd.macro.code.missing_press_key: ไม่มีปุ่มกด
+kbd.macro.code.value.insert_timer_block: แทรกบล็อคเวลา
+kbd.macro.code.value.move_up: ขยับขึ้น
+kbd.macro.code.value.move_down: ย้ายลง
+
+# Other Messages
+msg.open_device_failed: การเปิดอุปกรณ์ล้มเหลว
+msg.missing_required_data_field: ไม่มีฟิลด์ข้อมูลที่ต้องการ
+msg.file_not_compatible_your_device: ไฟล์นี้ไม่สามารถใช้งานได้กับอุปกรณ์ของคุณ
+msg.crc_check_error: ข้อผิดพลาดการตรวจสอบ CRC โปรดอย่าแก้ไขไฟล์ที่ส่งออก
+msg.json_data_invalid: ข้อมูล JSON ไม่ถูกต้อง
