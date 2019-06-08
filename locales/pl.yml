@@ -71,7 +71,7 @@ preferences.setting.update_channel.latest: Stabilne
 preferences.setting.animation: Animacje ekranu startowego
 preferences.setting.animation.on: Tak
 preferences.setting.animation.off: Nie
-preferences.setting.x_action: Close Action on Main Panel
+preferences.setting.x_action: Zakończ akcję na panelu głównym
 preferences.setting.minimize_to_tray: Zminimalizuj do paska zadań
 preferences.setting.quit_program: Zamknij program
 preferences.setting.auto_launch: Uruchom przy logowaniu
@@ -105,7 +105,7 @@ kbd.general.info.battery: Akumulator
 kbd.general.info.running_time: Czas pracy
 kbd.general.setting: Ustawienia
 kbd.general.setting.layout: Układ
-kbd.general.setting.tap_layout: Pojedyncze stuknięcie
+kbd.general.setting.tap_layout: Funkcja TAP
 kbd.general.setting.magic_fn: Magiczny Fn
 kbd.general.setting.macro_trigger: Makro
 kbd.general.setting.capslock_led: CapsLock LED
@@ -170,7 +170,7 @@ kbd.keycap.group.all: Wszystkie
 dynamic_none: Brak
 dynamic_breath: Oddech
 dynamic_breath_grad: Oddech z gradientem
-dynamic_poptang: Rozbłyskluir5tgb  jkt
+dynamic_poptang: Rozbłysk
 dynamic_rainbow: Tęcza
 dynamic_breath_single: Pojedynczy oddech
 dynamic_trigger_breath: Oddech (wyzwalany)
@@ -215,8 +215,8 @@ icon.right_gui: Prawy Win/Cmd
 icon.mute: Wycisz
 icon.volume.up: Głośniej
 icon.volume.down: Ciszej
-icon.bl.toggle: Toggle Light
-icon.bl.color: Switch Light
+icon.bl.toggle: Wł/Wył podświetlenie
+icon.bl.color: Zmień poświetlenie
 icon.bl.increase: Jaśniej
 icon.bl.decrease: Ciemnej
 icon.bl.battery: Poziom akumulatora
