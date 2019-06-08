@@ -7,7 +7,7 @@ common.rename: Zmień nazwę
 common.import: Importuj
 common.export: Exportuj
 common.add: Dodaj
-common.create: Utwórz
+common.create: Dodaj
 common.add.success: Dodano
 common.add.failed: Błąd dodawania
 common.delete: Usuń
@@ -25,13 +25,13 @@ common.save: Zapisz
 common.save_as: Zapisz jako
 common.save.success: Zapisano
 common.apply: Zastosuj
-common.apply.success: Zastosowano
-common.apply.failed: Błąd zastosowania
+common.apply.success: Zmiany zapisane
+common.apply.failed: Błąd zmian
 common.confirm.show_detail: Pokaż szczegóły
 common.network.connection.error: Błąd połączenia sieciowego
 common.please_quit_edit: Zakończ edycję
-common.time_unit.hours: Godzin
-common.time_unit.millisecond: Milisekund
+common.time_unit.hours: " Godzin"
+common.time_unit.millisecond: ms
 
 # Tray
 app.tray.show_window: Otwórz
@@ -48,16 +48,16 @@ app.manage.feedback: Kontakt
 # Feedback
 feedback: Kontakt
 feedback.title: Wiadomość
-feedback.content: Treść
+feedback.content: Treść wiadomości
 feedback.content.no_empty: Wrowadź treść
 feedback.content.max_1000: Max. 1000 znaków
-feedback.email.label: Twój adres mail (opcjonalnie)
-feedback.email.placeholder: twój@mail.com
-feedback.email.not_valid: Błędny adres mail
+feedback.email.label: Twój adres email (opcjonalnie)
+feedback.email.placeholder: twój@email.com
+feedback.email.not_valid: Błędny adres email
 feedback.submit: Wyślij
 feedback.submit.error: Błąd wysyłania, spróbuj ponownie
-feedback.submit.success: Wysłano, naciśnij by zamknąć
-feedback.support_email: "Support mail: "
+feedback.submit.success: Wysłano, zamknij
+feedback.support_email: "Support email: "
 
 # Preference Window
 preferences.setting: Ustawienia
@@ -94,7 +94,7 @@ preferences.about: O programie
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Podłącz urządzenie USB
 home.open_device_failed: Błąd połączenia z urządzeniem
-home.open_device_failed_linux: Błąd połączenia z urządzeniem, sprawdź rozdział 1.3 instrukcji użytkownika
+home.open_device_failed_linux: Błąd połączenia z urządzeniem, sprawdź roz. 1.3 instrukcji użytkownika
 
 # Main Window, General
 kbd.general: Ogólne
@@ -105,7 +105,7 @@ kbd.general.info.battery: Akumulator
 kbd.general.info.running_time: Czas pracy
 kbd.general.setting: Ustawienia
 kbd.general.setting.layout: Układ
-kbd.general.setting.tap_layout: POjedyncze stuknięcie
+kbd.general.setting.tap_layout: Pojedyncze stuknięcie
 kbd.general.setting.magic_fn: Magiczny Fn
 kbd.general.setting.macro_trigger: Makro
 kbd.general.setting.capslock_led: CapsLock LED
@@ -122,14 +122,14 @@ kbd.general.bluetooth.bind: Połączenie Bluetooth
 kbd.general.bluetooth.clean_bind: Usuń połączenie Bluetooth
 
 # Main Window, Firmware
-kbd.firmware: Aktualizuj oprogramownie wewnętrzne
+kbd.firmware: Aktualizuj firmware
 kbd.firmware.key: Procesor aplikacji
 kbd.firmware.led: Procesor podświetlenia
 kbd.firmware.ble: Procesor Bluetooth
-kbd.firmware.list: Lista oprogramowania
+kbd.firmware.list: Lista aktualizacji
 kbd.firmware.annepro1.download.firmware: Pobierz firmware
 kbd.firmware.annepro1.download.latest_firmware: Pobierz najnowszy firmware
-kbd.firmware.annepro1.download.dfu_tool: Pobierz narzędzie DFU
+kbd.firmware.annepro1.download.dfu_tool: Pobierz narzędzia DFU
 kbd.firmware.find_new_version: "Znajdź najnowszy firmware: "
 kbd.firmware.no_new_version: Zainstalowany firmware jest aktualny
 kbd.fireware.upgrade.btn: Aktualizuj
@@ -143,20 +143,20 @@ kbd.firmware.upgrade.status.writing_key: Aktualizuję procesor aplikacji...
 kbd.firmware.upgrade.status.writing_led: Aktualizuję procesor podświetlenia...
 kbd.firmware.upgrade.status.writing_ble: Aktualizuję procesor Bluetooth...
 kbd.firmware.upgrade.status.restart: Uruchamiam klawiaturę...
-kbd.firmware.upgrade.status.success: Firmware zaktualizowany.
+kbd.firmware.upgrade.status.success: Aktualizacja zakończona.
 
 # Main Window, LEDs
-kbd.led: Podświetlenie LED
-kbd.led.effect.group: Light Group
-kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
-kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three: Limited to three light effects in one group for ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Limited to sixteen light effects in one group
-kbd.led.effect.type: Dynamic Light Effect
-kbd.led.effect.delete.confirm_content: Are you sure you want to delete this light effect?
-kbd.led.effect.preview: Preview
-kbd.led.effect.dynamic_colors: Dynamic Light Color Table
+kbd.led: Podświetlenie RGB
+kbd.led.effect.group: Grupa
+kbd.led.effect.group.reset: Przywróć
+kbd.led.effect.group.delete.confirm_content: Na pewno usunąć tą grupę?
+kbd.led.effect.list: Profile oświetlenia
+kbd.led.effect.list.limit.annepro1_three: Ograniczenie do 3 efektów w jednej grupie dla ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: Ograniczenie do 16 efektów w jednej grupie
+kbd.led.effect.type: Dynamiczne efekty świetlne
+kbd.led.effect.delete.confirm_content: Czy chcesz usunąć ten efekt?
+kbd.led.effect.preview: Podgląd
+kbd.led.effect.dynamic_colors: Tabela kolorów dynamicznych
 kbd.led.color.palette: Paleta kolorów
 kbd.led.color.default: Domyślne
 kbd.led.color.custom: Własne
@@ -168,13 +168,13 @@ kbd.keycap.group.bigs: Duże
 kbd.keycap.group.all: Wszystkie
 # Dynamic Light Effects
 dynamic_none: Brak
-dynamic_breath: Oddychanie
-dynamic_breath_grad: Oddychanie z gradientem
-dynamic_poptang: Poptang
+dynamic_breath: Oddech
+dynamic_breath_grad: Oddech z gradientem
+dynamic_poptang: Rozbłyskluir5tgb  jkt
 dynamic_rainbow: Tęcza
 dynamic_breath_single: Pojedynczy oddech
-dynamic_trigger_breath: Breath(Trigger)
-dynamic_trigger_rainbow: Rainbow(Trigger)
+dynamic_trigger_breath: Oddech (wyzwalany)
+dynamic_trigger_rainbow: Tęcza (wyzwalany)
 # Default LED group
 intl.light.group.default: Domyślne
 intl.led.red: Czerwony
@@ -183,15 +183,15 @@ intl.led.green: Zielony
 intl.led.cyan: Błękitny
 intl.led.blue: Niebieski
 intl.led.purple: Fioletowy
-intl.led.static.single: Static single
-intl.led.static.multi: Static multi
+intl.led.static.single: Jeden kolor
+intl.led.static.multi: Wielokolorowy
 intl.dynamic.breath: Oddech
 intl.dynamic.breath.grad: Oddech z gradientem
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Tęcza
 intl.dynamic.breath.single: Oddech pojedynczy
-intl.dynamic.trigger.breath: Oddech(Trigger)
-intl.dynamic.trigger.rainbow: Tęcza(Trigger)
+intl.dynamic.trigger.breath: Oddech (wyzwalany)
+intl.dynamic.trigger.rainbow: Tęcza (wyzwalany)
 
 # Main Window, Layout
 kbd.layout: Układ
@@ -205,7 +205,7 @@ kbd.keycode_group.alphabet: Znak
 kbd.keycode_group.number: Numer
 kbd.keycode_group.modifier: Modyfikator
 kbd.keycode_group.arrow: Kursor
-kbd.keycode_group.function: Funkzja
+kbd.keycode_group.function: Funkcja
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Numeryczne
 kbd.keycode_group.other: Inne
@@ -237,27 +237,27 @@ intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
 kbd.macro: Makro
-kbd.macro.group: Gropa makr
-kbd.macro.group.delete.confirm_content: Are you sure you want to delete this macro group?
+kbd.macro.group: Grupa makr
+kbd.macro.group.delete.confirm_content: Czy chcesz usunąć tą grupę makr?
 kbd.macro.add: Dodaj makro
-kbd.macro.please_add_macro_group: Please add a macro group
-kbd.macro.please_add_macro: Please add a macro
-kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
-kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added
-kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
-kbd.macro.code: Macro Code
-kbd.macro.code.rec: Rec Macro
-kbd.macro.code.empty: Empty Macro Code
-kbd.macro.code.exceeded: Macro Code Exceeded
-kbd.macro.code.missing_release_key: Missing release key
-kbd.macro.code.missing_press_key: Missing press key
-kbd.macro.code.value.insert_timer_block: Insert Time Block
-kbd.macro.code.value.move_up: Move Up
-kbd.macro.code.value.move_down: Move Down
+kbd.macro.please_add_macro_group: Dodaj grupę makr
+kbd.macro.please_add_macro: Dodaj makro
+kbd.macro.delete.confirm_content: Czy chcesz usunąć to makro?
+kbd.macro.amount_limit.annepro2_sixteen: Można dodac max. 16 makr
+kbd.macro.amount_limit.annepro_eight: Można dodac max. 8 makr do Anne Pro 1
+kbd.macro.code: Kod makro
+kbd.macro.code.rec: Nagrywaj makro
+kbd.macro.code.empty: Pusty kod makro
+kbd.macro.code.exceeded: Kod makro przekroczony
+kbd.macro.code.missing_release_key: Brak zwolnienia klawisza
+kbd.macro.code.missing_press_key: Brak wciśnięcia klawiasza
+kbd.macro.code.value.insert_timer_block: Wstaw blok czasowy
+kbd.macro.code.value.move_up: Przesuń w górę
+kbd.macro.code.value.move_down: Przesuń w dół
 
 # Other Messages
-msg.open_device_failed: Opening Device Failed
-msg.missing_required_data_field: Missing required data field
-msg.file_not_compatible_your_device: The file is not compatible with your device
-msg.crc_check_error: CRC check error, please don't edit the file exported
-msg.json_data_invalid: JSON data invalid
+msg.open_device_failed: Błąd komunikacji z urządzeniem
+msg.missing_required_data_field: Brak pola danych
+msg.file_not_compatible_your_device: Plik nie jest kompatybilny z tym urządzeniem
+msg.crc_check_error: Błąd kontroli CRC, nie zmieniaj wyeksportowanego pliku
+msg.json_data_invalid: Błędne dane JSON
