@@ -177,21 +177,21 @@ dynamic_trigger_breath: Breath(Trigger)
 dynamic_trigger_rainbow: Rainbow(Trigger)
 # Default LED group
 intl.light.group.default: Domyślne
-intl.led.red: Red
-intl.led.yellow: Yellow
-intl.led.green: Green
-intl.led.cyan: Cyan
-intl.led.blue: Blue
-intl.led.purple: Purple
+intl.led.red: Czerwony
+intl.led.yellow: Żółty
+intl.led.green: Zielony
+intl.led.cyan: Błękitny
+intl.led.blue: Niebieski
+intl.led.purple: Fioletowy
 intl.led.static.single: Static single
 intl.led.static.multi: Static multi
-intl.dynamic.breath: Breath
-intl.dynamic.breath.grad: Breath grad
+intl.dynamic.breath: Oddech
+intl.dynamic.breath.grad: Oddech z gradientem
 intl.dynamic.poptang: Poptang
-intl.dynamic.breath.rainbow: Rainbow
-intl.dynamic.breath.single: Breath single
-intl.dynamic.trigger.breath: Breath(Trigger)
-intl.dynamic.trigger.rainbow: Rainbow(Trigger)
+intl.dynamic.breath.rainbow: Tęcza
+intl.dynamic.breath.single: Oddech pojedynczy
+intl.dynamic.trigger.breath: Oddech(Trigger)
+intl.dynamic.trigger.rainbow: Tęcza(Trigger)
 
 # Main Window, Layout
 kbd.layout: Layout
