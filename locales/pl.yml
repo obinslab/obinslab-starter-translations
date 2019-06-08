@@ -30,12 +30,12 @@ common.apply.failed: Błąd zastosowania
 common.confirm.show_detail: Pokaż szczegóły
 common.network.connection.error: Błąd połączenia sieciowego
 common.please_quit_edit: Zakończ edycję
-common.time_unit.hours: " Godziny"
-common.time_unit.millisecond: Millisekundy
+common.time_unit.hours: Godzin
+common.time_unit.millisecond: Milisekund
 
 # Tray
-app.tray.show_window: Otwórz Obinslab Starter
-app.tray.preferences: Ustawienia
+app.tray.show_window: Otwórz
+app.tray.preferences: Ustawienia...
 app.tray.quit: Zakończ
 app.tray.still_running_here: Obinslab Starter nadal działa.
 
@@ -78,9 +78,9 @@ preferences.setting.auto_launch: Uruchom przy logowaniu
 preferences.setting.auto_launch.yes: Tak
 preferences.setting.auto_launch.no: Nie
 preferences.update: Aktualizuj
-preferences.update.check: Sprawdź dostępność nowej wersji
+preferences.update.check: Sprawdź dostępność aktualizacji
 preferences.update.check.failed: Spróbuj ponownie
-preferences.update.version.current: Bieżąca wersja
+preferences.update.version.current: Wersja
 preferences.update.version.new: Nowa wersja
 preferences.update.version.no_new: Brak nowej wersji
 preferences.update.download: Pobierz
@@ -92,7 +92,7 @@ preferences.about: O programie
 
 # Home Window
 home.welcome: Hello World
-home.please_connect_kbd_with_cable: Proszę podłączyć urządzenie USB
+home.please_connect_kbd_with_cable: Podłącz urządzenie USB
 home.open_device_failed: Błąd połączenia z urządzeniem
 home.open_device_failed_linux: Błąd połączenia z urządzeniem, sprawdź rozdział 1.3 instrukcji użytkownika
 
@@ -105,18 +105,18 @@ kbd.general.info.battery: Akumulator
 kbd.general.info.running_time: Czas pracy
 kbd.general.setting: Ustawienia
 kbd.general.setting.layout: Układ
-kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_layout: POjedyncze stuknięcie
 kbd.general.setting.magic_fn: Magiczny Fn
 kbd.general.setting.macro_trigger: Makro
 kbd.general.setting.capslock_led: CapsLock LED
 kbd.general.setting.auto_sleep: Auto Usypianie
-kbd.general.setting.options.disable: Wyłącz
-kbd.general.setting.options.enable: Włącz
-kbd.general.setting.options.default: Domyślne
-kbd.general.setting.options.custom: Własne
+kbd.general.setting.options.disable: Wyłączone
+kbd.general.setting.options.enable: Włączone
+kbd.general.setting.options.default: Domyślny
+kbd.general.setting.options.custom: Własny
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
-kbd.general.setting.options.capslock_all: Wszystko
+kbd.general.setting.options.capslock_all: Zawsze
 kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Połączenie Bluetooth
 kbd.general.bluetooth.clean_bind: Usuń połączenie Bluetooth
@@ -194,52 +194,52 @@ intl.dynamic.trigger.breath: Oddech(Trigger)
 intl.dynamic.trigger.rainbow: Tęcza(Trigger)
 
 # Main Window, Layout
-kbd.layout: Layout
-kbd.layout.reset.confirm_content: Are you sure you want to reset this layout to default?
-kbd.layout.delete.confirm_content: Are you sure you want to delete this layout?
-kbd.layout.set_keycap_null: Set null
+kbd.layout: Układ
+kbd.layout.reset.confirm_content: Czy przywrócić ten układ do ustawień domyślnych?
+kbd.layout.delete.confirm_content: Czy usunąć ten układ?
+kbd.layout.set_keycap_null: Wyzeruj
 # Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
-kbd.keycode_group.alphabet: Character
-kbd.keycode_group.number: Number
-kbd.keycode_group.modifier: Modifier
-kbd.keycode_group.arrow: Arrow
-kbd.keycode_group.function: Function
+kbd.keycode_group.alphabet: Znak
+kbd.keycode_group.number: Numer
+kbd.keycode_group.modifier: Modyfikator
+kbd.keycode_group.arrow: Kursor
+kbd.keycode_group.function: Funkzja
 kbd.keycode_group.media: Media
-kbd.keycode_group.keypad: Keypad
-kbd.keycode_group.other: Other
+kbd.keycode_group.keypad: Numeryczne
+kbd.keycode_group.other: Inne
 # Key tooltips
-icon.left_gui: Left Win/Cmd
-icon.right_gui: Right Win/Cmd
-icon.mute: Mute
-icon.volume.up: Volume Up
-icon.volume.down: Volume Down
+icon.left_gui: Lewy Win/Cmd
+icon.right_gui: Prawy Win/Cmd
+icon.mute: Wycisz
+icon.volume.up: Głośniej
+icon.volume.down: Ciszej
 icon.bl.toggle: Toggle Light
 icon.bl.color: Switch Light
-icon.bl.increase: Brightness Plus
-icon.bl.decrease: Brightness Minus
-icon.bl.battery: Battery Level
+icon.bl.increase: Jaśniej
+icon.bl.decrease: Ciemnej
+icon.bl.battery: Poziom akumulatora
 icon.ble.wl_1: Bluetooth 1
 icon.ble.wl_2: Bluetooth 2
 icon.ble.wl_3: Bluetooth 3
 icon.ble.wl_4: Bluetooth 4
 icon.fn.wheel: Game Wheel
-icon.prev.track: Prev Track
-icon.next.track: Next Track
-icon.play.pause: Play Pause
+icon.prev.track: Poprzedni utwór
+icon.next.track: Następny utwór
+icon.play.pause: Start Pauza
 # The active layout read from keyboard
-intl.layout.current: Current
+intl.layout.current: Bieżący
 # default keyboard layouts
 intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
-kbd.macro: Macro
-kbd.macro.group: Macro Group
+kbd.macro: Makro
+kbd.macro.group: Gropa makr
 kbd.macro.group.delete.confirm_content: Are you sure you want to delete this macro group?
-kbd.macro.add: Add macro
+kbd.macro.add: Dodaj makro
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
 kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
