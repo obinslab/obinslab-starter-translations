@@ -146,7 +146,7 @@ kbd.firmware.upgrade.status.restart: Uruchamiam klawiaturę...
 kbd.firmware.upgrade.status.success: Firmware zaktualizowany.
 
 # Main Window, LEDs
-kbd.led: Light
+kbd.led: Podświetlenie LED
 kbd.led.effect.group: Light Group
 kbd.led.effect.group.reset: Reset
 kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
@@ -157,26 +157,26 @@ kbd.led.effect.type: Dynamic Light Effect
 kbd.led.effect.delete.confirm_content: Are you sure you want to delete this light effect?
 kbd.led.effect.preview: Preview
 kbd.led.effect.dynamic_colors: Dynamic Light Color Table
-kbd.led.color.palette: Color Palette
-kbd.led.color.default: Default
-kbd.led.color.custom: Custom
-kbd.led.color.custom.save: Save current color
+kbd.led.color.palette: Paleta kolorów
+kbd.led.color.default: Domyślne
+kbd.led.color.custom: Własne
+kbd.led.color.custom.save: Zapisz bieżący kolor
 # Keycap Groups
-kbd.keycap.group.alphabet: Character
-kbd.keycap.group.numbers: Number
-kbd.keycap.group.bigs: Big Key
-kbd.keycap.group.all: All
+kbd.keycap.group.alphabet: Litera
+kbd.keycap.group.numbers: Numer
+kbd.keycap.group.bigs: Duże
+kbd.keycap.group.all: Wszystkie
 # Dynamic Light Effects
-dynamic_none: None
-dynamic_breath: Breath
-dynamic_breath_grad: Breath Grad
+dynamic_none: Brak
+dynamic_breath: Oddychanie
+dynamic_breath_grad: Oddychanie z gradientem
 dynamic_poptang: Poptang
-dynamic_rainbow: Rainbow
-dynamic_breath_single: Breath single
+dynamic_rainbow: Tęcza
+dynamic_breath_single: Pojedynczy oddech
 dynamic_trigger_breath: Breath(Trigger)
 dynamic_trigger_rainbow: Rainbow(Trigger)
 # Default LED group
-intl.light.group.default: Default
+intl.light.group.default: Domyślne
 intl.led.red: Red
 intl.led.yellow: Yellow
 intl.led.green: Green
