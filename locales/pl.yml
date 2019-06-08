@@ -2,7 +2,7 @@
 common.operate.failed: Błąd operacji
 common.operate.success: Operacja zakończona
 common.tooltip_title: Wiadomość
-common.input.placeholder: Podaj imię
+common.input.placeholder: Podaj nazwę
 common.rename: Zmień nazwę
 common.import: Importuj
 common.export: Exportuj
