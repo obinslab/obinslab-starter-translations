@@ -47,17 +47,17 @@ app.manage.feedback: Kontakt
 
 # Feedback
 feedback: Kontakt
-feedback.title: Kontakt
+feedback.title: Wiadomość
 feedback.content: Treść
 feedback.content.no_empty: Wrowadź treść
-feedback.content.max_1000: Max 1000 znaków
-feedback.email.label: e-mail (opcjonalnie)
-feedback.email.placeholder: Proszę podaj swój e-mail
-feedback.email.not_valid: Błędny adres e-mail
+feedback.content.max_1000: Max. 1000 znaków
+feedback.email.label: Twój adres mail (opcjonalnie)
+feedback.email.placeholder: twój@mail.com
+feedback.email.not_valid: Błędny adres mail
 feedback.submit: Wyślij
 feedback.submit.error: Błąd wysyłania, spróbuj ponownie
 feedback.submit.success: Wysłano, naciśnij by zamknąć
-feedback.support_email: "Support e-mail: "
+feedback.support_email: "Support mail: "
 
 # Preference Window
 preferences.setting: Ustawienia
@@ -65,12 +65,12 @@ preferences.setting.language: Język
 preferences.setting.theme: Wygląd
 preferences.setting.theme.dark: Ciemny
 preferences.setting.theme.light: Jasny
-preferences.setting.update_channel: Upgrade Source
-preferences.setting.update_channel.beta: Development
-preferences.setting.update_channel.latest: Release
-preferences.setting.animation: Animacja na ekranie startowym
-preferences.setting.animation.on: Wł
-preferences.setting.animation.off: Wył
+preferences.setting.update_channel: Aktualizacje
+preferences.setting.update_channel.beta: Beta
+preferences.setting.update_channel.latest: Stabilne
+preferences.setting.animation: Animacje ekranu startowego
+preferences.setting.animation.on: Tak
+preferences.setting.animation.off: Nie
 preferences.setting.x_action: Close Action on Main Panel
 preferences.setting.minimize_to_tray: Zminimalizuj do paska zadań
 preferences.setting.quit_program: Zamknij program
@@ -78,12 +78,12 @@ preferences.setting.auto_launch: Uruchom przy logowaniu
 preferences.setting.auto_launch.yes: Tak
 preferences.setting.auto_launch.no: Nie
 preferences.update: Aktualizuj
-preferences.update.check: Sprawdź nową wersję
+preferences.update.check: Sprawdź dostępność nowej wersji
 preferences.update.check.failed: Spróbuj ponownie
 preferences.update.version.current: Bieżąca wersja
 preferences.update.version.new: Nowa wersja
 preferences.update.version.no_new: Brak nowej wersji
-preferences.update.download: Pobież
+preferences.update.download: Pobierz
 preferences.update.download.done: Pakiet aktualizacji został pobrany
 preferences.update.install_now: Instaluj teraz
 preferences.help: Pomoc
@@ -92,7 +92,7 @@ preferences.about: O programie
 
 # Home Window
 home.welcome: Hello World
-home.please_connect_kbd_with_cable: Proszę podłącz urządzenie USB
+home.please_connect_kbd_with_cable: Proszę podłączyć urządzenie USB
 home.open_device_failed: Błąd połączenia z urządzeniem
 home.open_device_failed_linux: Błąd połączenia z urządzeniem, sprawdź rozdział 1.3 instrukcji użytkownika
 
