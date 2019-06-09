@@ -15,7 +15,7 @@ common.delete.success: Usunięto
 common.delete.failed: Błąd usuwania
 common.copy: Kopiuj
 common.copy.success: Skopiowano
-common.copy_text: Kopiuj tekst
+common.copy_text: Kopia
 common.paste: Wstaw
 common.reset: Przywróć
 common.clone: Duplikuj
@@ -26,11 +26,11 @@ common.save_as: Zapisz jako
 common.save.success: Zapisano
 common.apply: Zastosuj
 common.apply.success: Zmiany zapisane
-common.apply.failed: Błąd zmian
+common.apply.failed: Błąd zapisu
 common.confirm.show_detail: Pokaż szczegóły
 common.network.connection.error: Błąd połączenia sieciowego
 common.please_quit_edit: Zakończ edycję
-common.time_unit.hours: " Godzin"
+common.time_unit.hours: " godz."
 common.time_unit.millisecond: ms
 
 # Tray
@@ -142,19 +142,19 @@ kbd.firmware.upgrade.status.entering_aip: Tryb aktualizacji...
 kbd.firmware.upgrade.status.writing_key: Aktualizuję procesor aplikacji...
 kbd.firmware.upgrade.status.writing_led: Aktualizuję procesor podświetlenia...
 kbd.firmware.upgrade.status.writing_ble: Aktualizuję procesor Bluetooth...
-kbd.firmware.upgrade.status.restart: Uruchamiam klawiaturę...
+kbd.firmware.upgrade.status.restart: Restart urządzenia...
 kbd.firmware.upgrade.status.success: Aktualizacja zakończona.
 
 # Main Window, LEDs
 kbd.led: Podświetlenie RGB
 kbd.led.effect.group: Grupa
-kbd.led.effect.group.reset: Przywróć
-kbd.led.effect.group.delete.confirm_content: Na pewno usunąć tą grupę?
+kbd.led.effect.group.reset: Przywróć ust. fabryczne
+kbd.led.effect.group.delete.confirm_content: Czy chcesz usunąć tą grupę?
 kbd.led.effect.list: Profile oświetlenia
-kbd.led.effect.list.limit.annepro1_three: Ograniczenie do 3 efektów w jednej grupie dla ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Ograniczenie do 16 efektów w jednej grupie
+kbd.led.effect.list.limit.annepro1_three: Ograniczenie do 3 profili w jednej grupie dla ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: Ograniczenie do 16 profili w jednej grupie
 kbd.led.effect.type: Dynamiczne efekty świetlne
-kbd.led.effect.delete.confirm_content: Czy chcesz usunąć ten efekt?
+kbd.led.effect.delete.confirm_content: Czy chcesz usunąć ten profil?
 kbd.led.effect.preview: Podgląd
 kbd.led.effect.dynamic_colors: Tabela kolorów dynamicznych
 kbd.led.color.palette: Paleta kolorów
@@ -162,8 +162,8 @@ kbd.led.color.default: Domyślne
 kbd.led.color.custom: Własne
 kbd.led.color.custom.save: Zapisz bieżący kolor
 # Keycap Groups
-kbd.keycap.group.alphabet: Litera
-kbd.keycap.group.numbers: Numer
+kbd.keycap.group.alphabet: Litery
+kbd.keycap.group.numbers: Cyfry
 kbd.keycap.group.bigs: Duże
 kbd.keycap.group.all: Wszystkie
 # Dynamic Light Effects
@@ -196,18 +196,18 @@ intl.dynamic.trigger.rainbow: Tęcza (wyzwalany)
 # Main Window, Layout
 kbd.layout: Układ
 kbd.layout.reset.confirm_content: Czy przywrócić ten układ do ustawień domyślnych?
-kbd.layout.delete.confirm_content: Czy usunąć ten układ?
+kbd.layout.delete.confirm_content: Czy chcesz usunąć ten układ?
 kbd.layout.set_keycap_null: Wyzeruj
 # Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
-kbd.keycode_group.alphabet: Znak
-kbd.keycode_group.number: Numer
-kbd.keycode_group.modifier: Modyfikator
-kbd.keycode_group.arrow: Kursor
-kbd.keycode_group.function: Funkcja
-kbd.keycode_group.media: Media
-kbd.keycode_group.keypad: Numeryczne
+kbd.keycode_group.alphabet: Znaki
+kbd.keycode_group.number: Cyfry
+kbd.keycode_group.modifier: Modyfikatory
+kbd.keycode_group.arrow: Strzałki
+kbd.keycode_group.function: Funkcyjne
+kbd.keycode_group.media: Multimedia
+kbd.keycode_group.keypad: Klaw. numeryczna
 kbd.keycode_group.other: Inne
 # Key tooltips
 icon.left_gui: Lewy Win/Cmd
@@ -231,8 +231,8 @@ icon.play.pause: Start Pauza
 # The active layout read from keyboard
 intl.layout.current: Bieżący
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
-intl.keymap.mac: Mac
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac™
 intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
@@ -257,7 +257,7 @@ kbd.macro.code.value.move_down: Przesuń w dół
 
 # Other Messages
 msg.open_device_failed: Błąd komunikacji z urządzeniem
-msg.missing_required_data_field: Brak pola danych
+msg.missing_required_data_field: Brak danych
 msg.file_not_compatible_your_device: Plik nie jest kompatybilny z tym urządzeniem
 msg.crc_check_error: Błąd kontroli CRC, nie zmieniaj wyeksportowanego pliku
 msg.json_data_invalid: Błędne dane JSON
