@@ -71,9 +71,9 @@ preferences.setting.update_channel.latest: Stabilne
 preferences.setting.animation: Animacje ekranu startowego
 preferences.setting.animation.on: Tak
 preferences.setting.animation.off: Nie
-preferences.setting.x_action: Zakończ akcję na panelu głównym
-preferences.setting.minimize_to_tray: Zminimalizuj do paska zadań
-preferences.setting.quit_program: Zamknij program
+preferences.setting.x_action: Zamknięcie głównego okna
+preferences.setting.minimize_to_tray: Minimalizuje do paska zadań
+preferences.setting.quit_program: Zamyka program
 preferences.setting.auto_launch: Uruchom przy logowaniu
 preferences.setting.auto_launch.yes: Tak
 preferences.setting.auto_launch.no: Nie
