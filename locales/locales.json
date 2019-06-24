@@ -2,6 +2,6 @@
 	{ "id": "zh-CN", "name": "简体中文" }, 
 	{ "id": "en", "name": "English" }, 
 	{ "id": "es", "name": "Español" },
-	{ "id": "ms", "name": "Bahasa Malaysia" },
+	{ "id": "ms", "name": "Malay" },
 	{ "id": "vi", "name": "Tiếng Việt" }
 ]
