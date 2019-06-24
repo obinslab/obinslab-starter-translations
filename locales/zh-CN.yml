@@ -30,7 +30,7 @@ common.apply.failed: 应用失败
 common.confirm.show_detail: 查看详情
 common.network.connection.error: 网络连接出错
 common.please_quit_edit: 请退出编辑
-common.time_unit.hours: ' 小时'
+common.time_unit.hours: " 小时"
 common.time_unit.millisecond: 毫秒
 
 # 托盘
@@ -57,7 +57,7 @@ feedback.email.not_valid: 输入的邮箱非有效
 feedback.submit: 提交
 feedback.submit.error: 提交失败，请重试
 feedback.submit.success: 提交成功，点击关闭
-feedback.support_email: '支持邮箱: '
+feedback.support_email: "支持邮箱: "
 
 # 首选项
 preferences.setting: 设置
@@ -87,6 +87,7 @@ preferences.update.download: 下载更新
 preferences.update.download.done: 更新包已经下载完成
 preferences.update.install_now: 立刻安装
 preferences.help: 帮助
+preferences.help.user-manual: 用户手册
 preferences.about: 关于
 
 # 首屏
@@ -106,7 +107,7 @@ kbd.general.setting: 全局设置
 kbd.general.setting.layout: 配列
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.magic_fn: Magic Fn
-kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.macro_trigger: 宏程序
 kbd.general.setting.capslock_led: CapsLock灯
 kbd.general.setting.auto_sleep: 休眠
 kbd.general.setting.options.disable: 关闭
@@ -172,6 +173,8 @@ dynamic_breath_grad: 渐变灯
 dynamic_poptang: 泡泡堂
 dynamic_rainbow: 七彩跑马灯
 dynamic_breath_single: 单键灯呼吸
+dynamic_trigger_breath: 渐变(按键触发)
+dynamic_trigger_rainbow: 跑马灯(按键触发)
 # 默认灯效
 intl.light.group.default: 默认
 intl.led.red: 红色
@@ -187,6 +190,8 @@ intl.dynamic.breath.grad: 渐变灯
 intl.dynamic.poptang: 泡泡堂
 intl.dynamic.breath.rainbow: 七彩跑马灯
 intl.dynamic.breath.single: 单键呼吸灯
+intl.dynamic.trigger.breath: 渐变(按键触发)
+intl.dynamic.trigger.rainbow: 跑马灯(按键触发)
 
 # 键盘配列
 kbd.layout: 配列
@@ -252,3 +257,7 @@ kbd.macro.code.value.move_down: 下移
 
 # 其他信息
 msg.open_device_failed: 打开设备失败
+msg.missing_required_data_field: 缺少必要字段
+msg.file_not_compatible_your_device: 将要导入的文件与您的设备不兼容
+msg.crc_check_error: CRC校验错误，请不要编辑导出的文件
+msg.json_data_invalid: 无效的JSON数据

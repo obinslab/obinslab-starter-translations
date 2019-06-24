@@ -1,25 +1,28 @@
 <p align="center">
-  <a href="http://www.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
+  <a href="http://en.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
 </p>
 
-# Obinslab Starter Translations
+# Obinslab Starter Übersetzungen
 
-[English](./README.md) | 简体中文 | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | Deutsch | [Русский](./README-ru.md) | [Français](./README-fr.md)
 
-这里是 [Obinslab Starter](http://www.obins.net/obinslab-starter)的软件界面翻译项目
+Übersetzungsprojekt für den [Obinslab Starter](http://en.obins.net/obinslab-starter).
 
-Obinslab Starter 是用于自定义ANNE PRO键盘配列、灯效、宏的桌面软件
+Mit dem Obinslab Starter kann die Tastaturbelegung, Lichteffekte und Makros für deine ANNE PRO 2 angepasst werden.
 
-关注我们的Twitter<a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> 获取最新公告。
+Folge <a href="https://twitter.com/obinslab"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> auf Twitter für wichtige Ankündigungen.
 
-## 如何开始翻译
-检查本项目`locales`文件夹下是否已经存在翻译文件。如果文件存在，则可直接更新这个文件；如果文件不存在，则可将拷贝`en.yml`为`language-code.yml`
+## Wie man eine Übersetzung erstellt
 
-举例来说：我们想翻译`Japanese`，我们需要编辑名为`ja.yml`的文件
+Überprüfe ob für deine Sprache eine Übersetzungsdatei im Ordner `locales` existiert. Wenn die Datei schon existiert, kannst du sie direkt bearbeiten. Wenn die Datei noch nicht existiert, kopiere die Datei `en.yml` und speichere sie als `language-code.yml`. (`language-code` ist der ISO Code der jeweiligen Sprache, siehe unten.)
 
-Obinslab Starter 使用 Chromium的 `l10n_util` 库来获取语言环境。 `language-code`可能的值如下:
+Beispiel: Wenn du die Sprache `Japanisch` ändern oder erstellen willst, bearbeite oder erstelle die Datei `ja.yml`.
 
-| Language Code | Language Name |
+Obinslab Starter nutzt Chromiums `l10n_util` Bibliothek, um die Übersetzungen zu holen.
+
+Die verfügbaren `language-code`'s sind:
+
+| `language-code` | Sprache |
 |---------------|---------------|
 | af | Afrikaans |
 | am | Amharic |
@@ -155,19 +158,20 @@ Obinslab Starter 使用 Chromium的 `l10n_util` 库来获取语言环境。 `lan
 | zh-TW | Chinese (Traditional) |
 | zu | Zulu |
 
-## 如何语言修改过的语言包
+## Vorschau deiner Übersetzung in der Anwendung anzeigen
 
-1. 将文件`language-code.yml`放在`Resources`下的`locales`文件夹中。编辑`locales.json`，添加语言对应的`id`和`name`。
+1. Schiebe die `language-code.yml` Datei in den Ordner `locales`. Bearbeite darin die Datei `locales.json` und füge `id` und `name` der Sprache hinzu.
 
-    文件夹`locales`通常在如下位置:
+    Den Ordner `locales` findest du unter:
     - Windows
     `C:\Program Files\Obinslab Starter\resources\locales`
 
-    - Mac Osx
+    - macOS
     `/Applications/Obinslab Starter.app/Contents/Resources/locales`
 
-2. 打开或重启 Obinslab Starter, 打开 `首选项`, 选择新语言
 
-## 贡献语言包
+2. Starte den Obinslab Starter, gehe in die Einstellungen (Zahnrad -> Prefences) und wähle die neue Sprache aus.
 
-Fork -> Modify -> Pull request
+## Wie du mitwirken kannst
+
+Fork -> Bearbeiten -> Pull Request öffnen

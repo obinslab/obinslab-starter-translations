@@ -1,6 +1,6 @@
 # Common
-common.operate.failed: Operate Failed
-common.operate.success: Operate Success
+common.operate.failed: Operation Failed
+common.operate.success: Operation Successful
 common.tooltip_title: Message
 common.input.placeholder: Please input name
 common.rename: Rename
@@ -8,29 +8,29 @@ common.import: Import
 common.export: Export
 common.add: Add
 common.create: Create
-common.add.success: Add Success
-common.add.failed: Add Failed
+common.add.success: Added Successfully
+common.add.failed: Adding Failed
 common.delete: Delete
-common.delete.success: Delete Success
-common.delete.failed: Delete Failed
+common.delete.success: Deleted Successfully
+common.delete.failed: Deleting Failed
 common.copy: Copy
-common.copy.success: Copy Success
+common.copy.success: Copied Successfully
 common.copy_text: Copy
 common.paste: Paste
 common.reset: Reset
 common.clone: Clone
 common.cancel: Cancel
-common.ok: Ok
+common.ok: OK
 common.save: Save
 common.save_as: Save As
-common.save.success: Save Success
+common.save.success: Saved Successfully
 common.apply: Apply
-common.apply.success: Apply Success
-common.apply.failed: Apply Failed
+common.apply.success: Applied Successfully
+common.apply.failed: Applying Failed
 common.confirm.show_detail: Show Detail
 common.network.connection.error: Network Connection Error
 common.please_quit_edit: Please Quit Edit
-common.time_unit.hours: ' Hours'
+common.time_unit.hours: " Hours"
 common.time_unit.millisecond: Milliseconds
 
 # Tray
@@ -50,16 +50,16 @@ feedback: Feedback
 feedback.title: Feedback
 feedback.content: Content
 feedback.content.no_empty: Please input content
-feedback.content.max_1000: Maximal 1000 characters
-feedback.email.label: Email(Optional)
-feedback.email.placeholder: Please input your Email
+feedback.content.max_1000: Maximum 1000 characters
+feedback.email.label: Email (Optional)
+feedback.email.placeholder: Please input your email
 feedback.email.not_valid: Invalid e-mail address
 feedback.submit: Submit
-feedback.submit.error: Submit Error, Please try again
-feedback.submit.success: Submit Success, Click to Close
-feedback.support_email: 'Support Email: '
+feedback.submit.error: Submitting error, please try again
+feedback.submit.success: Submitted successfully, Click to Close
+feedback.support_email: "Support Email: "
 
-# 首选项
+# Preference Window
 preferences.setting: Setting
 preferences.setting.language: Language
 preferences.setting.theme: Theme
@@ -87,16 +87,16 @@ preferences.update.download: Download
 preferences.update.download.done: Update package has been downloaded
 preferences.update.install_now: Install now
 preferences.help: Help
+preferences.help.user-manual: User Manual
 preferences.about: About
 
-# 首屏
+# Home Window
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Please connect your device via USB
-home.open_device_failed: Open device failed
-home.open_device_failed_linux:
-  Open device failed, please refer to chapter 1.3 on User Manual
+home.open_device_failed: Opening device failed
+home.open_device_failed_linux: Opening device failed, please refer to chapter 1.3 on User Manual
 
-# 键盘信息，全局设置
+# Main Window, General
 kbd.general: General
 kbd.general.info: Information
 kbd.general.info.device_model: Device Model
@@ -121,7 +121,7 @@ kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Bluetooth Bind
 kbd.general.bluetooth.clean_bind: Clean Bind
 
-# 键盘固件升级
+# Main Window, Firmware
 kbd.firmware: Firmware Upgrade
 kbd.firmware.key: Application Processor
 kbd.firmware.led: Light Processor
@@ -129,53 +129,53 @@ kbd.firmware.ble: Bluetooth Processor
 kbd.firmware.list: Firmware List
 kbd.firmware.annepro1.download.firmware: Download Firmware
 kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
-kbd.firmware.annepro1.download.dfu_tool: Download Dfu Tool
-kbd.firmware.find_new_version: 'Find new firmware: '
+kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
+kbd.firmware.find_new_version: "Find new firmware: "
 kbd.firmware.no_new_version: Current firmware is latest
 kbd.fireware.upgrade.btn: Upgrade
 kbd.firmware.upgrade.btn.to_latest: Upgrade to Latest
 kbd.firmware.upgrade.title: Firmware Upgrade
-kbd.firmware.upgrade.content: Please don't unplug USB canble during upgrade
+kbd.firmware.upgrade.content: Please don't unplug the USB cable during upgrade
 kbd.firmware.upgrade.status.downloading: Downloading firmware...
-kbd.firmware.upgrade.status.download_failed: Download firmware failed
+kbd.firmware.upgrade.status.download_failed: Downloading firmware failed
 kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode...
-kbd.firmware.upgrade.status.writing_key: Write data to application processor...
-kbd.firmware.upgrade.status.writing_led: Write data to light processor...
-kbd.firmware.upgrade.status.writing_ble: Write data to bluetooth processor...
+kbd.firmware.upgrade.status.writing_key: Writing data to application processor...
+kbd.firmware.upgrade.status.writing_led: Writing data to light processor...
+kbd.firmware.upgrade.status.writing_ble: Writing data to bluetooth processor...
 kbd.firmware.upgrade.status.restart: Restarting keyboard...
-kbd.firmware.upgrade.status.success: Firmware upgrade success.
+kbd.firmware.upgrade.status.success: Firmware upgraded successfully.
 
-# 键盘灯光
+# Main Window, LEDs
 kbd.led: Light
 kbd.led.effect.group: Light Group
 kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Make sure to delete the light?
+kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
 kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three:
-  Limited tree light effect in one group for ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen:
-  Limited sixteen light effect in one group
+kbd.led.effect.list.limit.annepro1_three: Limited to three light effects in one group for ANNE PRO 1
+kbd.led.effect.list.limit.annepro2_sixteen: Limited to sixteen light effects in one group
 kbd.led.effect.type: Dynamic Light Effect
-kbd.led.effect.delete.confirm_content: Make sure to delete the light?
+kbd.led.effect.delete.confirm_content: Are you sure you want to delete this light effect?
 kbd.led.effect.preview: Preview
 kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.color.palette: Color Palette
 kbd.led.color.default: Default
 kbd.led.color.custom: Custom
 kbd.led.color.custom.save: Save current color
-# 按键分组
+# Keycap Groups
 kbd.keycap.group.alphabet: Character
 kbd.keycap.group.numbers: Number
 kbd.keycap.group.bigs: Big Key
 kbd.keycap.group.all: All
-# 动态灯效类型
+# Dynamic Light Effects
 dynamic_none: None
 dynamic_breath: Breath
 dynamic_breath_grad: Breath Grad
 dynamic_poptang: Poptang
 dynamic_rainbow: Rainbow
 dynamic_breath_single: Breath single
-# 默认灯效
+dynamic_trigger_breath: Breath(Trigger)
+dynamic_trigger_rainbow: Rainbow(Trigger)
+# Default LED group
 intl.light.group.default: Default
 intl.led.red: Red
 intl.led.yellow: Yellow
@@ -190,13 +190,15 @@ intl.dynamic.breath.grad: Breath grad
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Rainbow
 intl.dynamic.breath.single: Breath single
+intl.dynamic.trigger.breath: Breath(Trigger)
+intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
-# 键盘配列
+# Main Window, Layout
 kbd.layout: Layout
-kbd.layout.reset.confirm_content: Make sure to reset this layout to default?
-kbd.layout.delete.confirm_content: Make sure to delete the layout?
+kbd.layout.reset.confirm_content: Are you sure you want to reset this layout to default?
+kbd.layout.delete.confirm_content: Are you sure you want to delete this layout?
 kbd.layout.set_keycap_null: Set null
-# 键盘码，分组名称
+# Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
 kbd.keycode_group.alphabet: Character
@@ -207,7 +209,7 @@ kbd.keycode_group.function: Function
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Keypad
 kbd.keycode_group.other: Other
-# 键盘码，图形说明
+# Key tooltips
 icon.left_gui: Left Win/Cmd
 icon.right_gui: Right Win/Cmd
 icon.mute: Mute
@@ -233,16 +235,16 @@ intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
-# 键盘宏程序
+# Main Window, Macros
 kbd.macro: Macro
 kbd.macro.group: Macro Group
-kbd.macro.group.delete.confirm_content: Make sure to delete the macro group?
+kbd.macro.group.delete.confirm_content: Are you sure you want to delete this macro group?
 kbd.macro.add: Add macro
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
-kbd.macro.delete.confirm_content: Make sure to delete the macro?
-kbd.macro.amount_limit.annepro2_sixteen: 最多可添加16个宏
-kbd.macro.amount_limit.annepro_eight: ANNE PRO1最多可添加8个宏
+kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
+kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added
+kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Rec Macro
 kbd.macro.code.empty: Empty Macro Code
@@ -254,4 +256,8 @@ kbd.macro.code.value.move_up: Move Up
 kbd.macro.code.value.move_down: Move Down
 
 # Other Messages
-msg.open_device_failed: Open Device Failed
+msg.open_device_failed: Opening Device Failed
+msg.missing_required_data_field: Missing required data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error, please don't edit the file exported
+msg.json_data_invalid: JSON data invalid
