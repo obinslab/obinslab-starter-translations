@@ -32,6 +32,7 @@ common.network.connection.error: 网络连接出错
 common.please_quit_edit: 请退出编辑
 common.time_unit.hours: " 小时"
 common.time_unit.millisecond: 毫秒
+common.return: 返回
 
 # 托盘
 app.tray.show_window: 打开Obinslab Starter
@@ -66,8 +67,6 @@ preferences.setting.theme: 主题
 preferences.setting.theme.dark: 深色
 preferences.setting.theme.light: 浅色
 preferences.setting.update_channel: 更新源
-preferences.setting.update_channel.beta: 开发版
-preferences.setting.update_channel.latest: 正式版
 preferences.setting.animation: 首屏动画
 preferences.setting.animation.on: 开
 preferences.setting.animation.off: 关
@@ -78,6 +77,7 @@ preferences.setting.auto_launch: 开机自启动
 preferences.setting.auto_launch.yes: 是
 preferences.setting.auto_launch.no: 否
 preferences.update: 更新
+preferences.update.insider_preview: 预览体验计划
 preferences.update.check: 检查更新
 preferences.update.check.failed: 出错了，请重试
 preferences.update.version.current: 当前版本
@@ -94,7 +94,6 @@ preferences.about: 关于
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: 通过usb连接您的装备
 home.open_device_failed: 打开设备失败
-home.open_device_failed_linux: 打开设备失败，请参考用户手册软件说明1.3章节
 
 # 键盘信息，全局设置
 kbd.general: 基本信息
@@ -126,14 +125,20 @@ kbd.firmware: 固件升级
 kbd.firmware.key: 应用处理器
 kbd.firmware.led: 灯光处理器
 kbd.firmware.ble: 蓝牙处理器
-kbd.firmware.list: 固件列表
+kbd.firmware.current_version: 当前版本
+kbd.firmware.upgrade_source: 更新源
+kbd.firmware.latest: 最新固件
+kbd.firmware.archive: 历史固件
+kbd.firmware.change_log: 更新日志
 kbd.firmware.annepro1.download.firmware: 下载固件
 kbd.firmware.annepro1.download.latest_firmware: 下载最新固件
 kbd.firmware.annepro1.download.dfu_tool: 下载Dfu工具
 kbd.firmware.find_new_version: 发现新固件：
 kbd.firmware.no_new_version: 当前固件已经是最新固件
-kbd.fireware.upgrade.btn: 更新
-kbd.firmware.upgrade.btn.to_latest: 更新到最新
+kbd.firmware.upgrade.app_require: Obinslab Starter版本必须高于v{{requiredVersion}}, 当前版本为v{{appVersion}}
+kbd.firmware.upgrade.source.alpha: 测试版
+kbd.firmware.upgrade.source.latest: 正式版
+kbd.firmware.upgrade_btn: 更新
 kbd.firmware.upgrade.title: 固件更新
 kbd.firmware.upgrade.content: 更新过程中请不要在拔除USB线
 kbd.firmware.upgrade.status.downloading: 下载固件...
@@ -157,6 +162,7 @@ kbd.led.effect.type: 动态灯效
 kbd.led.effect.delete.confirm_content: 从列表中删除该灯效?
 kbd.led.effect.preview: 预览
 kbd.led.effect.dynamic_colors: 动态色谱
+kbd.led.effect.dynamic_colors.no_empty: 请添加动态色谱
 kbd.led.color.palette: 调色板
 kbd.led.color.default: 预置
 kbd.led.color.custom: 自定义
@@ -254,6 +260,13 @@ kbd.macro.code.missing_press_key: 缺少按键按下
 kbd.macro.code.value.insert_timer_block: 插入时间
 kbd.macro.code.value.move_up: 上移
 kbd.macro.code.value.move_down: 下移
+
+# 音频可视化
+kbd.audio: 音频可视化
+kbd.audio.describe: 键盘灯光随着默认声卡播放音频的节奏而改变
+kbd.audio.on: 开
+kbd.audio.off: 关
+kbd.audio.required_led_firmware: 灯光固件版本须高于{{version}}
 
 # 其他信息
 msg.open_device_failed: 打开设备失败

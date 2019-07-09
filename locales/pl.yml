@@ -32,6 +32,7 @@ common.network.connection.error: Błąd połączenia sieciowego
 common.please_quit_edit: Zakończ edycję
 common.time_unit.hours: " godz."
 common.time_unit.millisecond: ms
+common.return: Return
 
 # Tray
 app.tray.show_window: Otwórz
@@ -94,7 +95,6 @@ preferences.about: O programie
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Podłącz urządzenie USB
 home.open_device_failed: Błąd połączenia z urządzeniem
-home.open_device_failed_linux: Błąd połączenia z urządzeniem, sprawdź roz. 1.3 instrukcji użytkownika
 
 # Main Window, General
 kbd.general: Ogólne
@@ -126,14 +126,20 @@ kbd.firmware: Aktualizuj firmware
 kbd.firmware.key: Procesor aplikacji
 kbd.firmware.led: Procesor podświetlenia
 kbd.firmware.ble: Procesor Bluetooth
-kbd.firmware.list: Lista aktualizacji
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
+kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Pobierz firmware
 kbd.firmware.annepro1.download.latest_firmware: Pobierz najnowszy firmware
 kbd.firmware.annepro1.download.dfu_tool: Pobierz narzędzia DFU
 kbd.firmware.find_new_version: "Znajdź najnowszy firmware: "
 kbd.firmware.no_new_version: Zainstalowany firmware jest aktualny
-kbd.fireware.upgrade.btn: Aktualizuj
-kbd.firmware.upgrade.btn.to_latest: Aktualizuj do najnowszego
+kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Aktualizuj
 kbd.firmware.upgrade.title: Aktualizaja firmware
 kbd.firmware.upgrade.content: Nie odłączaj kabla USB podczas aktualizacji
 kbd.firmware.upgrade.status.downloading: Pobieranie oprogramowania...
@@ -157,6 +163,7 @@ kbd.led.effect.type: Dynamiczne efekty świetlne
 kbd.led.effect.delete.confirm_content: Czy chcesz usunąć ten profil?
 kbd.led.effect.preview: Podgląd
 kbd.led.effect.dynamic_colors: Tabela kolorów dynamicznych
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Paleta kolorów
 kbd.led.color.default: Domyślne
 kbd.led.color.custom: Własne
@@ -254,6 +261,13 @@ kbd.macro.code.missing_press_key: Brak wciśnięcia klawiasza
 kbd.macro.code.value.insert_timer_block: Wstaw blok czasowy
 kbd.macro.code.value.move_up: Przesuń w górę
 kbd.macro.code.value.move_down: Przesuń w dół
+
+# Audio Visualization
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to the audio playing on the default sound card
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages
 msg.open_device_failed: Błąd komunikacji z urządzeniem

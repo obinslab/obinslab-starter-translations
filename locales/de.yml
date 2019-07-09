@@ -30,8 +30,9 @@ common.apply.failed: Fehlgeschlagen
 common.confirm.show_detail: Details anzeigen
 common.network.connection.error: Netzwerkverbindung fehlgeschlagen
 common.please_quit_edit: Bitte beende die Bearbeitung
-common.time_unit.hours: ' Stunden'
+common.time_unit.hours: " Stunden"
 common.time_unit.millisecond: Millisekunden
+common.return: Return
 
 # Tray
 app.tray.show_window: Obinslab Starter öffnen
@@ -57,7 +58,7 @@ feedback.email.not_valid: Die E-Mail-Adresse ist ungültig
 feedback.submit: Abschicken
 feedback.submit.error: Fehler beim Abschicken, bitte versuche es erneut
 feedback.submit.success: Erfolgreich abgeschickt. Klicke zum schließen.
-feedback.support_email: 'Support E-Mail: '
+feedback.support_email: "Support email: "
 
 # Preference Window
 preferences.setting: Einstellungen
@@ -78,6 +79,7 @@ preferences.setting.auto_launch: Beim anmelden starten
 preferences.setting.auto_launch.yes: Ja
 preferences.setting.auto_launch.no: Nein
 preferences.update: Update
+preferences.update.insider_preview: Insider Preview Program
 preferences.update.check: Auf neue Version prüfen
 preferences.update.check.failed: Fehler, bitte versuche es nochmal
 preferences.update.version.current: Aktuelle Version
@@ -94,8 +96,6 @@ preferences.about: Über
 home.welcome: Hallo Welt
 home.please_connect_kbd_with_cable: Bitte verbinde dein Gerät über USB
 home.open_device_failed: Fehler beim Verbinden mit dem Gerät
-home.open_device_failed_linux:
-  Fehler beim Verbinden mit dem Gerät, bitte schaue in Kapitel 1.3 des Benutzerhandbuchs
 
 # Main Window, General
 kbd.general: Generell
@@ -127,14 +127,20 @@ kbd.firmware: Firmware-Aktualisierung
 kbd.firmware.key: Anwendungsprozessor
 kbd.firmware.led: Lichtprozessor
 kbd.firmware.ble: Bluetooth-Prozessor
-kbd.firmware.list: Firmware Liste
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
+kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Firmware herunterladen
 kbd.firmware.annepro1.download.latest_firmware: Neuste Firmware herunterladen
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool herunterladen
-kbd.firmware.find_new_version: 'Neue Firmware finden: '
+kbd.firmware.find_new_version: "Neue Firmware finden: "
 kbd.firmware.no_new_version: Deine Firmware ist auf dem neusten Stand
-kbd.fireware.upgrade.btn: Aktualisieren
-kbd.firmware.upgrade.btn.to_latest: Auf neuste Firmware aktualisieren
+kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Aktualisieren
 kbd.firmware.upgrade.title: Firmware-Aktualisierung
 kbd.firmware.upgrade.content: Bitte nicht das USB-Kabel während dem Update trennen
 kbd.firmware.upgrade.status.downloading: Firmware runterladen...
@@ -152,14 +158,13 @@ kbd.led.effect.group: Gruppen
 kbd.led.effect.group.reset: Zurücksetzen
 kbd.led.effect.group.delete.confirm_content: Möchtest du diese Gruppe wirklich löschen?
 kbd.led.effect.list: Beleuchtungen
-kbd.led.effect.list.limit.annepro1_three:
-  Du kannst bis zu drei Beleuchtungen in einer Gruppe für deine ANNE PRO 1 erstellen
-kbd.led.effect.list.limit.annepro2_sixteen:
-  Du kannst bis zu 16 Beleuchtungen in einer Gruppe erstellen
+kbd.led.effect.list.limit.annepro1_three: Du kannst bis zu drei Beleuchtungen in einer Gruppe für deine ANNE PRO 1 erstellen
+kbd.led.effect.list.limit.annepro2_sixteen: Du kannst bis zu 16 Beleuchtungen in einer Gruppe erstellen
 kbd.led.effect.type: Dynamische Effekte
 kbd.led.effect.delete.confirm_content: Möchtest du diese Beleuchtung wirklich löschen?
 kbd.led.effect.preview: Vorschau
-kbd.led.effect.dynamic_colors: 'Lichteffekt: Farben'
+kbd.led.effect.dynamic_colors: "Lichteffekt: Farben"
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Farbpalette
 kbd.led.color.default: Standard
 kbd.led.color.custom: Eigene
@@ -218,7 +223,7 @@ icon.right_gui: Rechts Win/Cmd
 icon.mute: Stumm
 icon.volume.up: Lautstärke erhöhen
 icon.volume.down: Lautstärke verringern
-icon.bl.toggle: 'Beleuchtung an-/ausschalten'
+icon.bl.toggle: "Beleuchtung an-/ausschalten"
 icon.bl.color: Beleuchtung wechseln
 icon.bl.increase: Beleuchtung heller
 icon.bl.decrease: Beleuchtung dunkler
@@ -257,6 +262,13 @@ kbd.macro.code.missing_press_key: Fehlende gedrückte Taste
 kbd.macro.code.value.insert_timer_block: Zeitblock einfügen
 kbd.macro.code.value.move_up: Nach oben
 kbd.macro.code.value.move_down: Nach unten
+
+# Audio Visualization
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages
 msg.open_device_failed: Fehler beim Verbinden mit dem Gerät

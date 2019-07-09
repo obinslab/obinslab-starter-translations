@@ -32,6 +32,7 @@ common.network.connection.error: Ошибка сетевого соединен�
 common.please_quit_edit: Пожалуйста, выйдите из режима редактирования
 common.time_unit.hours: " часов"
 common.time_unit.millisecond: мс
+common.return: Return
 
 # Tray
 app.tray.show_window: Открыть Obinslab Starter
@@ -78,6 +79,7 @@ preferences.setting.auto_launch: Запускать при входе в сис�
 preferences.setting.auto_launch.yes: Да
 preferences.setting.auto_launch.no: Нет
 preferences.update: Обновления
+preferences.update.insider_preview: Insider Preview Program
 preferences.update.check: Проверить наличие новой версии
 preferences.update.check.failed: Пожалуйста, повторите попытку
 preferences.update.version.current: Текущая версия
@@ -94,9 +96,6 @@ preferences.about: О программе
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Пожалуйста, подключите ваше устройство по USB
 home.open_device_failed: Ошибка при открытии устройства
-home.open_device_failed_linux:
-  Ошибка при открытии устройства. Пожалуйста, ознакомьтесь с главой 1.3
-  в руководстве пользователя
 
 # Main Window, General
 kbd.general: Общие параметры
@@ -128,14 +127,20 @@ kbd.firmware: Обновление прошивки
 kbd.firmware.key: Application Processor
 kbd.firmware.led: Light Processor
 kbd.firmware.ble: Bluetooth Processor
-kbd.firmware.list: Список прошивок
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
+kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Скачать прошивку
 kbd.firmware.annepro1.download.latest_firmware: Скачать актуальную прошивку
 kbd.firmware.annepro1.download.dfu_tool: Скачать DFU Tool
 kbd.firmware.find_new_version: "Найдена новая версия: "
 kbd.firmware.no_new_version: Текущая прошивка наиболее актуальная
-kbd.fireware.upgrade.btn: Обновить
-kbd.firmware.upgrade.btn.to_latest: Обновить до последней версии
+kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Обновить
 kbd.firmware.upgrade.title: Обновление прошивки
 kbd.firmware.upgrade.content: Не отсоединяйте USB-кабель в процессе обновления
 kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
@@ -159,6 +164,7 @@ kbd.led.effect.type: Динамический эффект
 kbd.led.effect.delete.confirm_content: Вы уверены, что хотите удалить этот эффект?
 kbd.led.effect.preview: Просмотр
 kbd.led.effect.dynamic_colors: Таблица цветов
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Цветовая палитра
 kbd.led.color.default: Основные
 kbd.led.color.custom: Свои
@@ -256,6 +262,13 @@ kbd.macro.code.missing_press_key: Пропущено нажатие клавиш
 kbd.macro.code.value.insert_timer_block: Вставить временну́ю задержку
 kbd.macro.code.value.move_up: Переместить вверх
 kbd.macro.code.value.move_down: Переместить вниз
+
+# Audio Visualization
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages
 msg.open_device_failed: Ошибка при открытии устройства
