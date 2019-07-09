@@ -4,7 +4,7 @@
 
 # Traduction d'Obinslab Starter
 
-[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | Français
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | Français | [ไทย](./README-th.md)
 
 Projet de traduction pour [Obinslab Starter](http://en.obins.net/obinslab-starter).
 
@@ -17,7 +17,7 @@ Vérifier si une traduction n'existe pas déjà dans votre langue dans le dossie
 
 Par exemple: Si vous voulez mettre à jour la traduction française, vous n'avez qu'a éditer le fichier nommé 'fr.yml'.
 
-Obinslab Starter utilise la librairie `l10n_util` de Chromium pour récupérer les locales. 
+Obinslab Starter utilise la librairie `l10n_util` de Chromium pour récupérer les locales.
 
 Les variables possibles sont listées ci dessous:
 
