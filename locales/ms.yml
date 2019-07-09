@@ -67,8 +67,6 @@ preferences.setting.theme: Tema
 preferences.setting.theme.dark: Gelap
 preferences.setting.theme.light: Terang
 preferences.setting.update_channel: Sumber Naik Taraf
-preferences.setting.update_channel.beta: Pembangunan
-preferences.setting.update_channel.latest: Pelepasan
 preferences.setting.animation: Animasi di Skrin Pertama
 preferences.setting.animation.on: Pasang
 preferences.setting.animation.off: Padam
@@ -175,14 +173,28 @@ kbd.keycap.group.numbers: Nombor
 kbd.keycap.group.bigs: Kunci Besar
 kbd.keycap.group.all: Semua
 # Dynamic Light Effects
-dynamic_none: Tiada
-dynamic_breath: Nafas
-dynamic_breath_grad: Grad Nafas
-dynamic_poptang: Poptang
-dynamic_rainbow: Pelangi
-dynamic_breath_single: Nafas tunggal
-dynamic_trigger_breath: Breath(Trigger)
-dynamic_trigger_rainbow: Rainbow(Trigger)
+dynamic.none: Tiada
+dynamic.breath: Nafas
+dynamic.breath_grad: Grad Nafas
+dynamic.poptang: Poptang
+dynamic.rainbow: Pelangi
+dynamic.trigger.breath_single: Nafas tunggal
+dynamic.trigger.breath: Breath(Trigger)
+dynamic.trigger.rainbow: Rainbow(Trigger)
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.tilting_rainbow: Tilting Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Lalai
 intl.led.red: Merah

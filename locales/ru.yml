@@ -67,8 +67,6 @@ preferences.setting.theme: Тема
 preferences.setting.theme.dark: Темная
 preferences.setting.theme.light: Светлая
 preferences.setting.update_channel: Пакеты обновлений
-preferences.setting.update_channel.beta: Бета-версии
-preferences.setting.update_channel.latest: Релизные версии
 preferences.setting.animation: Анимация на стартовом экране
 preferences.setting.animation.on: Вкл.
 preferences.setting.animation.off: Выкл.
@@ -175,14 +173,28 @@ kbd.keycap.group.numbers: Цифры
 kbd.keycap.group.bigs: Большие
 kbd.keycap.group.all: Все
 # Dynamic Light Effects
-dynamic_none: Отсутствует
-dynamic_breath: Дыхание
-dynamic_breath_grad: Дыхание (градиент)
-dynamic_poptang: Крест
-dynamic_rainbow: Радуга
-dynamic_breath_single: Дыхание (нажатые клавиши)
-dynamic_trigger_breath: Дыхание (триггер)
-dynamic_trigger_rainbow: Радуга (триггер)
+dynamic.none: Отсутствует
+dynamic.breath: Дыхание
+dynamic.breath_grad: Дыхание (градиент)
+dynamic.poptang: Крест
+dynamic.rainbow: Радуга
+dynamic.trigger.breath_single: Дыхание (нажатые клавиши)
+dynamic.trigger.breath: Дыхание (триггер)
+dynamic.trigger.rainbow: Радуга (триггер)
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.tilting_rainbow: Tilting Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Предустановленные
 intl.led.red: Красный

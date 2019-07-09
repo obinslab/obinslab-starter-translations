@@ -67,8 +67,6 @@ preferences.setting.theme: Wygląd
 preferences.setting.theme.dark: Ciemny
 preferences.setting.theme.light: Jasny
 preferences.setting.update_channel: Aktualizacje
-preferences.setting.update_channel.beta: Beta
-preferences.setting.update_channel.latest: Stabilne
 preferences.setting.animation: Animacje ekranu startowego
 preferences.setting.animation.on: Tak
 preferences.setting.animation.off: Nie
@@ -79,6 +77,7 @@ preferences.setting.auto_launch: Uruchom przy logowaniu
 preferences.setting.auto_launch.yes: Tak
 preferences.setting.auto_launch.no: Nie
 preferences.update: Aktualizacja
+preferences.update.insider_preview: Insider Preview Program
 preferences.update.check: Sprawdź dostępność aktualizacji
 preferences.update.check.failed: Spróbuj ponownie
 preferences.update.version.current: Wersja
@@ -174,14 +173,28 @@ kbd.keycap.group.numbers: Cyfry
 kbd.keycap.group.bigs: Duże
 kbd.keycap.group.all: Wszystkie
 # Dynamic Light Effects
-dynamic_none: Brak
-dynamic_breath: Oddech
-dynamic_breath_grad: Oddech z gradientem
-dynamic_poptang: Rozbłysk
-dynamic_rainbow: Tęcza
-dynamic_breath_single: Pojedynczy oddech
-dynamic_trigger_breath: Oddech (wyzwalany)
-dynamic_trigger_rainbow: Tęcza (wyzwalany)
+dynamic.none: Brak
+dynamic.breath: Oddech
+dynamic.breath_grad: Oddech z gradientem
+dynamic.poptang: Rozbłysk
+dynamic.rainbow: Tęcza
+dynamic.trigger.breath_single: Pojedynczy oddech
+dynamic.trigger.breath: Oddech (wyzwalany)
+dynamic.trigger.rainbow: Tęcza (wyzwalany)
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.tilting_rainbow: Tilting Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Domyślne
 intl.led.red: Czerwony

@@ -67,8 +67,6 @@ preferences.setting.theme: Theme
 preferences.setting.theme.dark: Dark
 preferences.setting.theme.light: Light
 preferences.setting.update_channel: Upgrade source
-preferences.setting.update_channel.beta: Development
-preferences.setting.update_channel.latest: Release
 preferences.setting.animation: Animation on Splash Screen
 preferences.setting.animation.on: On
 preferences.setting.animation.off: Off
@@ -175,14 +173,28 @@ kbd.keycap.group.numbers: Numerals
 kbd.keycap.group.bigs: Big keys
 kbd.keycap.group.all: All keys
 # Dynamic Light Effects
-dynamic_none: None
-dynamic_breath: Breathing effect
-dynamic_breath_grad: Gradual breathing effect
-dynamic_poptang: Poptang
-dynamic_rainbow: Rainbow
-dynamic_breath_single: Breathing per key
-dynamic_trigger_breath: Breathing trigger
-dynamic_trigger_rainbow: Rainbow trigger
+dynamic.none: None
+dynamic.breath: Breathing effect
+dynamic.breath_grad: Gradual breathing effect
+dynamic.poptang: Poptang
+dynamic.rainbow: Rainbow
+dynamic.trigger.breath_single: Breathing per key
+dynamic.trigger.breath: Breathing trigger
+dynamic.trigger.rainbow: Rainbow trigger
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.tilting_rainbow: Tilting Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Default
 intl.led.red: Red

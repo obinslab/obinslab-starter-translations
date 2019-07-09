@@ -1,11 +1,3 @@
-# Vietnamese Translation for Obinslab Starter
-# Contributed by Hồ Trọng Tín
-# Facebook: @hoetrongtin / @omgursocute
-# Twitter: @omgursocuteomg
-# Instagram: @omgursocuteomg / @im.hoetrongtin
-# Reddit: u/IsThereAnyoneHere
-# Github: @omgursocute
-
 # Common
 common.operate.failed: Thực hiện thất bại
 common.operate.success: Thực hiện thành công
@@ -75,8 +67,6 @@ preferences.setting.theme: Nền
 preferences.setting.theme.dark: Tối
 preferences.setting.theme.light: Sáng
 preferences.setting.update_channel: Nguồn cập nhật
-preferences.setting.update_channel.beta: Thử nghiệm
-preferences.setting.update_channel.latest: Chính thức
 preferences.setting.animation: Hiệu ứng ở màn hình bên ngoài
 preferences.setting.animation.on: Bật
 preferences.setting.animation.off: Tắt
@@ -183,14 +173,28 @@ kbd.keycap.group.numbers: Chữ số
 kbd.keycap.group.bigs: Phím lớn
 kbd.keycap.group.all: Tất cả
 # Dynamic Light Effects
-dynamic_none: Không
-dynamic_breath: Nhịp thở (ngắt quãng)
-dynamic_breath_grad: Nhịp thở (liên tục)
-dynamic_poptang: Lan toả
-dynamic_rainbow: Cầu vồng
-dynamic_breath_single: Nhịp thở (từng phím)
-dynamic_trigger_breath: Nhịp thở (tốc độ gõ)
-dynamic_trigger_rainbow: Cầu vồng (tốc độ gõ)
+dynamic.none: Không
+dynamic.breath: Nhịp thở (ngắt quãng)
+dynamic.breath_grad: Nhịp thở (liên tục)
+dynamic.poptang: Lan toả
+dynamic.rainbow: Cầu vồng
+dynamic.trigger.breath_single: Nhịp thở (từng phím)
+dynamic.trigger.breath: Nhịp thở (tốc độ gõ)
+dynamic.trigger.rainbow: Cầu vồng (tốc độ gõ)
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.tilting_rainbow: Tilting Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Mặc định
 intl.led.red: Đỏ

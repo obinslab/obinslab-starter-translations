@@ -67,8 +67,6 @@ preferences.setting.theme: Tema
 preferences.setting.theme.dark: Oscuro
 preferences.setting.theme.light: Claro
 preferences.setting.update_channel: Fuente de Actualizaciones
-preferences.setting.update_channel.beta: Desarrollo
-preferences.setting.update_channel.latest: Lanzamiento
 preferences.setting.animation: Animación de bienvenida
 preferences.setting.animation.on: Encendido
 preferences.setting.animation.off: Apagado
@@ -175,14 +173,28 @@ kbd.keycap.group.numbers: Números
 kbd.keycap.group.bigs: Teclas Grandes
 kbd.keycap.group.all: Todas
 # Dynamic Light Effects
-dynamic_none: Ninguno
-dynamic_breath: Respiración
-dynamic_breath_grad: Respiración Gradual
-dynamic_poptang: Poptang
-dynamic_rainbow: Arcoiris
-dynamic_breath_single: Respiración individual
-dynamic_trigger_breath: Respiración(desencadenada)
-dynamic_trigger_rainbow: Arcoiris(desencadenada)
+dynamic.none: Ninguno
+dynamic.breath: Respiración
+dynamic.breath_grad: Respiración Gradual
+dynamic.poptang: Poptang
+dynamic.rainbow: Arcoiris
+dynamic.trigger.breath_single: Respiración individual
+dynamic.trigger.breath: Respiración(desencadenada)
+dynamic.trigger.rainbow: Arcoiris(desencadenada)
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.tilting_rainbow: Tilting Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Por defecto
 intl.led.red: Rojo
