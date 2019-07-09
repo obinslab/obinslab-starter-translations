@@ -7,6 +7,7 @@
   { "id": "nl", "name": "Dutch" },
   { "id": "pl", "name": "Polski" },
   { "id": "ru", "name": "Русский" },
+  { "id": "th", "name": "ไทย" },
   { "id": "vi", "name": "Tiếng Việt" },
   { "id": "zh-CN", "name": "简体中文" }
 ]
