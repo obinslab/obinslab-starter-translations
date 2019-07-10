@@ -22,7 +22,7 @@ common.clone: Clone
 common.cancel: Cancel
 common.ok: OK
 common.save: Save
-common.save_as: Save as
+common.save_as: Save As
 common.save.success: Saved successfully
 common.apply: Apply
 common.apply.success: Applied successfully
@@ -66,19 +66,19 @@ preferences.setting.language: Language
 preferences.setting.theme: Theme
 preferences.setting.theme.dark: Dark
 preferences.setting.theme.light: Light
-preferences.setting.update_channel: Upgrade source
+preferences.setting.update_channel: Upgrade Source
 preferences.setting.animation: Animation on Splash Screen
 preferences.setting.animation.on: On
 preferences.setting.animation.off: Off
-preferences.setting.x_action: Event on closing program
+preferences.setting.x_action: Event on Closing Program
 preferences.setting.minimize_to_tray: Minimize to Tray
 preferences.setting.quit_program: Quit Program
-preferences.setting.auto_launch: Launch on system start
+preferences.setting.auto_launch: Launch on System Start
 preferences.setting.auto_launch.yes: Yes
 preferences.setting.auto_launch.no: No
 preferences.update: Update
 preferences.update.insider_preview: Insider Preview Program
-preferences.update.check: Check for new version
+preferences.update.check: Check New Version
 preferences.update.check.failed: Please try again
 preferences.update.version.current: Current Version
 preferences.update.version.new: New version
@@ -131,7 +131,7 @@ kbd.firmware.latest: Latest Firmware
 kbd.firmware.archive: Firmware Archive
 kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Download Firmware
-kbd.firmware.annepro1.download.latest_firmware: Download latest firmware
+kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
 kbd.firmware.find_new_version: "Find new firmware: "
 kbd.firmware.no_new_version: Your firmware is up to date
@@ -280,6 +280,9 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to audio playing via default sound device
 kbd.audio.on: On
 kbd.audio.off: Off
+kbd.audio.light_type: Lighting Effect
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages

@@ -280,6 +280,9 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to audio playing via default sound device
 kbd.audio.on: On
 kbd.audio.off: Off
+kbd.audio.light_type: Lighting Effect
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages

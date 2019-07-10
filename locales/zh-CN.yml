@@ -280,6 +280,9 @@ kbd.audio: 音频可视化
 kbd.audio.describe: 键盘灯光随着默认声卡播放音频的节奏而改变
 kbd.audio.on: 开
 kbd.audio.off: 关
+kbd.audio.light_type: 灯效类型
+kbd.audio.light_type.pure: 纯色
+kbd.audio.light_type.colorful: 多色
 kbd.audio.required_led_firmware: 灯光固件版本须高于{{version}}
 
 # 其他信息
