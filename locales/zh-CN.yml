@@ -33,6 +33,7 @@ common.please_quit_edit: 请退出编辑
 common.time_unit.hours: " 小时"
 common.time_unit.millisecond: 毫秒
 common.return: 返回
+common.refresh: 刷新
 
 # 托盘
 app.tray.show_window: 打开Obinslab Starter
@@ -52,13 +53,14 @@ feedback.title: 意见反馈
 feedback.content: 内容
 feedback.content.no_empty: 请输入内容
 feedback.content.max_1000: 最多可输入1000个字符
-feedback.email.label: 邮箱（非必填）
+feedback.email.label: 邮箱
 feedback.email.placeholder: 请输入您的邮箱
 feedback.email.not_valid: 输入的邮箱非有效
 feedback.submit: 提交
 feedback.submit.error: 提交失败，请重试
 feedback.submit.success: 提交成功，点击关闭
 feedback.support_email: "支持邮箱: "
+feedback.debug_log: 诊断日志
 
 # 首选项
 preferences.setting: 设置
@@ -281,7 +283,7 @@ kbd.audio: 音频可视化
 kbd.audio.describe: 键盘灯光随着默认声卡播放音频的节奏而改变
 kbd.audio.on: 开
 kbd.audio.off: 关
-kbd.audio.light_type: 灯效类型
+kbd.audio.light_type: 灯效模式
 kbd.audio.light_type.pure: 纯色
 kbd.audio.light_type.colorful: 多色
 kbd.audio.required_led_firmware: 灯光固件版本须高于{{version}}

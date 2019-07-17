@@ -33,6 +33,7 @@ common.please_quit_edit: กรุณาออกจากการแก้ไ�
 common.time_unit.hours: " ชั่วโมง"
 common.time_unit.millisecond: มิลลิวินาที
 common.return: Return
+common.refresh: Refresh
 
 # Tray
 app.tray.show_window: เปิด Obinslab Starter
@@ -52,13 +53,14 @@ feedback.title: ผลตอบรับ
 feedback.content: เนื้อหา
 feedback.content.no_empty: กรุณาใส่เนื้อหา
 feedback.content.max_1000: สูงสุด 1,000 ตัวอักษร
-feedback.email.label: อีเมล (ไม่บังคับ)
+feedback.email.label: อีเมล
 feedback.email.placeholder: กรุณาใส่อีเมลของคุณ
 feedback.email.not_valid: ที่อยู่อีเมลที่ไม่ถูกต้อง
 feedback.submit: เสนอ
 feedback.submit.error: ข้อผิดพลาดในการส่งโปรดลองอีกครั้ง
 feedback.submit.success: ส่งสำเร็จแล้วคลิกเพื่อปิด
 feedback.support_email: "อีเมลสนับสนุน: "
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: การตั้งค่า
@@ -281,7 +283,7 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to audio playing via default sound device
 kbd.audio.on: On
 kbd.audio.off: Off
-kbd.audio.light_type: Lighting Effect
+kbd.audio.light_type: Lighting Mode
 kbd.audio.light_type.pure: Pure Color
 kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.

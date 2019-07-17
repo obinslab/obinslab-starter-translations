@@ -33,6 +33,7 @@ common.please_quit_edit: Zakończ edycję
 common.time_unit.hours: " godz."
 common.time_unit.millisecond: ms
 common.return: Return
+common.refresh: Refresh
 
 # Tray
 app.tray.show_window: Otwórz
@@ -52,13 +53,14 @@ feedback.title: Wiadomość
 feedback.content: Treść wiadomości
 feedback.content.no_empty: Wrowadź treść
 feedback.content.max_1000: Max. 1000 znaków
-feedback.email.label: Twój adres email (opcjonalnie)
+feedback.email.label: Twój adres email
 feedback.email.placeholder: twój@email.com
 feedback.email.not_valid: Błędny adres email
 feedback.submit: Wyślij
 feedback.submit.error: Błąd wysyłania, spróbuj ponownie
 feedback.submit.success: Wysłano, zamknij
 feedback.support_email: "Support email: "
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: Ustawienia
@@ -281,7 +283,7 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to the audio playing on the default sound card
 kbd.audio.on: On
 kbd.audio.off: Off
-kbd.audio.light_type: Lighting Effect
+kbd.audio.light_type: Lighting Mode
 kbd.audio.light_type.pure: Pure Color
 kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.

@@ -33,6 +33,7 @@ common.please_quit_edit: Quit Edit before proceeding
 common.time_unit.hours: " Hours"
 common.time_unit.millisecond: Milliseconds
 common.return: Return
+common.refresh: Refresh
 
 # Tray
 app.tray.show_window: Open Obinslab Starter
@@ -52,13 +53,14 @@ feedback.title: Feedback
 feedback.content: Content
 feedback.content.no_empty: Please input content
 feedback.content.max_1000: "Maximum: 1,000 characters"
-feedback.email.label: Email (Optional)
+feedback.email.label: Email
 feedback.email.placeholder: Please input your email
 feedback.email.not_valid: Invalid e-mail address
 feedback.submit: Submit
 feedback.submit.error: Send error - Please try again
 feedback.submit.success: Submitted successfully - Click to close
 feedback.support_email: "Support email: "
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: Setting
@@ -281,7 +283,7 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to audio playing via default sound device
 kbd.audio.on: On
 kbd.audio.off: Off
-kbd.audio.light_type: Lighting Effect
+kbd.audio.light_type: Lighting Mode
 kbd.audio.light_type.pure: Pure Color
 kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.

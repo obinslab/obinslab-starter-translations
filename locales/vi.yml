@@ -33,6 +33,7 @@ common.please_quit_edit: Vui lòng thoát chế độ chỉnh sửa
 common.time_unit.hours: " Giờ"
 common.time_unit.millisecond: Mili giây
 common.return: Return
+common.refresh: Refresh
 
 # Tray
 app.tray.show_window: Mở Obinslab Starter
@@ -52,13 +53,14 @@ feedback.title: Phản hồi
 feedback.content: Nội dung
 feedback.content.no_empty: Vui lòng nhập nội dung
 feedback.content.max_1000: Tối đa 1000 ký tự
-feedback.email.label: Email (không bắt buộc)
+feedback.email.label: Email
 feedback.email.placeholder: Vui lòng nhập địa chỉ email
 feedback.email.not_valid: Địa chỉ email không hợp lệ
 feedback.submit: Gửi
 feedback.submit.error: Lỗi khi gửi, vui lòng thử lại
 feedback.submit.success: Gửi thành công, nhấn để đóng
 feedback.support_email: "Email hỗ trợ: "
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: Cài đặt
@@ -281,7 +283,7 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to the audio playing on the default sound card
 kbd.audio.on: On
 kbd.audio.off: Off
-kbd.audio.light_type: Lighting Effect
+kbd.audio.light_type: Lighting Mode
 kbd.audio.light_type.pure: Pure Color
 kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.

@@ -33,6 +33,7 @@ common.please_quit_edit: Tolong Berhenti Edit
 common.time_unit.hours: " Jam"
 common.time_unit.millisecond: Milisaat
 common.return: Return
+common.refresh: Refresh
 
 # Tray
 app.tray.show_window: Buka Obinslab Starter
@@ -52,13 +53,14 @@ feedback.title: Maklum Balas
 feedback.content: Kandungan
 feedback.content.no_empty: Sila isi maklumat
 feedback.content.max_1000: Maksimum 1000 abjad
-feedback.email.label: Email (Tidak diwajibkan)
+feedback.email.label: Email
 feedback.email.placeholder: Sila isi Email anda
 feedback.email.not_valid: Email tidak sah
 feedback.submit: Serah
 feedback.submit.error: Gagal untuk serah, sila cuba lagi
 feedback.submit.success: Berjaya untuk penyerahan, Klik untuk tutup
 feedback.support_email: "Email Sokongan: "
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: Tetapan
@@ -281,7 +283,7 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to audio playing via default sound device
 kbd.audio.on: On
 kbd.audio.off: Off
-kbd.audio.light_type: Lighting Effect
+kbd.audio.light_type: Lighting Mode
 kbd.audio.light_type.pure: Pure Color
 kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
