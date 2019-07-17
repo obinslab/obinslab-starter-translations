@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Aktualisieren
 kbd.firmware.upgrade.title: Firmware-Aktualisierung
 kbd.firmware.upgrade.content: Bitte nicht das USB-Kabel während dem Update trennen
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Firmware runterladen...
 kbd.firmware.upgrade.status.download_failed: Herunterladen der Firmware fehlgeschlagen
-kbd.firmware.upgrade.status.entering_aip: Gehe in Aktualisierungsmodus...
+kbd.firmware.upgrade.status.entering_aip: Gehe in Aktualisierungsmodus(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Schreibe Daten auf Anwendungsprozessor...
 kbd.firmware.upgrade.status.writing_led: Schreibe Daten auf Lichtprozessor...
 kbd.firmware.upgrade.status.writing_ble: Schreibe Daten auf Bluetooth-Prozessor...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Firmware erfolgreich aktualisiert.
 
 # Main Window, LEDs
 kbd.led: Beleuchtung
-kbd.led.effect.group: Gruppen
-kbd.led.effect.group.reset: Zurücksetzen
-kbd.led.effect.group.delete.confirm_content: Möchtest du diese Gruppe wirklich löschen?
-kbd.led.effect.list: Beleuchtungen
-kbd.led.effect.list.limit.annepro1_three: Du kannst bis zu drei Beleuchtungen in einer Gruppe für deine ANNE PRO 1 erstellen
-kbd.led.effect.list.limit.annepro2_sixteen: Du kannst bis zu 16 Beleuchtungen in einer Gruppe erstellen
-kbd.led.effect.type: Dynamische Effekte
+kbd.led.effect.profiles: Gruppen
+kbd.led.effect.profile.reset: Zurücksetzen
+kbd.led.effect.profile.delete.confirm_content: Möchtest du diese Gruppe wirklich löschen?
+kbd.led.effect.profile: Beleuchtungen
+kbd.led.effect.profile.limit.annepro1_three: Du kannst bis zu drei Beleuchtungen in einer Gruppe für deine ANNE PRO 1 erstellen
+kbd.led.effect.profile.limit.annepro2_sixteen: Du kannst bis zu 16 Beleuchtungen in einer Gruppe erstellen
+kbd.led.effect.mode: Dynamische Effekte
 kbd.led.effect.delete.confirm_content: Möchtest du diese Beleuchtung wirklich löschen?
 kbd.led.effect.preview: Vorschau
 kbd.led.effect.dynamic_colors: "Lichteffekt: Farben"
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Farbpalette
 kbd.led.color.default: Standard
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Zahlen
 kbd.keycap.group.bigs: Große Tasten
 kbd.keycap.group.all: Alle
 # Dynamic Light Effects
-dynamic.none: None
+dynamic.none: Static
 dynamic.breath: Breathing effect
 dynamic.breath_grad: Gradual breathing effect
 dynamic.poptang: Poptang

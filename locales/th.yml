@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: อัพเกรด
 kbd.firmware.upgrade.title: อัพเกรดเฟิร์มแวร์
 kbd.firmware.upgrade.content: กรุณาอย่าถอดสายเคเบิล USB ในระหว่างการอัพเกรด
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: กำลังดาวน์โหลดเฟิร์มแวร์ ...
 kbd.firmware.upgrade.status.download_failed: การดาวน์โหลดเฟิร์มแวร์ล้มเหลว
-kbd.firmware.upgrade.status.entering_aip: กำลังเข้าสู่โหมดอัปเกรด ...
+kbd.firmware.upgrade.status.entering_aip: กำลังเข้าสู่โหมดอัปเกรด (About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: กำลังเขียนข้อมูลไปยังตัวประมวลผลแอปพลิเคชัน ...
 kbd.firmware.upgrade.status.writing_led: กำลังเขียนข้อมูลไปยังโปรเซสเซอร์เบา ...
 kbd.firmware.upgrade.status.writing_ble: กำลังเขียนข้อมูลไปยังโปรเซสเซอร์บลูทูธ ...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: อัปเกรดเฟิร์มแ�
 
 # Main Window, LEDs
 kbd.led: แสง
-kbd.led.effect.group: กลุ่มแสง
-kbd.led.effect.group.reset: รีเซ็ต
-kbd.led.effect.group.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบกลุ่มนี้?
-kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three: จำกัด เอฟเฟกต์แสงเพียงสามรายการในกลุ่มเดียวสำหรับ ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: จำกัด เอฟเฟกต์แสงสิบหกชิ้นในกลุ่มเดียว
-kbd.led.effect.type: เอฟเฟกต์แสงแบบไดนามิก
+kbd.led.effect.profiles: Lighting Profiles
+kbd.led.effect.profile.reset: รีเซ็ต
+kbd.led.effect.profile.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบกลุ่มนี้?
+kbd.led.effect.profile: Profile Detail
+kbd.led.effect.profile.limit.annepro1_three: จำกัด เอฟเฟกต์แสงเพียงสามรายการในกลุ่มเดียวสำหรับ ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: จำกัด เอฟเฟกต์แสงสิบหกชิ้นในกลุ่มเดียว
+kbd.led.effect.mode: เอฟเฟกต์แสงแบบไดนามิก
 kbd.led.effect.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบเอฟเฟกต์แสงนี้?
 kbd.led.effect.preview: ดูตัวอย่าง
 kbd.led.effect.dynamic_colors: ตารางสีแสงแบบไดนามิก
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: จานสี
 kbd.led.color.default: ค่าเริ่มต้น
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Number
 kbd.keycap.group.bigs: Big Key
 kbd.keycap.group.all: All
 # Dynamic Light Effects
-dynamic.none: None
+dynamic.none: Static
 dynamic.breath: ลมหายใจ
 dynamic.breath_grad: ลมหายใจ Grad
 dynamic.poptang: Poptang
@@ -250,7 +252,7 @@ icon.play.pause: Play Pause
 # The active layout read from keyboard
 intl.layout.current: Current
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

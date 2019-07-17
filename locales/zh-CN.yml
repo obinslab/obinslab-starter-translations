@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: 正式版
 kbd.firmware.upgrade_btn: 更新
 kbd.firmware.upgrade.title: 固件更新
 kbd.firmware.upgrade.content: 更新过程中请不要在拔除USB线
+kbd.firmware.upgrade.enter_iap_timeout: 自动进入IAP模式失败，请手动进入IAP模式 (按住ESC键盘, 然后插入USB线)
 kbd.firmware.upgrade.status.downloading: 下载固件...
 kbd.firmware.upgrade.status.download_failed: 固件下载失败
-kbd.firmware.upgrade.status.entering_aip: 进入升级模式...
+kbd.firmware.upgrade.status.entering_aip: 进入升级模式(大概需要不超过6秒)...
 kbd.firmware.upgrade.status.writing_key: 写入应用处理器...
 kbd.firmware.upgrade.status.writing_led: 写入灯光处理器...
 kbd.firmware.upgrade.status.writing_ble: 写入蓝牙处理器...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: 固件升级成功
 
 # 键盘灯光
 kbd.led: 灯光
-kbd.led.effect.group: 灯效组
-kbd.led.effect.group.reset: 确认将此灯效组恢复为默认设置？
-kbd.led.effect.group.delete.confirm_content: 确定删除该灯光组?
-kbd.led.effect.list: 灯效列表
-kbd.led.effect.list.limit.annepro1_three: ANNE PRO 1最多添加3个灯效
-kbd.led.effect.list.limit.annepro2_sixteen: 最多添加16个灯效
-kbd.led.effect.type: 动态灯效
+kbd.led.effect.profiles: 灯效档案
+kbd.led.effect.profile.reset: 确认将此灯效组恢复为默认设置？
+kbd.led.effect.profile.delete.confirm_content: 确定删除该灯效档案?
+kbd.led.effect.profile: 档案详情
+kbd.led.effect.profile.limit.annepro1_three: ANNE PRO 1最多添加3个灯效
+kbd.led.effect.profile.limit.annepro2_sixteen: 最多添加16个灯效
+kbd.led.effect.mode: 灯效模式
 kbd.led.effect.delete.confirm_content: 从列表中删除该灯效?
 kbd.led.effect.preview: 预览
 kbd.led.effect.dynamic_colors: 动态色谱
+kbd.led.effect.dynamic_colors.random: 随机
 kbd.led.effect.dynamic_colors.no_empty: 请添加动态色谱
 kbd.led.color.palette: 调色板
 kbd.led.color.default: 预置
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: 数字
 kbd.keycap.group.bigs: 大键
 kbd.keycap.group.all: 所有
 # 动态灯效类型
-dynamic.none: 无
+dynamic.none: 静态
 dynamic.breath: 呼吸灯
 dynamic.breath_grad: 渐变灯
 dynamic.poptang: 泡泡堂
@@ -250,7 +252,7 @@ icon.play.pause: 暂停播放
 # 从键盘内读取到的，当前正在使用的配列
 intl.layout.current: 当前
 # 预置配列
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

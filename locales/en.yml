@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Upgrade
 kbd.firmware.upgrade.title: Firmware Upgrade
 kbd.firmware.upgrade.content: Do not unplug USB cable during update
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Downloading firmware
 kbd.firmware.upgrade.status.download_failed: Firmware download failed
-kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode
+kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode(About 6 seconds or less)
 kbd.firmware.upgrade.status.writing_key: Writing data to application processor
 kbd.firmware.upgrade.status.writing_led: Writing data to light processor
 kbd.firmware.upgrade.status.writing_ble: Writing data to Bluetooth processor
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Firmware updated successfully
 
 # Main Window, LEDs
 kbd.led: Light
-kbd.led.effect.group: Light Group
-kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
-kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three: Limit of 3 lighting effects per group (ANNE PRO 1)
-kbd.led.effect.list.limit.annepro2_sixteen: Limit of 16 lighting effects per group
-kbd.led.effect.type: Dynamic Lighting Effect
+kbd.led.effect.profiles: Lighting Profiles
+kbd.led.effect.profile.reset: Reset
+kbd.led.effect.profile.delete.confirm_content: Are you sure you want to delete this profile?
+kbd.led.effect.profile: Profile Detail
+kbd.led.effect.profile.limit.annepro1_three: Limit of 3 lighting effects per profile (ANNE PRO 1)
+kbd.led.effect.profile.limit.annepro2_sixteen: Limit of 16 lighting effects per profile
+kbd.led.effect.mode: Lighting Mode
 kbd.led.effect.delete.confirm_content: Are you sure you want to delete this lighting effect?
 kbd.led.effect.preview: Preview
 kbd.led.effect.dynamic_colors: Dynamic Light Color Table
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Color Palette
 kbd.led.color.default: Default
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Numerals
 kbd.keycap.group.bigs: Big keys
 kbd.keycap.group.all: All keys
 # Dynamic Light Effects
-dynamic.none: None
+dynamic.none: Static
 dynamic.breath: Breathing effect
 dynamic.breath_grad: Gradual breathing effect
 dynamic.poptang: Poptang

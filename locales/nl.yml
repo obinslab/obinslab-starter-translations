@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Upgraden
 kbd.firmware.upgrade.title: Firmware upgrade
 kbd.firmware.upgrade.content: Werp de USB-kabel NIET uit tijdens het upgraden
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Firmware aan het downloaden...
 kbd.firmware.upgrade.status.download_failed: Firmware downloaden mislukt
-kbd.firmware.upgrade.status.entering_aip: Upgrademodus...
+kbd.firmware.upgrade.status.entering_aip: Upgrademodus(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Data aan het schrijven naar de applicatieprocessor...
 kbd.firmware.upgrade.status.writing_led: Data aan het schrijven naar de lichtprocessor...
 kbd.firmware.upgrade.status.writing_ble: Data aan het schrijven naar de bluetoothprocessor...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Firmware upgraden gelukt.
 
 # Main Window, LEDs
 kbd.led: Light
-kbd.led.effect.group: Light Group
-kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Weet je zeker dat je deze lichteffectgroep wilt verwijderen?
-kbd.led.effect.list: Lichtlijst
-kbd.led.effect.list.limit.annepro1_three: Je kan alleen maar 3 lichteffecten per 1 groep hebben
-kbd.led.effect.list.limit.annepro2_sixteen: Je kan alleen maar 16 lichteffecten per 1 groep hebben
-kbd.led.effect.type: Dynamisch lichteffect
+kbd.led.effect.profiles: Lighting Profiles
+kbd.led.effect.profile.reset: Reset
+kbd.led.effect.profile.delete.confirm_content: Weet je zeker dat je deze lichteffectgroep wilt verwijderen?
+kbd.led.effect.profile: Lichtlijst
+kbd.led.effect.profile.limit.annepro1_three: Je kan alleen maar 3 lichteffecten per 1 groep hebben
+kbd.led.effect.profile.limit.annepro2_sixteen: Je kan alleen maar 16 lichteffecten per 1 groep hebben
+kbd.led.effect.mode: Dynamisch lichteffect
 kbd.led.effect.delete.confirm_content: Weet je zeker dat je dit lichteffect wilt verwijderen?
 kbd.led.effect.preview: Preview
 kbd.led.effect.dynamic_colors: Dynamisch lichteffect kleurentabel
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Kleurenpalet
 kbd.led.color.default: Standaard
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Number
 kbd.keycap.group.bigs: Big Key
 kbd.keycap.group.all: Allemaal
 # Dynamic Light Effects
-dynamic.none: None
+dynamic.none: Static
 dynamic.breath: Breathing effect
 dynamic.breath_grad: Gradual breathing effect
 dynamic.poptang: Poptang
@@ -250,7 +252,7 @@ icon.play.pause: Spelen Pauzeren
 # The active layout read from keyboard
 intl.layout.current: Huidige
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

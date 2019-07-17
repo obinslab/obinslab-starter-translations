@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Actualizar
 kbd.firmware.upgrade.title: Actualizar Firmware
 kbd.firmware.upgrade.content: Por favor no desconecte el cable USB durante la actualización
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Decargando firmware...
 kbd.firmware.upgrade.status.download_failed: La Descarga del Firmware Falló
-kbd.firmware.upgrade.status.entering_aip: Entrando en modo Actualización...
+kbd.firmware.upgrade.status.entering_aip: Entrando en modo Actualización(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Escribiendo datos en el procesador de aplicación...
 kbd.firmware.upgrade.status.writing_led: Escribiendo datos en el procesador de iluminación...
 kbd.firmware.upgrade.status.writing_ble: Escribiendo datos en el procesador de bluetooth...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Firmware actualizado con éxito.
 
 # Main Window, LEDs
 kbd.led: Iluminación
-kbd.led.effect.group: Grupo de Iluminación
-kbd.led.effect.group.reset: Reiniciar
-kbd.led.effect.group.delete.confirm_content: Quiere eliminar este efecto de iluminación?
-kbd.led.effect.list: Lista de iluminaciones
-kbd.led.effect.list.limit.annepro1_three: Máximo tres efectos de iluminación en un grupo en ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Máximo dieciseís efectos de iluminación en un grupo en ANNE PRO 2
-kbd.led.effect.type: Efecto Dinámico
+kbd.led.effect.profiles: Grupo de Iluminación
+kbd.led.effect.profile.reset: Reiniciar
+kbd.led.effect.profile.delete.confirm_content: Quiere eliminar este efecto de iluminación?
+kbd.led.effect.profile: Lista de iluminaciones
+kbd.led.effect.profile.limit.annepro1_three: Máximo tres efectos de iluminación en un grupo en ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: Máximo dieciseís efectos de iluminación en un grupo en ANNE PRO 2
+kbd.led.effect.mode: Efecto Dinámico
 kbd.led.effect.delete.confirm_content: Quiere eliminar esta iluminación?
 kbd.led.effect.preview: Previsualización
 kbd.led.effect.dynamic_colors: Tabla de Color Efecto Dinámico
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Paleta de Colores
 kbd.led.color.default: Por Defecto
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Números
 kbd.keycap.group.bigs: Teclas Grandes
 kbd.keycap.group.all: Todas
 # Dynamic Light Effects
-dynamic.none: Ninguno
+dynamic.none: Static
 dynamic.breath: Respiración
 dynamic.breath_grad: Respiración Gradual
 dynamic.poptang: Poptang
@@ -250,7 +252,7 @@ icon.play.pause: Play Pause
 # The active layout read from keyboard
 intl.layout.current: Actual
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

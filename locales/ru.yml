@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Обновить
 kbd.firmware.upgrade.title: Обновление прошивки
 kbd.firmware.upgrade.content: Не отсоединяйте USB-кабель в процессе обновления
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
 kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
-kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления...
+kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Запись данных в application processor...
 kbd.firmware.upgrade.status.writing_led: Запись данных в light processor...
 kbd.firmware.upgrade.status.writing_ble: Запись данных в bluetooth processor...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Прошивка успешно обнов�
 
 # Main Window, LEDs
 kbd.led: Подсветка
-kbd.led.effect.group: Группы эффектов
-kbd.led.effect.group.reset: Сбросить
-kbd.led.effect.group.delete.confirm_content: Вы уверены, что хотите удалить эту группу?
-kbd.led.effect.list: Список эффектов
-kbd.led.effect.list.limit.annepro1_three: Максимальное количество эффектов для одной группы — 3
-kbd.led.effect.list.limit.annepro2_sixteen: Максимальное количество эффектов для одной группы — 16
-kbd.led.effect.type: Динамический эффект
+kbd.led.effect.profiles: Группы эффектов
+kbd.led.effect.profile.reset: Сбросить
+kbd.led.effect.profile.delete.confirm_content: Вы уверены, что хотите удалить эту группу?
+kbd.led.effect.profile: Список эффектов
+kbd.led.effect.profile.limit.annepro1_three: Максимальное количество эффектов для одной группы — 3
+kbd.led.effect.profile.limit.annepro2_sixteen: Максимальное количество эффектов для одной группы — 16
+kbd.led.effect.mode: Динамический эффект
 kbd.led.effect.delete.confirm_content: Вы уверены, что хотите удалить этот эффект?
 kbd.led.effect.preview: Просмотр
 kbd.led.effect.dynamic_colors: Таблица цветов
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Цветовая палитра
 kbd.led.color.default: Основные
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Цифры
 kbd.keycap.group.bigs: Большие
 kbd.keycap.group.all: Все
 # Dynamic Light Effects
-dynamic.none: Отсутствует
+dynamic.none: Static
 dynamic.breath: Дыхание
 dynamic.breath_grad: Дыхание (градиент)
 dynamic.poptang: Крест
@@ -250,7 +252,7 @@ icon.play.pause: Воспроизведение/Пауза
 # The active layout read from keyboard
 intl.layout.current: Текущая
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

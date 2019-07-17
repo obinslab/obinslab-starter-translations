@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Naik Taraf
 kbd.firmware.upgrade.title: Naik Taraf Firmware
 kbd.firmware.upgrade.content: Tolong jangan cabut kabel USB semasa kenaikan taraf
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Memuat turun firmware...
 kbd.firmware.upgrade.status.download_failed: Gagal untuk memuat turun firmware
-kbd.firmware.upgrade.status.entering_aip: Memasuki mod kenaikan taraf...
+kbd.firmware.upgrade.status.entering_aip: Memasuki mod kenaikan taraf(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Memasukkan data ke pemproses aplikasi...
 kbd.firmware.upgrade.status.writing_led: Memasukkan data to pemproses lampu...
 kbd.firmware.upgrade.status.writing_ble: Memasukkan data to pemproses Bluetooth...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Berjaya untuk menaikkan taraf firmware.
 
 # Main Window, LEDs
 kbd.led: Lampu
-kbd.led.effect.group: Kumpulan Lampu
-kbd.led.effect.group.reset: Tetapkan semula
-kbd.led.effect.group.delete.confirm_content: Anda pasti untuk padakam lampu ini?
-kbd.led.effect.list: Senarai Lampu
-kbd.led.effect.list.limit.annepro1_three: Terhad kepada tiga kesanan cahaya dalam satu kumpulan untuk ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Terhad kepada enam belas kesanan cahaya dalam satu kumpulan
-kbd.led.effect.type: Kesanan Cahaya Dinamik
+kbd.led.effect.profiles: Groupe d'éclairage
+kbd.led.effect.profile.reset: Tetapkan semula
+kbd.led.effect.profile.delete.confirm_content: Anda pasti untuk padakam lampu ini?
+kbd.led.effect.profile: Senarai Lampu
+kbd.led.effect.profile.limit.annepro1_three: Terhad kepada tiga kesanan cahaya dalam satu kumpulan untuk ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: Terhad kepada enam belas kesanan cahaya dalam satu kumpulan
+kbd.led.effect.mode: Kesanan Cahaya Dinamik
 kbd.led.effect.delete.confirm_content: Anda pasti untuk padam lampu ini?
 kbd.led.effect.preview: Pratonton
 kbd.led.effect.dynamic_colors: Senarai Warna Lampu Dinamik
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Palet Warna
 kbd.led.color.default: Lalai
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Nombor
 kbd.keycap.group.bigs: Kunci Besar
 kbd.keycap.group.all: Semua
 # Dynamic Light Effects
-dynamic.none: Tiada
+dynamic.none: Static
 dynamic.breath: Nafas
 dynamic.breath_grad: Grad Nafas
 dynamic.poptang: Poptang
@@ -250,7 +252,7 @@ icon.play.pause: Main / Berhenti Sejenak
 # The active layout read from keyboard
 intl.layout.current: Semasa
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

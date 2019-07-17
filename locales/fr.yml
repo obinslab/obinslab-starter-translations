@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Mise à jour
 kbd.firmware.upgrade.title: Mise à jour du firmware
 kbd.firmware.upgrade.content: Ne débranchez pas le câble USB lors de la mise à jour.
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Téléchargement du firmware...
 kbd.firmware.upgrade.status.download_failed: Échec de téléchargement du firmware
-kbd.firmware.upgrade.status.entering_aip: Rentre en mode de mise à jour...
+kbd.firmware.upgrade.status.entering_aip: Rentre en mode de mise à jour(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Écriture des données dans le processeur principal...
 kbd.firmware.upgrade.status.writing_led: Écriture des données dans le processeur LED...
 kbd.firmware.upgrade.status.writing_ble: Écriture des données dans le processeur Bluetooth...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Firmware mit à jour avec succès.
 
 # Éclairage du clavier
 kbd.led: Rétroéclairage
-kbd.led.effect.group: Groupe d'éclairage
-kbd.led.effect.group.reset: Réinitialiser
-kbd.led.effect.group.delete.confirm_content: Êtes vous sure de vouloir supprimer cet éclairage?
-kbd.led.effect.list: Liste d'éclairage
-kbd.led.effect.list.limit.annepro1_three: Effet de lumière limité à un groupe pour le ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Effet lumineux limité à seize dans un groupe
-kbd.led.effect.type: Effet du rétroéclairage
+kbd.led.effect.profiles: Groupe d'éclairage
+kbd.led.effect.profile.reset: Réinitialiser
+kbd.led.effect.profile.delete.confirm_content: Êtes vous sure de vouloir supprimer cet éclairage?
+kbd.led.effect.profile: Liste d'éclairage
+kbd.led.effect.profile.limit.annepro1_three: Effet de lumière limité à un groupe pour le ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: Effet lumineux limité à seize dans un groupe
+kbd.led.effect.mode: Effet du rétroéclairage
 kbd.led.effect.delete.confirm_content: Êtes vous sure de vouloir supprimer cet effet?
 kbd.led.effect.preview: Aperçu
 kbd.led.effect.dynamic_colors: Tableau dynamique des couleurs
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Palette de couleur
 kbd.led.color.default: Défaut
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Chiffres
 kbd.keycap.group.bigs: Modificateurs
 kbd.keycap.group.all: Toutes
 # Type d'éclairage dynamique
-dynamic.none: Aucun
+dynamic.none: Static
 dynamic.breath: Respiration
 dynamic.breath_grad: Respiration Grad
 dynamic.poptang: Poptang
@@ -250,7 +252,7 @@ icon.play.pause: Jouer Pause
 # The active layout read from keyboard
 intl.layout.current: Actuel
 # Disposition par défaut du clavier
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Latest
 kbd.firmware.upgrade_btn: Nâng cấp
 kbd.firmware.upgrade.title: Cập nhật phần mềm
 kbd.firmware.upgrade.content: Vui lòng không ngắt kết nối USB khi đang cập nhật
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Tải phần mềm...
 kbd.firmware.upgrade.status.download_failed: Tải phần mềm thất bại
-kbd.firmware.upgrade.status.entering_aip: Bắt đầu chế độ cập nhật...
+kbd.firmware.upgrade.status.entering_aip: Bắt đầu chế độ cập nhật(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Cài đặt dữ liệu vào bộ xử lý chương trình...
 kbd.firmware.upgrade.status.writing_led: Cài đặt dữ liệu vào bộ xử lý đèn LED...
 kbd.firmware.upgrade.status.writing_ble: Cài đặt dữ liệu vào bộ xử lý Bluetooth...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Cập nhật phần mềm thành công.
 
 # Main Window, LEDs
 kbd.led: Đèn
-kbd.led.effect.group: Nhóm chế độ
-kbd.led.effect.group.reset: Cài đặt lại
-kbd.led.effect.group.delete.confirm_content: Bạn muốn xoá nhóm này chứ?
-kbd.led.effect.list: Danh sách chế độ
-kbd.led.effect.list.limit.annepro1_three: ANNE PRO 1 chỉ được thiết lập tối đa BA chế độ trong một nhóm
-kbd.led.effect.list.limit.annepro2_sixteen: Chỉ được thiết lập tối đa MƯỜI SÁU chế độ trong một nhóm
-kbd.led.effect.type: Hiệu ứng đèn chuyển động
+kbd.led.effect.profiles: Nhóm chế độ
+kbd.led.effect.profile.reset: Cài đặt lại
+kbd.led.effect.profile.delete.confirm_content: Bạn muốn xoá nhóm này chứ?
+kbd.led.effect.profile: Danh sách chế độ
+kbd.led.effect.profile.limit.annepro1_three: ANNE PRO 1 chỉ được thiết lập tối đa BA chế độ trong một nhóm
+kbd.led.effect.profile.limit.annepro2_sixteen: Chỉ được thiết lập tối đa MƯỜI SÁU chế độ trong một nhóm
+kbd.led.effect.mode: Hiệu ứng đèn chuyển động
 kbd.led.effect.delete.confirm_content: Bạn muốn xoá chế độ này chứ?
 kbd.led.effect.preview: Xem trước
 kbd.led.effect.dynamic_colors: Bảng màu chuyển động
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Bảng màu
 kbd.led.color.default: Mặc định
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Chữ số
 kbd.keycap.group.bigs: Phím lớn
 kbd.keycap.group.all: Tất cả
 # Dynamic Light Effects
-dynamic.none: Không
+dynamic.none: Static
 dynamic.breath: Nhịp thở (ngắt quãng)
 dynamic.breath_grad: Nhịp thở (liên tục)
 dynamic.poptang: Lan toả
@@ -250,7 +252,7 @@ icon.play.pause: Chơi/Dừng
 # The active layout read from keyboard
 intl.layout.current: Hiện tại
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 

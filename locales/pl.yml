@@ -141,9 +141,10 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Aktualizuj
 kbd.firmware.upgrade.title: Aktualizaja firmware
 kbd.firmware.upgrade.content: Nie odłączaj kabla USB podczas aktualizacji
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Pobieranie oprogramowania...
 kbd.firmware.upgrade.status.download_failed: Błąd pobierania oprogramowania
-kbd.firmware.upgrade.status.entering_aip: Tryb aktualizacji...
+kbd.firmware.upgrade.status.entering_aip: Tryb aktualizacji(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Aktualizuję procesor aplikacji...
 kbd.firmware.upgrade.status.writing_led: Aktualizuję procesor podświetlenia...
 kbd.firmware.upgrade.status.writing_ble: Aktualizuję procesor Bluetooth...
@@ -152,16 +153,17 @@ kbd.firmware.upgrade.status.success: Aktualizacja zakończona.
 
 # Main Window, LEDs
 kbd.led: Podświetlenie RGB
-kbd.led.effect.group: Grupa
-kbd.led.effect.group.reset: Przywróć ust. fabryczne
-kbd.led.effect.group.delete.confirm_content: Czy chcesz usunąć tą grupę?
-kbd.led.effect.list: Profile oświetlenia
-kbd.led.effect.list.limit.annepro1_three: Ograniczenie do 3 profili w jednej grupie dla ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Ograniczenie do 16 profili w jednej grupie
-kbd.led.effect.type: Dynamiczne efekty świetlne
+kbd.led.effect.profiles: Grupa
+kbd.led.effect.profile.reset: Przywróć ust. fabryczne
+kbd.led.effect.profile.delete.confirm_content: Czy chcesz usunąć tą grupę?
+kbd.led.effect.profile: Profile oświetlenia
+kbd.led.effect.profile.limit.annepro1_three: Ograniczenie do 3 profili w jednej grupie dla ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: Ograniczenie do 16 profili w jednej grupie
+kbd.led.effect.mode: Dynamiczne efekty świetlne
 kbd.led.effect.delete.confirm_content: Czy chcesz usunąć ten profil?
 kbd.led.effect.preview: Podgląd
 kbd.led.effect.dynamic_colors: Tabela kolorów dynamicznych
+kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Paleta kolorów
 kbd.led.color.default: Domyślne
@@ -173,7 +175,7 @@ kbd.keycap.group.numbers: Cyfry
 kbd.keycap.group.bigs: Duże
 kbd.keycap.group.all: Wszystkie
 # Dynamic Light Effects
-dynamic.none: Brak
+dynamic.none: Static
 dynamic.breath: Oddech
 dynamic.breath_grad: Oddech z gradientem
 dynamic.poptang: Rozbłysk
