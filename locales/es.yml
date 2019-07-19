@@ -34,6 +34,7 @@ common.time_unit.hours: " Horas"
 common.time_unit.millisecond: Milisegundos
 common.return: Return
 common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: Abrir Obinslab Starter
@@ -68,6 +69,7 @@ preferences.setting.language: Idioma
 preferences.setting.theme: Tema
 preferences.setting.theme.dark: Oscuro
 preferences.setting.theme.light: Claro
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: Fuente de Actualizaciones
 preferences.setting.animation: Animación de bienvenida
 preferences.setting.animation.on: Encendido
@@ -131,7 +133,6 @@ kbd.firmware.current_version: Current Version
 kbd.firmware.upgrade_source: Upgrade Source
 kbd.firmware.latest: Latest Firmware
 kbd.firmware.archive: Firmware Archive
-kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Descargar Firmware
 kbd.firmware.annepro1.download.latest_firmware: Descargar el Último Firmware
 kbd.firmware.annepro1.download.dfu_tool: Descargar Herramienta DFU
@@ -164,7 +165,6 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Máximo dieciseís efectos de ilu
 kbd.led.effect.mode: Efecto Dinámico
 kbd.led.effect.delete.confirm_content: Quiere eliminar esta iluminación?
 kbd.led.effect.preview: Previsualización
-kbd.led.effect.dynamic_colors: Tabla de Color Efecto Dinámico
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Paleta de Colores

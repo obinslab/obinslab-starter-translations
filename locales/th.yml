@@ -34,6 +34,7 @@ common.time_unit.hours: " ชั่วโมง"
 common.time_unit.millisecond: มิลลิวินาที
 common.return: Return
 common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: เปิด Obinslab Starter
@@ -68,6 +69,7 @@ preferences.setting.language: ภาษา
 preferences.setting.theme: ธีม
 preferences.setting.theme.dark: มืด
 preferences.setting.theme.light: สว่าง
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: อัพเกรดแหล่งที่มา
 preferences.setting.animation: ภาพเคลื่อนไหวบนหน้าจอแรก
 preferences.setting.animation.on: เปิด
@@ -131,7 +133,6 @@ kbd.firmware.current_version: Current Version
 kbd.firmware.upgrade_source: Upgrade Source
 kbd.firmware.latest: Latest Firmware
 kbd.firmware.archive: Firmware Archive
-kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: ดาวน์โหลดเฟิร์มแวร์
 kbd.firmware.annepro1.download.latest_firmware: ดาวน์โหลดเฟิร์มแวร์ล่าสุด
 kbd.firmware.annepro1.download.dfu_tool: ดาวน์โหลดเครื่องมือ DFU
@@ -164,7 +165,6 @@ kbd.led.effect.profile.limit.annepro2_sixteen: จำกัด เอฟเฟ�
 kbd.led.effect.mode: เอฟเฟกต์แสงแบบไดนามิก
 kbd.led.effect.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบเอฟเฟกต์แสงนี้?
 kbd.led.effect.preview: ดูตัวอย่าง
-kbd.led.effect.dynamic_colors: ตารางสีแสงแบบไดนามิก
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: จานสี

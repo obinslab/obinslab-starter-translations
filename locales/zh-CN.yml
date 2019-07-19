@@ -34,6 +34,7 @@ common.time_unit.hours: " 小时"
 common.time_unit.millisecond: 毫秒
 common.return: 返回
 common.refresh: 刷新
+common.date: 日期
 
 # 托盘
 app.tray.show_window: 打开Obinslab Starter
@@ -68,6 +69,7 @@ preferences.setting.language: 语言
 preferences.setting.theme: 主题
 preferences.setting.theme.dark: 深色
 preferences.setting.theme.light: 浅色
+preferences.setting.theme.cyan: 青色
 preferences.setting.update_channel: 更新源
 preferences.setting.animation: 首屏动画
 preferences.setting.animation.on: 开
@@ -131,7 +133,6 @@ kbd.firmware.current_version: 当前版本
 kbd.firmware.upgrade_source: 更新源
 kbd.firmware.latest: 最新固件
 kbd.firmware.archive: 历史固件
-kbd.firmware.change_log: 更新日志
 kbd.firmware.annepro1.download.firmware: 下载固件
 kbd.firmware.annepro1.download.latest_firmware: 下载最新固件
 kbd.firmware.annepro1.download.dfu_tool: 下载Dfu工具
@@ -164,7 +165,6 @@ kbd.led.effect.profile.limit.annepro2_sixteen: 最多添加16个灯效
 kbd.led.effect.mode: 灯效模式
 kbd.led.effect.delete.confirm_content: 从列表中删除该灯效?
 kbd.led.effect.preview: 预览
-kbd.led.effect.dynamic_colors: 动态色谱
 kbd.led.effect.dynamic_colors.random: 随机
 kbd.led.effect.dynamic_colors.no_empty: 请添加动态色谱
 kbd.led.color.palette: 调色板

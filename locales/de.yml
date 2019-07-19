@@ -34,6 +34,7 @@ common.time_unit.hours: " Stunden"
 common.time_unit.millisecond: Millisekunden
 common.return: Return
 common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: Obinslab Starter öffnen
@@ -68,6 +69,7 @@ preferences.setting.language: Sprache
 preferences.setting.theme: Theme
 preferences.setting.theme.dark: Dunkel
 preferences.setting.theme.light: Erhellen Licht
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: Updatekanal
 preferences.setting.animation: Animationen auf dem Startbildschirm
 preferences.setting.animation.on: An
@@ -131,7 +133,6 @@ kbd.firmware.current_version: Current Version
 kbd.firmware.upgrade_source: Upgrade Source
 kbd.firmware.latest: Latest Firmware
 kbd.firmware.archive: Firmware Archive
-kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Firmware herunterladen
 kbd.firmware.annepro1.download.latest_firmware: Neuste Firmware herunterladen
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool herunterladen
@@ -164,7 +165,6 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Du kannst bis zu 16 Beleuchtungen
 kbd.led.effect.mode: Dynamische Effekte
 kbd.led.effect.delete.confirm_content: Möchtest du diese Beleuchtung wirklich löschen?
 kbd.led.effect.preview: Vorschau
-kbd.led.effect.dynamic_colors: "Lichteffekt: Farben"
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Farbpalette

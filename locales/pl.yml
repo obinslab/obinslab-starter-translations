@@ -34,6 +34,7 @@ common.time_unit.hours: " godz."
 common.time_unit.millisecond: ms
 common.return: Return
 common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: Otwórz
@@ -68,6 +69,7 @@ preferences.setting.language: Język
 preferences.setting.theme: Wygląd
 preferences.setting.theme.dark: Ciemny
 preferences.setting.theme.light: Jasny
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: Aktualizacje
 preferences.setting.animation: Animacje ekranu startowego
 preferences.setting.animation.on: Tak
@@ -131,7 +133,6 @@ kbd.firmware.current_version: Current Version
 kbd.firmware.upgrade_source: Upgrade Source
 kbd.firmware.latest: Latest Firmware
 kbd.firmware.archive: Firmware Archive
-kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Pobierz firmware
 kbd.firmware.annepro1.download.latest_firmware: Pobierz najnowszy firmware
 kbd.firmware.annepro1.download.dfu_tool: Pobierz narzędzia DFU
@@ -164,7 +165,6 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Ograniczenie do 16 profili w jedn
 kbd.led.effect.mode: Dynamiczne efekty świetlne
 kbd.led.effect.delete.confirm_content: Czy chcesz usunąć ten profil?
 kbd.led.effect.preview: Podgląd
-kbd.led.effect.dynamic_colors: Tabela kolorów dynamicznych
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Paleta kolorów

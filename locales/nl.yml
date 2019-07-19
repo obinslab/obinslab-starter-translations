@@ -34,6 +34,7 @@ common.time_unit.hours: " Uren"
 common.time_unit.millisecond: Milliseconden
 common.return: Return
 common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: Open Obinslab Starter
@@ -68,6 +69,7 @@ preferences.setting.language: Taal
 preferences.setting.theme: Thema
 preferences.setting.theme.dark: Donker
 preferences.setting.theme.light: Licht
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: Source upgraden
 preferences.setting.animation: Animatie op het eerste scherm
 preferences.setting.animation.on: Aan
@@ -131,7 +133,6 @@ kbd.firmware.current_version: Current Version
 kbd.firmware.upgrade_source: Upgrade Source
 kbd.firmware.latest: Latest Firmware
 kbd.firmware.archive: Firmware Archive
-kbd.firmware.change_log: Changelog
 kbd.firmware.annepro1.download.firmware: Firmware downloaden
 kbd.firmware.annepro1.download.latest_firmware: Download laatste firmware
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
@@ -164,7 +165,6 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Je kan alleen maar 16 lichteffect
 kbd.led.effect.mode: Dynamisch lichteffect
 kbd.led.effect.delete.confirm_content: Weet je zeker dat je dit lichteffect wilt verwijderen?
 kbd.led.effect.preview: Preview
-kbd.led.effect.dynamic_colors: Dynamisch lichteffect kleurentabel
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Kleurenpalet
