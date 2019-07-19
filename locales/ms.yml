@@ -180,8 +180,8 @@ kbd.keycap.group.all: Semua
 dynamic.none: Static
 dynamic.breath: Nafas
 dynamic.breath_grad: Grad Nafas
-dynamic.poptang: Poptang
 dynamic.rainbow: Pelangi
+dynamic.trigger.poptang: Poptang(Trigger)
 dynamic.trigger.breath_single: Nafas tunggal
 dynamic.trigger.breath: Breath(Trigger)
 dynamic.trigger.rainbow: Rainbow(Trigger)

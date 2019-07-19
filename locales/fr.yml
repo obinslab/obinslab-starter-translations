@@ -180,8 +180,8 @@ kbd.keycap.group.all: Toutes
 dynamic.none: Static
 dynamic.breath: Respiration
 dynamic.breath_grad: Respiration Grad
-dynamic.poptang: Poptang
 dynamic.rainbow: Arc-en-ciel
+dynamic.trigger.poptang: Poptang(Déclenchement)
 dynamic.trigger.breath_single: Respiration simple
 dynamic.trigger.breath: Respiration(Déclenchement)
 dynamic.trigger.rainbow: Arc-en-ciel(Déclenchement)

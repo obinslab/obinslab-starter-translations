@@ -180,8 +180,8 @@ kbd.keycap.group.all: 所有
 dynamic.none: 静态
 dynamic.breath: 呼吸灯
 dynamic.breath_grad: 渐变灯
-dynamic.poptang: 泡泡堂
 dynamic.rainbow: 七彩跑马灯
+dynamic.trigger.poptang: 泡泡堂-按键触发
 dynamic.trigger.breath_single: 单键灯呼吸
 dynamic.trigger.breath: 渐变-按键触发
 dynamic.trigger.rainbow: 跑马灯-按键触发

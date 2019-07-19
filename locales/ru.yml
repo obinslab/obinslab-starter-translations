@@ -180,8 +180,8 @@ kbd.keycap.group.all: Все
 dynamic.none: Static
 dynamic.breath: Дыхание
 dynamic.breath_grad: Дыхание (градиент)
-dynamic.poptang: Крест
 dynamic.rainbow: Радуга
+dynamic.trigger.poptang: Крест (триггер)
 dynamic.trigger.breath_single: Дыхание (нажатые клавиши)
 dynamic.trigger.breath: Дыхание (триггер)
 dynamic.trigger.rainbow: Радуга (триггер)

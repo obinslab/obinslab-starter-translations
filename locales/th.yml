@@ -180,8 +180,8 @@ kbd.keycap.group.all: All
 dynamic.none: Static
 dynamic.breath: ลมหายใจ
 dynamic.breath_grad: ลมหายใจ Grad
-dynamic.poptang: Poptang
 dynamic.rainbow: Rainbow
+dynamic.trigger.poptang: Poptang(Trigger)
 dynamic.trigger.breath_single: ลมหายใจ เดียว
 dynamic.trigger.breath: ลมหายใจ(Trigger)
 dynamic.trigger.rainbow: Rainbow(Trigger)

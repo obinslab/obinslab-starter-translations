@@ -180,8 +180,8 @@ kbd.keycap.group.all: Tất cả
 dynamic.none: Static
 dynamic.breath: Nhịp thở (ngắt quãng)
 dynamic.breath_grad: Nhịp thở (liên tục)
-dynamic.poptang: Lan toả
 dynamic.rainbow: Cầu vồng
+dynamic.trigger.poptang: Lan toả (tốc độ gõ)
 dynamic.trigger.breath_single: Nhịp thở (từng phím)
 dynamic.trigger.breath: Nhịp thở (tốc độ gõ)
 dynamic.trigger.rainbow: Cầu vồng (tốc độ gõ)

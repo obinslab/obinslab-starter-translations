@@ -180,8 +180,8 @@ kbd.keycap.group.all: Alle
 dynamic.none: Static
 dynamic.breath: Breathing effect
 dynamic.breath_grad: Gradual breathing effect
-dynamic.poptang: Poptang
 dynamic.rainbow: Rainbow
+dynamic.trigger.poptang: Poptang trigger
 dynamic.trigger.breath_single: Breathing per key
 dynamic.trigger.breath: Breathing trigger
 dynamic.trigger.rainbow: Rainbow trigger

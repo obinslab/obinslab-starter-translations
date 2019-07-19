@@ -180,8 +180,8 @@ kbd.keycap.group.all: Wszystkie
 dynamic.none: Static
 dynamic.breath: Oddech
 dynamic.breath_grad: Oddech z gradientem
-dynamic.poptang: Rozbłysk
 dynamic.rainbow: Tęcza
+dynamic.trigger.poptang: Rozbłysk (wyzwalany)
 dynamic.trigger.breath_single: Pojedynczy oddech
 dynamic.trigger.breath: Oddech (wyzwalany)
 dynamic.trigger.rainbow: Tęcza (wyzwalany)
