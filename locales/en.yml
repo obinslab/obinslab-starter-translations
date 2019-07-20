@@ -1,6 +1,6 @@
 # Common
-common.operate.failed: Operation Failed
-common.operate.success: Operation Successful
+common.operate.failed: Operation failed
+common.operate.success: Operation successful
 common.tooltip_title: Message
 common.input.placeholder: Please input name
 common.rename: Rename
@@ -8,13 +8,13 @@ common.import: Import
 common.export: Export
 common.add: Add
 common.create: Create
-common.add.success: Added Successfully
-common.add.failed: Adding Failed
+common.add.success: Added successfully
+common.add.failed: Operation failed
 common.delete: Delete
-common.delete.success: Deleted Successfully
-common.delete.failed: Deleting Failed
+common.delete.success: Deleted successfully
+common.delete.failed: Deletion failed
 common.copy: Copy
-common.copy.success: Copied Successfully
+common.copy.success: Copied successfully
 common.copy_text: Copy
 common.paste: Paste
 common.reset: Reset
@@ -23,21 +23,24 @@ common.cancel: Cancel
 common.ok: OK
 common.save: Save
 common.save_as: Save As
-common.save.success: Saved Successfully
+common.save.success: Saved successfully
 common.apply: Apply
-common.apply.success: Applied Successfully
-common.apply.failed: Applying Failed
+common.apply.success: Applied successfully
+common.apply.failed: Operation failed
 common.confirm.show_detail: Show Detail
-common.network.connection.error: Network Connection Error
-common.please_quit_edit: Please Quit Edit
-common.time_unit.hours: ' Hours'
+common.network.connection.error: Network connection error
+common.please_quit_edit: Quit Edit before proceeding
+common.time_unit.hours: " Hours"
 common.time_unit.millisecond: Milliseconds
+common.return: Return
+common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: Open Obinslab Starter
 app.tray.preferences: Preferences
 app.tray.quit: Quit
-app.tray.still_running_here: Obinslab Starter is still running here.
+app.tray.still_running_here: Obinslab Starter is still running
 
 # Manage Menu
 app.manage: Manage
@@ -50,14 +53,15 @@ feedback: Feedback
 feedback.title: Feedback
 feedback.content: Content
 feedback.content.no_empty: Please input content
-feedback.content.max_1000: Maximum 1000 characters
-feedback.email.label: Email (Optional)
+feedback.content.max_1000: "Maximum: 1,000 characters"
+feedback.email.label: Email
 feedback.email.placeholder: Please input your email
 feedback.email.not_valid: Invalid e-mail address
 feedback.submit: Submit
-feedback.submit.error: Submitting error, please try again
-feedback.submit.success: Submitted successfully, Click to Close
-feedback.support_email: 'Support Email: '
+feedback.submit.error: Send error - Please try again
+feedback.submit.success: Submitted successfully - Click to close
+feedback.support_email: "Support email: "
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: Setting
@@ -65,19 +69,19 @@ preferences.setting.language: Language
 preferences.setting.theme: Theme
 preferences.setting.theme.dark: Dark
 preferences.setting.theme.light: Light
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: Upgrade Source
-preferences.setting.update_channel.beta: Development
-preferences.setting.update_channel.latest: Release
-preferences.setting.animation: Animation on First Screen
+preferences.setting.animation: Animation on Splash Screen
 preferences.setting.animation.on: On
 preferences.setting.animation.off: Off
-preferences.setting.x_action: Close Action on Main Panel
+preferences.setting.x_action: Event on Closing Program
 preferences.setting.minimize_to_tray: Minimize to Tray
 preferences.setting.quit_program: Quit Program
-preferences.setting.auto_launch: Launch At Login
+preferences.setting.auto_launch: Launch on System Start
 preferences.setting.auto_launch.yes: Yes
 preferences.setting.auto_launch.no: No
 preferences.update: Update
+preferences.update.insider_preview: Insider Preview Program
 preferences.update.check: Check New Version
 preferences.update.check.failed: Please try again
 preferences.update.version.current: Current Version
@@ -87,13 +91,13 @@ preferences.update.download: Download
 preferences.update.download.done: Update package has been downloaded
 preferences.update.install_now: Install now
 preferences.help: Help
+preferences.help.user-manual: User Manual
 preferences.about: About
 
 # Home Window
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: Please connect your device via USB
-home.open_device_failed: Opening device failed
-home.open_device_failed_linux: Opening device failed, please refer to chapter 1.3 on User Manual
+home.open_device_failed: Device initialization failed
 
 # Main Window, General
 kbd.general: General
@@ -107,7 +111,7 @@ kbd.general.setting.layout: Layout
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.magic_fn: Magic Fn
 kbd.general.setting.macro_trigger: Macro
-kbd.general.setting.capslock_led: CapsLock Led
+kbd.general.setting.capslock_led: CapsLock LED
 kbd.general.setting.auto_sleep: Auto Sleep
 kbd.general.setting.options.disable: Disable
 kbd.general.setting.options.enable: Enable
@@ -118,60 +122,82 @@ kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: All
 kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Bluetooth Bind
-kbd.general.bluetooth.clean_bind: Clean Bind
+kbd.general.bluetooth.clean_bind: Clear
 
 # Main Window, Firmware
 kbd.firmware: Firmware Upgrade
 kbd.firmware.key: Application Processor
 kbd.firmware.led: Light Processor
 kbd.firmware.ble: Bluetooth Processor
-kbd.firmware.list: Firmware List
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Download Firmware
 kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
-kbd.firmware.find_new_version: 'Find new firmware: '
-kbd.firmware.no_new_version: Current firmware is latest
-kbd.fireware.upgrade.btn: Upgrade
-kbd.firmware.upgrade.btn.to_latest: Upgrade to Latest
+kbd.firmware.find_new_version: "Find new firmware: "
+kbd.firmware.no_new_version: Your firmware is up to date
+kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Upgrade
 kbd.firmware.upgrade.title: Firmware Upgrade
-kbd.firmware.upgrade.content: Please don't unplug the USB cable during upgrade
-kbd.firmware.upgrade.status.downloading: Downloading firmware...
-kbd.firmware.upgrade.status.download_failed: Downloading firmware failed
-kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode...
-kbd.firmware.upgrade.status.writing_key: Writing data to application processor...
-kbd.firmware.upgrade.status.writing_led: Writing data to light processor...
-kbd.firmware.upgrade.status.writing_ble: Writing data to bluetooth processor...
-kbd.firmware.upgrade.status.restart: Restarting keyboard...
-kbd.firmware.upgrade.status.success: Firmware upgraded successfully.
+kbd.firmware.upgrade.content: Do not unplug USB cable during update
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
+kbd.firmware.upgrade.status.downloading: Downloading firmware
+kbd.firmware.upgrade.status.download_failed: Firmware download failed
+kbd.firmware.upgrade.status.entering_aip: Entering upgrade mode(About 6 seconds or less)
+kbd.firmware.upgrade.status.writing_key: Writing data to application processor
+kbd.firmware.upgrade.status.writing_led: Writing data to light processor
+kbd.firmware.upgrade.status.writing_ble: Writing data to Bluetooth processor
+kbd.firmware.upgrade.status.restart: Restarting keyboard
+kbd.firmware.upgrade.status.success: Firmware updated successfully
 
 # Main Window, LEDs
 kbd.led: Light
-kbd.led.effect.group: Light Group
-kbd.led.effect.group.reset: Reset
-kbd.led.effect.group.delete.confirm_content: Are you sure you want to delete this group?
-kbd.led.effect.list: Light List
-kbd.led.effect.list.limit.annepro1_three: Limited to three light effects in one group for ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Limited to sixteen light effects in one group
-kbd.led.effect.type: Dynamic Light Effect
-kbd.led.effect.delete.confirm_content: Are you sure you want to delete this light effect?
+kbd.led.effect.profiles: Lighting Profiles
+kbd.led.effect.profile.reset: Reset
+kbd.led.effect.profile.delete.confirm_content: Are you sure you want to delete this profile?
+kbd.led.effect.profile: Profile Detail
+kbd.led.effect.profile.limit.annepro1_three: Limit of 3 lighting effects per profile (ANNE PRO 1)
+kbd.led.effect.profile.limit.annepro2_sixteen: Limit of 16 lighting effects per profile
+kbd.led.effect.mode: Lighting Mode
+kbd.led.effect.delete.confirm_content: Are you sure you want to delete this lighting effect?
 kbd.led.effect.preview: Preview
-kbd.led.effect.dynamic_colors: Dynamic Light Color Table
+kbd.led.effect.dynamic_colors.random: Random
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Color Palette
 kbd.led.color.default: Default
 kbd.led.color.custom: Custom
 kbd.led.color.custom.save: Save current color
 # Keycap Groups
-kbd.keycap.group.alphabet: Character
-kbd.keycap.group.numbers: Number
-kbd.keycap.group.bigs: Big Key
-kbd.keycap.group.all: All
+kbd.keycap.group.alphabet: Characters
+kbd.keycap.group.numbers: Numerals
+kbd.keycap.group.bigs: Big keys
+kbd.keycap.group.all: All keys
 # Dynamic Light Effects
-dynamic_none: None
-dynamic_breath: Breath
-dynamic_breath_grad: Breath Grad
-dynamic_poptang: Poptang
-dynamic_rainbow: Rainbow
-dynamic_breath_single: Breath single
+dynamic.none: Static
+dynamic.breath: Breathing effect
+dynamic.breath_grad: Gradual breathing effect
+dynamic.poptang: Poptang
+dynamic.rainbow: Rainbow
+dynamic.trigger.breath_single: Breathing per key
+dynamic.trigger.breath: Breathing trigger
+dynamic.trigger.rainbow: Rainbow trigger
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Default
 intl.led.red: Red
@@ -182,11 +208,13 @@ intl.led.blue: Blue
 intl.led.purple: Purple
 intl.led.static.single: Static single
 intl.led.static.multi: Static multi
-intl.dynamic.breath: Breath
-intl.dynamic.breath.grad: Breath grad
+intl.dynamic.breath: Breathing
+intl.dynamic.breath.grad: Gradual breathing
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Rainbow
-intl.dynamic.breath.single: Breath single
+intl.dynamic.breath.single: Breathing per key
+intl.dynamic.trigger.breath: Breathing trigger
+intl.dynamic.trigger.rainbow: Rainbow trigger
 
 # Main Window, Layout
 kbd.layout: Layout
@@ -208,25 +236,25 @@ kbd.keycode_group.other: Other
 icon.left_gui: Left Win/Cmd
 icon.right_gui: Right Win/Cmd
 icon.mute: Mute
-icon.volume.up: Volume Up
-icon.volume.down: Volume Down
-icon.bl.toggle: Toggle Light
-icon.bl.color: Switch Light
-icon.bl.increase: Brightness Plus
-icon.bl.decrease: Brightness Minus
-icon.bl.battery: Battery Level
+icon.volume.up: Volume up
+icon.volume.down: Volume down
+icon.bl.toggle: Toggle light
+icon.bl.color: Switch light
+icon.bl.increase: Increase brightness
+icon.bl.decrease: Decrease brightness
+icon.bl.battery: Battery level
 icon.ble.wl_1: Bluetooth 1
 icon.ble.wl_2: Bluetooth 2
 icon.ble.wl_3: Bluetooth 3
 icon.ble.wl_4: Bluetooth 4
-icon.fn.wheel: Game Wheel
-icon.prev.track: Prev Track
-icon.next.track: Next Track
-icon.play.pause: Play Pause
+icon.fn.wheel: Game wheel
+icon.prev.track: Prev. track
+icon.next.track: Next track
+icon.play.pause: Play / Pause
 # The active layout read from keyboard
 intl.layout.current: Current
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
@@ -238,17 +266,31 @@ kbd.macro.add: Add macro
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
 kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
-kbd.macro.amount_limit.annepro2_sixteen: Only 16 macros can be added to the Anne Pro 2
-kbd.macro.amount_limit.annepro_eight: Only 8 macros can be added to the Anne Pro 1
+kbd.macro.amount_limit.annepro2_sixteen: 16 macros maximum
+kbd.macro.amount_limit.annepro_eight: 8 macros maximum for Anne Pro 1
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Rec Macro
-kbd.macro.code.empty: Empty Macro Code
-kbd.macro.code.exceeded: Macro Code Exceeded
+kbd.macro.code.empty: Empty macro code
+kbd.macro.code.exceeded: Macro code capacity exceeded
 kbd.macro.code.missing_release_key: Missing release key
-kbd.macro.code.missing_press_key: Missing press key
-kbd.macro.code.value.insert_timer_block: Insert Time Block
-kbd.macro.code.value.move_up: Move Up
-kbd.macro.code.value.move_down: Move Down
+kbd.macro.code.missing_press_key: Missing activation key
+kbd.macro.code.value.insert_timer_block: Insert time block
+kbd.macro.code.value.move_up: Move up
+kbd.macro.code.value.move_down: Move down
+
+# Audio Visualization
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.light_type: Lighting Mode
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages
-msg.open_device_failed: Opening Device Failed
+msg.open_device_failed: Device initialization failed
+msg.missing_required_data_field: Missing data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error - Do not edit exported file
+msg.json_data_invalid: JSON data invalid

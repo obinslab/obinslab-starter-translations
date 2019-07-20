@@ -30,8 +30,11 @@ common.apply.failed: Gagal untuk menerap
 common.confirm.show_detail: Tunjukkan Perincian
 common.network.connection.error: Ralat Sambungan Rangkaian
 common.please_quit_edit: Tolong Berhenti Edit
-common.time_unit.hours: ' Jam'
+common.time_unit.hours: " Jam"
 common.time_unit.millisecond: Milisaat
+common.return: Return
+common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: Buka Obinslab Starter
@@ -51,23 +54,23 @@ feedback.title: Maklum Balas
 feedback.content: Kandungan
 feedback.content.no_empty: Sila isi maklumat
 feedback.content.max_1000: Maksimum 1000 abjad
-feedback.email.label: Email (Tidak diwajibkan)
+feedback.email.label: Email
 feedback.email.placeholder: Sila isi Email anda
 feedback.email.not_valid: Email tidak sah
 feedback.submit: Serah
 feedback.submit.error: Gagal untuk serah, sila cuba lagi
 feedback.submit.success: Berjaya untuk penyerahan, Klik untuk tutup
-feedback.support_email: 'Email Sokongan: '
+feedback.support_email: "Email Sokongan: "
+feedback.debug_log: Debug Log
 
-# 首选项
+# Preference Window
 preferences.setting: Tetapan
 preferences.setting.language: Bahasa
 preferences.setting.theme: Tema
 preferences.setting.theme.dark: Gelap
 preferences.setting.theme.light: Terang
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: Sumber Naik Taraf
-preferences.setting.update_channel.beta: Pembangunan
-preferences.setting.update_channel.latest: Pelepasan
 preferences.setting.animation: Animasi di Skrin Pertama
 preferences.setting.animation.on: Pasang
 preferences.setting.animation.off: Padam
@@ -78,6 +81,7 @@ preferences.setting.auto_launch: Lancarkan Semasa Log Masuk
 preferences.setting.auto_launch.yes: Ya
 preferences.setting.auto_launch.no: Tidak
 preferences.update: Kemas Kini
+preferences.update.insider_preview: Insider Preview Program
 preferences.update.check: Semak Versi Baru
 preferences.update.check.failed: Sila cuba lagi
 preferences.update.version.current: Versi Semasa
@@ -87,15 +91,15 @@ preferences.update.download: Muat Turun
 preferences.update.download.done: Selesai memuat turun pakej baru
 preferences.update.install_now: Pasang sekarang
 preferences.help: Bantuan
+preferences.help.user-manual: Manual pengguna
 preferences.about: Tentang
 
-# 首屏
+# Home Window
 home.welcome: Hai Dunia
 home.please_connect_kbd_with_cable: Sila sambungkan peranti anda melalui USB
 home.open_device_failed: Gagal untuk membuka peranti
-home.open_device_failed_linux: Gagal untuk membuka peranti, sila rujuk bab 1.3 di manual pengguna
 
-# 键盘信息，全局设置
+# Main Window, General
 kbd.general: Am
 kbd.general.info: Maklumat
 kbd.general.info.device_model: Model Peranti
@@ -120,59 +124,81 @@ kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Sambungan Bluetooth
 kbd.general.bluetooth.clean_bind: Bersihkan Sambungan
 
-# 键盘固件升级
+# Main Window, Firmware
 kbd.firmware: Naik Taraf Firmware
 kbd.firmware.key: Pemproses Aplikasi
 kbd.firmware.led: Pemproses Lampu
 kbd.firmware.ble: Pemproses Bluetooth
-kbd.firmware.list: Senarai Firmware
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Muat Turun Firmware
 kbd.firmware.annepro1.download.latest_firmware: Muat Turun Firmware Terkini
 kbd.firmware.annepro1.download.dfu_tool: Muat Turun Alat Dfu
-kbd.firmware.find_new_version: 'Cari Firmware Baharu: '
+kbd.firmware.find_new_version: "Cari Firmware Baharu: "
 kbd.firmware.no_new_version: Firmware semasa adalah terbaru
-kbd.fireware.upgrade.btn: Naik Taraf
-kbd.firmware.upgrade.btn.to_latest: Naik Taraf ke Terkini
+kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Naik Taraf
 kbd.firmware.upgrade.title: Naik Taraf Firmware
 kbd.firmware.upgrade.content: Tolong jangan cabut kabel USB semasa kenaikan taraf
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Memuat turun firmware...
 kbd.firmware.upgrade.status.download_failed: Gagal untuk memuat turun firmware
-kbd.firmware.upgrade.status.entering_aip: Memasuki mod kenaikan taraf...
+kbd.firmware.upgrade.status.entering_aip: Memasuki mod kenaikan taraf(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Memasukkan data ke pemproses aplikasi...
 kbd.firmware.upgrade.status.writing_led: Memasukkan data to pemproses lampu...
 kbd.firmware.upgrade.status.writing_ble: Memasukkan data to pemproses Bluetooth...
 kbd.firmware.upgrade.status.restart: Memulakan semula papan kekunci...
 kbd.firmware.upgrade.status.success: Berjaya untuk menaikkan taraf firmware.
 
-# 键盘灯光
+# Main Window, LEDs
 kbd.led: Lampu
-kbd.led.effect.group: Kumpulan Lampu
-kbd.led.effect.group.reset: Tetapkan semula
-kbd.led.effect.group.delete.confirm_content: Anda pasti untuk padakam lampu ini?
-kbd.led.effect.list: Senarai Lampu
-kbd.led.effect.list.limit.annepro1_three: Terhad kepada tiga kesanan cahaya dalam satu kumpulan untuk ANNE PRO 1
-kbd.led.effect.list.limit.annepro2_sixteen: Terhad kepada enam belas kesanan cahaya dalam satu kumpulan
-kbd.led.effect.type: Kesanan Cahaya Dinamik
+kbd.led.effect.profiles: Groupe d'éclairage
+kbd.led.effect.profile.reset: Tetapkan semula
+kbd.led.effect.profile.delete.confirm_content: Anda pasti untuk padakam lampu ini?
+kbd.led.effect.profile: Senarai Lampu
+kbd.led.effect.profile.limit.annepro1_three: Terhad kepada tiga kesanan cahaya dalam satu kumpulan untuk ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: Terhad kepada enam belas kesanan cahaya dalam satu kumpulan
+kbd.led.effect.mode: Kesanan Cahaya Dinamik
 kbd.led.effect.delete.confirm_content: Anda pasti untuk padam lampu ini?
 kbd.led.effect.preview: Pratonton
-kbd.led.effect.dynamic_colors: Senarai Warna Lampu Dinamik
+kbd.led.effect.dynamic_colors.random: Random
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Palet Warna
 kbd.led.color.default: Lalai
 kbd.led.color.custom: Penyesuian
 kbd.led.color.custom.save: Simpan warna semasa
-# 按键分组
+# Keycap Groups
 kbd.keycap.group.alphabet: Abjad
 kbd.keycap.group.numbers: Nombor
 kbd.keycap.group.bigs: Kunci Besar
 kbd.keycap.group.all: Semua
-# 动态灯效类型
-dynamic_none: Tiada
-dynamic_breath: Nafas
-dynamic_breath_grad: Grad Nafas
-dynamic_poptang: Poptang
-dynamic_rainbow: Pelangi
-dynamic_breath_single: Nafas tunggal
-# 默认灯效
+# Dynamic Light Effects
+dynamic.none: Static
+dynamic.breath: Nafas
+dynamic.breath_grad: Grad Nafas
+dynamic.poptang: Poptang
+dynamic.rainbow: Pelangi
+dynamic.trigger.breath_single: Nafas tunggal
+dynamic.trigger.breath: Breath(Trigger)
+dynamic.trigger.rainbow: Rainbow(Trigger)
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
+# Default LED group
 intl.light.group.default: Lalai
 intl.led.red: Merah
 intl.led.yellow: Kuning
@@ -187,13 +213,15 @@ intl.dynamic.breath.grad: Grad Nafas
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Pelangi
 intl.dynamic.breath.single: Nafas tunggal
+intl.dynamic.trigger.breath: Breath(Trigger)
+intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
-# 键盘配列
+# Main Window, Layout
 kbd.layout: Susun Atur
 kbd.layout.reset.confirm_content: Anda pasti untuk menetapkan semula susun atur ini ke lalai?
 kbd.layout.delete.confirm_content: Anda pasti untuk padamkan susun atur ini?
 kbd.layout.set_keycap_null: Tetapkan kepada null
-# 键盘码，分组名称
+# Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Sistem
 kbd.keycode_group.alphabet: Abjad
@@ -204,7 +232,7 @@ kbd.keycode_group.function: Fungsi
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Pad Kekunci
 kbd.keycode_group.other: Lain-lain
-# 键盘码，图形说明
+# Key tooltips
 icon.left_gui: Win/Cmd Kiri
 icon.right_gui: Win/Cmd Kanan
 icon.mute: Senyap
@@ -226,11 +254,11 @@ icon.play.pause: Main / Berhenti Sejenak
 # The active layout read from keyboard
 intl.layout.current: Semasa
 # default keyboard layouts
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
-# 键盘宏程序
+# Main Window, Macros
 kbd.macro: Makro
 kbd.macro.group: Kumpulan Makro
 kbd.macro.group.delete.confirm_content: Anda pasti untuk padamkan kumpulan makro ini?
@@ -250,5 +278,19 @@ kbd.macro.code.value.insert_timer_block: Masukkan Blok Masa
 kbd.macro.code.value.move_up: Bergerak ke Atas
 kbd.macro.code.value.move_down: Bergerak ke Bawah
 
+# Audio Visualization
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.light_type: Lighting Mode
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
+
 # Other Messages
 msg.open_device_failed: Gagal Membuka Peranti
+msg.missing_required_data_field: Missing required data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error, please don't edit the file exported
+msg.json_data_invalid: JSON data invalid

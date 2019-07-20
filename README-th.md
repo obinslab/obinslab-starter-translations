@@ -1,28 +1,28 @@
+
 <p align="center">
   <a href="http://en.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
 </p>
 
-# Obinslab Starter Übersetzungen
+# Obinslab Starter Translations
 
-[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | Deutsch | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | ไทย
 
-Übersetzungsprojekt für den [Obinslab Starter](http://en.obins.net/obinslab-starter).
+นี้คือโครงการแปลภาษาสำหรับ [Obinslab Starter](http://en.obins.net/obinslab-starter).
 
-Mit dem Obinslab Starter kann die Tastaturbelegung, Lichteffekte und Makros für deine ANNE PRO 2 angepasst werden.
+Obinslab Starter ให้คุณปรับแต่งรูปแบบแป้นพิมพ์เอฟเฟกต์แสงและมาโครสำหรับ ANNE PRO2 ของคุณ
 
-Folge <a href="https://twitter.com/obinslab"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> auf Twitter für wichtige Ankündigungen.
+ติดตาม <a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> บน Twitter สำหรับการประกาศที่สำคัญ
 
-## Wie man eine Übersetzung erstellt
+## วิธีเริ่มการแปล
+ตรวจสอบว่าไฟล์แปลสำหรับภาษาของคุณมีอยู่แล้วในโฟลเดอร์ `locales` หากมีอยู่แล้วเพียงแค่ปรับเปลี่ยน; ถ้าไม่ทำเช่นนั้นให้โคลน `en.yml` เป็น `language-code.yml`
 
-Überprüfe ob für deine Sprache eine Übersetzungsdatei im Ordner `locales` existiert. Wenn die Datei schon existiert, kannst du sie direkt bearbeiten. Wenn die Datei noch nicht existiert, kopiere die Datei `en.yml` und speichere sie als `language-code.yml`. (`language-code` ist der ISO Code der jeweiligen Sprache, siehe unten.)
+ตัวอย่างเช่น: หากคุณต้องการสร้าง/อัปเดต ภาษา `Japanese` เพียงแค่แก้ไขชื่อไฟล์เป็น `ja.yml`.
 
-Beispiel: Wenn du die Sprache `Japanisch` ändern oder erstellen willst, bearbeite oder erstelle die Datei `ja.yml`.
+Obinslab Starter ใช้ไลบรารี `l10n_util` ของ Chromium เพื่อดึงข้อมูลสถานที่ ที่เป็นไปได้
 
-Obinslab Starter nutzt Chromiums `l10n_util` Bibliothek, um die Übersetzungen zu holen.
+`language-code` มีระบุไว้ตามด้านล่างนี้:
 
-Die verfügbaren `language-code`'s sind:
-
-| `language-code` | Sprache |
+| Language Code | Language Name |
 |---------------|---------------|
 | af | Afrikaans |
 | am | Amharic |
@@ -158,20 +158,20 @@ Die verfügbaren `language-code`'s sind:
 | zh-TW | Chinese (Traditional) |
 | zu | Zulu |
 
-## Vorschau deiner Übersetzung in der Anwendung anzeigen
+## วิธีดูตัวอย่างการแปลของคุณ
 
-1. Schiebe die `language-code.yml` Datei in den Ordner `locales`. Bearbeite darin die Datei `locales.json` und füge `id` und `name` der Sprache hinzu.
+1. ใส่ไฟล์ `language-code.yml` ในโฟลเดอร์ `locales` ภายใต้ `Resources` แก้ไข `locales.json` และเพิ่มภาษาของคุณทั้ง `id` แล้วก็ `name`
 
-    Den Ordner `locales` findest du unter:
+    โฟลเดอร์ `locales` จะอยู่ที่:
     - Windows
     `C:\Program Files\Obinslab Starter\resources\locales`
 
-    - macOS
+    - Mac Osx
     `/Applications/Obinslab Starter.app/Contents/Resources/locales`
 
 
-2. Starte den Obinslab Starter, gehe in die Einstellungen (Zahnrad -> Prefences) und wähle die neue Sprache aus.
+2. ปิด/เปิด Obinslab Starter, จากนั้นไปที่ `preferences`, เลือกภาษาใหม่
 
-## Wie du mitwirken kannst
+## คุณจะเข้าร่วมได้อย่างไร?
 
-Fork -> Bearbeiten -> Pull Request öffnen
+Fork -> Modify -> Pull request

@@ -30,8 +30,11 @@ common.apply.failed: 应用失败
 common.confirm.show_detail: 查看详情
 common.network.connection.error: 网络连接出错
 common.please_quit_edit: 请退出编辑
-common.time_unit.hours: ' 小时'
+common.time_unit.hours: " 小时"
 common.time_unit.millisecond: 毫秒
+common.return: 返回
+common.refresh: 刷新
+common.date: 日期
 
 # 托盘
 app.tray.show_window: 打开Obinslab Starter
@@ -51,13 +54,14 @@ feedback.title: 意见反馈
 feedback.content: 内容
 feedback.content.no_empty: 请输入内容
 feedback.content.max_1000: 最多可输入1000个字符
-feedback.email.label: 邮箱（非必填）
+feedback.email.label: 邮箱
 feedback.email.placeholder: 请输入您的邮箱
 feedback.email.not_valid: 输入的邮箱非有效
 feedback.submit: 提交
 feedback.submit.error: 提交失败，请重试
 feedback.submit.success: 提交成功，点击关闭
-feedback.support_email: '支持邮箱: '
+feedback.support_email: "支持邮箱: "
+feedback.debug_log: 诊断日志
 
 # 首选项
 preferences.setting: 设置
@@ -65,9 +69,8 @@ preferences.setting.language: 语言
 preferences.setting.theme: 主题
 preferences.setting.theme.dark: 深色
 preferences.setting.theme.light: 浅色
+preferences.setting.theme.cyan: 青色
 preferences.setting.update_channel: 更新源
-preferences.setting.update_channel.beta: 开发版
-preferences.setting.update_channel.latest: 正式版
 preferences.setting.animation: 首屏动画
 preferences.setting.animation.on: 开
 preferences.setting.animation.off: 关
@@ -78,6 +81,7 @@ preferences.setting.auto_launch: 开机自启动
 preferences.setting.auto_launch.yes: 是
 preferences.setting.auto_launch.no: 否
 preferences.update: 更新
+preferences.update.insider_preview: 预览体验计划
 preferences.update.check: 检查更新
 preferences.update.check.failed: 出错了，请重试
 preferences.update.version.current: 当前版本
@@ -87,13 +91,13 @@ preferences.update.download: 下载更新
 preferences.update.download.done: 更新包已经下载完成
 preferences.update.install_now: 立刻安装
 preferences.help: 帮助
+preferences.help.user-manual: 用户手册
 preferences.about: 关于
 
 # 首屏
 home.welcome: Hello World
 home.please_connect_kbd_with_cable: 通过usb连接您的装备
 home.open_device_failed: 打开设备失败
-home.open_device_failed_linux: 打开设备失败，请参考用户手册软件说明1.3章节
 
 # 键盘信息，全局设置
 kbd.general: 基本信息
@@ -106,7 +110,7 @@ kbd.general.setting: 全局设置
 kbd.general.setting.layout: 配列
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.magic_fn: Magic Fn
-kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.macro_trigger: 宏程序
 kbd.general.setting.capslock_led: CapsLock灯
 kbd.general.setting.auto_sleep: 休眠
 kbd.general.setting.options.disable: 关闭
@@ -125,19 +129,25 @@ kbd.firmware: 固件升级
 kbd.firmware.key: 应用处理器
 kbd.firmware.led: 灯光处理器
 kbd.firmware.ble: 蓝牙处理器
-kbd.firmware.list: 固件列表
+kbd.firmware.current_version: 当前版本
+kbd.firmware.upgrade_source: 更新源
+kbd.firmware.latest: 最新固件
+kbd.firmware.archive: 历史固件
 kbd.firmware.annepro1.download.firmware: 下载固件
 kbd.firmware.annepro1.download.latest_firmware: 下载最新固件
 kbd.firmware.annepro1.download.dfu_tool: 下载Dfu工具
 kbd.firmware.find_new_version: 发现新固件：
 kbd.firmware.no_new_version: 当前固件已经是最新固件
-kbd.fireware.upgrade.btn: 更新
-kbd.firmware.upgrade.btn.to_latest: 更新到最新
+kbd.firmware.upgrade.app_require: Obinslab Starter版本必须高于v{{requiredVersion}}, 当前版本为v{{appVersion}}
+kbd.firmware.upgrade.source.alpha: 测试版
+kbd.firmware.upgrade.source.latest: 正式版
+kbd.firmware.upgrade_btn: 更新
 kbd.firmware.upgrade.title: 固件更新
 kbd.firmware.upgrade.content: 更新过程中请不要在拔除USB线
+kbd.firmware.upgrade.enter_iap_timeout: 自动进入IAP模式失败，请手动进入IAP模式 (按住ESC键盘, 然后插入USB线)
 kbd.firmware.upgrade.status.downloading: 下载固件...
 kbd.firmware.upgrade.status.download_failed: 固件下载失败
-kbd.firmware.upgrade.status.entering_aip: 进入升级模式...
+kbd.firmware.upgrade.status.entering_aip: 进入升级模式(大概需要不超过6秒)...
 kbd.firmware.upgrade.status.writing_key: 写入应用处理器...
 kbd.firmware.upgrade.status.writing_led: 写入灯光处理器...
 kbd.firmware.upgrade.status.writing_ble: 写入蓝牙处理器...
@@ -146,16 +156,17 @@ kbd.firmware.upgrade.status.success: 固件升级成功
 
 # 键盘灯光
 kbd.led: 灯光
-kbd.led.effect.group: 灯效组
-kbd.led.effect.group.reset: 确认将此灯效组恢复为默认设置？
-kbd.led.effect.group.delete.confirm_content: 确定删除该灯光组?
-kbd.led.effect.list: 灯效列表
-kbd.led.effect.list.limit.annepro1_three: ANNE PRO 1最多添加3个灯效
-kbd.led.effect.list.limit.annepro2_sixteen: 最多添加16个灯效
-kbd.led.effect.type: 动态灯效
+kbd.led.effect.profiles: 灯效档案
+kbd.led.effect.profile.reset: 确认将此灯效组恢复为默认设置？
+kbd.led.effect.profile.delete.confirm_content: 确定删除该灯效档案?
+kbd.led.effect.profile: 档案详情
+kbd.led.effect.profile.limit.annepro1_three: ANNE PRO 1最多添加3个灯效
+kbd.led.effect.profile.limit.annepro2_sixteen: 最多添加16个灯效
+kbd.led.effect.mode: 灯效模式
 kbd.led.effect.delete.confirm_content: 从列表中删除该灯效?
 kbd.led.effect.preview: 预览
-kbd.led.effect.dynamic_colors: 动态色谱
+kbd.led.effect.dynamic_colors.random: 随机
+kbd.led.effect.dynamic_colors.no_empty: 请添加动态色谱
 kbd.led.color.palette: 调色板
 kbd.led.color.default: 预置
 kbd.led.color.custom: 自定义
@@ -166,12 +177,27 @@ kbd.keycap.group.numbers: 数字
 kbd.keycap.group.bigs: 大键
 kbd.keycap.group.all: 所有
 # 动态灯效类型
-dynamic_none: 无
-dynamic_breath: 呼吸灯
-dynamic_breath_grad: 渐变灯
-dynamic_poptang: 泡泡堂
-dynamic_rainbow: 七彩跑马灯
-dynamic_breath_single: 单键灯呼吸
+dynamic.none: 静态
+dynamic.breath: 呼吸灯
+dynamic.breath_grad: 渐变灯
+dynamic.poptang: 泡泡堂
+dynamic.rainbow: 七彩跑马灯
+dynamic.trigger.breath_single: 单键灯呼吸
+dynamic.trigger.breath: 渐变-按键触发
+dynamic.trigger.rainbow: 跑马灯-按键触发
+dynamic.trigger.ripple: 涟漪-按键触发
+dynamic.trigger.pulse: 脉冲-按键触发
+dynamic.trigger.star_fall: 星落-按键触发
+dynamic.auto.starry_sky: 星空
+dynamic.auto.comet: 彗星
+dynamic.auto.colorful: 五彩缤纷
+dynamic.auto.wave: 波浪
+dynamic.auto.black_hole: 黑洞
+dynamic.auto.vertical_rainbow: 垂直彩虹
+dynamic.auto.fountain: 喷泉
+dynamic.auto.snake: 贪吃蛇
+dynamic.auto.flame: 火焰
+dynamic.auto.firework: 烟花
 # 默认灯效
 intl.light.group.default: 默认
 intl.led.red: 红色
@@ -187,6 +213,8 @@ intl.dynamic.breath.grad: 渐变灯
 intl.dynamic.poptang: 泡泡堂
 intl.dynamic.breath.rainbow: 七彩跑马灯
 intl.dynamic.breath.single: 单键呼吸灯
+intl.dynamic.trigger.breath: 渐变(按键触发)
+intl.dynamic.trigger.rainbow: 跑马灯(按键触发)
 
 # 键盘配列
 kbd.layout: 配列
@@ -226,7 +254,7 @@ icon.play.pause: 暂停播放
 # 从键盘内读取到的，当前正在使用的配列
 intl.layout.current: 当前
 # 预置配列
-intl.keymap.qwerty: Qwerty
+intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
@@ -250,5 +278,19 @@ kbd.macro.code.value.insert_timer_block: 插入时间
 kbd.macro.code.value.move_up: 上移
 kbd.macro.code.value.move_down: 下移
 
+# 音频可视化
+kbd.audio: 音频可视化
+kbd.audio.describe: 键盘灯光随着默认声卡播放音频的节奏而改变
+kbd.audio.on: 开
+kbd.audio.off: 关
+kbd.audio.light_type: 灯效模式
+kbd.audio.light_type.pure: 纯色
+kbd.audio.light_type.colorful: 多色
+kbd.audio.required_led_firmware: 灯光固件版本须高于{{version}}
+
 # 其他信息
 msg.open_device_failed: 打开设备失败
+msg.missing_required_data_field: 缺少必要字段
+msg.file_not_compatible_your_device: 将要导入的文件与您的设备不兼容
+msg.crc_check_error: CRC校验错误，请不要编辑导出的文件
+msg.json_data_invalid: 无效的JSON数据

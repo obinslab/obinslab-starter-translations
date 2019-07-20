@@ -1,0 +1,296 @@
+# Common
+common.operate.failed: Ошибка при выполнении операции
+common.operate.success: Операция успешно завершилась
+common.tooltip_title: Сообщение
+common.input.placeholder: Введите имя
+common.rename: Переименовать
+common.import: Импортировать
+common.export: Экспортировать
+common.add: Добавить
+common.create: Создать
+common.add.success: Успешно добавлено
+common.add.failed: Ошибка при добавлении
+common.delete: Удалить
+common.delete.success: Успешно удалено
+common.delete.failed: Ошибка при удалении
+common.copy: Копировать
+common.copy.success: Успешно скопировано
+common.copy_text: Копия
+common.paste: Вставить
+common.reset: Сбросить
+common.clone: Клонировать
+common.cancel: Отмена
+common.ok: OK
+common.save: Сохранить
+common.save_as: Сохранить как
+common.save.success: Успешно сохранено
+common.apply: Применить
+common.apply.success: Успешно применено
+common.apply.failed: Ошибка при применении
+common.confirm.show_detail: Показать детали
+common.network.connection.error: Ошибка сетевого соединения
+common.please_quit_edit: Пожалуйста, выйдите из режима редактирования
+common.time_unit.hours: " часов"
+common.time_unit.millisecond: мс
+common.return: Return
+common.refresh: Refresh
+common.date: Date
+
+# Tray
+app.tray.show_window: Открыть Obinslab Starter
+app.tray.preferences: Настройки
+app.tray.quit: Выйти
+app.tray.still_running_here: Obinslab Starter все еще запущен.
+
+# Manage Menu
+app.manage: Управление приложением
+app.manage.preferences: Параметры
+app.manage.device_list: Список устройств
+app.manage.feedback: Обратная связь
+
+# Feedback
+feedback: Обратная связь
+feedback.title: Обратная связь
+feedback.content: Сообщение
+feedback.content.no_empty: Пожалуйста, заполните сообщение
+feedback.content.max_1000: Максимум 1000 символов
+feedback.email.label: Email
+feedback.email.placeholder: Пожалуйста, введите свой Email
+feedback.email.not_valid: Неправильный адрес электронной почты
+feedback.submit: Отправить
+feedback.submit.error: Ошибка при отправке. Пожалуйста, повторите попытку
+feedback.submit.success: Успешно отправлено. Нажмите, чтобы закрыть
+feedback.support_email: "Email службы поддержки: "
+feedback.debug_log: Debug Log
+
+# Preference Window
+preferences.setting: Настройки
+preferences.setting.language: Язык
+preferences.setting.theme: Тема
+preferences.setting.theme.dark: Темная
+preferences.setting.theme.light: Светлая
+preferences.setting.theme.cyan: Cyan
+preferences.setting.update_channel: Пакеты обновлений
+preferences.setting.animation: Анимация на стартовом экране
+preferences.setting.animation.on: Вкл.
+preferences.setting.animation.off: Выкл.
+preferences.setting.x_action: Действие при закрытии главного окна
+preferences.setting.minimize_to_tray: Свернуть в трей
+preferences.setting.quit_program: Выйти из программы
+preferences.setting.auto_launch: Запускать при входе в систему
+preferences.setting.auto_launch.yes: Да
+preferences.setting.auto_launch.no: Нет
+preferences.update: Обновления
+preferences.update.insider_preview: Insider Preview Program
+preferences.update.check: Проверить наличие новой версии
+preferences.update.check.failed: Пожалуйста, повторите попытку
+preferences.update.version.current: Текущая версия
+preferences.update.version.new: Новая версия
+preferences.update.version.no_new: Новые версии отсутствуют
+preferences.update.download: Скачать
+preferences.update.download.done: Пакет обновления скачан
+preferences.update.install_now: Установить
+preferences.help: Помощь
+preferences.help.user-manual: Руководство пользователя
+preferences.about: О программе
+
+# Home Window
+home.welcome: Hello World
+home.please_connect_kbd_with_cable: Пожалуйста, подключите ваше устройство по USB
+home.open_device_failed: Ошибка при открытии устройства
+
+# Main Window, General
+kbd.general: Общие параметры
+kbd.general.info: Информация
+kbd.general.info.device_model: Модель устройства
+kbd.general.info.serial_number: Серийный номер
+kbd.general.info.battery: Батарея
+kbd.general.info.running_time: Время работы
+kbd.general.setting: Опции
+kbd.general.setting.layout: Раскладка
+kbd.general.setting.tap_layout: Режим Tap
+kbd.general.setting.magic_fn: Клавиша Magic Fn
+kbd.general.setting.macro_trigger: Макросы
+kbd.general.setting.capslock_led: Индикатор CapsLock
+kbd.general.setting.auto_sleep: Автовыключение
+kbd.general.setting.options.disable: Выкл.
+kbd.general.setting.options.enable: Вкл.
+kbd.general.setting.options.default: По умолчанию
+kbd.general.setting.options.custom: Пользовательская
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: Все
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Привязка Bluetooth
+kbd.general.bluetooth.clean_bind: Сбросить привязку
+
+# Main Window, Firmware
+kbd.firmware: Обновление прошивки
+kbd.firmware.key: Application Processor
+kbd.firmware.led: Light Processor
+kbd.firmware.ble: Bluetooth Processor
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
+kbd.firmware.annepro1.download.firmware: Скачать прошивку
+kbd.firmware.annepro1.download.latest_firmware: Скачать актуальную прошивку
+kbd.firmware.annepro1.download.dfu_tool: Скачать DFU Tool
+kbd.firmware.find_new_version: "Найдена новая версия: "
+kbd.firmware.no_new_version: Текущая прошивка наиболее актуальная
+kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Обновить
+kbd.firmware.upgrade.title: Обновление прошивки
+kbd.firmware.upgrade.content: Не отсоединяйте USB-кабель в процессе обновления
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
+kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
+kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
+kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления(About 6 seconds or less)...
+kbd.firmware.upgrade.status.writing_key: Запись данных в application processor...
+kbd.firmware.upgrade.status.writing_led: Запись данных в light processor...
+kbd.firmware.upgrade.status.writing_ble: Запись данных в bluetooth processor...
+kbd.firmware.upgrade.status.restart: Перезапуск клавиатуры...
+kbd.firmware.upgrade.status.success: Прошивка успешно обновлена.
+
+# Main Window, LEDs
+kbd.led: Подсветка
+kbd.led.effect.profiles: Группы эффектов
+kbd.led.effect.profile.reset: Сбросить
+kbd.led.effect.profile.delete.confirm_content: Вы уверены, что хотите удалить эту группу?
+kbd.led.effect.profile: Список эффектов
+kbd.led.effect.profile.limit.annepro1_three: Максимальное количество эффектов для одной группы — 3
+kbd.led.effect.profile.limit.annepro2_sixteen: Максимальное количество эффектов для одной группы — 16
+kbd.led.effect.mode: Динамический эффект
+kbd.led.effect.delete.confirm_content: Вы уверены, что хотите удалить этот эффект?
+kbd.led.effect.preview: Просмотр
+kbd.led.effect.dynamic_colors.random: Random
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
+kbd.led.color.palette: Цветовая палитра
+kbd.led.color.default: Основные
+kbd.led.color.custom: Свои
+kbd.led.color.custom.save: Сохранить текущий цвет
+# Keycap Groups
+kbd.keycap.group.alphabet: Символы
+kbd.keycap.group.numbers: Цифры
+kbd.keycap.group.bigs: Большие
+kbd.keycap.group.all: Все
+# Dynamic Light Effects
+dynamic.none: Static
+dynamic.breath: Дыхание
+dynamic.breath_grad: Дыхание (градиент)
+dynamic.poptang: Крест
+dynamic.rainbow: Радуга
+dynamic.trigger.breath_single: Дыхание (нажатые клавиши)
+dynamic.trigger.breath: Дыхание (триггер)
+dynamic.trigger.rainbow: Радуга (триггер)
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
+# Default LED group
+intl.light.group.default: Предустановленные
+intl.led.red: Красный
+intl.led.yellow: Желтый
+intl.led.green: Зеленый
+intl.led.cyan: Бирюзовый
+intl.led.blue: Синий
+intl.led.purple: Пурпурный
+intl.led.static.single: Статический одноцветный
+intl.led.static.multi: Статический многоцветный
+intl.dynamic.breath: Дыхание
+intl.dynamic.breath.grad: Дыхание (градиент)
+intl.dynamic.poptang: Крест
+intl.dynamic.breath.rainbow: Радуга
+intl.dynamic.breath.single: Дыхание (нажатые клавиши)
+intl.dynamic.trigger.breath: Дыхание (триггер)
+intl.dynamic.trigger.rainbow: Радуга (триггер)
+
+# Main Window, Layout
+kbd.layout: Раскладка
+kbd.layout.reset.confirm_content: Вы уверены, что хотите сбросить эту раскладку к заводским настройкам?
+kbd.layout.delete.confirm_content: Вы уверены, что хотите удалить эту раскладку?
+kbd.layout.set_keycap_null: Убрать значение
+# Sidebar titles
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: Системные
+kbd.keycode_group.alphabet: Символы
+kbd.keycode_group.number: Цифры
+kbd.keycode_group.modifier: Модификаторы
+kbd.keycode_group.arrow: Стрелки
+kbd.keycode_group.function: Функциональные
+kbd.keycode_group.media: Медиа
+kbd.keycode_group.keypad: Цифровой блок
+kbd.keycode_group.other: Другое
+# Key tooltips
+icon.left_gui: Левый Win/Cmd
+icon.right_gui: Правый Win/Cmd
+icon.mute: Отключить звук
+icon.volume.up: Повысить громкость
+icon.volume.down: Понизить громкость
+icon.bl.toggle: Вкл./выкл. подсветку
+icon.bl.color: Сменить тип подсветки
+icon.bl.increase: Повысить яркость
+icon.bl.decrease: Понизить яркость
+icon.bl.battery: Уровень заряда батареи
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Игровой руль
+icon.prev.track: Предыдущий трек
+icon.next.track: Следующий трек
+icon.play.pause: Воспроизведение/Пауза
+# The active layout read from keyboard
+intl.layout.current: Текущая
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: Макросы
+kbd.macro.group: Группы макросов
+kbd.macro.group.delete.confirm_content: Вы уверены, что хотите удалить эту группу макросов?
+kbd.macro.add: Добавить макрос
+kbd.macro.please_add_macro_group: Пожалуйста, добавьте группу макросов
+kbd.macro.please_add_macro: Пожалуйста, добавьте макрос
+kbd.macro.delete.confirm_content: Вы уверены, что хотите удалить этот макрос?
+kbd.macro.amount_limit.annepro2_sixteen: Anne Pro 2 поддерживает 16 макросов максимум
+kbd.macro.amount_limit.annepro_eight: Anne Pro 1 поддерживает 8 макросов максимум
+kbd.macro.code: Код макроса
+kbd.macro.code.rec: Записать макрос
+kbd.macro.code.empty: Код макроса пуст
+kbd.macro.code.exceeded: Превышен лимит макроса
+kbd.macro.code.missing_release_key: Пропущено отжатие клавиши
+kbd.macro.code.missing_press_key: Пропущено нажатие клавиши
+kbd.macro.code.value.insert_timer_block: Вставить временну́ю задержку
+kbd.macro.code.value.move_up: Переместить вверх
+kbd.macro.code.value.move_down: Переместить вниз
+
+# Audio Visualization
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.light_type: Lighting Mode
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
+
+# Other Messages
+msg.open_device_failed: Ошибка при открытии устройства
+msg.missing_required_data_field: Отсутствует обязательное поле данных
+msg.file_not_compatible_your_device: Файл несовместим с вашим устройством
+msg.crc_check_error: Ошибка при проверке контрольной суммы. Не редактируйте экспортированный файл
+msg.json_data_invalid: Неверные данные в формате JSON

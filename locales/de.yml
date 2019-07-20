@@ -30,8 +30,11 @@ common.apply.failed: Fehlgeschlagen
 common.confirm.show_detail: Details anzeigen
 common.network.connection.error: Netzwerkverbindung fehlgeschlagen
 common.please_quit_edit: Bitte beende die Bearbeitung
-common.time_unit.hours: ' Stunden'
+common.time_unit.hours: " Stunden"
 common.time_unit.millisecond: Millisekunden
+common.return: Return
+common.refresh: Refresh
+common.date: Date
 
 # Tray
 app.tray.show_window: Obinslab Starter öffnen
@@ -51,23 +54,23 @@ feedback.title: Feedback
 feedback.content: Nachricht
 feedback.content.no_empty: Bitte eine Nachricht eingeben
 feedback.content.max_1000: Maximal 1000 Zeichen
-feedback.email.label: E-Mail (optional)
+feedback.email.label: E-Mail
 feedback.email.placeholder: E-Mail eingeben
 feedback.email.not_valid: Die E-Mail-Adresse ist ungültig
 feedback.submit: Abschicken
 feedback.submit.error: Fehler beim Abschicken, bitte versuche es erneut
 feedback.submit.success: Erfolgreich abgeschickt. Klicke zum schließen.
-feedback.support_email: 'Support E-Mail: '
+feedback.support_email: "Support email: "
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: Einstellungen
 preferences.setting.language: Sprache
 preferences.setting.theme: Theme
 preferences.setting.theme.dark: Dunkel
-preferences.setting.theme.light: Hell
+preferences.setting.theme.light: Erhellen Licht
+preferences.setting.theme.cyan: Cyan
 preferences.setting.update_channel: Updatekanal
-preferences.setting.update_channel.beta: Development
-preferences.setting.update_channel.latest: Release
 preferences.setting.animation: Animationen auf dem Startbildschirm
 preferences.setting.animation.on: An
 preferences.setting.animation.off: Aus
@@ -78,6 +81,7 @@ preferences.setting.auto_launch: Beim anmelden starten
 preferences.setting.auto_launch.yes: Ja
 preferences.setting.auto_launch.no: Nein
 preferences.update: Update
+preferences.update.insider_preview: Insider Preview Program
 preferences.update.check: Auf neue Version prüfen
 preferences.update.check.failed: Fehler, bitte versuche es nochmal
 preferences.update.version.current: Aktuelle Version
@@ -87,14 +91,13 @@ preferences.update.download: Download
 preferences.update.download.done: Update wurde heruntergeladen
 preferences.update.install_now: Jetzt installieren
 preferences.help: Hilfe
+preferences.help.user-manual: Benutzerhandbuch
 preferences.about: Über
 
 # Home Window
 home.welcome: Hallo Welt
 home.please_connect_kbd_with_cable: Bitte verbinde dein Gerät über USB
 home.open_device_failed: Fehler beim Verbinden mit dem Gerät
-home.open_device_failed_linux:
-  Fehler beim Verbinden mit dem Gerät, bitte schaue in Kapitel 1.3 des Benutzerhandbuchs
 
 # Main Window, General
 kbd.general: Generell
@@ -126,19 +129,25 @@ kbd.firmware: Firmware-Aktualisierung
 kbd.firmware.key: Anwendungsprozessor
 kbd.firmware.led: Lichtprozessor
 kbd.firmware.ble: Bluetooth-Prozessor
-kbd.firmware.list: Firmware Liste
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Firmware herunterladen
 kbd.firmware.annepro1.download.latest_firmware: Neuste Firmware herunterladen
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool herunterladen
-kbd.firmware.find_new_version: 'Neue Firmware finden: '
+kbd.firmware.find_new_version: "Neue Firmware finden: "
 kbd.firmware.no_new_version: Deine Firmware ist auf dem neusten Stand
-kbd.fireware.upgrade.btn: Aktualisieren
-kbd.firmware.upgrade.btn.to_latest: Auf neuste Firmware aktualisieren
+kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Aktualisieren
 kbd.firmware.upgrade.title: Firmware-Aktualisierung
 kbd.firmware.upgrade.content: Bitte nicht das USB-Kabel während dem Update trennen
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Firmware runterladen...
 kbd.firmware.upgrade.status.download_failed: Herunterladen der Firmware fehlgeschlagen
-kbd.firmware.upgrade.status.entering_aip: Gehe in Aktualisierungsmodus...
+kbd.firmware.upgrade.status.entering_aip: Gehe in Aktualisierungsmodus(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Schreibe Daten auf Anwendungsprozessor...
 kbd.firmware.upgrade.status.writing_led: Schreibe Daten auf Lichtprozessor...
 kbd.firmware.upgrade.status.writing_ble: Schreibe Daten auf Bluetooth-Prozessor...
@@ -147,18 +156,17 @@ kbd.firmware.upgrade.status.success: Firmware erfolgreich aktualisiert.
 
 # Main Window, LEDs
 kbd.led: Beleuchtung
-kbd.led.effect.group: Gruppen
-kbd.led.effect.group.reset: Zurücksetzen
-kbd.led.effect.group.delete.confirm_content: Möchtest du diese Gruppe wirklich löschen?
-kbd.led.effect.list: Beleuchtungen
-kbd.led.effect.list.limit.annepro1_three:
-  Du kannst bis zu drei Beleuchtungen in einer Gruppe für deine ANNE PRO 1 erstellen
-kbd.led.effect.list.limit.annepro2_sixteen:
-  Du kannst bis zu 16 Beleuchtungen in einer Gruppe erstellen
-kbd.led.effect.type: Dynamische Effekte
+kbd.led.effect.profiles: Gruppen
+kbd.led.effect.profile.reset: Zurücksetzen
+kbd.led.effect.profile.delete.confirm_content: Möchtest du diese Gruppe wirklich löschen?
+kbd.led.effect.profile: Beleuchtungen
+kbd.led.effect.profile.limit.annepro1_three: Du kannst bis zu drei Beleuchtungen in einer Gruppe für deine ANNE PRO 1 erstellen
+kbd.led.effect.profile.limit.annepro2_sixteen: Du kannst bis zu 16 Beleuchtungen in einer Gruppe erstellen
+kbd.led.effect.mode: Dynamische Effekte
 kbd.led.effect.delete.confirm_content: Möchtest du diese Beleuchtung wirklich löschen?
 kbd.led.effect.preview: Vorschau
-kbd.led.effect.dynamic_colors: 'Lichteffekt: Farben'
+kbd.led.effect.dynamic_colors.random: Random
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Farbpalette
 kbd.led.color.default: Standard
 kbd.led.color.custom: Eigene
@@ -169,12 +177,27 @@ kbd.keycap.group.numbers: Zahlen
 kbd.keycap.group.bigs: Große Tasten
 kbd.keycap.group.all: Alle
 # Dynamic Light Effects
-dynamic_none: Statisch
-dynamic_breath: Atmen
-dynamic_breath_grad: Überblenden
-dynamic_poptang: Poptang
-dynamic_rainbow: Regenbogen
-dynamic_breath_single: Atmen einzeln
+dynamic.none: Static
+dynamic.breath: Breathing effect
+dynamic.breath_grad: Gradual breathing effect
+dynamic.poptang: Poptang
+dynamic.rainbow: Rainbow
+dynamic.trigger.breath_single: Breathing per key
+dynamic.trigger.breath: Breathing trigger
+dynamic.trigger.rainbow: Rainbow trigger
+dynamic.trigger.ripple: Ripple trigger
+dynamic.trigger.pulse: Pulse trigger
+dynamic.trigger.star_fall: Star Fall trigger
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Standard
 intl.led.red: Rot
@@ -190,6 +213,8 @@ intl.dynamic.breath.grad: Überblenden
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Regenbogen
 intl.dynamic.breath.single: Atmen einzeln
+intl.dynamic.trigger.breath: Breath(Trigger)
+intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Main Window, Layout
 kbd.layout: Tastaturbelegung
@@ -213,7 +238,7 @@ icon.right_gui: Rechts Win/Cmd
 icon.mute: Stumm
 icon.volume.up: Lautstärke erhöhen
 icon.volume.down: Lautstärke verringern
-icon.bl.toggle: 'Beleuchtung an-/ausschalten'
+icon.bl.toggle: "Beleuchtung an-/ausschalten"
 icon.bl.color: Beleuchtung wechseln
 icon.bl.increase: Beleuchtung heller
 icon.bl.decrease: Beleuchtung dunkler
@@ -253,5 +278,19 @@ kbd.macro.code.value.insert_timer_block: Zeitblock einfügen
 kbd.macro.code.value.move_up: Nach oben
 kbd.macro.code.value.move_down: Nach unten
 
+# Audio Visualization
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.light_type: Lighting Mode
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
+
 # Other Messages
 msg.open_device_failed: Fehler beim Verbinden mit dem Gerät
+msg.missing_required_data_field: Missing required data field
+msg.file_not_compatible_your_device: The file is not compatible with your device
+msg.crc_check_error: CRC check error, please don't edit the file exported
+msg.json_data_invalid: JSON data invalid
