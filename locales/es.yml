@@ -124,7 +124,7 @@ kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Conexiones Bluetooth
 kbd.general.bluetooth.clean_bind: Eliminar Enlaces
 
-# Main Window, FirmwareInsider Preview Program
+# Main Window, Firmware
 kbd.firmware: Actualización de Firmware
 kbd.firmware.key: Procesador de Aplicación
 kbd.firmware.led: Procesador de Iluminación
