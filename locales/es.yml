@@ -32,9 +32,9 @@ common.network.connection.error: Error En Conexión De Red
 common.please_quit_edit: Por favor Salga Del Modo Edición
 common.time_unit.hours: " Horas"
 common.time_unit.millisecond: Milisegundos
-common.return: Return
-common.refresh: Refresh
-common.date: Date
+common.return: Regresar
+common.refresh: Refrescar
+common.date: Fecha
 
 # Tray
 app.tray.show_window: Abrir Obinslab Starter
@@ -69,7 +69,7 @@ preferences.setting.language: Idioma
 preferences.setting.theme: Tema
 preferences.setting.theme.dark: Oscuro
 preferences.setting.theme.light: Claro
-preferences.setting.theme.cyan: Cyan
+preferences.setting.theme.cyan: Azul
 preferences.setting.update_channel: Fuente de Actualizaciones
 preferences.setting.animation: Animación de bienvenida
 preferences.setting.animation.on: Encendido
@@ -81,7 +81,7 @@ preferences.setting.auto_launch: Abrir al Inicio
 preferences.setting.auto_launch.yes: Si
 preferences.setting.auto_launch.no: No
 preferences.update: Actualizar
-preferences.update.insider_preview: Insider Preview Program
+preferences.update.insider_preview: Programa Insider Preview
 preferences.update.check: Comprobar Nueva Versión
 preferences.update.check.failed: Por favor inténtelo de nuevo
 preferences.update.version.current: Versión Actual
@@ -124,29 +124,29 @@ kbd.general.bluetooth: Bluetooth
 kbd.general.bluetooth.bind: Conexiones Bluetooth
 kbd.general.bluetooth.clean_bind: Eliminar Enlaces
 
-# Main Window, Firmware
+# Main Window, FirmwareInsider Preview Program
 kbd.firmware: Actualización de Firmware
 kbd.firmware.key: Procesador de Aplicación
 kbd.firmware.led: Procesador de Iluminación
 kbd.firmware.ble: Procesador de Bluetooth
-kbd.firmware.current_version: Current Version
-kbd.firmware.upgrade_source: Upgrade Source
-kbd.firmware.latest: Latest Firmware
-kbd.firmware.archive: Firmware Archive
+kbd.firmware.current_version: Version Actual
+kbd.firmware.upgrade_source: Actualizar Fuente
+kbd.firmware.latest: Último Firmware
+kbd.firmware.archive: Archivo de version de Firmware
 kbd.firmware.annepro1.download.firmware: Descargar Firmware
 kbd.firmware.annepro1.download.latest_firmware: Descargar el Último Firmware
 kbd.firmware.annepro1.download.dfu_tool: Descargar Herramienta DFU
 kbd.firmware.find_new_version: "Nueva version de Firmware encontrada: "
 kbd.firmware.no_new_version: La versión de Firmware actual es la mas reciente
-kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.app_require: Se requiere Obinslab Starter en su versión v{{requiredVersion}} o posterior, la versión actual es v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
-kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade.source.latest: Lanzamiento
 kbd.firmware.upgrade_btn: Actualizar
 kbd.firmware.upgrade.title: Actualizar Firmware
 kbd.firmware.upgrade.content: Por favor no desconecte el cable USB durante la actualización
-kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
+kbd.firmware.upgrade.enter_iap_timeout: No se pudo entrar automaticamente en modo IAP, por favor entre en modo IAP manualmente (Mantenga pulsada la tecla ESC , a continuación enchufe el cable USB)
 kbd.firmware.upgrade.status.downloading: Decargando firmware...
-kbd.firmware.upgrade.status.download_failed: La Descarga del Firmware Falló
+kbd.firmware.upgrade.status.download_failed: La descarga del Firmware falló
 kbd.firmware.upgrade.status.entering_aip: Entrando en modo Actualización(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Escribiendo datos en el procesador de aplicación...
 kbd.firmware.upgrade.status.writing_led: Escribiendo datos en el procesador de iluminación...
@@ -165,8 +165,8 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Máximo dieciseís efectos de ilu
 kbd.led.effect.mode: Efecto Dinámico
 kbd.led.effect.delete.confirm_content: Quiere eliminar esta iluminación?
 kbd.led.effect.preview: Previsualización
-kbd.led.effect.dynamic_colors.random: Random
-kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
+kbd.led.effect.dynamic_colors.random: Aleatorio
+kbd.led.effect.dynamic_colors.no_empty: Por favor añada un color dinámico
 kbd.led.color.palette: Paleta de Colores
 kbd.led.color.default: Por Defecto
 kbd.led.color.custom: Personalizado
@@ -174,30 +174,30 @@ kbd.led.color.custom.save: Guardar color actual
 # Keycap Groups
 kbd.keycap.group.alphabet: Letras
 kbd.keycap.group.numbers: Números
-kbd.keycap.group.bigs: Teclas Grandes
+kbd.keycap.group.bigs: Teclas Grandesrelease
 kbd.keycap.group.all: Todas
 # Dynamic Light Effects
-dynamic.none: Static
+dynamic.none: Estático
 dynamic.breath: Respiración
-dynamic.breath_grad: Respiración Gradual
+dynamic.breath_grad: Respiración GradualStarry Sky
 dynamic.poptang: Poptang
 dynamic.rainbow: Arcoiris
 dynamic.trigger.breath_single: Respiración individual
-dynamic.trigger.breath: Respiración(desencadenada)
-dynamic.trigger.rainbow: Arcoiris(desencadenada)
-dynamic.trigger.ripple: Ripple trigger
-dynamic.trigger.pulse: Pulse trigger
-dynamic.trigger.star_fall: Star Fall trigger
-dynamic.auto.starry_sky: Starry Sky
-dynamic.auto.comet: Comet
-dynamic.auto.colorful: Colorful
-dynamic.auto.wave: Wave
-dynamic.auto.black_hole: Black Hole
-dynamic.auto.vertical_rainbow: Vertical Rainbow
-dynamic.auto.fountain: Fountain
-dynamic.auto.snake: Snake
-dynamic.auto.flame: Flame
-dynamic.auto.firework: Firework
+dynamic.trigger.breath: Respiración desencadenada 
+dynamic.trigger.rainbow: Arcoiris desencadenado 
+dynamic.trigger.ripple: Onda desencadenada
+dynamic.trigger.pulse: Pulso desencadenado
+dynamic.trigger.star_fall: Lluvia de estrellas desencadenada
+dynamic.auto.starry_sky: Cielo estrellado
+dynamic.auto.comet: Cometa
+dynamic.auto.colorful: Colorido
+dynamic.auto.wave: Onda
+dynamic.auto.black_hole: Agujero negro
+dynamic.auto.vertical_rainbow: Arcoiris Vertical
+dynamic.auto.fountain: Fuente
+dynamic.auto.snake: Serpiente
+dynamic.auto.flame: Llama
+dynamic.auto.firework: Fuegos Artificiales
 # Default LED group
 intl.light.group.default: Por defecto
 intl.led.red: Rojo
@@ -213,8 +213,8 @@ intl.dynamic.breath.grad: Respiración Gradual
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arcoiris
 intl.dynamic.breath.single: Respiración individual
-intl.dynamic.trigger.breath: Respiración(desencadenada)
-intl.dynamic.trigger.rainbow: Arcoiris(desencadenada)
+intl.dynamic.trigger.breath: Respiración desencadenada 
+intl.dynamic.trigger.rainbow: Arcoiris desencadenado
 
 # Main Window, Layout
 kbd.layout: Distribución
@@ -279,14 +279,14 @@ kbd.macro.code.value.move_up: Mover Arriba
 kbd.macro.code.value.move_down: Mover Abajo
 
 # Audio Visualization
-kbd.audio: Audio Visualization
-kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio: Visualizacion de audio
+kbd.audio.describe: El teclado reacciona al sonido reproducido via el dispositivo de audio predeterminado
 kbd.audio.on: On
 kbd.audio.off: Off
-kbd.audio.light_type: Lighting Mode
-kbd.audio.light_type.pure: Pure Color
-kbd.audio.light_type.colorful: Colorful
-kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
+kbd.audio.light_type: Modo de Iluminación
+kbd.audio.light_type.pure: Color Puro
+kbd.audio.light_type.colorful: Colorido
+kbd.audio.required_led_firmware: Se Requiere la version {{version}} de Procesador de Iluminación o posterior.
 
 # Other Messages
 msg.open_device_failed: No Se Pudo Abrir el Dispositivo
