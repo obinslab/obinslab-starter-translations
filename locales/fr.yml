@@ -138,7 +138,7 @@ kbd.firmware.annepro1.download.latest_firmware: Télécharger le dernier firmwar
 kbd.firmware.annepro1.download.dfu_tool: Télécharger l'outil DFU
 kbd.firmware.find_new_version: "Un nouveau firmware à été trouvé: "
 kbd.firmware.no_new_version: Pas de nouveau firmware trouvé
-kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Mise à jour
@@ -172,6 +172,7 @@ kbd.led.color.default: Défaut
 kbd.led.color.custom: Personnalisation
 kbd.led.color.custom.save: Enregistrer la personnalisation actuelle
 # Groupement de boutons
+kbd.keycap.group.function_keys: Function Keys
 kbd.keycap.group.alphabet: Caractères
 kbd.keycap.group.numbers: Chiffres
 kbd.keycap.group.bigs: Modificateurs

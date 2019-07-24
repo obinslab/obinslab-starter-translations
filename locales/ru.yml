@@ -138,7 +138,7 @@ kbd.firmware.annepro1.download.latest_firmware: Скачать актуальн�
 kbd.firmware.annepro1.download.dfu_tool: Скачать DFU Tool
 kbd.firmware.find_new_version: "Найдена новая версия: "
 kbd.firmware.no_new_version: Текущая прошивка наиболее актуальная
-kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Обновить
@@ -172,6 +172,7 @@ kbd.led.color.default: Основные
 kbd.led.color.custom: Свои
 kbd.led.color.custom.save: Сохранить текущий цвет
 # Keycap Groups
+kbd.keycap.group.function_keys: Function Keys
 kbd.keycap.group.alphabet: Символы
 kbd.keycap.group.numbers: Цифры
 kbd.keycap.group.bigs: Большие

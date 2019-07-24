@@ -138,7 +138,7 @@ kbd.firmware.annepro1.download.latest_firmware: 下载最新固件
 kbd.firmware.annepro1.download.dfu_tool: 下载Dfu工具
 kbd.firmware.find_new_version: 发现新固件：
 kbd.firmware.no_new_version: 当前固件已经是最新固件
-kbd.firmware.upgrade.app_require: Obinslab Starter版本必须高于v{{requiredVersion}}, 当前版本为v{{appVersion}}
+kbd.firmware.upgrade.app_require: ObinsKit版本必须高于v{{requiredVersion}}, 当前版本为v{{appVersion}}
 kbd.firmware.upgrade.source.alpha: 测试版
 kbd.firmware.upgrade.source.latest: 正式版
 kbd.firmware.upgrade_btn: 更新
@@ -172,6 +172,7 @@ kbd.led.color.default: 预置
 kbd.led.color.custom: 自定义
 kbd.led.color.custom.save: 保存当前色
 # 按键分组
+kbd.keycap.group.function_keys: 功能键
 kbd.keycap.group.alphabet: 字母
 kbd.keycap.group.numbers: 数字
 kbd.keycap.group.bigs: 大键
