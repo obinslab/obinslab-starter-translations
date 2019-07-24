@@ -138,7 +138,7 @@ kbd.firmware.annepro1.download.latest_firmware: ดาวน์โหลดเ�
 kbd.firmware.annepro1.download.dfu_tool: ดาวน์โหลดเครื่องมือ DFU
 kbd.firmware.find_new_version: "ค้นหาเฟิร์มแวร์ใหม่: "
 kbd.firmware.no_new_version: เฟิร์มแวร์ปัจจุบันเป็นเวอร์ชั่นล่าสุด
-kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: อัพเกรด
@@ -172,6 +172,7 @@ kbd.led.color.default: ค่าเริ่มต้น
 kbd.led.color.custom: กำหนดเอง
 kbd.led.color.custom.save: บันทึกสีปัจจุบัน
 # Keycap Groups
+kbd.keycap.group.function_keys: Function Keys
 kbd.keycap.group.alphabet: Character
 kbd.keycap.group.numbers: Number
 kbd.keycap.group.bigs: Big Key
@@ -180,8 +181,8 @@ kbd.keycap.group.all: All
 dynamic.none: Static
 dynamic.breath: ลมหายใจ
 dynamic.breath_grad: ลมหายใจ Grad
-dynamic.poptang: Poptang
 dynamic.rainbow: Rainbow
+dynamic.trigger.poptang: Poptang(Trigger)
 dynamic.trigger.breath_single: ลมหายใจ เดียว
 dynamic.trigger.breath: ลมหายใจ(Trigger)
 dynamic.trigger.rainbow: Rainbow(Trigger)

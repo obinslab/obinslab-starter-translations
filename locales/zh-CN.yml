@@ -138,7 +138,7 @@ kbd.firmware.annepro1.download.latest_firmware: 下载最新固件
 kbd.firmware.annepro1.download.dfu_tool: 下载Dfu工具
 kbd.firmware.find_new_version: 发现新固件：
 kbd.firmware.no_new_version: 当前固件已经是最新固件
-kbd.firmware.upgrade.app_require: Obinslab Starter版本必须高于v{{requiredVersion}}, 当前版本为v{{appVersion}}
+kbd.firmware.upgrade.app_require: ObinsKit版本必须高于v{{requiredVersion}}, 当前版本为v{{appVersion}}
 kbd.firmware.upgrade.source.alpha: 测试版
 kbd.firmware.upgrade.source.latest: 正式版
 kbd.firmware.upgrade_btn: 更新
@@ -172,6 +172,7 @@ kbd.led.color.default: 预置
 kbd.led.color.custom: 自定义
 kbd.led.color.custom.save: 保存当前色
 # 按键分组
+kbd.keycap.group.function_keys: 功能键
 kbd.keycap.group.alphabet: 字母
 kbd.keycap.group.numbers: 数字
 kbd.keycap.group.bigs: 大键
@@ -180,8 +181,8 @@ kbd.keycap.group.all: 所有
 dynamic.none: 静态
 dynamic.breath: 呼吸灯
 dynamic.breath_grad: 渐变灯
-dynamic.poptang: 泡泡堂
 dynamic.rainbow: 七彩跑马灯
+dynamic.trigger.poptang: 泡泡堂-按键触发
 dynamic.trigger.breath_single: 单键灯呼吸
 dynamic.trigger.breath: 渐变-按键触发
 dynamic.trigger.rainbow: 跑马灯-按键触发

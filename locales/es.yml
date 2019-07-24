@@ -138,7 +138,7 @@ kbd.firmware.annepro1.download.latest_firmware: Descargar el Último Firmware
 kbd.firmware.annepro1.download.dfu_tool: Descargar Herramienta DFU
 kbd.firmware.find_new_version: "Nueva version de Firmware encontrada: "
 kbd.firmware.no_new_version: La versión de Firmware actual es la mas reciente
-kbd.firmware.upgrade.app_require: Se requiere Obinslab Starter en su versión v{{requiredVersion}} o posterior, la versión actual es v{{appVersion}}.
+kbd.firmware.upgrade.app_require: Se requiere ObinsKit en su versión v{{requiredVersion}} o posterior, la versión actual es v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Lanzamiento
 kbd.firmware.upgrade_btn: Actualizar
@@ -172,6 +172,7 @@ kbd.led.color.default: Por Defecto
 kbd.led.color.custom: Personalizado
 kbd.led.color.custom.save: Guardar color actual
 # Keycap Groups
+kbd.keycap.group.function_keys: Function Keys
 kbd.keycap.group.alphabet: Letras
 kbd.keycap.group.numbers: Números
 kbd.keycap.group.bigs: Teclas Grandesrelease
@@ -180,8 +181,8 @@ kbd.keycap.group.all: Todas
 dynamic.none: Estático
 dynamic.breath: Respiración
 dynamic.breath_grad: Respiración GradualStarry Sky
-dynamic.poptang: Poptang
 dynamic.rainbow: Arcoiris
+dynamic.trigger.poptang: Poptang(desencadenada)
 dynamic.trigger.breath_single: Respiración individual
 dynamic.trigger.breath: Respiración desencadenada 
 dynamic.trigger.rainbow: Arcoiris desencadenado 
