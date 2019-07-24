@@ -55,7 +55,7 @@ feedback.content: Content
 feedback.content.no_empty: Please input content
 feedback.content.max_1000: "Maximum: 1,000 characters"
 feedback.email.label: Email
-feedback.email.placeholder: Please input your email
+feedback.email.placeholder: Please enter your email
 feedback.email.not_valid: Invalid e-mail address
 feedback.submit: Submit
 feedback.submit.error: Send error - Please try again
@@ -64,7 +64,7 @@ feedback.support_email: "Support email: "
 feedback.debug_log: Debug Log
 
 # Preference Window
-preferences.setting: Setting
+preferences.setting: Settings
 preferences.setting.language: Language
 preferences.setting.theme: Theme
 preferences.setting.theme.dark: Dark
@@ -74,7 +74,7 @@ preferences.setting.update_channel: Upgrade Source
 preferences.setting.animation: Animation on Splash Screen
 preferences.setting.animation.on: On
 preferences.setting.animation.off: Off
-preferences.setting.x_action: Event on Closing Program
+preferences.setting.x_action: Close Button Behaviour
 preferences.setting.minimize_to_tray: Minimize to Tray
 preferences.setting.quit_program: Quit Program
 preferences.setting.auto_launch: Launch on System Start
@@ -106,7 +106,7 @@ kbd.general.info.device_model: Device Model
 kbd.general.info.serial_number: Serial Number
 kbd.general.info.battery: Battery
 kbd.general.info.running_time: Running Time
-kbd.general.setting: Setting
+kbd.general.setting: Settings
 kbd.general.setting.layout: Layout
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.magic_fn: Magic Fn
