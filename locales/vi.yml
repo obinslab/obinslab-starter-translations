@@ -37,10 +37,10 @@ common.refresh: Refresh
 common.date: Date
 
 # Tray
-app.tray.show_window: Mở Obinslab Starter
+app.tray.show_window: Mở ObinsKit
 app.tray.preferences: Tuỳ chọn
 app.tray.quit: Kết thúc
-app.tray.still_running_here: Obinslab Starter vẫn đang hoạt động ở đây.
+app.tray.still_running_here: ObinsKit vẫn đang hoạt động ở đây.
 
 # Manage Menu
 app.manage: Quản lý

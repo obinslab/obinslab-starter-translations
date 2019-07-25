@@ -37,10 +37,10 @@ common.resfesh: Segarkan
 common.date: Tanggal
 
 # Tray
-app.tray.show_window: Buka Obinslab Starter
+app.tray.show_window: Buka ObinsKit
 app.tray.preferences: Pilihan
 app.tray.quit: Keluar
-app.tray.still_running_here: Obinslab Starter sedang berjalan
+app.tray.still_running_here: ObinsKit sedang berjalan
 
 # Manage Menu
 app.manage: Kelola
@@ -73,7 +73,7 @@ preferences.setting.update_channel: Upgrade Sumber
 preferences.setting.animation: Animasi Layar
 preferences.setting.animation.on: On
 preferences.setting.animation.off: Off
-preferences.setting.x_action: Aksi saat Menutup Program 
+preferences.setting.x_action: Aksi saat Menutup Program
 preferences.setting.minimize_to_tray: Minimalkan
 preferences.setting.quit_program: Keluar Program
 preferences.setting.auto_launch: Mulai Saat Startup
@@ -137,7 +137,7 @@ kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
 kbd.firmware.find_new_version: "Find new firmware: "
 kbd.firmware.no_new_version: Your firmware is up to date
-kbd.firmware.upgrade.app_require: Required Obinslab Starter version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Upgrade

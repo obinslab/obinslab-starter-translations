@@ -37,10 +37,10 @@ common.refresh: Refresh
 common.date: Date
 
 # Tray
-app.tray.show_window: Open Obinslab Starter
+app.tray.show_window: Open ObinsKit
 app.tray.preferences: Preferences
 app.tray.quit: Quit
-app.tray.still_running_here: Obinslab Starter is still running
+app.tray.still_running_here: ObinsKit is still running
 
 # Manage Menu
 app.manage: Manage

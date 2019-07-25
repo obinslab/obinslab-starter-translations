@@ -37,10 +37,10 @@ common.refresh: Refrescar
 common.date: Fecha
 
 # Tray
-app.tray.show_window: Abrir Obinslab Starter
+app.tray.show_window: Abrir ObinsKit
 app.tray.preferences: Preferencias
 app.tray.quit: Salir
-app.tray.still_running_here: Obinslab Starter Seguirá Abierto Aquí.
+app.tray.still_running_here: ObinsKit Seguirá Abierto Aquí.
 
 # Manage Menu
 app.manage: Manejar
@@ -184,8 +184,8 @@ dynamic.breath_grad: Respiración GradualStarry Sky
 dynamic.rainbow: Arcoiris
 dynamic.trigger.poptang: Poptang(desencadenada)
 dynamic.trigger.breath_single: Respiración individual
-dynamic.trigger.breath: Respiración desencadenada 
-dynamic.trigger.rainbow: Arcoiris desencadenado 
+dynamic.trigger.breath: Respiración desencadenada
+dynamic.trigger.rainbow: Arcoiris desencadenado
 dynamic.trigger.ripple: Onda desencadenada
 dynamic.trigger.pulse: Pulso desencadenado
 dynamic.trigger.star_fall: Lluvia de estrellas desencadenada
@@ -214,7 +214,7 @@ intl.dynamic.breath.grad: Respiración Gradual
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arcoiris
 intl.dynamic.breath.single: Respiración individual
-intl.dynamic.trigger.breath: Respiración desencadenada 
+intl.dynamic.trigger.breath: Respiración desencadenada
 intl.dynamic.trigger.rainbow: Arcoiris desencadenado
 
 # Main Window, Layout
