@@ -1,0 +1,297 @@
+# Common
+common.operate.failed: Művelet sikertelen
+common.operate.success: Művelet sikeres
+common.tooltip_title: Üzenet
+common.input.placeholder: Nevezd el
+common.rename: Átnevezés
+common.import: Importálás
+common.export: Exportálás
+common.add: Hozzáadás
+common.create: Létrehozás
+common.add.success: Sikeres hozzáadás
+common.add.failed: Művelet sikertelen
+common.delete: Törlés
+common.delete.success: Sikeres törlés
+common.delete.failed: Sikertelen törlés
+common.copy: Másolás
+common.copy.success: Sikeres másolás
+common.copy_text: Másolás
+common.paste: Beilleszt
+common.reset: Visszaállítás
+common.clone: Másolás
+common.cancel: Mégsem
+common.ok: OK
+common.save: Mentés
+common.save_as: Mentés mint...
+common.save.success: Sikeres mentés
+common.apply: Alkalmaz
+common.apply.success: Alkalmazva
+common.apply.failed: Művelet sikertelen
+common.confirm.show_detail: Részletek
+common.network.connection.error: Hálózati hiba
+common.please_quit_edit: Fejezd be a szerkesztést, mielőtt továbblépsz
+common.time_unit.hours: " óra"
+common.time_unit.millisecond: milliszekundum
+common.return: Vissza
+common.refresh: Frissítés
+common.date: Dátum
+
+# Tray
+app.tray.show_window: ObinsKit megnyitása
+app.tray.preferences: Beállítások
+app.tray.quit: Kilépés
+app.tray.still_running_here: Az ObinsKit a háttérben fut
+
+# Manage Menu
+app.manage: Kezelés
+app.manage.preferences: Beállítások
+app.manage.device_list: Eszközök
+app.manage.feedback: Visszajelzés
+
+# Feedback
+feedback: Visszajelzés
+feedback.title: Visszajelzés
+feedback.content: Üzenet
+feedback.content.no_empty: Az üzenet nem lehet üres
+feedback.content.max_1000: "Maximum 1000 karakter"
+feedback.email.label: E-mail címed
+feedback.email.placeholder: Add meg az e-mail címed
+feedback.email.not_valid: Érvénytelen e-mail cím
+feedback.submit: Küldés
+feedback.submit.error: Nem sikerült elküldeni a visszajelzést, próbáld újra
+feedback.submit.success: Visszajelzés elküldve - kattints az ablak bezárásához
+feedback.support_email: "Kapcsolatfelvétel: "
+feedback.debug_log: Hibakeresési napló
+
+# Preference Window
+preferences.setting: Beállítások
+preferences.setting.language: Nyelv
+preferences.setting.theme: Téma
+preferences.setting.theme.dark: Sötét
+preferences.setting.theme.light: Világos
+preferences.setting.theme.cyan: Cián
+preferences.setting.update_channel: Frissítések forrása
+preferences.setting.animation: Animáció a kezdőképernyőn
+preferences.setting.animation.on: Bekapcsolva
+preferences.setting.animation.off: Kikapcsolva
+preferences.setting.x_action: A bezárás gomb
+preferences.setting.minimize_to_tray: Tálcára teszi a programot
+preferences.setting.quit_program: Kilép a programból
+preferences.setting.auto_launch: Indulás a rendszerrel
+preferences.setting.auto_launch.yes: Igen
+preferences.setting.auto_launch.no: Nem
+preferences.update: Frissítés
+preferences.update.insider_preview: Frissítés tesztverzióra
+preferences.update.check: Frissítések ellenőrzáse
+preferences.update.check.failed: Kérlek, próbáld újra
+preferences.update.version.current: Jelenlegi verzió
+preferences.update.version.new: Új verzió
+preferences.update.version.no_new: Nem érhető el új verzió
+preferences.update.download: Letöltés
+preferences.update.download.done: A frissítés sikeresen letöltve
+preferences.update.install_now: Telepítés most
+preferences.help: Segítség
+preferences.help.user-manual: Felhasználói kézikönyv
+preferences.about: Névjegy
+
+# Home Window
+home.welcome: Hello, világ!
+home.please_connect_kbd_with_cable: Csatlakoztasd az eszközöd USB-n keresztül
+home.open_device_failed: Az eszköz inicializálása sikertelen
+
+# Main Window, General
+kbd.general: Általános
+kbd.general.info: Információ
+kbd.general.info.device_model: Eszköz
+kbd.general.info.serial_number: Sorozatszám
+kbd.general.info.battery: Akkumulátor
+kbd.general.info.running_time: Futásidő
+kbd.general.setting: Beállítások
+kbd.general.setting.layout: Kiosztás
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.macro_trigger: Makró
+kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.auto_sleep: Automatikus energiatakarékos mód
+kbd.general.setting.options.disable: Kikapcsolva
+kbd.general.setting.options.enable: Bekapcsolva
+kbd.general.setting.options.default: Alapértelmezett
+kbd.general.setting.options.custom: Egyedi
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: Minden gomb
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Bluetooth párosítások
+kbd.general.bluetooth.clean_bind: Összes törlése
+
+# Main Window, Firmware
+kbd.firmware: Firmwarefrissítés
+kbd.firmware.key: Alkalmazásprocesszor
+kbd.firmware.led: Világításprocesszor
+kbd.firmware.ble: Bluetooth processzor
+kbd.firmware.current_version: Jelenlegi verzió
+kbd.firmware.upgrade_source: Frissítések forrása
+kbd.firmware.latest: Legújabb firmware
+kbd.firmware.archive: Firmware archívum
+kbd.firmware.annepro1.download.firmware: Letöltés
+kbd.firmware.annepro1.download.latest_firmware: Legújabb verzió letöltése
+kbd.firmware.annepro1.download.dfu_tool: DFU Tool letöltése
+kbd.firmware.find_new_version: "Új firmware verzió érhető el: "
+kbd.firmware.no_new_version: Nem érhető el frissítés
+kbd.firmware.upgrade.app_require: "A frissítés megköveteli az ObinsKit {{requiredVersion}} vagy újabb verzióját. A telepített verzió: {{appVersion}}."
+kbd.firmware.upgrade.source.alpha: Tesztverzió
+kbd.firmware.upgrade.source.latest: Stabil verzió
+kbd.firmware.upgrade_btn: Frissítés
+kbd.firmware.upgrade.title: Firmware frissítés
+kbd.firmware.upgrade.content: A frissítés közben ne húzd ki az USB kábelt vagy a számítógépet!
+kbd.firmware.upgrade.enter_iap_timeout: Nem sikerült automatikusan IAP módra váltani. Húzd ki az USB kábelt, majd dugd vissza, miközben az ESC billentyűt nyomva tartod.
+kbd.firmware.upgrade.status.downloading: Firmware letöltése
+kbd.firmware.upgrade.status.download_failed: Letöltés sikertelen
+kbd.firmware.upgrade.status.entering_aip: Váltás frissítés módra (legfeljebb 6 másodperc)
+kbd.firmware.upgrade.status.writing_key: Alkalmazásprocesszor frissítése
+kbd.firmware.upgrade.status.writing_led: Világításprocessor frissítése
+kbd.firmware.upgrade.status.writing_ble: Bluetooth processzor frissítése
+kbd.firmware.upgrade.status.restart: Billentyűzet újraindítása
+kbd.firmware.upgrade.status.success: Firmwarefrissítés sikeres
+
+# Main Window, LEDs
+kbd.led: Világítás
+kbd.led.effect.profiles: Profilok
+kbd.led.effect.profile.reset: Visszaállítás
+kbd.led.effect.profile.delete.confirm_content: Biztos törölni szeretnéd ezt a profilt?
+kbd.led.effect.profile: Effektek
+kbd.led.effect.profile.limit.annepro1_three: Anne Pro 1 esetén legfeljebb 3 effekt profilonként
+kbd.led.effect.profile.limit.annepro2_sixteen: Legfeljebb 16 effekt profilonként
+kbd.led.effect.mode: Effekt
+kbd.led.effect.delete.confirm_content: Biztos törölni szeretnéd ezt az effektet?
+kbd.led.effect.preview: Előnézet
+kbd.led.effect.dynamic_colors.random: Véletlenszerű
+kbd.led.effect.dynamic_colors.no_empty: Adj hozzá egy színt
+kbd.led.color.palette: Színpaletta
+kbd.led.color.default: Alapértelmezett
+kbd.led.color.custom: Egyedi
+kbd.led.color.custom.save: Szín mentése
+# Keycap Groups
+kbd.keycap.group.function_keys: Funkciógombok
+kbd.keycap.group.alphabet: Karakterek
+kbd.keycap.group.numbers: Számok
+kbd.keycap.group.bigs: Nagy gombok
+kbd.keycap.group.all: Minden gomb
+# Dynamic Light Effects
+dynamic.none: Statikus
+dynamic.breath: Légzés
+dynamic.breath_grad: Fokozatos légzés
+dynamic.rainbow: Szivárvány
+dynamic.trigger.poptang: Pukkanás (leütés)
+dynamic.trigger.breath_single: Gombonkénti légzés
+dynamic.trigger.breath: Légzés (leütés)
+dynamic.trigger.rainbow: Szivárvány (leütés)
+dynamic.trigger.ripple: Fodrozódás (leütés)
+dynamic.trigger.pulse: Implulzus (leütés)
+dynamic.trigger.star_fall: Csillaghullás (leütés)
+dynamic.auto.starry_sky: Csillagos ég
+dynamic.auto.comet: Üstökös
+dynamic.auto.colorful: Sokszínű
+dynamic.auto.wave: Hullám
+dynamic.auto.black_hole: Fekete lyuk
+dynamic.auto.vertical_rainbow: Függőleges szivárvány
+dynamic.auto.fountain: Szökőkút
+dynamic.auto.snake: Kígyó
+dynamic.auto.flame: Láng
+dynamic.auto.firework: Tüzijáték
+# Default LED group
+intl.light.group.default: Alapértelmezett
+intl.led.red: Piros
+intl.led.yellow: Yellow
+intl.led.green: Sárga
+intl.led.cyan: Cián
+intl.led.blue: Kék
+intl.led.purple: Lila
+intl.led.static.single: Statikus egyszínű
+intl.led.static.multi: Statikus többszínű
+intl.dynamic.breath: Légzés
+intl.dynamic.breath.grad: Fokozatos légzés
+intl.dynamic.poptang: Pukkanás
+intl.dynamic.breath.rainbow: Szivárvány
+intl.dynamic.breath.single: Gombonkénti légzés
+intl.dynamic.trigger.breath: Légzés (leütés)
+intl.dynamic.trigger.rainbow: Szivárvány (leütés)
+
+# Main Window, Layout
+kbd.layout: Kiosztás
+kbd.layout.reset.confirm_content: Biztos vissza szeretnéd állítani ezt a kiosztást az alapértelmezettre?
+kbd.layout.delete.confirm_content: Biztos törölni szeretnéd ezt a kiosztást?
+kbd.layout.set_keycap_null: Törlés
+# Sidebar titles
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: Rendszer
+kbd.keycode_group.alphabet: Karakterek
+kbd.keycode_group.number: Számok
+kbd.keycode_group.modifier: Módosító billentyűk
+kbd.keycode_group.arrow: Nyilak
+kbd.keycode_group.function: Funkciók
+kbd.keycode_group.media: Média gombok
+kbd.keycode_group.keypad: Numpad
+kbd.keycode_group.other: Egyéb
+# Key tooltips
+icon.left_gui: Bal Win/Cmd
+icon.right_gui: Jobb Win/Cmd
+icon.mute: Némítás
+icon.volume.up: Hangerő fel
+icon.volume.down: Hangerő le
+icon.bl.toggle: Világítás ki/bekapcsolása
+icon.bl.color: Világítás effekt váltás
+icon.bl.increase: Fényerő növelése
+icon.bl.decrease: Fényerő csökkentése
+icon.bl.battery: Akkumulátor töltöttség
+icon.ble.wl_1: Bluetooth eszköz 1
+icon.ble.wl_2: Bluetooth eszköz 2
+icon.ble.wl_3: Bluetooth eszköz 3
+icon.ble.wl_4: Bluetooth eszköz 4
+icon.fn.wheel: Kormány mód
+icon.prev.track: Előző szám
+icon.next.track: Következő szám
+icon.play.pause: Lejátszás / megállítás
+# The active layout read from keyboard
+intl.layout.current: Jelenlegi
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: Makró
+kbd.macro.group: Makró csoport
+kbd.macro.group.delete.confirm_content: Biztos törölni szeretnéd ezt a makrócsoportot?
+kbd.macro.add: Új makró
+kbd.macro.please_add_macro_group: Hozz létre egy makrócsportot
+kbd.macro.please_add_macro: Adj hozzá egy makrót
+kbd.macro.delete.confirm_content: Biztos törölni szeretnéd ezt a makrót?
+kbd.macro.amount_limit.annepro2_sixteen: Legfeljebb 16 makrót adhatsz hozzá
+kbd.macro.amount_limit.annepro_eight: Anne Pro 1 esetén legfeljebb 8 makrót adhatsz hozzá
+kbd.macro.code: Makró műveletek
+kbd.macro.code.rec: Felvétel
+kbd.macro.code.empty: Ez a makró üres
+kbd.macro.code.exceeded: Nem tudsz több művelet hozzáadni ehhez a makróhoz
+kbd.macro.code.missing_release_key: Hiányzó gombfelengedés
+kbd.macro.code.missing_press_key: Hiányzó gomblenyomás
+kbd.macro.code.value.insert_timer_block: Várakozási intervallum hozzáadása
+kbd.macro.code.value.move_up: Mozgatás fel
+kbd.macro.code.value.move_down: Mozgatás le
+
+# Audio Visualization
+kbd.audio: Hang alapú effekt
+kbd.audio.describe: Az alapértelmezett hangeszköz kimenetére reagál a billentyűzet világítása
+kbd.audio.on: Be
+kbd.audio.off: Ki
+kbd.audio.light_type: Világítás típusa
+kbd.audio.light_type.pure: Egyszínű
+kbd.audio.light_type.colorful: Sokszínű
+kbd.audio.required_led_firmware: A szükséges világításprocesszor verzió {{version}} vagy újabb.
+
+# Other Messages
+msg.open_device_failed: Az eszköz inicializálása sikertelen
+msg.missing_required_data_field: Hiányzó adatmező
+msg.file_not_compatible_your_device: Ez a fájl nem kompatibilis az eszközöddel
+msg.crc_check_error: CRC ellenőrzés sikertelen - ne szerkeszd az exportált fájlt
+msg.json_data_invalid: JSON adatok érvénytelenek
