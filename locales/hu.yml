@@ -111,8 +111,8 @@ kbd.general.setting.layout: Kiosztás
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.magic_fn: Magic Fn
 kbd.general.setting.macro_trigger: Makró
-kbd.general.setting.capslock_led: CapsLock LED
-kbd.general.setting.auto_sleep: Automatikus energiatakarékos mód
+kbd.general.setting.capslock_led: Caps Lock LED
+kbd.general.setting.auto_sleep: A billentyűzet automatikusan alvó módba léphet
 kbd.general.setting.options.disable: Kikapcsolva
 kbd.general.setting.options.enable: Bekapcsolva
 kbd.general.setting.options.default: Alapértelmezett
@@ -132,7 +132,7 @@ kbd.firmware.ble: Bluetooth processzor
 kbd.firmware.current_version: Jelenlegi verzió
 kbd.firmware.upgrade_source: Frissítések forrása
 kbd.firmware.latest: Legújabb firmware
-kbd.firmware.archive: Firmware archívum
+kbd.firmware.archive: Korábbi verziók
 kbd.firmware.annepro1.download.firmware: Letöltés
 kbd.firmware.annepro1.download.latest_firmware: Legújabb verzió letöltése
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool letöltése
@@ -143,8 +143,8 @@ kbd.firmware.upgrade.source.alpha: Tesztverzió
 kbd.firmware.upgrade.source.latest: Stabil verzió
 kbd.firmware.upgrade_btn: Frissítés
 kbd.firmware.upgrade.title: Firmware frissítés
-kbd.firmware.upgrade.content: A frissítés közben ne húzd ki az USB kábelt vagy a számítógépet!
-kbd.firmware.upgrade.enter_iap_timeout: Nem sikerült automatikusan IAP módra váltani. Húzd ki az USB kábelt, majd dugd vissza, miközben az ESC billentyűt nyomva tartod.
+kbd.firmware.upgrade.content: A frissítés közben ne húzd ki az USB kábelt!
+kbd.firmware.upgrade.enter_iap_timeout: Nem sikerült frissítés módra váltani. Húzd ki az USB kábelt, majd dugd vissza, miközben az ESC billentyűt nyomva tartod.
 kbd.firmware.upgrade.status.downloading: Firmware letöltése
 kbd.firmware.upgrade.status.download_failed: Letöltés sikertelen
 kbd.firmware.upgrade.status.entering_aip: Váltás frissítés módra (legfeljebb 6 másodperc)
@@ -160,29 +160,31 @@ kbd.led.effect.profiles: Profilok
 kbd.led.effect.profile.reset: Visszaállítás
 kbd.led.effect.profile.delete.confirm_content: Biztos törölni szeretnéd ezt a profilt?
 kbd.led.effect.profile: Effektek
-kbd.led.effect.profile.limit.annepro1_three: Anne Pro 1 esetén legfeljebb 3 effekt profilonként
-kbd.led.effect.profile.limit.annepro2_sixteen: Legfeljebb 16 effekt profilonként
+kbd.led.effect.profile.limit.annepro1_three: Anne Pro 1 esetén legfeljebb 3 effekt lehet profilonként
+kbd.led.effect.profile.limit.annepro2_sixteen: Legfeljebb 16 effekt lehet profilonként
 kbd.led.effect.mode: Effekt
 kbd.led.effect.delete.confirm_content: Biztos törölni szeretnéd ezt az effektet?
 kbd.led.effect.preview: Előnézet
 kbd.led.effect.dynamic_colors.random: Véletlenszerű
-kbd.led.effect.dynamic_colors.no_empty: Adj hozzá egy színt
+kbd.led.effect.dynamic_colors.no_empty: Legalább egy színt hozzá kell adnod
 kbd.led.color.palette: Színpaletta
 kbd.led.color.default: Alapértelmezett
 kbd.led.color.custom: Egyedi
 kbd.led.color.custom.save: Szín mentése
+
 # Keycap Groups
 kbd.keycap.group.function_keys: Funkciógombok
 kbd.keycap.group.alphabet: Karakterek
 kbd.keycap.group.numbers: Számok
 kbd.keycap.group.bigs: Nagy gombok
 kbd.keycap.group.all: Minden gomb
+
 # Dynamic Light Effects
 dynamic.none: Statikus
 dynamic.breath: Légzés
 dynamic.breath_grad: Fokozatos légzés
 dynamic.rainbow: Szivárvány
-dynamic.trigger.poptang: Pukkanás (leütés)
+dynamic.trigger.poptang: Pukkanás
 dynamic.trigger.breath_single: Gombonkénti légzés
 dynamic.trigger.breath: Légzés (leütés)
 dynamic.trigger.rainbow: Szivárvány (leütés)
@@ -199,11 +201,12 @@ dynamic.auto.fountain: Szökőkút
 dynamic.auto.snake: Kígyó
 dynamic.auto.flame: Láng
 dynamic.auto.firework: Tüzijáték
+
 # Default LED group
 intl.light.group.default: Alapértelmezett
 intl.led.red: Piros
-intl.led.yellow: Yellow
-intl.led.green: Sárga
+intl.led.yellow: Sárga
+intl.led.green: Zöld
 intl.led.cyan: Cián
 intl.led.blue: Kék
 intl.led.purple: Lila
@@ -222,8 +225,9 @@ kbd.layout: Kiosztás
 kbd.layout.reset.confirm_content: Biztos vissza szeretnéd állítani ezt a kiosztást az alapértelmezettre?
 kbd.layout.delete.confirm_content: Biztos törölni szeretnéd ezt a kiosztást?
 kbd.layout.set_keycap_null: Törlés
+
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.annepro: Eszközspecifikus
 kbd.keycode_group.system: Rendszer
 kbd.keycode_group.alphabet: Karakterek
 kbd.keycode_group.number: Számok
@@ -231,8 +235,9 @@ kbd.keycode_group.modifier: Módosító billentyűk
 kbd.keycode_group.arrow: Nyilak
 kbd.keycode_group.function: Funkciók
 kbd.keycode_group.media: Média gombok
-kbd.keycode_group.keypad: Numpad
+kbd.keycode_group.keypad: Numerikus billentyűzet
 kbd.keycode_group.other: Egyéb
+
 # Key tooltips
 icon.left_gui: Bal Win/Cmd
 icon.right_gui: Jobb Win/Cmd
@@ -252,8 +257,10 @@ icon.fn.wheel: Kormány mód
 icon.prev.track: Előző szám
 icon.next.track: Következő szám
 icon.play.pause: Lejátszás / megállítás
+
 # The active layout read from keyboard
 intl.layout.current: Jelenlegi
+
 # default keyboard layouts
 intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
@@ -280,7 +287,7 @@ kbd.macro.code.value.move_up: Mozgatás fel
 kbd.macro.code.value.move_down: Mozgatás le
 
 # Audio Visualization
-kbd.audio: Hang alapú effekt
+kbd.audio: Hangra reagáló effekt
 kbd.audio.describe: Az alapértelmezett hangeszköz kimenetére reagál a billentyűzet világítása
 kbd.audio.on: Be
 kbd.audio.off: Ki
