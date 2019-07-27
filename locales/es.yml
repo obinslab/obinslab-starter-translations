@@ -172,17 +172,17 @@ kbd.led.color.default: Por Defecto
 kbd.led.color.custom: Personalizado
 kbd.led.color.custom.save: Guardar color actual
 # Keycap Groups
-kbd.keycap.group.function_keys: Function Keys
+kbd.keycap.group.function_keys: Teclas de función
 kbd.keycap.group.alphabet: Letras
 kbd.keycap.group.numbers: Números
-kbd.keycap.group.bigs: Teclas Grandesrelease
+kbd.keycap.group.bigs: Teclas Grandes
 kbd.keycap.group.all: Todas
 # Dynamic Light Effects
 dynamic.none: Estático
 dynamic.breath: Respiración
-dynamic.breath_grad: Respiración GradualStarry Sky
+dynamic.breath_grad: Respiración Gradual
 dynamic.rainbow: Arcoiris
-dynamic.trigger.poptang: Poptang(desencadenada)
+dynamic.trigger.poptang: Poptang desencadenada
 dynamic.trigger.breath_single: Respiración individual
 dynamic.trigger.breath: Respiración desencadenada 
 dynamic.trigger.rainbow: Arcoiris desencadenado 
