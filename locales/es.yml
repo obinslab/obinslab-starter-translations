@@ -40,10 +40,10 @@ common.date: Fecha
 app.tray.show_window: Abrir ObinsKit
 app.tray.preferences: Preferencias
 app.tray.quit: Salir
-app.tray.still_running_here: ObinsKit Seguirá Abierto Aquí.
+app.tray.still_running_here: ObinsKit Seguirá Abierto Aquí
 
 # Manage Menu
-app.manage: Manejar
+app.manage: Gestionar
 app.manage.preferences: Preferencias
 app.manage.device_list: Lista de Dispositivos
 app.manage.feedback: Valoración y Comentarios
@@ -52,16 +52,16 @@ app.manage.feedback: Valoración y Comentarios
 feedback: Valoración y Comentarios
 feedback.title: Valoración y Comentarios
 feedback.content: Contenido
-feedback.content.no_empty: Por favor introduzca contenido.
-feedback.content.max_1000: Máximo 1000 caracteres
+feedback.content.no_empty: Por favor introduzca contenido
+feedback.content.max_1000: "Máximo: 1,000 caracteres"
 feedback.email.label: Email
-feedback.email.placeholder: Por favor introduzca su Email.
-feedback.email.not_valid: Direccion de Email invalida.
+feedback.email.placeholder: Por favor introduzca su email
+feedback.email.not_valid: Dirección de e-mail inválida
 feedback.submit: Enviar
-feedback.submit.error: Error de envio, Por favor intentelo de nuevo
-feedback.submit.success: Enviado con exito, Click para cerrar
+feedback.submit.error: Error de envio - Por favor intentelo de nuevo
+feedback.submit.success: Enviado con éxito - Click para cerrar
 feedback.support_email: "Email de Soporte: "
-feedback.debug_log: Debug Log
+feedback.debug_log: Registro de Depuración
 
 # Preference Window
 preferences.setting: Ajustes
@@ -69,12 +69,12 @@ preferences.setting.language: Idioma
 preferences.setting.theme: Tema
 preferences.setting.theme.dark: Oscuro
 preferences.setting.theme.light: Claro
-preferences.setting.theme.cyan: Azul
+preferences.setting.theme.cyan: Cian
 preferences.setting.update_channel: Fuente de Actualizaciones
-preferences.setting.animation: Animación de bienvenida
+preferences.setting.animation: Animación de Bienvenida
 preferences.setting.animation.on: Encendido
 preferences.setting.animation.off: Apagado
-preferences.setting.x_action: Acción de Botón Cerrar
+preferences.setting.x_action: Comportamiento del Botón Cerrar
 preferences.setting.minimize_to_tray: Minimizar a la bandeja
 preferences.setting.quit_program: Cerrar Programa
 preferences.setting.auto_launch: Abrir al Inicio
@@ -96,7 +96,7 @@ preferences.about: Sobre Nosotros
 
 # Home Window
 home.welcome: Hola Mundo
-home.please_connect_kbd_with_cable: Por favor Conecte su Dispositivo Vía USB
+home.please_connect_kbd_with_cable: Por favor Conecte su Dispositivo vía USB
 home.open_device_failed: No Se Pudo Abrir el Dispositivo
 
 # Main Window, General
@@ -129,14 +129,14 @@ kbd.firmware: Actualización de Firmware
 kbd.firmware.key: Procesador de Aplicación
 kbd.firmware.led: Procesador de Iluminación
 kbd.firmware.ble: Procesador de Bluetooth
-kbd.firmware.current_version: Version Actual
-kbd.firmware.upgrade_source: Actualizar Fuente
-kbd.firmware.latest: Último Firmware
-kbd.firmware.archive: Archivo de version de Firmware
+kbd.firmware.current_version: Versión Actual
+kbd.firmware.upgrade_source: Fuente de Actualizaciones
+kbd.firmware.latest: Última versión de Firmware
+kbd.firmware.archive: Archivo de versión de Firmware
 kbd.firmware.annepro1.download.firmware: Descargar Firmware
 kbd.firmware.annepro1.download.latest_firmware: Descargar el Último Firmware
 kbd.firmware.annepro1.download.dfu_tool: Descargar Herramienta DFU
-kbd.firmware.find_new_version: "Nueva version de Firmware encontrada: "
+kbd.firmware.find_new_version: "Nueva versión de Firmware encontrada: "
 kbd.firmware.no_new_version: La versión de Firmware actual es la mas reciente
 kbd.firmware.upgrade.app_require: Se requiere ObinsKit en su versión v{{requiredVersion}} o posterior, la versión actual es v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -145,14 +145,14 @@ kbd.firmware.upgrade_btn: Actualizar
 kbd.firmware.upgrade.title: Actualizar Firmware
 kbd.firmware.upgrade.content: Por favor no desconecte el cable USB durante la actualización
 kbd.firmware.upgrade.enter_iap_timeout: No se pudo entrar automaticamente en modo IAP, por favor entre en modo IAP manualmente (Mantenga pulsada la tecla ESC , a continuación enchufe el cable USB)
-kbd.firmware.upgrade.status.downloading: Decargando firmware...
+kbd.firmware.upgrade.status.downloading: Decargando firmware
 kbd.firmware.upgrade.status.download_failed: La descarga del Firmware falló
-kbd.firmware.upgrade.status.entering_aip: Entrando en modo Actualización(About 6 seconds or less)...
-kbd.firmware.upgrade.status.writing_key: Escribiendo datos en el procesador de aplicación...
-kbd.firmware.upgrade.status.writing_led: Escribiendo datos en el procesador de iluminación...
-kbd.firmware.upgrade.status.writing_ble: Escribiendo datos en el procesador de bluetooth...
-kbd.firmware.upgrade.status.restart: Reiniciando teclado...
-kbd.firmware.upgrade.status.success: Firmware actualizado con éxito.
+kbd.firmware.upgrade.status.entering_aip: Entrando en modo Actualización(About 6 seconds or less)
+kbd.firmware.upgrade.status.writing_key: Escribiendo datos en el procesador de aplicación
+kbd.firmware.upgrade.status.writing_led: Escribiendo datos en el procesador de iluminación
+kbd.firmware.upgrade.status.writing_ble: Escribiendo datos en el procesador de bluetooth
+kbd.firmware.upgrade.status.restart: Reiniciando teclado
+kbd.firmware.upgrade.status.success: Firmware actualizado con éxito
 
 # Main Window, LEDs
 kbd.led: Iluminación
@@ -182,13 +182,13 @@ dynamic.none: Estático
 dynamic.breath: Respiración
 dynamic.breath_grad: Respiración Gradual
 dynamic.rainbow: Arcoiris
-dynamic.trigger.poptang: Poptang desencadenada
+dynamic.trigger.poptang: Poptang reactiva
 dynamic.trigger.breath_single: Respiración individual
-dynamic.trigger.breath: Respiración desencadenada
-dynamic.trigger.rainbow: Arcoiris desencadenado
-dynamic.trigger.ripple: Onda desencadenada
-dynamic.trigger.pulse: Pulso desencadenado
-dynamic.trigger.star_fall: Lluvia de estrellas desencadenada
+dynamic.trigger.breath: Respiración reactiva
+dynamic.trigger.rainbow: Arcoiris reactivo
+dynamic.trigger.ripple: Onda reactiva
+dynamic.trigger.pulse: Pulso reactivo
+dynamic.trigger.star_fall: Lluvia de estrellas reactiva
 dynamic.auto.starry_sky: Cielo estrellado
 dynamic.auto.comet: Cometa
 dynamic.auto.colorful: Colorido
@@ -214,12 +214,12 @@ intl.dynamic.breath.grad: Respiración Gradual
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arcoiris
 intl.dynamic.breath.single: Respiración individual
-intl.dynamic.trigger.breath: Respiración desencadenada
-intl.dynamic.trigger.rainbow: Arcoiris desencadenado
+intl.dynamic.trigger.breath: Respiración reactiva
+intl.dynamic.trigger.rainbow: Arcoiris reactivo
 
 # Main Window, Layout
 kbd.layout: Distribución
-kbd.layout.reset.confirm_content: Quiere reiniciar a la distribución por defecto ?
+kbd.layout.reset.confirm_content: Quiere reiniciar a la distribución por defecto?
 kbd.layout.delete.confirm_content: Quiere eliminar esta distribución?
 kbd.layout.set_keycap_null: Vaciar
 # Sidebar titles
