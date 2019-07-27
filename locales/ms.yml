@@ -37,10 +37,10 @@ common.refresh: Refresh
 common.date: Date
 
 # Tray
-app.tray.show_window: Buka Obinslab Starter
+app.tray.show_window: Buka ObinsKit
 app.tray.preferences: Pilihan
 app.tray.quit: Berhenti
-app.tray.still_running_here: Obinslab Starter masih beroperasi di sini.
+app.tray.still_running_here: ObinsKit masih beroperasi di sini.
 
 # Manage Menu
 app.manage: Urus

@@ -37,10 +37,10 @@ common.refresh: Refresh
 common.date: Date
 
 # Tray
-app.tray.show_window: Ouvrir Obinslab Starter
+app.tray.show_window: Ouvrir ObinsKit
 app.tray.preferences: Préférences
 app.tray.quit: Quitter
-app.tray.still_running_here: Obinslab Starter est toujours en cours d’exécution.
+app.tray.still_running_here: ObinsKit est toujours en cours d’exécution.
 
 # Menu
 app.manage: Configuration
@@ -74,7 +74,7 @@ preferences.setting.update_channel: Source de mises à jour
 preferences.setting.animation: Animation à l’écran de démarrage
 preferences.setting.animation.on: Activé
 preferences.setting.animation.off: Désactivé
-preferences.setting.x_action: Quitter ou réduire Obinslab lors de la fermeture de l'application
+preferences.setting.x_action: Quitter ou réduire ObinsKit lors de la fermeture de l'application
 preferences.setting.minimize_to_tray: Réduire dans la barre de tâche
 preferences.setting.quit_program: Quitter l'application
 preferences.setting.auto_launch: Démarrage au lancement du système

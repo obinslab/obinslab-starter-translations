@@ -40,7 +40,7 @@ common.date: Date
 app.tray.show_window: Otwórz
 app.tray.preferences: Ustawienia...
 app.tray.quit: Zakończ
-app.tray.still_running_here: Obinslab Starter nadal działa.
+app.tray.still_running_here: ObinsKit nadal działa.
 
 # Manage Menu
 app.manage: Zarządzaj

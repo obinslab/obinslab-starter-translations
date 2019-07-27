@@ -1,137 +1,136 @@
 # Common
-common.operate.failed: Operation failed
-common.operate.success: Operation successful
-common.tooltip_title: Message
-common.input.placeholder: Please input name
-common.rename: Rename
-common.import: Import
-common.export: Export
-common.add: Add
-common.create: Create
-common.add.success: Added successfully
-common.add.failed: Operation failed
-common.delete: Delete
-common.delete.success: Deleted successfully
-common.delete.failed: Deletion failed
-common.copy: Copy
-common.copy.success: Copied successfully
-common.copy_text: Copy
-common.paste: Paste
+common.operate.failed: Operasi gagal
+common.operate.success: Operasi berhasil
+common.tooltip_title: Pesan
+common.input.placeholder: Masukkan nama
+common.rename: Ubah nama
+common.import: Impor
+common.export: Ekspor
+common.add: Tambah
+common.create: Buat
+common.add.success: Berhasil menambahkan
+common.add.failed: Gagal menambahkan
+common.delete: Hapus
+common.delete.success: Berhasil menghapus
+common.delete.failed: Gagal menghapus
+common.copy: Salin
+common.copy.success: Berhasil menyalin
+common.copy_text: Salin
+common.paste: Tempel
 common.reset: Reset
-common.clone: Clone
-common.cancel: Cancel
+common.clone: Duplikat
+common.cancel: Batal
 common.ok: OK
-common.save: Save
-common.save_as: Save As
-common.save.success: Saved successfully
-common.apply: Apply
-common.apply.success: Applied successfully
-common.apply.failed: Operation failed
-common.confirm.show_detail: Show Detail
-common.network.connection.error: Network connection error
-common.please_quit_edit: Quit Edit before proceeding
-common.time_unit.hours: " Hours"
-common.time_unit.millisecond: Milliseconds
-common.return: Return
-common.refresh: Refresh
-common.date: Date
+common.save: Simpan
+common.save_as: Simpan sebagai
+common.save.success: Berhasil disimpan
+common.apply: Terapkan
+common.apply.success: Berhasil diterapkan
+common.apply.failed: Operasi gagal
+common.confirm.show_detail: Tampilkan detil
+common.network.connection.error: Koneksi jaringan gagal
+common.please_quit_edit: Keluar penyuntingan untuk melanjutkan
+common.time_unit.hours: " Jam"
+common.time_unit.millisecond: Milisekon
+common.return: Kembali
+common.resfesh: Segarkan
+common.date: Tanggal
 
 # Tray
-app.tray.show_window: Open ObinsKit
-app.tray.preferences: Preferences
-app.tray.quit: Quit
-app.tray.still_running_here: ObinsKit is still running
+app.tray.show_window: Buka ObinsKit
+app.tray.preferences: Pilihan
+app.tray.quit: Keluar
+app.tray.still_running_here: ObinsKit sedang berjalan
 
 # Manage Menu
-app.manage: Manage
-app.manage.preferences: Preferences
-app.manage.device_list: Device List
-app.manage.feedback: Feedback
+app.manage: Kelola
+app.manage.preferences: Pilihan
+app.manage.device_list: Daftar Perangkat
+app.manage.feedback: Umpan Balik
 
 # Feedback
-feedback: Feedback
-feedback.title: Feedback
-feedback.content: Content
-feedback.content.no_empty: Please input content
-feedback.content.max_1000: "Maximum: 1,000 characters"
-feedback.email.label: Email
-feedback.email.placeholder: Please enter your email
-feedback.email.not_valid: Invalid e-mail address
-feedback.submit: Submit
-feedback.submit.error: Send error - Please try again
-feedback.submit.success: Submitted successfully - Click to close
-feedback.support_email: "Support email: "
-feedback.debug_log: Debug Log
+feedback: Umpan Balik
+feedback.title: Umpan Balik
+feedback.content: Isi
+feedback.content.no_empty: Silahkan isi
+feedback.content.max_1000: "Maksimum: 1000 karakter"
+feedback.email.label: Email (Opsional)
+feedback.email.placeholder: Masukkan email
+feedback.email.not_valid: Alamat email tidak tepat
+feedback.submit: Kirim
+feedback.submit.error: Tidak berhasil mengirim - silahkan coba lagi
+feedback.submit.success: Berhasil mengirim - klik untuk menutup
+feedback.support_email: "Email bantuan: "
 
 # Preference Window
-preferences.setting: Settings
-preferences.setting.language: Language
-preferences.setting.theme: Theme
-preferences.setting.theme.dark: Dark
-preferences.setting.theme.light: Light
+preferences.setting: Pengaturan
+preferences.setting.language: Bahasa
+preferences.setting.theme: Tema
+preferences.setting.theme.dark: Gelap
+preferences.setting.theme.light: Terang
 preferences.setting.theme.cyan: Cyan
-preferences.setting.update_channel: Upgrade Source
-preferences.setting.animation: Animation on Splash Screen
+preferences.setting.update_channel: Upgrade Sumber
+preferences.setting.animation: Animasi Layar
 preferences.setting.animation.on: On
 preferences.setting.animation.off: Off
-preferences.setting.x_action: Close Button Behaviour
-preferences.setting.minimize_to_tray: Minimize to Tray
-preferences.setting.quit_program: Quit Program
-preferences.setting.auto_launch: Launch on System Start
-preferences.setting.auto_launch.yes: Yes
-preferences.setting.auto_launch.no: No
-preferences.update: Update
+preferences.setting.x_action: Aksi saat Menutup Program
+preferences.setting.minimize_to_tray: Minimalkan
+preferences.setting.quit_program: Keluar Program
+preferences.setting.auto_launch: Mulai Saat Startup
+preferences.setting.auto_launch.yes: Ya
+preferences.setting.auto_launch.no: Tidak
+preferences.update: Pembaharuan
 preferences.update.insider_preview: Insider Preview Program
-preferences.update.check: Check New Version
-preferences.update.check.failed: Please try again
-preferences.update.version.current: Current Version
-preferences.update.version.new: New version
-preferences.update.version.no_new: No new version
-preferences.update.download: Download
-preferences.update.download.done: Update package has been downloaded
-preferences.update.install_now: Install now
-preferences.help: Help
-preferences.help.user-manual: User Manual
-preferences.about: About
+preferences.update.check: Cek Versi Terbaru
+preferences.update.check.failed: Silahkan Coba Lagi
+preferences.update.version.current: Versi Sekarang
+preferences.update.version.new: Versi baru
+preferences.update.version.no_new: Tidak ada versi baru
+preferences.update.download: Unduhan
+preferences.update.download.done: Package terbaru telah terunduh
+preferences.update.install_now: Pasang sekarang
+preferences.help: Bantuan
+preferences.help.user-manual: Manual Pengguna
+preferences.about: Tentang
 
 # Home Window
 home.welcome: Hello World
-home.please_connect_kbd_with_cable: Please connect your device via USB
-home.open_device_failed: Device initialization failed
+home.please_connect_kbd_with_cable: Silahkan koneksikan perangkat via USB
+home.open_device_failed: Inisialisasi perangkat gagal
 
 # Main Window, General
-kbd.general: General
-kbd.general.info: Information
-kbd.general.info.device_model: Device Model
-kbd.general.info.serial_number: Serial Number
-kbd.general.info.battery: Battery
-kbd.general.info.running_time: Running Time
-kbd.general.setting: Settings
-kbd.general.setting.layout: Layout
+kbd.general: Umum
+kbd.general.info: Informasi
+kbd.general.info.device_model: Model Perangkat
+kbd.general.info.serial_number: Nomor Serial
+kbd.general.info.battery: Baterai
+kbd.general.info.running_time: Waktu Hidup
+kbd.general.setting: Pengaturan
+kbd.general.setting.layout: Tata Letak
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.magic_fn: Magic Fn
-kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.macro_trigger: Makro
 kbd.general.setting.capslock_led: CapsLock LED
-kbd.general.setting.auto_sleep: Auto Sleep
-kbd.general.setting.options.disable: Disable
-kbd.general.setting.options.enable: Enable
+kbd.general.setting.auto_sleep: Sleep Otomatis
+kbd.general.setting.options.disable: Mati
+kbd.general.setting.options.enable: Hidup
 kbd.general.setting.options.default: Default
-kbd.general.setting.options.custom: Custom
+kbd.general.setting.options.custom: Kustom
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: All
 kbd.general.bluetooth: Bluetooth
-kbd.general.bluetooth.bind: Bluetooth Bind
+kbd.general.bluetooth.bind: Hubungan Bluetooth
 kbd.general.bluetooth.clean_bind: Clear
 
 # Main Window, Firmware
-kbd.firmware: Firmware Upgrade
-kbd.firmware.key: Application Processor
-kbd.firmware.led: Light Processor
-kbd.firmware.ble: Bluetooth Processor
-kbd.firmware.current_version: Current Version
-kbd.firmware.upgrade_source: Upgrade Source
-kbd.firmware.latest: Latest Firmware
+kbd.firmware: Pemutakhiran Firmware
+kbd.firmware.key: Processor Aplikasi
+kbd.firmware.led: Processor LED
+kbd.firmware.ble: Processor Bluetooth
+kbd.firmware.current_version: Versi Sekarang
+kbd.firmware.upgrade_source: Mutakhirkan Sumber
+kbd.firmware.latest: Firmware Terbaru
 kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Download Firmware
 kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
@@ -172,7 +171,6 @@ kbd.led.color.default: Default
 kbd.led.color.custom: Custom
 kbd.led.color.custom.save: Save current color
 # Keycap Groups
-kbd.keycap.group.function_keys: Function Keys
 kbd.keycap.group.alphabet: Characters
 kbd.keycap.group.numbers: Numerals
 kbd.keycap.group.bigs: Big keys
@@ -181,8 +179,8 @@ kbd.keycap.group.all: All keys
 dynamic.none: Static
 dynamic.breath: Breathing effect
 dynamic.breath_grad: Gradual breathing effect
+dynamic.poptang: Poptang
 dynamic.rainbow: Rainbow
-dynamic.trigger.poptang: Poptang trigger
 dynamic.trigger.breath_single: Breathing per key
 dynamic.trigger.breath: Breathing trigger
 dynamic.trigger.rainbow: Rainbow trigger
@@ -284,7 +282,7 @@ kbd.audio: Audio Visualization
 kbd.audio.describe: Keyboard lights react to audio playing via default sound device
 kbd.audio.on: On
 kbd.audio.off: Off
-kbd.audio.light_type: Lighting Mode
+kbd.audio.light_type: Lighting Effect
 kbd.audio.light_type.pure: Pure Color
 kbd.audio.light_type.colorful: Colorful
 kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.

@@ -37,10 +37,10 @@ common.refresh: 刷新
 common.date: 日期
 
 # 托盘
-app.tray.show_window: 打开Obinslab Starter
+app.tray.show_window: 打开ObinsKit
 app.tray.preferences: 首选项
 app.tray.quit: 退出
-app.tray.still_running_here: Obinslab Starter仍在后台运行
+app.tray.still_running_here: ObinsKit仍在后台运行
 
 # 管理菜单
 app.manage: 管理
@@ -147,7 +147,7 @@ kbd.firmware.upgrade.content: 更新过程中请不要在拔除USB线
 kbd.firmware.upgrade.enter_iap_timeout: 自动进入IAP模式失败，请手动进入IAP模式 (按住ESC键盘, 然后插入USB线)
 kbd.firmware.upgrade.status.downloading: 下载固件...
 kbd.firmware.upgrade.status.download_failed: 固件下载失败
-kbd.firmware.upgrade.status.entering_aip: 进入升级模式(大概需要不超过6秒)...
+kbd.firmware.upgrade.status.entering_aip: 进入升级模式(最长需要等待6秒)...
 kbd.firmware.upgrade.status.writing_key: 写入应用处理器...
 kbd.firmware.upgrade.status.writing_led: 写入灯光处理器...
 kbd.firmware.upgrade.status.writing_ble: 写入蓝牙处理器...

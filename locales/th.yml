@@ -37,10 +37,10 @@ common.refresh: Refresh
 common.date: Date
 
 # Tray
-app.tray.show_window: เปิด Obinslab Starter
+app.tray.show_window: เปิด ObinsKit
 app.tray.preferences: การตั้งค่า
 app.tray.quit: ออก
-app.tray.still_running_here: Obinslab Starter ยังคงทำงานที่นี่
+app.tray.still_running_here: ObinsKit ยังคงทำงานที่นี่
 
 # Manage Menu
 app.manage: จัดการ
