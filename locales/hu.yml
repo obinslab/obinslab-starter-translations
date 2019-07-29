@@ -96,7 +96,7 @@ preferences.about: Névjegy
 
 # Home Window
 home.welcome: Hello, világ!
-home.please_connect_kbd_with_cable: Csatlakoztasd az eszközöd USB-n keresztül
+home.please_connect_kbd_with_cable: Csatlakoztasd az eszközt USB-n keresztül
 home.open_device_failed: Az eszköz inicializálása sikertelen
 
 # Main Window, General
@@ -125,7 +125,7 @@ kbd.general.bluetooth.bind: Bluetooth párosítások
 kbd.general.bluetooth.clean_bind: Összes törlése
 
 # Main Window, Firmware
-kbd.firmware: Firmwarefrissítés
+kbd.firmware: Firmware frissítés
 kbd.firmware.key: Alkalmazásprocesszor
 kbd.firmware.led: Világításprocesszor
 kbd.firmware.ble: Bluetooth processzor
@@ -143,7 +143,7 @@ kbd.firmware.upgrade.source.alpha: Tesztverzió
 kbd.firmware.upgrade.source.latest: Stabil verzió
 kbd.firmware.upgrade_btn: Frissítés
 kbd.firmware.upgrade.title: Firmware frissítés
-kbd.firmware.upgrade.content: A frissítés közben ne húzd ki az USB kábelt!
+kbd.firmware.upgrade.content: A frissítés közben ne húzd ki az USB kábelt és ne kapcsold ki a számítógépet!
 kbd.firmware.upgrade.enter_iap_timeout: Nem sikerült frissítés módra váltani. Húzd ki az USB kábelt, majd dugd vissza, miközben az ESC billentyűt nyomva tartod.
 kbd.firmware.upgrade.status.downloading: Firmware letöltése
 kbd.firmware.upgrade.status.download_failed: Letöltés sikertelen
@@ -152,7 +152,7 @@ kbd.firmware.upgrade.status.writing_key: Alkalmazásprocesszor frissítése
 kbd.firmware.upgrade.status.writing_led: Világításprocessor frissítése
 kbd.firmware.upgrade.status.writing_ble: Bluetooth processzor frissítése
 kbd.firmware.upgrade.status.restart: Billentyűzet újraindítása
-kbd.firmware.upgrade.status.success: Firmwarefrissítés sikeres
+kbd.firmware.upgrade.status.success: Firmware sikeresen frissítve
 
 # Main Window, LEDs
 kbd.led: Világítás
@@ -160,8 +160,8 @@ kbd.led.effect.profiles: Profilok
 kbd.led.effect.profile.reset: Visszaállítás
 kbd.led.effect.profile.delete.confirm_content: Biztos törölni szeretnéd ezt a profilt?
 kbd.led.effect.profile: Effektek
-kbd.led.effect.profile.limit.annepro1_three: Anne Pro 1 esetén legfeljebb 3 effekt lehet profilonként
-kbd.led.effect.profile.limit.annepro2_sixteen: Legfeljebb 16 effekt lehet profilonként
+kbd.led.effect.profile.limit.annepro1_three: Anne Pro 1 esetén legfeljebb 3 effektet menthetsz profilonként
+kbd.led.effect.profile.limit.annepro2_sixteen: Legfeljebb 16 effektet menthetsz profilonként
 kbd.led.effect.mode: Effekt
 kbd.led.effect.delete.confirm_content: Biztos törölni szeretnéd ezt az effektet?
 kbd.led.effect.preview: Előnézet
@@ -253,7 +253,7 @@ icon.ble.wl_1: Bluetooth eszköz 1
 icon.ble.wl_2: Bluetooth eszköz 2
 icon.ble.wl_3: Bluetooth eszköz 3
 icon.ble.wl_4: Bluetooth eszköz 4
-icon.fn.wheel: Kormány mód
+icon.fn.wheel: Játékvezérlő mód
 icon.prev.track: Előző szám
 icon.next.track: Következő szám
 icon.play.pause: Lejátszás / megállítás
@@ -279,10 +279,10 @@ kbd.macro.amount_limit.annepro_eight: Anne Pro 1 esetén legfeljebb 8 makrót ad
 kbd.macro.code: Makró műveletek
 kbd.macro.code.rec: Felvétel
 kbd.macro.code.empty: Ez a makró üres
-kbd.macro.code.exceeded: Nem tudsz több művelet hozzáadni ehhez a makróhoz
+kbd.macro.code.exceeded: Nem tudsz több műveletet hozzáadni ehhez a makróhoz
 kbd.macro.code.missing_release_key: Hiányzó gombfelengedés
 kbd.macro.code.missing_press_key: Hiányzó gomblenyomás
-kbd.macro.code.value.insert_timer_block: Várakozási intervallum hozzáadása
+kbd.macro.code.value.insert_timer_block: Várakozás hozzáadása
 kbd.macro.code.value.move_up: Mozgatás fel
 kbd.macro.code.value.move_down: Mozgatás le
 
@@ -293,7 +293,7 @@ kbd.audio.on: Be
 kbd.audio.off: Ki
 kbd.audio.light_type: Világítás típusa
 kbd.audio.light_type.pure: Egyszínű
-kbd.audio.light_type.colorful: Sokszínű
+kbd.audio.light_type.colorful: Többszínű
 kbd.audio.required_led_firmware: A szükséges világításprocesszor verzió {{version}} vagy újabb.
 
 # Other Messages
