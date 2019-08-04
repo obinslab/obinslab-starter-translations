@@ -96,7 +96,7 @@ preferences.about: 关于
 
 # 首屏
 home.welcome: Hello World
-home.please_connect_kbd_with_cable: 通过usb连接您的装备
+home.please_connect_kbd_with_cable: 通过usb连接您的设备
 home.open_device_failed: 打开设备失败
 
 # 键盘信息，全局设置
@@ -143,7 +143,7 @@ kbd.firmware.upgrade.source.alpha: 测试版
 kbd.firmware.upgrade.source.latest: 正式版
 kbd.firmware.upgrade_btn: 更新
 kbd.firmware.upgrade.title: 固件更新
-kbd.firmware.upgrade.content: 更新过程中请不要在拔除USB线
+kbd.firmware.upgrade.content: 更新过程中请不要拔除USB线
 kbd.firmware.upgrade.enter_iap_timeout: 自动进入IAP模式失败，请手动进入IAP模式 (按住ESC键盘, 然后插入USB线)
 kbd.firmware.upgrade.status.downloading: 下载固件...
 kbd.firmware.upgrade.status.download_failed: 固件下载失败
