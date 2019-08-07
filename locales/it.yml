@@ -1,0 +1,297 @@
+# Common
+common.operate.failed: Operazione fallita
+common.operate.success: Operazione completata
+common.tooltip_title: Messaggio
+common.input.placeholder: Inserisci un nome
+common.rename: Rinomina
+common.import: Importa
+common.export: Esporta
+common.add: Aggiungi
+common.create: Crea
+common.add.success: Aggiunto con successo
+common.add.failed: Operazione fallita
+common.delete: Elimina
+common.delete.success: Eliminazione riuscita
+common.delete.failed: Deletion failed
+common.copy: Copia
+common.copy.success: Copia riuscita
+common.copy_text: Copia
+common.paste: Incolla
+common.reset: Reimposta
+common.clone: Clona
+common.cancel: Annulla
+common.ok: OK
+common.save: Salva
+common.save_as: Salva con nome
+common.save.success: salvato con successo
+common.apply: Applica
+common.apply.success: Applicato con successo
+common.apply.failed: Operazione fallita
+common.confirm.show_detail: Mostra dettagli
+common.network.connection.error: Errore di rete
+common.please_quit_edit: Termina le modifiche prima di procedere
+common.time_unit.hours: " Ore"
+common.time_unit.millisecond: Millisecondi
+common.return: Indietro
+common.refresh: Aggiorna
+common.date: Data
+
+# Tray
+app.tray.show_window: Apri ObinsKit
+app.tray.preferences: Preferenze
+app.tray.quit: Esci
+app.tray.still_running_here: ObinsKit è ancora in esecuzione
+
+# Manage Menu
+app.manage: Gestisci
+app.manage.preferences: Preferenze
+app.manage.device_list: Lista dispositivi
+app.manage.feedback: Feedback
+
+# Feedback
+feedback: Feedback
+feedback.title: Feedback
+feedback.content: Contenuto
+feedback.content.no_empty: Inserisci il contenuto
+feedback.content.max_1000: "Massimo: 1,000 caratteri"
+feedback.email.label: Email
+feedback.email.placeholder: Inserisci la tua e-mail
+feedback.email.not_valid: Indirizzo e-mail non valido
+feedback.submit: invia
+feedback.submit.error: Errore durante l'invio - Riprova
+feedback.submit.success: Invio completato - Clicca qui per chiudere
+feedback.support_email: "E-mail di supporto: "
+feedback.debug_log: Log di debug
+
+# Preference Window
+preferences.setting: Impostazioni
+preferences.setting.language: Lingua
+preferences.setting.theme: Tema
+preferences.setting.theme.dark: Scuro
+preferences.setting.theme.light: Chiaro
+preferences.setting.theme.cyan: Ciano
+preferences.setting.update_channel: Fonte aggiornamenti
+preferences.setting.animation: Animazione Splash Screen
+preferences.setting.animation.on: On
+preferences.setting.animation.off: Off
+preferences.setting.x_action: Comportamento del tasto Chiudi
+preferences.setting.minimize_to_tray: Minimizza nella Tray
+preferences.setting.quit_program: Esci dal programma
+preferences.setting.auto_launch: Apri all'avvio del sistema
+preferences.setting.auto_launch.yes: Sì
+preferences.setting.auto_launch.no: No
+preferences.update: Aggiorna
+preferences.update.insider_preview: Programma Anteprima Insider
+preferences.update.check: Cerca nuove versioni
+preferences.update.check.failed: Riprova più tardi
+preferences.update.version.current: Versione attuale
+preferences.update.version.new: Nuova versione
+preferences.update.version.no_new: Nessuna nuova versione
+preferences.update.download: Download
+preferences.update.download.done: L'aggiornamento è stato scaricato
+preferences.update.install_now: Installa ora
+preferences.help: Aiuto
+preferences.help.user-manual: Manuale utente
+preferences.about: Informazioni
+
+# Home Window
+home.welcome: Hello World
+home.please_connect_kbd_with_cable: Connetti il dispositivo tramite USB
+home.open_device_failed: Inizializzazione dispositivo fallita
+
+# Main Window, General
+kbd.general: Generale
+kbd.general.info: Informazioni
+kbd.general.info.device_model: Modello
+kbd.general.info.serial_number: Numero di serie
+kbd.general.info.battery: Batteria
+kbd.general.info.running_time: Tempo di esecuzione
+kbd.general.setting: Impostazioni
+kbd.general.setting.layout: Layout
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.capslock_led: LED CapsLock
+kbd.general.setting.auto_sleep: Auto Sleep
+kbd.general.setting.options.disable: Disattivato
+kbd.general.setting.options.enable: Attivo
+kbd.general.setting.options.default: Predefinito
+kbd.general.setting.options.custom: Personalizzato
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: Tutti
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Associazioni Bluetooth
+kbd.general.bluetooth.clean_bind: Rimuovi
+
+# Main Window, Firmware
+kbd.firmware: Aggiornamento Firmware
+kbd.firmware.key: Processore Principale
+kbd.firmware.led: Processore LED
+kbd.firmware.ble: Processore Bluetooth
+kbd.firmware.current_version: Versione attuale
+kbd.firmware.upgrade_source: Fonte aggiornamenti
+kbd.firmware.latest: Ultimo Firmware
+kbd.firmware.archive: Archivio Firmware
+kbd.firmware.annepro1.download.firmware: Scarica Firmware
+kbd.firmware.annepro1.download.latest_firmware: Scarica l'ultimo Firmware
+kbd.firmware.annepro1.download.dfu_tool: Scarica strumento DFU
+kbd.firmware.find_new_version: "Nuovo firmware trovato: "
+kbd.firmware.no_new_version: Il tuo firmware è aggiornato
+kbd.firmware.upgrade.app_require: La versione di ObinsKit richiesta è v{{requiredVersion}} o successive, quella attuale è v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Aggiorna
+kbd.firmware.upgrade.title: Aggiornamento Firmware
+kbd.firmware.upgrade.content: Non disconnettere il cavo USB durante l'aggiornamento
+kbd.firmware.upgrade.enter_iap_timeout: Attivazione automatica della modalità IAP fallita, per favore attiva la modalità IAP manualmente (tenendo premuto il tasto ESC, inserisci il cavo USB)
+kbd.firmware.upgrade.status.downloading: Download del firmware
+kbd.firmware.upgrade.status.download_failed: Download firmware fallito
+kbd.firmware.upgrade.status.entering_aip: Attivazione modalità aggiornamento (Circa 6 secondi o meno)
+kbd.firmware.upgrade.status.writing_key: Scrittura dati sul processore principale
+kbd.firmware.upgrade.status.writing_led: Scrittura dati sul processore LED
+kbd.firmware.upgrade.status.writing_ble: Scrittura dati sul processore Bluetooth
+kbd.firmware.upgrade.status.restart: Riavvio della tastiera
+kbd.firmware.upgrade.status.success: Firmware aggiornato con successo
+
+# Main Window, LEDs
+kbd.led: LED
+kbd.led.effect.profiles: Profili LED
+kbd.led.effect.profile.reset: Reimposta
+kbd.led.effect.profile.delete.confirm_content: Sicuro di voler eliminare questo profilo?
+kbd.led.effect.profile: Dettagli profilo
+kbd.led.effect.profile.limit.annepro1_three: Limite di 3 effetti per profilo (ANNE PRO 1)
+kbd.led.effect.profile.limit.annepro2_sixteen: Limite di 16 effetti per profilo
+kbd.led.effect.mode: Modalità LED
+kbd.led.effect.delete.confirm_content: Sicuro di voler eliminare questo effetto?
+kbd.led.effect.preview: Anteprima
+kbd.led.effect.dynamic_colors.random: Casuale
+kbd.led.effect.dynamic_colors.no_empty: Aggiungi un colore dinamico
+kbd.led.color.palette: Palette colori
+kbd.led.color.default: Predefinito
+kbd.led.color.custom: Personalizzato
+kbd.led.color.custom.save: Salva colore attuale
+# Keycap Groups
+kbd.keycap.group.function_keys: Tasti funzione
+kbd.keycap.group.alphabet: Lettere
+kbd.keycap.group.numbers: Numeri
+kbd.keycap.group.bigs: Tasti grandi
+kbd.keycap.group.all: Tutti i tasti
+# Dynamic Light Effects
+dynamic.none: Statico
+dynamic.breath: Effetto respiro
+dynamic.breath_grad: Effetto respiro graduale
+dynamic.rainbow: Arcobaleno
+dynamic.trigger.poptang: Poptang ad attivazione
+dynamic.trigger.breath_single: Respiro singolo per-key
+dynamic.trigger.breath: Respiro ad attivazione
+dynamic.trigger.rainbow: Arcobaleno ad attivazione
+dynamic.trigger.ripple: Onde ad attivazione
+dynamic.trigger.pulse: Impulso ad attivazione
+dynamic.trigger.star_fall: Stelle candenti ad attivazione
+dynamic.auto.starry_sky: Cielo stellato
+dynamic.auto.comet: Comete
+dynamic.auto.colorful: Colorato
+dynamic.auto.wave: Onda
+dynamic.auto.black_hole: Buco nero
+dynamic.auto.vertical_rainbow: Arcobaleno verticale
+dynamic.auto.fountain: Fontana
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Fiamma
+dynamic.auto.firework: Fuochi d'artificio
+# Default LED group
+intl.light.group.default: Predefinito
+intl.led.red: Rosso
+intl.led.yellow: Giallo
+intl.led.green: Verde
+intl.led.cyan: Ciano
+intl.led.blue: Blu
+intl.led.purple: Viola
+intl.led.static.single: Statico singolo
+intl.led.static.multi: Statico multiplo
+intl.dynamic.breath: Effetto respiro
+intl.dynamic.breath.grad: Effetto respiro graduale
+intl.dynamic.poptang: Poptang
+intl.dynamic.breath.rainbow: Arcobaleno
+intl.dynamic.breath.single: Respiro singolo per-key
+intl.dynamic.trigger.breath: Respiro ad attivazione
+intl.dynamic.trigger.rainbow: Arcobaleno ad attivazione
+
+# Main Window, Layout
+kbd.layout: Layout
+kbd.layout.reset.confirm_content: Sicuro di voler reimpostare questo layout?
+kbd.layout.delete.confirm_content: Sicuro di voler eliminare questo layout?
+kbd.layout.set_keycap_null: Imposta come vuoto
+# Sidebar titles
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: System
+kbd.keycode_group.alphabet: Lettere
+kbd.keycode_group.number: Numeri
+kbd.keycode_group.modifier: Modificatori
+kbd.keycode_group.arrow: Tasti direzionali
+kbd.keycode_group.function: Tasti funzione
+kbd.keycode_group.media: Media
+kbd.keycode_group.keypad: Tast. Numerico
+kbd.keycode_group.other: Altro
+# Key tooltips
+icon.left_gui: Win/Cmd di sinistra
+icon.right_gui: Win/Cmd di destra
+icon.mute: Muto
+icon.volume.up: Volume su
+icon.volume.down: Volume giù
+icon.bl.toggle: Attiva illuminazione
+icon.bl.color: Cambia effetto LED
+icon.bl.increase: Aumenta luminosità
+icon.bl.decrease: Diminuisci luminosità
+icon.bl.battery: Livello batteria
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Modalità volante
+icon.prev.track: Traccia precedente
+icon.next.track: Traccia successiva
+icon.play.pause: Play / Pausa
+# The active layout read from keyboard
+intl.layout.current: Attuale
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: Macro
+kbd.macro.group: Gruppo Macro
+kbd.macro.group.delete.confirm_content: Sicuro di voler eliminare questo gruppo macro?
+kbd.macro.add: Aggiungi macro
+kbd.macro.please_add_macro_group: Per favore aggiungi un gruppo macro
+kbd.macro.please_add_macro: Per favore aggiungi una macro
+kbd.macro.delete.confirm_content: Sei sicuro di voler eliminare questa macro?
+kbd.macro.amount_limit.annepro2_sixteen: Massimo 16 macro
+kbd.macro.amount_limit.annepro_eight: Massimo 8 macro su ANNE PRO 1
+kbd.macro.code: Codice macro
+kbd.macro.code.rec: Registra Macro
+kbd.macro.code.empty: Codice macro vuoto
+kbd.macro.code.exceeded: Capacità codice macro superata
+kbd.macro.code.missing_release_key: Rilascio tasto mancante
+kbd.macro.code.missing_press_key: Attivazione tasto mancante
+kbd.macro.code.value.insert_timer_block: Inserisci blocco di tempo
+kbd.macro.code.value.move_up: muovi su
+kbd.macro.code.value.move_down: Muovi giù
+
+# Audio Visualization
+kbd.audio: Visualizzazione audio
+kbd.audio.describe: L'illuminazione della tastiera reagisce all'audio in riproduzione dall'output predefinito
+kbd.audio.on: Attivo
+kbd.audio.off: Disattivato
+kbd.audio.light_type: Modalità illuminazione
+kbd.audio.light_type.pure: Colore singolo
+kbd.audio.light_type.colorful: Colorato
+kbd.audio.required_led_firmware: La versione richiesta del processore LED è {{version}} o successiva.
+
+# Other Messages
+msg.open_device_failed: Inizializzazione dispositivo fallita
+msg.missing_required_data_field: campo dati mancante
+msg.file_not_compatible_your_device: Il file non è compatibile con il tuo dispositivo
+msg.crc_check_error: Errore controllo CRC - Non modificare i file esportati
+msg.json_data_invalid: Dati JSON non validi
