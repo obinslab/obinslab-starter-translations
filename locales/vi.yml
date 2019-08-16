@@ -32,9 +32,9 @@ common.network.connection.error: Lỗi kết nối mạng
 common.please_quit_edit: Vui lòng thoát chế độ chỉnh sửa
 common.time_unit.hours: " Giờ"
 common.time_unit.millisecond: Mili giây
-common.return: Return
-common.refresh: Refresh
-common.date: Date
+common.return: Quay lại
+common.refresh: Quét lại
+common.date: Ngày
 
 # Tray
 app.tray.show_window: Mở ObinsKit
@@ -61,7 +61,7 @@ feedback.submit: Gửi
 feedback.submit.error: Lỗi khi gửi, vui lòng thử lại
 feedback.submit.success: Gửi thành công, nhấn để đóng
 feedback.support_email: "Email hỗ trợ: "
-feedback.debug_log: Debug Log
+feedback.debug_log: Nhật ký gỡ lỗi
 
 # Preference Window
 preferences.setting: Cài đặt
@@ -69,7 +69,7 @@ preferences.setting.language: Ngôn ngữ
 preferences.setting.theme: Nền
 preferences.setting.theme.dark: Tối
 preferences.setting.theme.light: Sáng
-preferences.setting.theme.cyan: Cyan
+preferences.setting.theme.cyan: Xanh lục lam
 preferences.setting.update_channel: Nguồn cập nhật
 preferences.setting.animation: Hiệu ứng ở màn hình bên ngoài
 preferences.setting.animation.on: Bật
@@ -81,7 +81,7 @@ preferences.setting.auto_launch: Chạy sau khi khởi động máy tính
 preferences.setting.auto_launch.yes: Có
 preferences.setting.auto_launch.no: Không
 preferences.update: Cập nhật
-preferences.update.insider_preview: Insider Preview Program
+preferences.update.insider_preview: Chương trình thử nghiệm
 preferences.update.check: Kiểm tra phiên bản mới
 preferences.update.check.failed: Vui lòng thử lại
 preferences.update.version.current: Phiên bản hiện tại
@@ -129,25 +129,25 @@ kbd.firmware: Cập nhật phần mềm
 kbd.firmware.key: Bộ xử lý chương trình
 kbd.firmware.led: Bộ xử lý đèn LED
 kbd.firmware.ble: Bộ xử lý Bluetooth
-kbd.firmware.current_version: Current Version
-kbd.firmware.upgrade_source: Upgrade Source
-kbd.firmware.latest: Latest Firmware
-kbd.firmware.archive: Firmware Archive
+kbd.firmware.current_version: Phiên bản hiện tại
+kbd.firmware.upgrade_source: Nguồn nâng cấp
+kbd.firmware.latest: Phần mềm mới nhất
+kbd.firmware.archive: Lịch sử phần mềm
 kbd.firmware.annepro1.download.firmware: Tải phần mềm
 kbd.firmware.annepro1.download.latest_firmware: Tải phần mềm mới nhất
 kbd.firmware.annepro1.download.dfu_tool: Tải công cụ DFU
 kbd.firmware.find_new_version: "Tìm phần mềm mới: "
 kbd.firmware.no_new_version: Phiên bản hiện tại là mới nhất
-kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
-kbd.firmware.upgrade.source.alpha: Alpha
-kbd.firmware.upgrade.source.latest: Latest
+kbd.firmware.upgrade.app_require: Yêu cầu ObinsKit phiên bản {{requiredVersion}} hoặc mới hơn, phiên bản hiện tại là {{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Thử nghiệm
+kbd.firmware.upgrade.source.latest: Mới nhất
 kbd.firmware.upgrade_btn: Nâng cấp
 kbd.firmware.upgrade.title: Cập nhật phần mềm
 kbd.firmware.upgrade.content: Vui lòng không ngắt kết nối USB khi đang cập nhật
-kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
+kbd.firmware.upgrade.enter_iap_timeout: Tự động kết nối vào chế độ IAP thất bại, vui lòng kết nối vào chế độ IAP thủ công (giữ nút ESC, rồi cắm dây USB)
 kbd.firmware.upgrade.status.downloading: Tải phần mềm...
 kbd.firmware.upgrade.status.download_failed: Tải phần mềm thất bại
-kbd.firmware.upgrade.status.entering_aip: Bắt đầu chế độ cập nhật(About 6 seconds or less)...
+kbd.firmware.upgrade.status.entering_aip: Bắt đầu chế độ cập nhật (Trong 6 giây hoặc nhanh hơn)...
 kbd.firmware.upgrade.status.writing_key: Cài đặt dữ liệu vào bộ xử lý chương trình...
 kbd.firmware.upgrade.status.writing_led: Cài đặt dữ liệu vào bộ xử lý đèn LED...
 kbd.firmware.upgrade.status.writing_ble: Cài đặt dữ liệu vào bộ xử lý Bluetooth...
@@ -165,14 +165,14 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Chỉ được thiết lập tố
 kbd.led.effect.mode: Hiệu ứng đèn chuyển động
 kbd.led.effect.delete.confirm_content: Bạn muốn xoá chế độ này chứ?
 kbd.led.effect.preview: Xem trước
-kbd.led.effect.dynamic_colors.random: Random
-kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
+kbd.led.effect.dynamic_colors.random: Ngẫu nhiên
+kbd.led.effect.dynamic_colors.no_empty: Vui lòng thêm màu
 kbd.led.color.palette: Bảng màu
 kbd.led.color.default: Mặc định
 kbd.led.color.custom: Tuỳ chỉnh
 kbd.led.color.custom.save: Lưu màu đang chọn
 # Keycap Groups
-kbd.keycap.group.function_keys: Function Keys
+kbd.keycap.group.function_keys: Các phím chức năng
 kbd.keycap.group.alphabet: Ký tự
 kbd.keycap.group.numbers: Chữ số
 kbd.keycap.group.bigs: Phím lớn
@@ -182,23 +182,23 @@ dynamic.none: Static
 dynamic.breath: Nhịp thở (ngắt quãng)
 dynamic.breath_grad: Nhịp thở (liên tục)
 dynamic.rainbow: Cầu vồng
-dynamic.trigger.poptang: Lan toả (tốc độ gõ)
+dynamic.trigger.poptang: Lan tung hoành (phản ứng gõ)
 dynamic.trigger.breath_single: Nhịp thở (từng phím)
-dynamic.trigger.breath: Nhịp thở (tốc độ gõ)
-dynamic.trigger.rainbow: Cầu vồng (tốc độ gõ)
-dynamic.trigger.ripple: Ripple trigger
-dynamic.trigger.pulse: Pulse trigger
-dynamic.trigger.star_fall: Star Fall trigger
-dynamic.auto.starry_sky: Starry Sky
-dynamic.auto.comet: Comet
-dynamic.auto.colorful: Colorful
-dynamic.auto.wave: Wave
-dynamic.auto.black_hole: Black Hole
-dynamic.auto.vertical_rainbow: Vertical Rainbow
-dynamic.auto.fountain: Fountain
-dynamic.auto.snake: Snake
-dynamic.auto.flame: Flame
-dynamic.auto.firework: Firework
+dynamic.trigger.breath: Nhịp thở (phản ứng gõ)
+dynamic.trigger.rainbow: Cầu vồng (phản ứng gõ)
+dynamic.trigger.ripple: Gợn sóng (phản ứng gõ)
+dynamic.trigger.pulse: Tia chớp (phản ứng gõ)
+dynamic.trigger.star_fall: Sao rơi (phản ứng gõ)
+dynamic.auto.starry_sky: Bầu rời sao
+dynamic.auto.comet: Sao chổi
+dynamic.auto.colorful: Sắc màu
+dynamic.auto.wave: Làn sóng
+dynamic.auto.black_hole: Hố đen
+dynamic.auto.vertical_rainbow: Cầu vồng dọc
+dynamic.auto.fountain: Đài phun nước
+dynamic.auto.snake: Con rắn
+dynamic.auto.flame: Lửa cháy
+dynamic.auto.firework: Pháo hoa
 # Default LED group
 intl.light.group.default: Mặc định
 intl.led.red: Đỏ
@@ -214,8 +214,8 @@ intl.dynamic.breath.grad: Nhịp thở (liên tục)
 intl.dynamic.poptang: Lan toả
 intl.dynamic.breath.rainbow: Cầu vồng
 intl.dynamic.breath.single: Nhịp thở (từng phím)
-intl.dynamic.trigger.breath: Nhịp thở (tốc độ gõ)
-intl.dynamic.trigger.rainbow: Cầu vồng (tốc độ gõ)
+intl.dynamic.trigger.breath: Nhịp thở (phản ứng gõ)
+intl.dynamic.trigger.rainbow: Cầu vồng (phản ứng gõ)
 
 # Main Window, Layout
 kbd.layout: Bố cục phím
@@ -280,14 +280,14 @@ kbd.macro.code.value.move_up: Dịch chuyển lên trên
 kbd.macro.code.value.move_down: Dịch chuyển xuống dưới
 
 # Audio Visualization
-kbd.audio: Audio Visualization
-kbd.audio.describe: Keyboard lights react to the audio playing on the default sound card
-kbd.audio.on: On
-kbd.audio.off: Off
-kbd.audio.light_type: Lighting Mode
-kbd.audio.light_type.pure: Pure Color
-kbd.audio.light_type.colorful: Colorful
-kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
+kbd.audio: Hiệu ứng với âm thanh
+kbd.audio.describe: Đèn bàn phím phản ứng theo âm thanh đang phát ở card âm thanh gốc
+kbd.audio.on: Bật
+kbd.audio.off: Tắt
+kbd.audio.light_type: Chế độ đèn
+kbd.audio.light_type.pure: Một màu
+kbd.audio.light_type.colorful: Sắc màu
+kbd.audio.required_led_firmware: Yêu cầu bộ xử lý đèn LED phiên bản {{version}} hoặc mới hơn.
 
 # Other Messages
 msg.open_device_failed: Mở thiết bị thất bại
