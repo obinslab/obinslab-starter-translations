@@ -15,7 +15,7 @@ common.delete.success: Sikeres törlés
 common.delete.failed: Sikertelen törlés
 common.copy: Másolás
 common.copy.success: Sikeres másolás
-common.copy_text: Másolás
+common.copy_text: Másolat
 common.paste: Beilleszt
 common.reset: Visszaállítás
 common.clone: Másolás
@@ -59,7 +59,7 @@ feedback.email.placeholder: Add meg az e-mail címed
 feedback.email.not_valid: Érvénytelen e-mail cím
 feedback.submit: Küldés
 feedback.submit.error: Nem sikerült elküldeni a visszajelzést, próbáld újra
-feedback.submit.success: Visszajelzés elküldve - kattints az ablak bezárásához
+feedback.submit.success: Visszajelzés elküldve, kattints az ablak bezárásához
 feedback.support_email: "Kapcsolatfelvétel: "
 feedback.debug_log: Hibakeresési napló
 
@@ -138,7 +138,7 @@ kbd.firmware.annepro1.download.latest_firmware: Legújabb verzió letöltése
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool letöltése
 kbd.firmware.find_new_version: "Új firmware verzió érhető el: "
 kbd.firmware.no_new_version: Nem érhető el frissítés
-kbd.firmware.upgrade.app_require: "A frissítés megköveteli az ObinsKit {{requiredVersion}} vagy újabb verzióját. A telepített verzió: {{appVersion}}."
+kbd.firmware.upgrade.app_require: "A frissítéshez szükséges az ObinsKit {{requiredVersion}}, vagy újabb verziója. A telepített verzió: {{appVersion}}."
 kbd.firmware.upgrade.source.alpha: Tesztverzió
 kbd.firmware.upgrade.source.latest: Stabil verzió
 kbd.firmware.upgrade_btn: Frissítés
@@ -268,7 +268,7 @@ intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
 kbd.macro: Makró
-kbd.macro.group: Makró csoport
+kbd.macro.group: Makrócsoport
 kbd.macro.group.delete.confirm_content: Biztos törölni szeretnéd ezt a makrócsoportot?
 kbd.macro.add: Új makró
 kbd.macro.please_add_macro_group: Hozz létre egy makrócsportot
@@ -288,13 +288,13 @@ kbd.macro.code.value.move_down: Mozgatás le
 
 # Audio Visualization
 kbd.audio: Hangra reagáló effekt
-kbd.audio.describe: Az alapértelmezett hangeszköz kimenetére reagál a billentyűzet világítása
+kbd.audio.describe: A billentyűzet az alapértelmezett hangeszközön megszólaló hangokra reagál
 kbd.audio.on: Be
 kbd.audio.off: Ki
 kbd.audio.light_type: Világítás típusa
 kbd.audio.light_type.pure: Egyszínű
 kbd.audio.light_type.colorful: Többszínű
-kbd.audio.required_led_firmware: A szükséges világításprocesszor verzió {{version}} vagy újabb.
+kbd.audio.required_led_firmware: A szükséges világításprocesszor firmware verzió {{version}}, vagy újabb.
 
 # Other Messages
 msg.open_device_failed: Az eszköz inicializálása sikertelen
