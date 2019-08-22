@@ -4,7 +4,7 @@
 
 # Переводы Obinslab Starter
 
-[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | Русский | [Français](./README-fr.md) | [ไทย](./README-th.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | Русский | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md)
 
 Это проект по переводу [Obinslab Starter](http://en.obins.net/obinslab-starter) на другие языки.
 
