@@ -5,7 +5,7 @@
 
 # Obinslab Starter Translations
 
-[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | ไทย | [Italiano](./README-it.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Finnish](./README-fi.md) | [Français](./README-fr.md) | ไทย | [Italiano](./README-it.md)
 
 นี้คือโครงการแปลภาษาสำหรับ [Obinslab Starter](http://en.obins.net/obinslab-starter).
 

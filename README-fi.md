@@ -1,26 +1,26 @@
 <p align="center">
-  <a href="http://www.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
+  <a href="http://en.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
 </p>
 
-# Obinslab Starter Translations
+# Obinslab Starter käännökset
 
-[English](./README.md) | 简体中文 | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Finnish](./README-fi.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | Finnish | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md)
 
-这里是 [Obinslab Starter](http://www.obins.net/obinslab-starter)的软件界面翻译项目
+Se on käännösprojekti [Obinslab Starterille](http://en.obins.net/obinslab-starter).
 
-Obinslab Starter 是用于自定义 ANNE PRO 键盘配列、灯效、宏的桌面软件
+Obinslab Starter antaa sinun muokata näppäimistöasetteluja, valoefektejä ja makroja sinun ANNE PRO2lle.
 
-关注我们的 Twitter<a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> 获取最新公告。
+Seuraa meitä <a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> Twitterissä niin saat tietää tärkeitä ilmoitusasioita.
 
-## 如何开始翻译
+## Miten aloittaa kääntäminen?
 
-检查本项目`locales`文件夹下是否已经存在翻译文件。如果文件存在，则可直接更新这个文件；如果文件不存在，则可将拷贝`en.yml`为`language-code.yml`
+Tarkista, onko käännöstiedosto olemassa jo kielellesi kansiossa `locales`. Jos se on jo olemassa, muokkaa vain sitä; Jos ei, kloonaa `en.yml` muotoon `language-code.yml`
 
-举例来说：我们想翻译`Japanese`，我们需要编辑名为`ja.yml`的文件
+Esimerkiksi: Jos haluat päivittää/luoda `Japanin` kieltä, muokkaa tiedostoa `ja.yml`.
 
-Obinslab Starter 使用 Chromium 的 `l10n_util` 库来获取语言环境。 `language-code`可能的值如下:
+Obinslab Starter käyttää Chromiumin `l10n_util` kirjastoa hakeakseen kielikoodin. Mahdolliset `language-code` on listattu alla:
 
-| Language Code | Language Name           |
+| Kielikoodi    | Kielen nimi             |
 | ------------- | ----------------------- |
 | af            | Afrikaans               |
 | am            | Amharic                 |
@@ -156,18 +156,18 @@ Obinslab Starter 使用 Chromium 的 `l10n_util` 库来获取语言环境。 `la
 | zh-TW         | Chinese (Traditional)   |
 | zu            | Zulu                    |
 
-## 如何语言修改过的语言包
+## Käännöksesi esikatselu
 
-1. 将文件`language-code.yml`放在`Resources`下的`locales`文件夹中。编辑`locales.json`，添加语言对应的`id`和`name`。
+1. Laita tiedosto `language-code.yml` kansioon `locales` kansion `Resources` alla. Muokkaa `locales.json`, ja lisää kielesi `id` ja `name`.
 
-   文件夹`locales`通常在如下位置:
+   Kansio `locales` on yleensä näissä kansioissa:
 
    - Windows `C:\Program Files\Obinslab Starter\resources\locales`
 
    - Mac Osx `/Applications/Obinslab Starter.app/Contents/Resources/locales`
 
-2. 打开或重启 Obinslab Starter, 打开 `首选项`, 选择新语言
+2) Käynnistä/uudelleenkäynnistä Obinslab Starter, mene kohteeseen `preferences` ja valitse uusi kieli
 
-## 贡献语言包
+## Kontribuutio
 
-Fork -> Modify -> Pull request
+Haarauta (Fork) -> Muokkaa -> Vetopyyntö (Pull request)
