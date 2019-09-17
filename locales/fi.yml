@@ -1,6 +1,6 @@
 # Common
 common.operate.failed: Operaatio epäonnistui
-common.operate.success: Operatio onnistui
+common.operate.success: Operaatio onnistui
 common.tooltip_title: Viesti
 common.input.placeholder: Syötä nimi
 common.rename: Uudelleennimeä
@@ -9,7 +9,7 @@ common.export: Vie
 common.add: Lisää
 common.create: Luo
 common.add.success: Lisätty onnistuneesti
-common.add.failed: Operatio epäonnistui
+common.add.failed: Operaatio epäonnistui
 common.delete: Poista
 common.delete.success: Poistettu onnistuneesti
 common.delete.failed: Poistaminen epäonnistui
@@ -26,7 +26,7 @@ common.save_as: Tallenna nimellä
 common.save.success: Tallennettu onnistuneesti
 common.apply: Aseta
 common.apply.success: Asetettu onnistuneesti
-common.apply.failed: Operatio epäonnistui
+common.apply.failed: Operaatio epäonnistui
 common.confirm.show_detail: Näytä tiedot
 common.network.connection.error: Internet-yhteyden virhe
 common.please_quit_edit: Poistu editorista ensin sulkemista
@@ -239,8 +239,8 @@ icon.right_gui: Oikea Win/Cmd
 icon.mute: Mykistä
 icon.volume.up: Suurenna äänenvoimakkuutta
 icon.volume.down: Vähennä äänenvoimakkuutta
-icon.bl.toggle: Vaihda kahden valon välillä
-icon.bl.color: Vaihda valoa
+icon.bl.toggle: Kytke valaistus päälle/pois
+icon.bl.color: Vaihda valon väriä
 icon.bl.increase: Lisää kirkkautta
 icon.bl.decrease: Vähennä kirkkautta
 icon.bl.battery: Akun taso
