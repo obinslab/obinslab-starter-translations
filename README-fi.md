@@ -8,7 +8,7 @@
 
 Se on käännösprojekti [Obinslab Starterille](http://en.obins.net/obinslab-starter).
 
-Obinslab Starter antaa sinun muokata näppäimistöasetteluja, valoefektejä ja makroja sinun ANNE PRO2lle.
+Obinslab Starter antaa sinun muokata näppäimistöasetteluja, valoefektejä ja makroja sinun ANNE PRO2:llesi.
 
 Seuraa meitä <a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> Twitterissä niin saat tietää tärkeitä ilmoitusasioita.
 
@@ -16,11 +16,11 @@ Seuraa meitä <a href="https://twitter.com/obinslab" target="_blank"><img src="h
 
 Tarkista, onko käännöstiedosto olemassa jo kielellesi kansiossa `locales`. Jos se on jo olemassa, muokkaa vain sitä; Jos ei, kloonaa `en.yml` muotoon `language-code.yml`
 
-Esimerkiksi: Jos haluat päivittää/luoda `Japanin` kieltä, muokkaa tiedostoa `ja.yml`.
+Esimerkiksi: Jos haluat päivittää/luoda `japanese` kieltä, muokkaa tiedostoa `ja.yml`.
 
 Obinslab Starter käyttää Chromiumin `l10n_util` kirjastoa hakeakseen kielikoodin. Mahdolliset `language-code` on listattu alla:
 
-| Kielikoodi    | Kielen nimi             |
+| Language Code | Language Name           |
 | ------------- | ----------------------- |
 | af            | Afrikaans               |
 | am            | Amharic                 |
@@ -170,4 +170,4 @@ Obinslab Starter käyttää Chromiumin `l10n_util` kirjastoa hakeakseen kielikoo
 
 ## Kontribuutio
 
-Haarauta (Fork) -> Muokkaa -> Vetopyyntö (Pull request)
+Fork -> Muokkaa -> Pull request
