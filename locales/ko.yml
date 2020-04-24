@@ -1,0 +1,297 @@
+# Common
+common.operate.failed: 작업 실패
+common.operate.success: 작업 성공
+common.tooltip_title: 메시지
+common.input.placeholder: 이름을 입력하십시오
+common.rename: 이름 바꾸기
+common.import: 가져오기
+common.export: 내보내기
+common.add: 추가
+common.create: 새로 만들기
+common.add.success: 성공적으로 추가되었습니다
+common.add.failed: 작업 실패
+common.delete: 삭제
+common.delete.success: 성공적으로 삭제되었습니다
+common.delete.failed: 삭제 실패
+common.copy: 복사
+common.copy.success: 성공적으로 복사되었습니다
+common.copy_text: 복사
+common.paste: 붙여 넣기
+common.reset: 리셋
+common.clone: 복제
+common.cancel: 취소
+common.ok: 확인
+common.save: 저장
+common.save_as: 다른 이름으로 저장
+common.save.success: 성공적으로 저장되었습니다
+common.apply: 적용
+common.apply.success: 성공적으로 적용되었습니다
+common.apply.failed: 작업 실패
+common.confirm.show_detail: 자세히 보기
+common.network.connection.error: 네트워크 연결 오류
+common.please_quit_edit: 진행하기 전에 편집을 종료하십시오
+common.time_unit.hours: " 시간"
+common.time_unit.millisecond: 밀리 초
+common.return: 되돌리기
+common.refresh: 새로 고침
+common.date: 날짜
+
+# Tray
+app.tray.show_window: ObinsKit 열기
+app.tray.preferences: 환경 설정
+app.tray.quit: 종료
+app.tray.still_running_here: ObinsKit이 여전히 실행 중입니다
+
+# Manage Menu
+app.manage: 관리
+app.manage.preferences: 환경 설정
+app.manage.device_list: 장치 목록
+app.manage.feedback: 피드백
+
+# Feedback
+feedback: 피드백
+feedback.title: 피드백
+feedback.content: 내용
+feedback.content.no_empty: 내용을 입력하십시오
+feedback.content.max_1000: "최대: 1,000 자"
+feedback.email.label: 이메일
+feedback.email.placeholder: 이메일을 입력하십시오
+feedback.email.not_valid: 유효하지 않은 이메일 주소
+feedback.submit: 제출
+feedback.submit.error: 제출 오류 - 다시 시도하십시오
+feedback.submit.success: 제출 완료 - 클릭하여 닫습니다
+feedback.support_email: "지원 이메일: "
+feedback.debug_log: 디버그 로그
+
+# Preference Window
+preferences.setting: 설정
+preferences.setting.language: 언어
+preferences.setting.theme: 테마
+preferences.setting.theme.dark: 어두운 테마
+preferences.setting.theme.light: 밝은 테마
+preferences.setting.theme.cyan: 청록색 테마
+preferences.setting.update_channel: 업그레이드 소스
+preferences.setting.animation: 스플래시 화면의 애니메이션
+preferences.setting.animation.on: 켜기
+preferences.setting.animation.off: 끄기
+preferences.setting.x_action: 닫기 버튼 동작
+preferences.setting.minimize_to_tray: 트레이로 최소화
+preferences.setting.quit_program: 프로그램 종료
+preferences.setting.auto_launch: 시스템 시작시 시작
+preferences.setting.auto_launch.yes: 예
+preferences.setting.auto_launch.no: 아니요
+preferences.update: 업데이트
+preferences.update.insider_preview: 인사이더 프리뷰 프로그램
+preferences.update.check: 새 버전 확인
+preferences.update.check.failed: 다시 시도하십시오
+preferences.update.version.current: 현재 버전
+preferences.update.version.new: 새 버전
+preferences.update.version.no_new: 새로운 버전이 없습니다
+preferences.update.download: 다운로드
+preferences.update.download.done: 업데이트 패키지가 다운로드되었습니다
+preferences.update.install_now: 지금 설치
+preferences.help: 도움말
+preferences.help.user-manual: 사용 설명서
+preferences.about: 정보
+
+# Home Window
+home.welcome: Hello World
+home.please_connect_kbd_with_cable: USB를 통해 장치를 연결하십시오
+home.open_device_failed: 장치 초기화 실패
+
+# Main Window, General
+kbd.general: 일반
+kbd.general.info: 정보
+kbd.general.info.device_model: 장치 모델
+kbd.general.info.serial_number: 일련 번호
+kbd.general.info.battery: 배터리
+kbd.general.info.running_time: 켜져있던 시간
+kbd.general.setting: 설정
+kbd.general.setting.layout: 레이아웃
+kbd.general.setting.tap_layout: 탭
+kbd.general.setting.magic_fn: 매직 Fn
+kbd.general.setting.macro_trigger: 매크로
+kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.auto_sleep: 자동 절전
+kbd.general.setting.options.disable: 비활성화
+kbd.general.setting.options.enable: 사용
+kbd.general.setting.options.default: 기본값
+kbd.general.setting.options.custom: 사용자 정의
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: 모두
+kbd.general.bluetooth: 블루투스
+kbd.general.bluetooth.bind: 블루투스 바인드
+kbd.general.bluetooth.clean_bind: 지우기
+
+# Main Window, Firmware
+kbd.firmware: 펌웨어 업그레이드
+kbd.firmware.key: 애플리케이션 프로세서
+kbd.firmware.led: 조명 프로세서
+kbd.firmware.ble: 블루투스 프로세서
+kbd.firmware.current_version: 현재 버전
+kbd.firmware.upgrade_source: 업그레이드 소스
+kbd.firmware.latest: 최신 펌웨어
+kbd.firmware.archive: 펌웨어 저장소
+kbd.firmware.annepro1.download.firmware: 펌웨어 다운로드
+kbd.firmware.annepro1.download.latest_firmware: 최신 펌웨어 다운로드
+kbd.firmware.annepro1.download.dfu_tool: DFU 도구 다운로드
+kbd.firmware.find_new_version: "새 펌웨어 찾기: "
+kbd.firmware.no_new_version: 펌웨어가 최신 버전입니다
+kbd.firmware.upgrade.app_require: 필수 ObinsKit 버전은 v{{requiredVersion}} 이상이고, 현재 버전은 v{{appVersion}} 입니다.
+kbd.firmware.upgrade.source.alpha: 알파
+kbd.firmware.upgrade.source.latest: 릴리즈
+kbd.firmware.upgrade_btn: 업그레이드
+kbd.firmware.upgrade.title: 펌웨어 업그레이드
+kbd.firmware.upgrade.content: 업데이트 중에 USB 케이블을 분리하지 마십시오
+kbd.firmware.upgrade.enter_iap_timeout: IAP 모드 자동 진입 실패, IAP 모드에 수동으로 진입하십시오 (ESC 키를 누른 상태에서 USB 케이블 삽입)
+kbd.firmware.upgrade.status.downloading: 펌웨어 다운로드 중
+kbd.firmware.upgrade.status.download_failed: 펌웨어 다운로드 실패
+kbd.firmware.upgrade.status.entering_aip: 업그레이드 모드 진입 중(약 6초 미만)
+kbd.firmware.upgrade.status.writing_key: 애플리케이션 프로세서에 데이터 쓰는 중
+kbd.firmware.upgrade.status.writing_led: 라이트 프로세서에 데이터 쓰는 중
+kbd.firmware.upgrade.status.writing_ble: 블루투스 프로세서에 데이터 쓰는 중
+kbd.firmware.upgrade.status.restart: 키보드 재시작
+kbd.firmware.upgrade.status.success: 펌웨어가 성공적으로 업데이트되었습니다
+
+# Main Window, LEDs
+kbd.led: 조명
+kbd.led.effect.profiles: 조명 프로필
+kbd.led.effect.profile.reset: 재설정
+kbd.led.effect.profile.delete.confirm_content: 이 프로필을 삭제 하시겠습니까?
+kbd.led.effect.profile: 프로필 세부 사항
+kbd.led.effect.profile.limit.annepro1_three: 프로필 당 3 개의 조명 효과 제한 (ANNE PRO 1)
+kbd.led.effect.profile.limit.annepro2_sixteen: 프로필 당 16 개의 조명 효과 제한
+kbd.led.effect.mode: 조명 모드
+kbd.led.effect.delete.confirm_content: 이 조명 효과를 삭제 하시겠습니까?
+kbd.led.effect.preview: 미리보기
+kbd.led.effect.dynamic_colors.random: 무작위
+kbd.led.effect.dynamic_colors.no_empty: 동적 색상을 추가하십시오
+kbd.led.color.palette: 색 팔레트
+kbd.led.color.default: 기본값
+kbd.led.color.custom: 사용자 정의
+kbd.led.color.custom.save: 현재 색상 저장
+# Keycap Groups
+kbd.keycap.group.function_keys: 기능 키
+kbd.keycap.group.alphabet: 문자
+kbd.keycap.group.numbers: 숫자
+kbd.keycap.group.bigs: 큰 키
+kbd.keycap.group.all: 모든 키
+# Dynamic Light Effects
+dynamic.none: 정적
+dynamic.breath: 호흡 효과
+dynamic.breath_grad: 점진적 호흡 효과
+dynamic.rainbow: 무지개
+dynamic.trigger.poptang: 팝탱 트리거
+dynamic.trigger.breath_single: 키당 호흡
+dynamic.trigger.breath: 호흡 트리거
+dynamic.trigger.rainbow: 무지개 트리거
+dynamic.trigger.ripple: 리플 트리거
+dynamic.trigger.pulse: 펄스 트리거
+dynamic.trigger.star_fall: 떨어지는 별 트리거
+dynamic.auto.starry_sky: 별이 빛나는 하늘
+dynamic.auto.comet: 혜성
+dynamic.auto.colorful: 컬러풀
+dynamic.auto.wave: 웨이브
+dynamic.auto.black_hole: 블랙홀
+dynamic.auto.vertical_rainbow: 세로 무지개
+dynamic.auto.fountain: 분수
+dynamic.auto.snake: 뱀
+dynamic.auto.flame: 불꽃
+dynamic.auto.firework: 불꽃놀이
+# Default LED group
+intl.light.group.default: 기본값
+intl.led.red: 붉은색
+intl.led.yellow: 노란색
+intl.led.green: 초록색
+intl.led.cyan: 청록색
+intl.led.blue: 파란색
+intl.led.purple: 보라색
+intl.led.static.single: 정적 싱글
+intl.led.static.multi: 정적 멀티
+intl.dynamic.breath: 호흡
+intl.dynamic.breath.grad: 점진적 호흡
+intl.dynamic.poptang: 팝탱
+intl.dynamic.breath.rainbow: 무지개
+intl.dynamic.breath.single: 키당 호흡
+intl.dynamic.trigger.breath: 호흡 트리거
+intl.dynamic.trigger.rainbow: 무지개 트리거
+
+# Main Window, Layout
+kbd.layout: Layout
+kbd.layout.reset.confirm_content: 이 레이아웃을 기본값으로 재설정 하시겠습니까?
+kbd.layout.delete.confirm_content: 이 레이아웃을 삭제 하시겠습니까?
+kbd.layout.set_keycap_null: null 설정
+# Sidebar titles
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: 시스템
+kbd.keycode_group.alphabet: 문자
+kbd.keycode_group.number: 숫자
+kbd.keycode_group.modifier: 특수
+kbd.keycode_group.arrow: 화살표
+kbd.keycode_group.function: 기능
+kbd.keycode_group.media: 미디어
+kbd.keycode_group.keypad: 키패드
+kbd.keycode_group.other: 그 외
+# Key tooltips
+icon.left_gui: 왼쪽 윈도우/커맨드
+icon.right_gui: 오른쪽 윈도우/커맨드
+icon.mute: 음소거
+icon.volume.up: 음량 증가
+icon.volume.down: 음량 감소
+icon.bl.toggle: 조명 토글
+icon.bl.color: 조명 전환
+icon.bl.increase: 밝기 증가
+icon.bl.decrease: 밝기 감소
+icon.bl.battery: 배터리 잔량
+icon.ble.wl_1: 블루투스 1
+icon.ble.wl_2: 블루투스 2
+icon.ble.wl_3: 블루투스 3
+icon.ble.wl_4: 블루투스 4
+icon.fn.wheel: 게임 휠
+icon.prev.track: 이전 트랙
+icon.next.track: 다음 트랙
+icon.play.pause: 재생 / 일시정지
+# The active layout read from keyboard
+intl.layout.current: 현재
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: 매크로
+kbd.macro.group: 매크로 그룹
+kbd.macro.group.delete.confirm_content: 이 매크로 그룹을 삭제 하시겠습니까?
+kbd.macro.add: 매크로 추가
+kbd.macro.please_add_macro_group: 매크로 그룹을 추가하십시오
+kbd.macro.please_add_macro: 매크로를 추가하십시오
+kbd.macro.delete.confirm_content: 이 매크로를 삭제 하시겠습니까?
+kbd.macro.amount_limit.annepro2_sixteen: 최대 16개의 매크로
+kbd.macro.amount_limit.annepro_eight: Anne Pro 1의 경우 최대 8개의 매크로
+kbd.macro.code: 매크로 코드
+kbd.macro.code.rec: 매크로 녹화
+kbd.macro.code.empty: 비어있는 매크로 코드
+kbd.macro.code.exceeded: 매크로 코드 용량 초과
+kbd.macro.code.missing_release_key: 손 뗀 키 누락
+kbd.macro.code.missing_press_key: 누른 키 누락
+kbd.macro.code.value.insert_timer_block: 타임 블록 삽입
+kbd.macro.code.value.move_up: 위로 이동
+kbd.macro.code.value.move_down: 아래로 이동
+
+# Audio Visualization
+kbd.audio: 오디오 시각화
+kbd.audio.describe: 키보드 조명이 기본 사운드 장치를 통한 오디오 재생에 반응합니다
+kbd.audio.on: 켜기
+kbd.audio.off: 끄기
+kbd.audio.light_type: 조명 모드
+kbd.audio.light_type.pure: 단색
+kbd.audio.light_type.colorful: 컬러풀
+kbd.audio.required_led_firmware: 필요한 라이트 프로세서 버전은 {{version}} 이상입니다.
+
+# Other Messages
+msg.open_device_failed: 장치 초기화 실패
+msg.missing_required_data_field: 누락된 데이터 필드
+msg.file_not_compatible_your_device: 파일이 이 장치와 호환되지 않습니다
+msg.crc_check_error: CRC 확인 오류 - 내보낸 파일을 편집하지 마십시오
+msg.json_data_invalid: JSON 데이터가 유효하지 않습니다
