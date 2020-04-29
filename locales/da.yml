@@ -113,8 +113,8 @@ kbd.general.setting.magic_fn: Magic Fn
 kbd.general.setting.macro_trigger: Makro
 kbd.general.setting.capslock_led: CapsLock LED
 kbd.general.setting.auto_sleep: Automatisk Søvn
-kbd.general.setting.options.disable: Deaktiver
-kbd.general.setting.options.enable: Aktiver
+kbd.general.setting.options.disable: Deaktiveret
+kbd.general.setting.options.enable: Aktiveret
 kbd.general.setting.options.default: Standard
 kbd.general.setting.options.custom: Brugerdefineret
 kbd.general.setting.options.fn1: Fn1
@@ -182,13 +182,13 @@ dynamic.none: Statisk
 dynamic.breath: Vejrtrækningseffekt
 dynamic.breath_grad: Gradvis vejrtrækningseffekt
 dynamic.rainbow: Regnbue
-dynamic.trigger.poptang: Poptang udløser
-dynamic.trigger.breath_single: Åndedræt pr. tast
-dynamic.trigger.breath: Åndedræt udløser
-dynamic.trigger.rainbow: Regnbue udløser
-dynamic.trigger.ripple: Ringvirkning udløser
-dynamic.trigger.pulse: Puls udløser
-dynamic.trigger.star_fall: Stjernefald udløser
+dynamic.trigger.poptang: Poptang reaktiv
+dynamic.trigger.breath_single: Individuel åndedræt
+dynamic.trigger.breath: Åndedræt reaktiv
+dynamic.trigger.rainbow: Regnbue reaktiv
+dynamic.trigger.ripple: Ringvirkning reaktiv
+dynamic.trigger.pulse: Puls reaktiv
+dynamic.trigger.star_fall: Stjernefald reaktiv
 dynamic.auto.starry_sky: Stjernehimmel
 dynamic.auto.comet: Komet
 dynamic.auto.colorful: Farverig
@@ -213,9 +213,9 @@ intl.dynamic.breath: Åndedræt
 intl.dynamic.breath.grad: Gradvis åndedræt
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Regnbue
-intl.dynamic.breath.single: Åndedræt pr. tast
-intl.dynamic.trigger.breath: Åndedræt udløser
-intl.dynamic.trigger.rainbow: Regnbue udløser
+intl.dynamic.breath.single: Individuel åndedræt
+intl.dynamic.trigger.breath: Åndedræt reaktiv
+intl.dynamic.trigger.rainbow: Regnbue reaktiv
 
 # Main Window, Layout
 kbd.layout: Layout
@@ -225,7 +225,7 @@ kbd.layout.set_keycap_null: Fjern
 # Sidebar titles
 kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
-kbd.keycode_group.alphabet: Bogstav
+kbd.keycode_group.alphabet: Bogstaver
 kbd.keycode_group.number: Tal
 kbd.keycode_group.modifier: Modifikatorer
 kbd.keycode_group.arrow: Piletaster
@@ -285,8 +285,8 @@ kbd.audio.describe: Tastaturlamper reagerer på lydafspilning via standard lyden
 kbd.audio.on: Til
 kbd.audio.off: Fra
 kbd.audio.light_type: Lys Tilstand
-kbd.audio.light_type.pure: Ren Farve
-kbd.audio.light_type.colorful: Farverig
+kbd.audio.light_type.pure: Enkelt Farve
+kbd.audio.light_type.colorful: Flere Farver
 kbd.audio.required_led_firmware: Kræver lysprocessor version {{version}} eller nyere.
 
 # Other Messages
