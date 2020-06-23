@@ -130,12 +130,12 @@ kbd.general.setting.tap_combiantion_tips: 任意のキーを押している間�
 kbd.general.setting.magic_fn: マジックファンクション
 kbd.general.setting.magic_fn_tips: FnをCapslockにバインドする
 kbd.general.setting.macro_trigger: マクロ
-kbd.general.setting.lighting: 点灯
+kbd.general.setting.lighting: LED
 kbd.general.setting.lighting.backlight: バックライト
 kbd.general.setting.lighting.indicator: インジケータ
 kbd.general.setting.capslock_led: CapsLock LED
 kbd.general.setting.auto_sleep: 自動スリープ
-kbd.general.setting.auto_sleep_tips: ワイヤレスモードでは、キーボードはアイドル時間の{{time}}後にスリープ状態になります
+kbd.general.setting.auto_sleep_tips: ワイヤレスモードでは、操作しないまま{{time}}後にスリープ状態になります
 
 kbd.general.setting.options.disable: 無効にする
 kbd.general.setting.options.enable: 有効にする
@@ -152,7 +152,7 @@ kbd.general.bluetooth.clean_bind: クリア
 # Main Window, Firmware
 kbd.firmware: ファームウェア
 kbd.firmware.key: アプリケーションプロセッサ
-kbd.firmware.led: ライトプロセッサー
+kbd.firmware.led: ライトプロセッサ
 kbd.firmware.ble: Bluetoothプロセッサ
 kbd.firmware.current_version: 現行版
 kbd.firmware.upgrade_source: ソースをアップグレード
@@ -213,7 +213,7 @@ dynamic.none: 静的
 dynamic.breath: サイクル効果
 dynamic.breath_grad: グラデーションサイクル効果
 dynamic.rainbow: 虹
-dynamic.trigger: 引き金
+dynamic.trigger: トリガ
 dynamic.trigger.poptang: ポタン
 dynamic.trigger.breath_single: キーごとのサイクル
 dynamic.trigger.breath: サイクル
