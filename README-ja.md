@@ -4,7 +4,7 @@
 
 # ObinsKit Translations
 
-English | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md) | [日本語](./README-ja.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md) | 日本語
 
 [ObinsKit](http://en.obins.net/obinskit)の翻訳プロジェクトです。
 
