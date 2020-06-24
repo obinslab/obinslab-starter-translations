@@ -4,7 +4,7 @@
 
 # Obinslab Starter Translations
 
-English | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md)
+English | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md) | [日本語](./README-ja.md)
 
 It's a translation project for [Obinslab Starter](http://en.obins.net/obinslab-starter).
 

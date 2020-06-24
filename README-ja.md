@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="http://en.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
+  <a href="http://en.obins.net/obinskit" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
 </p>
 
 # ObinsKit Translations
 
 English | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md) | [日本語](./README-ja.md)
 
-[ObinsKit](http://en.obins.net/obinslab-starter)の翻訳プロジェクトです。
+[ObinsKit](http://en.obins.net/obinskit)の翻訳プロジェクトです。
 
 ObinsKit では、ANNE PRO 2 のキーボードレイアウト、照明効果、マクロをカスタマイズできます。
 
