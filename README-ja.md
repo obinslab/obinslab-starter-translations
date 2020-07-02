@@ -1,24 +1,24 @@
 <p align="center">
-  <a href="http://en.obins.net/obinslab-starter" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
+  <a href="http://en.obins.net/obinskit" target="blank"><img src="./obinslab.png" width="320" alt="Obinslab Logo" /></a>
 </p>
 
-# Obinslab Starter Translations
+# ObinsKit Translations
 
-English | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md) | [日本語](./README-ja.md)
+[English](./README.md) | [简体中文](./README-zh_CN.md) | [Español](./README-es.md) | [Deutsch](./README-de.md) | [Русский](./README-ru.md) | [Français](./README-fr.md) | [ไทย](./README-th.md) | [Italiano](./README-it.md) | 日本語
 
-It's a translation project for [Obinslab Starter](http://en.obins.net/obinslab-starter).
+[ObinsKit](http://en.obins.net/obinskit)の翻訳プロジェクトです。
 
-Obinslab Starter let you customize keyboard layouts, light effects and macros for your ANNE PRO2.
+ObinsKit では、ANNE PRO 2 のキーボードレイアウト、照明効果、マクロをカスタマイズできます。
 
-Follow <a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> on Twitter for important announcements.
+重要なお知らせについては、 <a href="https://twitter.com/obinslab" target="_blank"><img src="https://img.shields.io/twitter/follow/obinslab.svg?style=social&label=obinslab"></a> をフォローしてください。
 
-## How to start a translation
+## 翻訳を始める方法
 
-Check if a translation file for your language is already exist in folder `locales`. If exist, then just modify on it; If not, clone `en.yml` to `language-code.yml`
+あなたの言語の翻訳ファイルがフォルダ `locales`に既に存在しているかどうかを確認してください。 存在する場合は、修正してください。 そうでない場合は、 `en.yml`を`language-code.yml`にクローンします。
 
-For example: If you want create/update `Japanese` language, just edit a file named `ja.yml`.
+例： `Japanese`言語を作成/更新したい場合、`ja.yml`という名前のファイルを編集するだけです。
 
-Obinslab Starter uses Chromium's `l10n_util` library to fetch the locale. Possible `language-code` are listed below:
+ObinsKit は、Chromium の `l10n_util`ライブラリを使用してロケールを取得します。 対応している `language-code`は以下にリストされています：
 
 | Language Code | Language Name           |
 | ------------- | ----------------------- |
@@ -156,17 +156,17 @@ Obinslab Starter uses Chromium's `l10n_util` library to fetch the locale. Possib
 | zh-TW         | Chinese (Traditional)   |
 | zu            | Zulu                    |
 
-## How to preview your translation
+## 翻訳をプレビューする方法
 
-1. Put file `language-code.yml` in folder `locales` under `Resources`. Edit `locales.json`, and add your language `id` and `name`.
+1.ファイル `language-code.yml`を`Resources`の下のフォルダー `locales`に置きます。 `locales.json`を編集して、言語の`id`と `name`を追加します。
 
-   Folder `locales` is usually at:
+フォルダー `locales`は通常次の場所にあります：
 
-   - Windows `C:\Program Files\Obinslab Starter\resources\locales`
+- Windows `C:\Program Files\ObinsKit\resources\locales`
 
-   - Mac Osx `/Applications/Obinslab Starter.app/Contents/Resources/locales`
+- Mac Osx `/Applications/ObinsKit.app/Contents/Resources/locales`
 
-2) Start/Restart Obinslab Starter, go to `preferences`, select new language
+2. ObinsKit を再起動し、`設定`(または`Preferences`) に移動して、新しい言語を選択します
 
 ## Contribution
 

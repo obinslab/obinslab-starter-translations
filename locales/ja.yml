@@ -1,0 +1,344 @@
+# Common
+common.operate.failed: 操作に失敗しました
+common.operate.success: 操作は成功しました
+common.tooltip_title: メッセージ
+common.input.placeholder: 名前を入力してください
+common.stop: 停止
+common.device: 端末
+common.preview: プレビュー
+common.edit: 編集する
+common.rename: 名前を変更
+common.import: インポート
+common.export: 書き出す
+common.add: 追加
+common.new: 新着
+common.new_folder: 新しいフォルダ
+common.create: 作成する
+common.add.success: 正常に追加されました
+common.add.failed: 操作に失敗しました
+common.remove: 削除
+common.delete: 削除
+common.delete.success: 正常に削除されました
+common.delete.failed: 削除できませんでした
+common.copy: コピーする
+common.copy.success: 正常にコピーされました
+common.copy_text: コピー
+common.paste: ペースト
+common.reset: リセット
+common.clone: クローン
+common.cancel: キャンセル
+common.ok: OK
+common.save: 保存
+common.save_as: 名前を付けて保存
+common.save.success: 正常に保存されました
+common.download: ダウンロード
+common.download.success: ダウンロードに成功しました
+common.download.failed: 操作に失敗しました
+common.confirm.show_detail: 詳細を表示
+common.network.connection.error: ネットワーク接続エラー
+common.please_quit_edit: 続行する前に編集を終了します
+common.time_unit.hour: "{{count}}時間"
+common.time_unit.hour_plural: "{{count}}時間"
+common.time_unit.minute: "{{count}}分"
+common.time_unit.minute_plural: "{{count}}分"
+common.time_unit.second: "{{count}}秒"
+common.time_unit.second_plural: "{{count}}秒"
+common.time_unit.millisecond: "{{count}}ミリ秒"
+common.return: 戻る
+common.refresh: 更新
+common.date: 日付
+common.library: ライブラリ
+
+# Tray
+app.tray.show_window: ObinsKitを開く
+app.tray.preferences: 環境設定
+app.tray.quit: 終了する
+app.tray.still_running_here: ObinsKitが実行中です
+
+# Manage Menu
+app.manage: 管理
+app.manage.preferences: 環境設定
+app.manage.device_list: デバイスリスト
+app.manage.feedback: フィードバック
+
+# Feedback
+feedback: フィードバック
+feedback.title: フィードバック
+feedback.content: コンテンツ
+feedback.content.no_empty: 内容を入力してください
+feedback.content.max_1000: 最大1,000文字です
+feedback.email.label: Eメール
+feedback.email.placeholder: あなたのメールアドレスを入力してください
+feedback.email.not_valid: 無効なメールアドレス
+feedback.submit: 参加する
+feedback.submit.error: 送信エラー-もう一度お試しください
+feedback.submit.success: 正常に送信されました-クリックして閉じます
+feedback.support_email: "サポートメール： "
+feedback.debug_log: デバッグログ
+
+# Preference Window
+preferences.setting: 設定
+preferences.setting.language: 言語
+preferences.setting.theme: テーマ
+preferences.setting.theme.dark: ダーク
+preferences.setting.theme.light: ライト
+preferences.setting.theme.cyan: シアン
+preferences.setting.update_channel: ソースをアップグレード
+preferences.setting.animation: スプラッシュ画面のアニメーション
+preferences.setting.animation.on: オン
+preferences.setting.animation.off: オフ
+preferences.setting.x_action: 閉じるボタンの動作
+preferences.setting.minimize_to_tray: トレイに最小化
+preferences.setting.quit_program: プログラムを終了
+preferences.setting.auto_launch: システム起動時に起動
+preferences.setting.auto_launch.yes: はい
+preferences.setting.auto_launch.no: いいえ
+preferences.update: 更新
+preferences.update.insider_preview: インサイダープレビュープログラム
+preferences.update.check: 新しいバージョンを確認
+preferences.update.check.failed: もう一度お試しください
+preferences.update.version.current: 現バージョン
+preferences.update.version.new: 新しいバージョン
+preferences.update.version.no_new: 新しいバージョンはありません
+preferences.update.download: ダウンロード
+preferences.update.download.done: 更新パッケージがダウンロードされました
+preferences.update.install_now: 今すぐインストール
+preferences.help: ヘルプ
+preferences.help.user-manual: ユーザーマニュアル
+preferences.about: About
+
+# Home Window
+home.welcome: Hello World(デバイスを探す)
+home.please_connect_kbd_with_cable: デバイスをUSB経由で接続してください
+home.open_device_failed: デバイスの初期化に失敗しました
+
+# Main Window, General
+kbd.general: 一般
+kbd.general.basic: 基本
+kbd.general.info: 情報
+kbd.general.info.device_model: デバイスモデル
+kbd.general.info.serial_number: シリアルナンバー
+kbd.general.info.battery: バッテリー残量
+kbd.general.info.running_time: 使用時間
+kbd.general.setting: 設定
+kbd.general.setting.layout: レイアウト
+kbd.general.setting.tap_layout: タップ
+kbd.general.setting.tap_sensitivity: 感度
+kbd.general.setting.tap_combiantion: タップキーの組み合わせ
+kbd.general.setting.tap_combiantion_tips: 任意のキーを押している間、タップキーをトリガーできます
+
+kbd.general.setting.magic_fn: マジックファンクション
+kbd.general.setting.magic_fn_tips: FnをCapslockにバインドする
+kbd.general.setting.macro_trigger: マクロ
+kbd.general.setting.lighting: LED
+kbd.general.setting.lighting.backlight: バックライト
+kbd.general.setting.lighting.indicator: インジケータ
+kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.auto_sleep: 自動スリープ
+kbd.general.setting.auto_sleep_tips: ワイヤレスモードでは、操作しないまま{{time}}後にスリープ状態になります
+
+kbd.general.setting.options.disable: 無効にする
+kbd.general.setting.options.enable: 有効にする
+kbd.general.setting.options.default: デフォルト
+kbd.general.setting.options.custom: カスタム
+kbd.general.setting.options.fn: Fn
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: すべて
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Bluetooth接続情報
+kbd.general.bluetooth.clean_bind: クリア
+
+# Main Window, Firmware
+kbd.firmware: ファームウェア
+kbd.firmware.key: アプリケーションプロセッサ
+kbd.firmware.led: ライトプロセッサ
+kbd.firmware.ble: Bluetoothプロセッサ
+kbd.firmware.current_version: 現行版
+kbd.firmware.upgrade_source: ソースをアップグレード
+kbd.firmware.latest: 最新のファームウェア
+kbd.firmware.archive: ファームウェアアーカイブ
+kbd.firmware.annepro1.download.firmware: ファームウェアをダウンロード
+kbd.firmware.annepro1.download.latest_firmware: 最新のファームウェアをダウンロード
+kbd.firmware.annepro1.download.dfu_tool: DFUツールをダウンロード
+kbd.firmware.find_new_version: "新しいファームウェアを探す： "
+kbd.firmware.no_new_version: ファームウェアは最新です
+kbd.firmware.upgrade.app_require: 必要なObinsKitバージョンはv {{requiredVersion}}以降、現在のバージョンはv {{appVersion}}です。
+kbd.firmware.upgrade.source.alpha: α版
+kbd.firmware.upgrade.source.latest: リリース版
+kbd.firmware.upgrade_btn: アップグレードする
+kbd.firmware.upgrade.title: アップグレード
+kbd.firmware.upgrade.content: アップデート中はUSBケーブルを取り外さないでください
+kbd.firmware.upgrade.enter_iap_timeout: IAPモードの自動入力に失敗しました。IAPモードを手動で入力してください（ESCキーを押しながらUSBケーブルを挿入してください）
+
+kbd.firmware.upgrade.status.downloading: ファームウェアのダウンロード
+kbd.firmware.upgrade.status.download_failed: ファームウェアのダウンロードに失敗しました
+kbd.firmware.upgrade.status.entering_aip: 約6秒以内アップグレードモードに入ります
+kbd.firmware.upgrade.status.writing_key: アプリケーションプロセッサへのデータの書き込み
+kbd.firmware.upgrade.status.writing_led: ライトプロセッサへのデータの書き込み
+kbd.firmware.upgrade.status.writing_ble: Bluetoothプロセッサへのデータの書き込み
+kbd.firmware.upgrade.status.restart: キーボードを再起動しています
+kbd.firmware.upgrade.status.success: ファームウェアは正常に更新されました
+
+# Main Window, LEDs
+kbd.led: LED
+kbd.led.effect.profiles: 照明プロファイル
+kbd.led.effect.profile.reset: リセット
+kbd.led.effect.profile.delete.confirm_content: このプロファイルを削除してもよろしいですか？
+
+kbd.led.effect.profile: プロファイルの詳細
+kbd.led.effect.profile.limit.annepro1_three: プロファイルごとに3つの照明効果の制限（ANNE PRO 1）
+
+kbd.led.effect.profile.limit.annepro2_sixteen: プロファイルあたり16の照明効果の制限
+
+kbd.led.effect.mode: 照明モード
+kbd.led.effect.delete.confirm_content: この照明効果を削除してもよろしいですか？
+
+kbd.led.effect.preview: プレビュー
+kbd.led.effect.dynamic_colors: ダイナミックライトカラーテーブル
+kbd.led.effect.dynamic_colors.random: ランダム
+kbd.led.effect.dynamic_colors.no_empty: ダイナミックカラーを追加してください
+kbd.led.color.palette: カラーパレット
+kbd.led.color.default: デフォルト
+kbd.led.color.custom: カスタム
+kbd.led.color.custom.save: 現在の色を保存
+# Keycap Groups
+kbd.keycap.group.function_keys: ファンクションキー
+kbd.keycap.group.alphabet: アルファベット
+kbd.keycap.group.numbers: 数字
+kbd.keycap.group.bigs: 修飾キー
+kbd.keycap.group.all: すべてのキー
+# Dynamic Light Effects
+dynamic.none: 静的
+dynamic.breath: サイクル効果
+dynamic.breath_grad: グラデーションサイクル効果
+dynamic.rainbow: 虹
+dynamic.trigger: トリガ
+dynamic.trigger.poptang: ポタン
+dynamic.trigger.breath_single: キーごとのサイクル
+dynamic.trigger.breath: サイクル
+dynamic.trigger.rainbow: 虹
+dynamic.trigger.ripple: 波紋
+dynamic.trigger.pulse: 脈動
+dynamic.trigger.star_fall: スターフォール
+dynamic.auto: 自動
+dynamic.auto.starry_sky: 星空
+dynamic.auto.comet: 彗星
+dynamic.auto.colorful: カラフル
+dynamic.auto.wave: 波
+dynamic.auto.black_hole: ブラックホール
+dynamic.auto.vertical_rainbow: 縦の虹
+dynamic.auto.fountain: 噴水
+dynamic.auto.snake: ヘビ
+dynamic.auto.flame: 炎
+dynamic.auto.firework: 花火
+# Default LED group
+intl.light.group.default: デフォルト
+intl.led.red: 赤
+intl.led.yellow: 黄
+intl.led.green: 緑
+intl.led.cyan: シアン
+intl.led.blue: 青
+intl.led.purple: 紫
+intl.led.static.single: 単色(静的)
+intl.led.static.multi: マルチカラー(静的)
+intl.dynamic.breath: サイクル
+intl.dynamic.breath.grad: グラーデーションサイクル
+intl.dynamic.poptang: ポタン
+intl.dynamic.breath.rainbow: 虹
+intl.dynamic.breath.single: キーごとのサイクル
+intl.dynamic.trigger.breath: サイクルトリガー
+intl.dynamic.trigger.rainbow: レインボートリガー
+
+# Main Window, Layout
+kbd.layout: レイアウト
+kbd.layout.default: デフォルト
+kbd.layout.reset.confirm_content: このレイアウトをデフォルトにリセットしてもよろしいですか？
+
+kbd.layout.delete.confirm_content: このレイアウトを削除してもよろしいですか？
+kbd.layout.set_keycap_null: 設定削除
+# Sidebar titles
+kbd.keycode_group.d87: D87
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: システム
+kbd.keycode_group.alphabet: 文字
+kbd.keycode_group.number: 数字
+kbd.keycode_group.modifier: 修飾子
+kbd.keycode_group.arrow: 矢印
+kbd.keycode_group.function: ファンクション
+kbd.keycode_group.media: メディア
+kbd.keycode_group.keypad: 10キーパッド
+kbd.keycode_group.other: その他
+# Key tooltips
+icon.left_gui: 左 Win/Cmd
+icon.right_gui: 右 Win/Cmd
+icon.mute: ミュート
+icon.volume.up: ボリュームアップ
+icon.volume.down: ボリュームダウン
+icon.bl.toggle: ライトON/OFF
+icon.bl.color: スイッチライト
+icon.bl.increase: 明るさを上げる
+icon.bl.decrease: 明るさを下げる
+icon.bl.battery: バッテリー残量
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: ゲームホイール
+icon.prev.track: 前の曲
+icon.next.track: 次の曲
+icon.play.pause: 再生/一時停止
+# The active layout read from keyboard
+intl.layout.current: 現在の設定
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: マクロ
+kbd.macro.group: マクログループ
+kbd.macro.group.delete.confirm_content: このマクログループを削除してもよろしいですか？
+
+kbd.macro.add: マクロを追加
+kbd.macro.new: 新しいマクロ
+kbd.macro.clear: キーボードマクロをクリア
+kbd.macro.bind_key: キーにバインド
+kbd.macro.bind_key_tips: バインドするキーを選択してください
+kbd.macro.delete_macro_in_folder: フォルダ内のマクロを削除してください
+kbd.macro.please_add_macro_group: マクログループを追加してください
+kbd.macro.please_add_macro: マクロを追加してください
+kbd.macro.delete.confirm_content: このマクロを削除してもよろしいですか？
+kbd.macro.amount_limit: "最大{{count}}マクロ"
+kbd.macro.code: マクロコード
+kbd.macro.code.rec: 記録
+kbd.macro.code.empty: 空のマクロコード
+kbd.macro.code.exceeded: マクロコードの容量を超えています
+kbd.macro.code.missing_release_key: リリースキーがありません
+kbd.macro.code.missing_press_key: アクティベーションキーがありません
+kbd.macro.code.value.insert_timer_block: 時間ブロックを挿入
+kbd.macro.code.value.move_up: 上に移動
+kbd.macro.code.value.move_down: 下に移動
+kbd.macro.block.property: 物件
+kbd.macro.block.property.keypress: キー
+kbd.macro.block.property.key_info_input: 希望のキーを押します
+kbd.macro.block.property.time_duration: 持続時間
+kbd.macro.block.property.start_time: 開始時間
+kbd.macro.block.property.relative_time: 相対時間
+
+# Audio Visualization
+kbd.audio: オーディオ可視化
+kbd.audio.describe: キーボードライトは、デフォルトのサウンドデバイスを介したオーディオ再生に反応します
+kbd.audio.on: オン
+kbd.audio.off: オフ
+kbd.audio.light_type: 照明モード
+kbd.audio.light_type.pure: ピュアカラー
+kbd.audio.light_type.colorful: カラフル
+kbd.audio.required_led_firmware: 必要なライトプロセッサのバージョンは{{version}}以降です。
+
+# Other Messages
+msg.open_device_failed: デバイスの初期化に失敗しました
+msg.missing_required_data_field: データフィールドがありません
+msg.file_not_compatible_your_device: ファイルはデバイスと互換性がありません
+msg.crc_check_error: CRCチェックエラー。エクスポートされたファイルを編集しないでください
+msg.json_data_invalid: JSONデータが無効です
