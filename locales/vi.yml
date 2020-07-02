@@ -69,7 +69,7 @@ preferences.setting.language: Ngôn ngữ
 preferences.setting.theme: Nền
 preferences.setting.theme.dark: Tối
 preferences.setting.theme.light: Sáng
-preferences.setting.theme.cyan: Xanh lục lam
+preferences.setting.theme.cyan: Xanh lơ
 preferences.setting.update_channel: Nguồn cập nhật
 preferences.setting.animation: Hiệu ứng ở màn hình bên ngoài
 preferences.setting.animation.on: Bật
@@ -160,7 +160,7 @@ kbd.led.effect.profiles: Nhóm chế độ
 kbd.led.effect.profile.reset: Cài đặt lại
 kbd.led.effect.profile.delete.confirm_content: Bạn muốn xoá nhóm này chứ?
 kbd.led.effect.profile: Danh sách chế độ
-kbd.led.effect.profile.limit.annepro1_three: ANNE PRO 1 chỉ được thiết lập tối đa BA chế độ trong một nhóm
+kbd.led.effect.profile.limit.annepro1_three: Anne Pro chỉ được thiết lập tối đa BA chế độ trong một nhóm
 kbd.led.effect.profile.limit.annepro2_sixteen: Chỉ được thiết lập tối đa MƯỜI SÁU chế độ trong một nhóm
 kbd.led.effect.mode: Hiệu ứng đèn chuyển động
 kbd.led.effect.delete.confirm_content: Bạn muốn xoá chế độ này chứ?
@@ -189,7 +189,7 @@ dynamic.trigger.rainbow: Cầu vồng (phản ứng gõ)
 dynamic.trigger.ripple: Gợn sóng (phản ứng gõ)
 dynamic.trigger.pulse: Tia chớp (phản ứng gõ)
 dynamic.trigger.star_fall: Sao rơi (phản ứng gõ)
-dynamic.auto.starry_sky: Bầu rời sao
+dynamic.auto.starry_sky: Bầu trời sao
 dynamic.auto.comet: Sao chổi
 dynamic.auto.colorful: Sắc màu
 dynamic.auto.wave: Làn sóng
@@ -223,7 +223,7 @@ kbd.layout.reset.confirm_content: Bạn có muốn cài lại bố cục này nh
 kbd.layout.delete.confirm_content: Bạn có muốn xoá bố cục này?
 kbd.layout.set_keycap_null: Xoá chức năng
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.annepro: Anne Pro
 kbd.keycode_group.system: Hệ thống
 kbd.keycode_group.alphabet: Ký tự
 kbd.keycode_group.number: Chữ số
@@ -255,7 +255,7 @@ icon.play.pause: Chơi/Dừng
 # The active layout read from keyboard
 intl.layout.current: Hiện tại
 # default keyboard layouts
-intl.keymap.qwerty: QWERTY
+intl.keymap.qwerty: Qwerty
 intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
@@ -268,7 +268,7 @@ kbd.macro.please_add_macro_group: Vui lòng thêm nhóm macro
 kbd.macro.please_add_macro: Vui lòng thêm macro
 kbd.macro.delete.confirm_content: Bạn có muốn xoá macro?
 kbd.macro.amount_limit.annepro2_sixteen: Chỉ có thể chứa tối đa 16 macro
-kbd.macro.amount_limit.annepro_eight: ANNE PRO 1 chỉ có thể chứa tối đa 8 macro
+kbd.macro.amount_limit.annepro_eight: Anne Pro 1 chỉ có thể chứa tối đa 8 macro
 kbd.macro.code: Mã macro
 kbd.macro.code.rec: Ghi lại Macro
 kbd.macro.code.empty: Mã macro trống
