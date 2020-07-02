@@ -32,9 +32,9 @@ common.network.connection.error: Ошибка сетевого соединен�
 common.please_quit_edit: Пожалуйста, выйдите из режима редактирования
 common.time_unit.hours: " часов"
 common.time_unit.millisecond: мс
-common.return: Return
-common.refresh: Refresh
-common.date: Date
+common.return: Назад
+common.refresh: Перезагрузить
+common.date: Дата
 
 # Tray
 app.tray.show_window: Открыть ObinsKit
@@ -61,7 +61,7 @@ feedback.submit: Отправить
 feedback.submit.error: Ошибка при отправке. Пожалуйста, повторите попытку
 feedback.submit.success: Успешно отправлено. Нажмите, чтобы закрыть
 feedback.support_email: "Email службы поддержки: "
-feedback.debug_log: Debug Log
+feedback.debug_log: Лог дебага
 
 # Preference Window
 preferences.setting: Настройки
@@ -126,31 +126,31 @@ kbd.general.bluetooth.clean_bind: Сбросить привязку
 
 # Main Window, Firmware
 kbd.firmware: Обновление прошивки
-kbd.firmware.key: Application Processor
-kbd.firmware.led: Light Processor
-kbd.firmware.ble: Bluetooth Processor
-kbd.firmware.current_version: Current Version
-kbd.firmware.upgrade_source: Upgrade Source
-kbd.firmware.latest: Latest Firmware
-kbd.firmware.archive: Firmware Archive
+kbd.firmware.key: Процессор приложения
+kbd.firmware.led: Процессор подсветки
+kbd.firmware.ble: Процессор Bluetooth
+kbd.firmware.current_version: Текушая версия
+kbd.firmware.upgrade_source: Источник обновлений
+kbd.firmware.latest: Актуальная прошивка
+kbd.firmware.archive: Архив прошивок
 kbd.firmware.annepro1.download.firmware: Скачать прошивку
 kbd.firmware.annepro1.download.latest_firmware: Скачать актуальную прошивку
 kbd.firmware.annepro1.download.dfu_tool: Скачать DFU Tool
 kbd.firmware.find_new_version: "Найдена новая версия: "
 kbd.firmware.no_new_version: Текущая прошивка наиболее актуальная
-kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
-kbd.firmware.upgrade.source.alpha: Alpha
-kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade.app_require: Требуется ObinsKit версии v{{requiredVersion}} или более поздняя, текущая версия - v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Альфа
+kbd.firmware.upgrade.source.latest: Релиз
 kbd.firmware.upgrade_btn: Обновить
 kbd.firmware.upgrade.title: Обновление прошивки
 kbd.firmware.upgrade.content: Не отсоединяйте USB-кабель в процессе обновления
-kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
+kbd.firmware.upgrade.enter_iap_timeout: Автоматиеский переход в режим IAP произошёл с ошибкой, пожалуйста, зайдите в режим IAP самостоятельно (удерживайте клавишу ESC, а затем вставьте USB кабель)
 kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
 kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
-kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления(About 6 seconds or less)...
-kbd.firmware.upgrade.status.writing_key: Запись данных в application processor...
-kbd.firmware.upgrade.status.writing_led: Запись данных в light processor...
-kbd.firmware.upgrade.status.writing_ble: Запись данных в bluetooth processor...
+kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления (примерно 6 секунд или меньше)...
+kbd.firmware.upgrade.status.writing_key: Запись данных в процессор приложения...
+kbd.firmware.upgrade.status.writing_led: Запись данных в процессор подсветки...
+kbd.firmware.upgrade.status.writing_ble: Запись данных в процессор Bluetooth...
 kbd.firmware.upgrade.status.restart: Перезапуск клавиатуры...
 kbd.firmware.upgrade.status.success: Прошивка успешно обновлена.
 
@@ -166,19 +166,19 @@ kbd.led.effect.mode: Динамический эффект
 kbd.led.effect.delete.confirm_content: Вы уверены, что хотите удалить этот эффект?
 kbd.led.effect.preview: Просмотр
 kbd.led.effect.dynamic_colors.random: Random
-kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
+kbd.led.effect.dynamic_colors.no_empty: Пожалуйста, добавьте динамический цвет
 kbd.led.color.palette: Цветовая палитра
 kbd.led.color.default: Основные
 kbd.led.color.custom: Свои
 kbd.led.color.custom.save: Сохранить текущий цвет
 # Keycap Groups
-kbd.keycap.group.function_keys: Function Keys
+kbd.keycap.group.function_keys: Функциональные клавиши
 kbd.keycap.group.alphabet: Символы
 kbd.keycap.group.numbers: Цифры
 kbd.keycap.group.bigs: Большие
 kbd.keycap.group.all: Все
 # Dynamic Light Effects
-dynamic.none: Static
+dynamic.none: Статический
 dynamic.breath: Дыхание
 dynamic.breath_grad: Дыхание (градиент)
 dynamic.rainbow: Радуга
@@ -186,19 +186,19 @@ dynamic.trigger.poptang: Крест (триггер)
 dynamic.trigger.breath_single: Дыхание (нажатые клавиши)
 dynamic.trigger.breath: Дыхание (триггер)
 dynamic.trigger.rainbow: Радуга (триггер)
-dynamic.trigger.ripple: Ripple trigger
-dynamic.trigger.pulse: Pulse trigger
-dynamic.trigger.star_fall: Star Fall trigger
-dynamic.auto.starry_sky: Starry Sky
-dynamic.auto.comet: Comet
-dynamic.auto.colorful: Colorful
-dynamic.auto.wave: Wave
-dynamic.auto.black_hole: Black Hole
-dynamic.auto.vertical_rainbow: Vertical Rainbow
-dynamic.auto.fountain: Fountain
-dynamic.auto.snake: Snake
-dynamic.auto.flame: Flame
-dynamic.auto.firework: Firework
+dynamic.trigger.ripple: Рябь (триггер)
+dynamic.trigger.pulse: Пульсация (триггер)
+dynamic.trigger.star_fall: Звездопад (триггер)
+dynamic.auto.starry_sky: Звёздное небо
+dynamic.auto.comet: Комета
+dynamic.auto.colorful: Красочный
+dynamic.auto.wave: Волна
+dynamic.auto.black_hole: Чёрная Дыра 
+dynamic.auto.vertical_rainbow: Вертикальная радуга
+dynamic.auto.fountain: Фонтан
+dynamic.auto.snake: Змейка
+dynamic.auto.flame: Пламя
+dynamic.auto.firework: Салют
 # Default LED group
 intl.light.group.default: Предустановленные
 intl.led.red: Красный
@@ -267,8 +267,8 @@ kbd.macro.add: Добавить макрос
 kbd.macro.please_add_macro_group: Пожалуйста, добавьте группу макросов
 kbd.macro.please_add_macro: Пожалуйста, добавьте макрос
 kbd.macro.delete.confirm_content: Вы уверены, что хотите удалить этот макрос?
-kbd.macro.amount_limit.annepro2_sixteen: Anne Pro 2 поддерживает 16 макросов максимум
-kbd.macro.amount_limit.annepro_eight: Anne Pro 1 поддерживает 8 макросов максимум
+kbd.macro.amount_limit.annepro2_sixteen: Anne Pro 2 поддерживает максимум 16 макросов
+kbd.macro.amount_limit.annepro_eight: Anne Pro 1 поддерживает максимум 8 макросов
 kbd.macro.code: Код макроса
 kbd.macro.code.rec: Записать макрос
 kbd.macro.code.empty: Код макроса пуст
@@ -280,14 +280,14 @@ kbd.macro.code.value.move_up: Переместить вверх
 kbd.macro.code.value.move_down: Переместить вниз
 
 # Audio Visualization
-kbd.audio: Audio Visualization
-kbd.audio.describe: Keyboard lights react to audio playing via default sound device
-kbd.audio.on: On
-kbd.audio.off: Off
-kbd.audio.light_type: Lighting Mode
-kbd.audio.light_type.pure: Pure Color
-kbd.audio.light_type.colorful: Colorful
-kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
+kbd.audio: Визуализация аудио
+kbd.audio.describe: Подсветка клавиатуры будет реагировать на звук
+kbd.audio.on: Вкл.
+kbd.audio.off: Выкл.
+kbd.audio.light_type: Режим подсветки
+kbd.audio.light_type.pure: "Чистый" цвет
+kbd.audio.light_type.colorful: Красочный режим
+kbd.audio.required_led_firmware: Требуется версия процессора подсветки не ниже v{{version}}.
 
 # Other Messages
 msg.open_device_failed: Ошибка при открытии устройства
