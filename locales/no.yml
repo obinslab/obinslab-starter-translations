@@ -1,0 +1,297 @@
+# Common
+common.operate.failed: Operasjon mislykket
+common.operate.success: Operasjon vellykket
+common.tooltip_title: Melding
+common.input.placeholder: Vennligst skriv inn navn
+common.rename: Gi nytt navn
+common.import: Importer
+common.export: Eksporter
+common.add: Legg til
+common.create: Ny
+common.add.success: Lagt til
+common.add.failed: Kunne ikke legge til
+common.delete: Fjern
+common.delete.success: Fjernet
+common.delete.failed: Fjerning mislykket
+common.copy: Kopier
+common.copy.success: Kopiering vellykket
+common.copy_text: Kopier
+common.paste: Lim inn
+common.reset: Tilbakestill
+common.clone: Dupliser
+common.cancel: Avbryt
+common.ok: OK
+common.save: Lagre
+common.save_as: Lagre Som
+common.save.success: Lagring vellykket
+common.apply: Utfør
+common.apply.success: Utført
+common.apply.failed: Kunne ikke utføre
+common.confirm.show_detail: Vis Detaljer
+common.network.connection.error: Nettverksfeil
+common.please_quit_edit: Avslutt endringer før du fortsetter
+common.time_unit.hours: " Timer"
+common.time_unit.millisecond: Millisekunder
+common.return: Tilbake
+common.refresh: Oppdater
+common.date: Dato
+
+# Tray
+app.tray.show_window: Åpne ObinsKit
+app.tray.preferences: Innstillinger
+app.tray.quit: Avslutt
+app.tray.still_running_here: ObinsKit kjører i bakgrunnen
+
+# Manage Menu
+app.manage: Administrer
+app.manage.preferences: Innstillinger
+app.manage.device_list: Enhetsliste
+app.manage.feedback: Tilbakemelding
+
+# Feedback
+feedback: Tilbakemelding
+feedback.title: Tilbakemelding
+feedback.content: Innhold
+feedback.content.no_empty: Vennligst legg til innhold
+feedback.content.max_1000: "Maks: 1,000 bokstaver"
+feedback.email.label: Epost
+feedback.email.placeholder: Vennligst skriv epostadressen din
+feedback.email.not_valid: Feil epostadresse
+feedback.submit: Send inn
+feedback.submit.error: Kunne ikke sende deg - prøv på nytt
+feedback.submit.success: Vellyket - klikk for å avslutte
+feedback.support_email: "Kundeservice epostadresse: "
+feedback.debug_log: Feilsøkingslogg
+
+# Preference Window
+preferences.setting: Innstillinger
+preferences.setting.language: Språk
+preferences.setting.theme: Tema
+preferences.setting.theme.dark: Mørkt
+preferences.setting.theme.light: Lyst
+preferences.setting.theme.cyan: Cyan
+preferences.setting.update_channel: Oppgraderingskilde
+preferences.setting.animation: Animasjon på Splash Screen
+preferences.setting.animation.on: På
+preferences.setting.animation.off: Av
+preferences.setting.x_action: Lukkeknapp oppførsel
+preferences.setting.minimize_to_tray: Minimer til Oppgavelinjen
+preferences.setting.quit_program: Avslutt program
+preferences.setting.auto_launch: Kjør når Systemet Starter
+preferences.setting.auto_launch.yes: Ja
+preferences.setting.auto_launch.no: Nei
+preferences.update: Oppdater
+preferences.update.insider_preview: Insider Preview Program
+preferences.update.check: Sjekk Ny Versjon
+preferences.update.check.failed: Vennligst prøv på nytt
+preferences.update.version.current: Nåværende Versjon
+preferences.update.version.new: Ny versjon
+preferences.update.version.no_new: Ingen ny versjon
+preferences.update.download: Last ned
+preferences.update.download.done: Oppdatering har blitt lastet ned
+preferences.update.install_now: Installer nå
+preferences.help: Hjelp
+preferences.help.user-manual: Brukermanual
+preferences.about: Om
+
+# Home Window
+home.welcome: Heisann verden
+home.please_connect_kbd_with_cable: Vennligst koble til din enhet via USB
+home.open_device_failed: Enhetsinitialisering mislykket
+
+# Main Window, General
+kbd.general: Generell
+kbd.general.info: Informasjon
+kbd.general.info.device_model: Enhets Modellnavn
+kbd.general.info.serial_number: Serienummer
+kbd.general.info.battery: Batteri
+kbd.general.info.running_time: Driftstid
+kbd.general.setting: Innstillinger
+kbd.general.setting.layout: Oppsett
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.macro_trigger: Makro
+kbd.general.setting.capslock_led: CapsLock Lys
+kbd.general.setting.auto_sleep: Automatisk Dvalemodus
+kbd.general.setting.options.disable: Slå av
+kbd.general.setting.options.enable: Slå på
+kbd.general.setting.options.default: Standard
+kbd.general.setting.options.custom: Egendefinert
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: Alle
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Bluetooth Tilkoblinger
+kbd.general.bluetooth.clean_bind: Fjern alle
+
+# Main Window, Firmware
+kbd.firmware: Firmware Oppdatering
+kbd.firmware.key: Applikasjon Prosessor
+kbd.firmware.led: Lys Prosessor
+kbd.firmware.ble: Bluetooth Prosessor
+kbd.firmware.current_version: Nåværende Versjon
+kbd.firmware.upgrade_source: Oppgraderingskilde
+kbd.firmware.latest: Nyeste Firmware
+kbd.firmware.archive: Firmware Arkiv
+kbd.firmware.annepro1.download.firmware: Last ned Firmware
+kbd.firmware.annepro1.download.latest_firmware: Last ned nyeste Firmware
+kbd.firmware.annepro1.download.dfu_tool: Last ned DFU verktøy
+kbd.firmware.find_new_version: "Finn ny firmware: "
+kbd.firmware.no_new_version: Din firmware er oppdatert
+kbd.firmware.upgrade.app_require: Krever ObinsKit versjon v{{requiredVersion}} eller nyere, nåværende versjon er v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Utgivelse
+kbd.firmware.upgrade_btn: Oppgrader
+kbd.firmware.upgrade.title: Firmware Oppgradering
+kbd.firmware.upgrade.content: Ikke frakoble USB kabel under oppdatering
+kbd.firmware.upgrade.enter_iap_timeout: Automatisk aktivering av IAP-tilstand mislykket, vennligst aktiver IAP-tilstand manuelt (hold ESC knappen, og deretter sett i USB kabelen)
+kbd.firmware.upgrade.status.downloading: Laster ned Firmware
+kbd.firmware.upgrade.status.download_failed: Firmware nedlastning mislykket
+kbd.firmware.upgrade.status.entering_aip: Går inn i oppgraderingsmodus(Om 6 sekunder eller mindre)
+kbd.firmware.upgrade.status.writing_key: Skriver data til applikasjon prosessor
+kbd.firmware.upgrade.status.writing_led: Skriver data til lys prosessor
+kbd.firmware.upgrade.status.writing_ble: Skriver data til Bluetooth prosessor
+kbd.firmware.upgrade.status.restart: Restarter tastatur
+kbd.firmware.upgrade.status.success: Firmware oppdatering gjennomført
+
+# Main Window, LEDs
+kbd.led: Lys
+kbd.led.effect.profiles: Lysprofiler
+kbd.led.effect.profile.reset: Nullstill
+kbd.led.effect.profile.delete.confirm_content: Er du sikker på at du vil slette denne profilen?
+kbd.led.effect.profile: Profildetaljer
+kbd.led.effect.profile.limit.annepro1_three: Begrensning av 3 lyseffekter per profil (ANNE PRO 1)
+kbd.led.effect.profile.limit.annepro2_sixteen: Begrensning av 16 lyseffekter per profil
+kbd.led.effect.mode: Lysmodus
+kbd.led.effect.delete.confirm_content: Er du sikker på at du vil slette denne lyseffekten?
+kbd.led.effect.preview: Forhåndsvisning
+kbd.led.effect.dynamic_colors.random: Tilfeldig
+kbd.led.effect.dynamic_colors.no_empty: Vennligst legg til dynamisk farge
+kbd.led.color.palette: Fargepalett
+kbd.led.color.default: Standard
+kbd.led.color.custom: Egendefinert
+kbd.led.color.custom.save: Lagre nåværende farge
+# Keycap Groups
+kbd.keycap.group.function_keys: Funksjonstaster
+kbd.keycap.group.alphabet: Bokstaver
+kbd.keycap.group.numbers: Tall
+kbd.keycap.group.bigs: Store taster
+kbd.keycap.group.all: Alle taster
+# Dynamic Light Effects
+dynamic.none: Statisk
+dynamic.breath: Pustende effekt
+dynamic.breath_grad: Gradvis pustende effekt
+dynamic.rainbow: Regnbue
+dynamic.trigger.poptang: Poptang utløser
+dynamic.trigger.breath_single: Pustende per tast
+dynamic.trigger.breath: Pustende utløser
+dynamic.trigger.rainbow: Regnbue utløser
+dynamic.trigger.ripple: Ringvirkning utløser
+dynamic.trigger.pulse: Puls utløser
+dynamic.trigger.star_fall: Stjernefall utløser
+dynamic.auto.starry_sky: Stjernehimmel
+dynamic.auto.comet: Komet
+dynamic.auto.colorful: Fargerik
+dynamic.auto.wave: Bølge
+dynamic.auto.black_hole: Svart hull
+dynamic.auto.vertical_rainbow: Loddrett Regnbue
+dynamic.auto.fountain: Fontene
+dynamic.auto.snake: Slange
+dynamic.auto.flame: Flamme
+dynamic.auto.firework: Fyrverkeri
+# Default LED group
+intl.light.group.default: Standard
+intl.led.red: Rød
+intl.led.yellow: Gul
+intl.led.green: Grønn
+intl.led.cyan: Cyan
+intl.led.blue: Blå
+intl.led.purple: Lilla
+intl.led.static.single: Enkelt statisk
+intl.led.static.multi: Flere statisk
+intl.dynamic.breath: Pustende
+intl.dynamic.breath.grad: Gradvis pustende
+intl.dynamic.poptang: Poptang
+intl.dynamic.breath.rainbow: Regnbue
+intl.dynamic.breath.single: Pustende per tast
+intl.dynamic.trigger.breath: Pustende utløser
+intl.dynamic.trigger.rainbow: Regnbue utløser
+
+# Main Window, Layout
+kbd.layout: Oppsett
+kbd.layout.reset.confirm_content: Er du sikker på at du vil tilbakestille dette oppsettet til standard?
+kbd.layout.delete.confirm_content: Er du sikker på at du vil slette dette oppsettet?
+kbd.layout.set_keycap_null: Fjern
+# Sidebar titles
+kbd.keycode_group.annepro: ANNE PRO
+kbd.keycode_group.system: System
+kbd.keycode_group.alphabet: Bokstaver
+kbd.keycode_group.number: Nummer
+kbd.keycode_group.modifier: Modifikator
+kbd.keycode_group.arrow: Piltaster
+kbd.keycode_group.function: Funksjon
+kbd.keycode_group.media: Media
+kbd.keycode_group.keypad: Numerisk tastatur
+kbd.keycode_group.other: Annet
+# Key tooltips
+icon.left_gui: Venstre Win/Cmd
+icon.right_gui: Høyre Win/Cmd
+icon.mute: Demp lyd
+icon.volume.up: Volum opp
+icon.volume.down: Volum ned
+icon.bl.toggle: Veksle lys
+icon.bl.color: Bytt lys
+icon.bl.increase: Øk lysstyrke
+icon.bl.decrease: Reduser lysstyrke
+icon.bl.battery: Batterinivå
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Spillhjul
+icon.prev.track: Forrige sang
+icon.next.track: Neste sang
+icon.play.pause: Spill av / Pause
+# The active layout read from keyboard
+intl.layout.current: Nåværende
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: Makro
+kbd.macro.group: Makrogruppe
+kbd.macro.group.delete.confirm_content: Er du sikke på at du vil slette denne makrogruppen?
+kbd.macro.add: Legg til makro
+kbd.macro.please_add_macro_group: Vennligst legg til en makrogruppe
+kbd.macro.please_add_macro: Vennligst legg til makro
+kbd.macro.delete.confirm_content: Er du sikker på at du vil slette denne makroen?
+kbd.macro.amount_limit.annepro2_sixteen: Maks 16 makroer
+kbd.macro.amount_limit.annepro_eight: Maks 8 makroer for Anne Pro 1
+kbd.macro.code: Makrokode
+kbd.macro.code.rec: Ta opp Makro
+kbd.macro.code.empty: Tøm makrokode
+kbd.macro.code.exceeded: Makrokodekapasitet overskredet
+kbd.macro.code.missing_release_key: Mangler frigjørelsestast
+kbd.macro.code.missing_press_key: Manger aktiveringstast
+kbd.macro.code.value.insert_timer_block: Sett inn tidsperiode
+kbd.macro.code.value.move_up: Flytt opp
+kbd.macro.code.value.move_down: Flytt ned
+
+# Audio Visualization
+kbd.audio: Lydvisualisering
+kbd.audio.describe: Tastaturlys reagerer på lyd spilt via standard lydenhet
+kbd.audio.on: På
+kbd.audio.off: Av
+kbd.audio.light_type: Lysmodus
+kbd.audio.light_type.pure: Enkel farge
+kbd.audio.light_type.colorful: Fargerik
+kbd.audio.required_led_firmware: Krever lysprosessor versjon {{version}} eller nyere.
+
+# Other Messages
+msg.open_device_failed: Enhetsinitialisering feilet
+msg.missing_required_data_field: Manglende datafelt
+msg.file_not_compatible_your_device: Filen er ikke kompatibel med din enhet
+msg.crc_check_error: CRC kontrollfeil - Ikke rediger den eksporterte filen
+msg.json_data_invalid: Ugyldig JSON data
