@@ -167,7 +167,7 @@ kbd.firmware.upgrade.app_require:
   Required ObinsKit version is v{{requiredVersion}} or later, current version is
   v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: تجريبي
-kbd.firmware.upgrade.source.latest: اصدار مستقل
+kbd.firmware.upgrade.source.latest: اصدار مستقر
 kbd.firmware.upgrade_btn: تحديق
 kbd.firmware.upgrade.title: تحديث النظام
 kbd.firmware.upgrade.content: لا تقم بفصل السلك خلال عملية التحديث 
