@@ -168,7 +168,7 @@ kbd.firmware.upgrade.app_require:
   v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: تجريبي
 kbd.firmware.upgrade.source.latest: اصدار مستقر
-kbd.firmware.upgrade_btn: تحديق
+kbd.firmware.upgrade_btn: تحديث
 kbd.firmware.upgrade.title: تحديث النظام
 kbd.firmware.upgrade.content: لا تقم بفصل السلك خلال عملية التحديث 
 kbd.firmware.upgrade.enter_iap_timeout:
