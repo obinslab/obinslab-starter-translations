@@ -1,0 +1,297 @@
+# Common
+common.operate.failed: Provozní chyba
+common.operate.success: Operace je dokončena
+common.tooltip_title: Zpráva
+common.input.placeholder: Zadejte jméno
+common.rename: Přejmenovat
+common.import: Import
+common.export: Vývozní
+common.add: Přidat
+common.create: Přidat
+common.add.success: Přidán
+common.add.failed: Chyba při přidávání
+common.delete: Vymazat
+common.delete.success: Odstraněno
+common.delete.failed: Chyba smazání
+common.copy: Kopírovat
+common.copy.success: Zkopírováno
+common.copy_text: Kopírovat
+common.paste: Vložit
+common.reset: Obnovit
+common.clone: Duplikát
+common.cancel: Zrušení
+common.ok: OK
+common.save: Uložit
+common.save_as: Uložit jako
+common.save.success: Uložené
+common.apply: Aplikovat
+common.apply.success: Změny uloženy
+common.apply.failed: Chyba zápisu
+common.confirm.show_detail: Ukaž mi podrobnosti
+common.network.connection.error: Chyba síťového připojení
+common.please_quit_edit: Dokončete úpravy
+common.time_unit.hours: h
+common.time_unit.millisecond: ms
+common.return: Vrátit se
+common.refresh: Obnovit
+common.date: Datum
+
+# Tray
+app.tray.show_window: Otevřít
+app.tray.preferences: Nastavení ...
+app.tray.quit: Dokončit
+app.tray.still_running_here: ObinsKit stále běží.
+
+# Manage Menu
+app.manage: Spravovat
+app.manage.preferences: Nastavení
+app.manage.device_list: Seznam zařízení
+app.manage.feedback: Kontakt
+
+# Feedback
+feedback: Kontakt
+feedback.title: Zpráva
+feedback.content: Obsah zprávy
+feedback.content.no_empty: Zadejte svůj obsah
+feedback.content.max_1000: Max. 1000 znaků
+feedback.email.label: Vaše emailová adresa
+feedback.email.placeholder: your@email.com
+feedback.email.not_valid: Chybná e-mailová adresa
+feedback.submit: Poslat
+feedback.submit.error: Chyba odeslání, zkuste to prosím znovu
+feedback.submit.success: Úspěšně odesláno, kliknutím zavřete
+feedback.support_email: E-mail podpory
+feedback.debug_log: Debug Log
+
+# Preference Window
+preferences.setting: Nastavení
+preferences.setting.language: Jazyk
+preferences.setting.theme: Koukni se
+preferences.setting.theme.dark: Temný
+preferences.setting.theme.light: Jasný
+preferences.setting.theme.cyan: Tyrkysová
+preferences.setting.update_channel: Aktualizace
+preferences.setting.animation: Spusťte animace na obrazovce
+preferences.setting.animation.on: Ano
+preferences.setting.animation.off: Ne
+preferences.setting.x_action: Zavřete hlavní okno
+preferences.setting.minimize_to_tray: Minimalizuje na hlavní panel
+preferences.setting.quit_program: Ukončí program
+preferences.setting.auto_launch: Spustit při přihlášení
+preferences.setting.auto_launch.yes: Ano
+preferences.setting.auto_launch.no: Ne
+preferences.update: Aktualizace
+preferences.update.insider_preview: Insider Preview Program
+preferences.update.check: Kontrola aktualizací
+preferences.update.check.failed: Zkus to znovu
+preferences.update.version.current: Verze
+preferences.update.version.new: Nová verze
+preferences.update.version.no_new: Žádná nová verze
+preferences.update.download: Stažení
+preferences.update.download.done: Balíček aktualizace byl stažen
+preferences.update.install_now: Nainstalovat nyní
+preferences.help: Pomoc
+preferences.help.user-manual: Uživatelský manuál
+preferences.about: O programu
+
+# Home Window
+home.welcome: Ahoj světe!
+home.please_connect_kbd_with_cable: Připojte zařízení USB
+home.open_device_failed: Chyba připojení zařízení
+
+# Main Window, General
+kbd.general: Všeobecné
+kbd.general.info: Informace
+kbd.general.info.device_model: Model zařízení
+kbd.general.info.serial_number: Sériové číslo
+kbd.general.info.battery: Baterie
+kbd.general.info.running_time: Pracovní čas
+kbd.general.setting: Nastavení
+kbd.general.setting.layout: Systém
+kbd.general.setting.tap_layout: Funkce TAP
+kbd.general.setting.magic_fn: Funkce Magic Fn
+kbd.general.setting.macro_trigger: Makro
+kbd.general.setting.capslock_led: Kontrolka tlačítka Caps Lock
+kbd.general.setting.auto_sleep: Automatický režim spánku
+kbd.general.setting.options.disable: Vypnuto
+kbd.general.setting.options.enable: Zahrnuta
+kbd.general.setting.options.default: Výchozí
+kbd.general.setting.options.custom: Vlastní
+kbd.general.setting.options.fn1: Fn1
+kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.capslock_all: Vždy
+kbd.general.bluetooth: Bluetooth
+kbd.general.bluetooth.bind: Bluetooth připojení
+kbd.general.bluetooth.clean_bind: Smazat všechny
+
+# Main Window, Firmware
+kbd.firmware: Software
+kbd.firmware.key: Procesor aplikace
+kbd.firmware.led: Procesor podsvícení
+kbd.firmware.ble: Bluetooth procesor
+kbd.firmware.current_version: Aktuální verze
+kbd.firmware.upgrade_source: Aktualizovat zdroj
+kbd.firmware.latest: Nejnovější software
+kbd.firmware.archive: Archivní software
+kbd.firmware.annepro1.download.firmware: Stáhněte si software
+kbd.firmware.annepro1.download.latest_firmware: Získejte nejnovější software
+kbd.firmware.annepro1.download.dfu_tool: Stáhněte si nástroje DFU
+kbd.firmware.find_new_version: Najděte nejnovější software
+kbd.firmware.no_new_version: Nainstalovaný software je aktuální
+kbd.firmware.upgrade.app_require: Vyžaduje se verze ObinsKit v{{requiredVersion}} nebo vyšší, aktuální verze je v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
+kbd.firmware.upgrade_btn: Aktualizace
+kbd.firmware.upgrade.title: Aktualizace softwaru
+kbd.firmware.upgrade.content: Během aktualizace neodpojujte kabel USB
+kbd.firmware.upgrade.enter_iap_timeout: Automatický vstup do režimu IAP selhal, proveďte to prosím ručně (podržte tlačítko ESC a poté připojte kabel USB)
+kbd.firmware.upgrade.status.downloading: Stahování softwaru ...
+kbd.firmware.upgrade.status.download_failed: Chyba stahování softwaru
+kbd.firmware.upgrade.status.entering_aip: Režim aktualizace (Přibližně 6 sekund nebo méně) ...
+kbd.firmware.upgrade.status.writing_key: Aktualizace procesoru aplikace ...
+kbd.firmware.upgrade.status.writing_led: Aktualizace procesoru podsvícení ...
+kbd.firmware.upgrade.status.writing_ble: Aktualizace procesoru Bluetooth ...
+kbd.firmware.upgrade.status.restart: Restart zařízení ...
+kbd.firmware.upgrade.status.success: Aktualizace dokončena
+
+# Main Window, LEDs
+kbd.led: RGB podsvícení
+kbd.led.effect.profiles: Grupy
+kbd.led.effect.profile.reset: Obnovte ústa továrna
+kbd.led.effect.profile.delete.confirm_content: Chcete tuto skupinu smazat?
+kbd.led.effect.profile: Profily
+kbd.led.effect.profile.limit.annepro1_three: Omezeno na 3 profily pro jednu skupinu pro ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: Omezeno na 16 profilů pro jednu skupinu
+kbd.led.effect.mode: Dynamické světelné efekty
+kbd.led.effect.delete.confirm_content: Chcete smazat tento profil?
+kbd.led.effect.preview: Podgląd
+kbd.led.effect.dynamic_colors.random: Náhodně
+kbd.led.effect.dynamic_colors.no_empty: Přidejte dynamickou barvu
+kbd.led.color.palette: Paleta barev
+kbd.led.color.default: Výchozí
+kbd.led.color.custom: Własne
+kbd.led.color.custom.save: Zaznamenejte aktuální barvu
+# Keycap Groups
+kbd.keycap.group.function_keys: Funkční tlačítka
+kbd.keycap.group.alphabet: Písmena
+kbd.keycap.group.numbers: Cyfry
+kbd.keycap.group.bigs: Velká písmena
+kbd.keycap.group.all: Všechna tlačítka
+# Dynamic Light Effects
+dynamic.none: Statyczny
+dynamic.breath: Dech
+dynamic.breath_grad: Dech s přechodem
+dynamic.rainbow: Duha
+dynamic.trigger.poptang: Světlice (spuštěna)
+dynamic.trigger.breath_single: Jediný dech
+dynamic.trigger.breath: Dech (spuštěn)
+dynamic.trigger.rainbow: Duha (spuštěna)
+dynamic.trigger.ripple: Zvlnění (spuštěno)
+dynamic.trigger.pulse: Pulzující (spuštěno)
+dynamic.trigger.star_fall: Padající hvězdy (spuštěno)
+dynamic.auto.starry_sky: Hvězdná obloha
+dynamic.auto.comet: Kometa
+dynamic.auto.colorful: Kolorowy
+dynamic.auto.wave: Fala
+dynamic.auto.black_hole: Czarna dziura
+dynamic.auto.vertical_rainbow: Vertikální duha
+dynamic.auto.fountain: Kašna
+dynamic.auto.snake: Had
+dynamic.auto.flame: Oheň
+dynamic.auto.firework: Fajerwerki
+# Default LED group
+intl.light.group.default: Výchozí
+intl.led.red: Červené
+intl.led.yellow: Žlutá
+intl.led.green: Zelený
+intl.led.cyan: Tyrkysová
+intl.led.blue: Modrý
+intl.led.purple: Nachový
+intl.led.static.single: Jedna barva
+intl.led.static.multi: Vícebarevný
+intl.dynamic.breath: Dech
+intl.dynamic.breath.grad: Dech s přechodem
+intl.dynamic.poptang: Poptang
+intl.dynamic.breath.rainbow: Duha
+intl.dynamic.breath.single: Jediný dech
+intl.dynamic.trigger.breath: Dech (spuštěn)
+intl.dynamic.trigger.rainbow: Duha (spuštěna)
+
+# Main Window, Layout
+kbd.layout: Rozložení klávesnice
+kbd.layout.reset.confirm_content: Chcete toto rozložení obnovit na výchozí nastavení?
+kbd.layout.delete.confirm_content: Chcete toto rozvržení smazat?
+kbd.layout.set_keycap_null: Resetovat
+# Sidebar titles
+kbd.keycode_group.annepro: Speciální klíče
+kbd.keycode_group.system: Systém
+kbd.keycode_group.alphabet: Znaky
+kbd.keycode_group.number: Čísla
+kbd.keycode_group.modifier: Modifikátory
+kbd.keycode_group.arrow: Šipky
+kbd.keycode_group.function: Funkční
+kbd.keycode_group.media: Multimédia
+kbd.keycode_group.keypad: Klaw. číselný
+kbd.keycode_group.other: Jiný
+# Key tooltips
+icon.left_gui: Leve Win/Cmd
+icon.right_gui: Prave Win/Cmd
+icon.mute: Ztlumit
+icon.volume.up: Hlasitěji
+icon.volume.down: Tišší
+icon.bl.toggle: Podsvícení zapnuto / vypnuto
+icon.bl.color: Změňte osvětlení
+icon.bl.increase: Jasnější
+icon.bl.decrease: Temný
+icon.bl.battery: Stav baterie
+icon.ble.wl_1: Bluetooth 1
+icon.ble.wl_2: Bluetooth 2
+icon.ble.wl_3: Bluetooth 3
+icon.ble.wl_4: Bluetooth 4
+icon.fn.wheel: Game wheel
+icon.prev.track: Předchozí skladba
+icon.next.track: Další skladba
+icon.play.pause: Spustit / Pozastavení
+# The active layout read from keyboard
+intl.layout.current: Aktuální
+# default keyboard layouts
+intl.keymap.qwerty: QWERTY
+intl.keymap.mac: Mac
+intl.keymap.dvorak: Dvorak
+
+# Main Window, Macros
+kbd.macro: Makro
+kbd.macro.group: Makro skupina
+kbd.macro.group.delete.confirm_content: Chcete odstranit tuto skupinu maker?
+kbd.macro.add: Přidejte makro
+kbd.macro.please_add_macro_group: Přidejte skupinu maker
+kbd.macro.please_add_macro: Přidejte makro
+kbd.macro.delete.confirm_content: Chcete toto makro smazat?
+kbd.macro.amount_limit.annepro2_sixteen: Můžete přidat max. 16 maker
+kbd.macro.amount_limit.annepro_eight: Můžete přidat max. 8 maker pro Anne Pro 1
+kbd.macro.code: Makro kód
+kbd.macro.code.rec: Zaznamenejte makro
+kbd.macro.code.empty: Prázdný kód makra
+kbd.macro.code.exceeded: Makro kód překročen
+kbd.macro.code.missing_release_key: Žádné uvolnění klíče
+kbd.macro.code.missing_press_key: Není stisknuto žádné tlačítko
+kbd.macro.code.value.insert_timer_block: Vložte časový blok
+kbd.macro.code.value.move_up: Posuňte se nahoru
+kbd.macro.code.value.move_down: Posunout dolů
+
+# Audio Visualization
+kbd.audio: Zvuková vizualizace
+kbd.audio.describe: Podsvícení klávesnice reaguje na zvuk přehrávaný z výchozí zvukové karty
+kbd.audio.on: Zahrnuta
+kbd.audio.off: Vypnuto
+kbd.audio.light_type: Režim podsvícení
+kbd.audio.light_type.pure: Jednobarevná
+kbd.audio.light_type.colorful: Barvitý
+kbd.audio.required_led_firmware: Je vyžadována zvýrazněná verze procesoru {{version}} nebo novější.
+
+# Other Messages
+msg.open_device_failed: Chyba komunikace se zařízením
+msg.missing_required_data_field: Žádná data
+msg.file_not_compatible_your_device: Soubor není s tímto zařízením kompatibilní
+msg.crc_check_error: Chyba kontroly CRC, neměňte exportovaný soubor
+msg.json_data_invalid: Neplatná data JSON
