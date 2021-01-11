@@ -1,5 +1,5 @@
 [
-  {"id":"ar", "name":"العربية"},
+  { "id": "ar", "name": "العربية" },
   { "id": "cs", "name": "Čeština" },
   { "id": "de", "name": "Deutsch" },
   { "id": "en", "name": "English" },
@@ -11,6 +11,7 @@
   { "id": "ms", "name": "Bahasa Malaysia" },
   { "id": "nl", "name": "Dutch" },
   { "id": "pl", "name": "Polski" },
+  { "id": "pt-BR", "name": "Português do Brasil" },
   { "id": "ru", "name": "Русский" },
   { "id": "th", "name": "ไทย" },
   { "id": "vi", "name": "Tiếng Việt" },
