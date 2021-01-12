@@ -2,65 +2,61 @@
 common.operate.failed: Operação falhou
 common.operate.success: Operação bem sucedida
 common.tooltip_title: Mensagem
-common.input.placeholder: Digite o nome
-common.stop: Stop
-common.device: Device
-common.preview: Preview
-common.edit: Edit
+common.input.placeholder: Por favor, insira um nome
+common.stop: Parar
+common.device: Dispositivo
+common.preview: Pré-visualização
+common.edit: Editar
 common.rename: Renomear
 common.import: Importar
 common.export: Exportar
 common.add: Adicionar
-common.new: New
-common.new_folder: New Folder
+common.new: Novo
+common.new_folder: Nova Pasta
 common.create: Criar
 common.add.success: Adicionado com sucesso
 common.add.failed: Operação falhou
-common.remove: Remove
-common.delete: Excluir
-common.delete.success: Excluído com sucesso
-common.delete.failed: Exclusão falhou
+common.remove: Remover
+common.delete: Apagar
+common.delete.success: Apagado com sucesso
+common.delete.failed: Falha ao apagar
 common.copy: Copiar
 common.copy.success: Copiado com sucesso
 common.copy_text: Copiar
 common.paste: Colar
-common.reset: Redefinir
-common.clone: Clonar
+common.reset: Reiniciar
+common.clone: Clone
 common.cancel: Cancelar
 common.ok: OK
 common.save: Salvar
 common.save_as: Salvar como
 common.save.success: Salvo com sucesso
 common.download: Download
-common.download.success: Download successfully
-common.download.failed: Operation failed
-common.apply: Aplicar
-common.apply.success: Aplicado com sucesso
-common.apply.failed: Operação falhou
-common.confirm.show_detail: Mostrar detalhes
+common.download.success: Download concluído
+common.download.failed: Operação falhou
+common.confirm.show_detail: Mostrar detalhe
 common.network.connection.error: Erro de conexão de rede
-common.please_quit_edit: Saia da edição antes de prosseguir
-common.time_unit.hour: "{{count}} Hora"
-common.time_unit.hour_plural: "{{count}} Horas"
-common.time_unit.minute: "{{count}} minute"
-common.time_unit.minute_plural: "{{count}} minutes"
-common.time_unit.second: "{{count}} second"
-common.time_unit.second_plural: "{{count}} seconds"
-common.time_unit.millisecond: Milisegundos
-common.return: Retornar
+common.please_quit_edit: Saia do Edit antes de prosseguir
+common.time_unit.hour: '{{count}} hora'
+common.time_unit.hour_plural: '{{count}} horas'
+common.time_unit.minute: '{{count}} minuto'
+common.time_unit.minute_plural: '{{count}} minutos'
+common.time_unit.second: '{{count}} segundo'
+common.time_unit.second_plural: '{{count}} segundos'
+common.time_unit.millisecond: '{{count}} ms'
+common.return: Voltar
 common.refresh: Atualizar
 common.date: Data
-common.library: Library
-common.none: None
+common.library: Biblioteca
 
 # Tray
 app.tray.show_window: Abrir ObinsKit
 app.tray.preferences: Preferências
 app.tray.quit: Sair
-app.tray.still_running_here: ObinsKit ainda está funcionando
+app.tray.still_running_here: ObinsKit continua executando
 
 # Manage Menu
-app.manage: Gerir
+app.manage: Gerenciar
 app.manage.preferences: Preferências
 app.manage.device_list: Lista de dispositivos
 app.manage.feedback: Feedback
@@ -69,169 +65,177 @@ app.manage.feedback: Feedback
 feedback: Feedback
 feedback.title: Feedback
 feedback.content: Conteúdo
-feedback.content.no_empty: Digite o conteúdo
-feedback.content.max_1000: "Máximo: 1.000 caracteres"
-feedback.email.label: E-mail
-feedback.email.placeholder: Digite o e-mail
+feedback.content.no_empty: Por favor, insira algum conteúdo
+feedback.content.max_1000: 'Maximo: 1.000 caracteres'
+feedback.email.label: Email
+feedback.email.placeholder: Por favor, insiera seu e-mail
 feedback.email.not_valid: Endereço de e-mail inválido
 feedback.submit: Enviar
 feedback.submit.error: Erro de envio - Por favor, tente novamente
 feedback.submit.success: Enviado com sucesso - Clique para fechar
-feedback.support_email: "E-mail de suporte: "
-feedback.debug_log: Registro de depuração
+feedback.support_email: 'E-mail de suporte: '
+feedback.debug_log: Debug Log
 
 # Preference Window
-preferences.setting: Definições
+preferences.setting: Configurações
 preferences.setting.language: Idioma
 preferences.setting.theme: Tema
-preferences.setting.theme.dark: Escuro
-preferences.setting.theme.light: Claro
-preferences.setting.theme.cyan: Ciano
-preferences.setting.update_channel: Fonte de atualização
-preferences.setting.animation: Animação na tela inicial
-preferences.setting.animation.on: Ligado
-preferences.setting.animation.off: Desligado
-preferences.setting.x_action: Comportamento do botão Fechar
-preferences.setting.minimize_to_tray: Minimizar para a bandeja
-preferences.setting.quit_program: Sair do programa
-preferences.setting.auto_launch: Iniciar junto com o sistema
+preferences.setting.theme.dark: Dark
+preferences.setting.theme.light: Light
+preferences.setting.theme.cyan: Cyan
+preferences.setting.update_channel: Atualizar fonte
+preferences.setting.animation: Animação na tela de abertura
+preferences.setting.animation.on: Ligar
+preferences.setting.animation.off: Desligar
+preferences.setting.x_action: Comportamento do botão fechar
+preferences.setting.minimize_to_tray: Minimizar para o Tray
+preferences.setting.quit_program: Fechar programa
+preferences.setting.auto_launch: Iniciar junto com o sistema operacional
 preferences.setting.auto_launch.yes: Sim
 preferences.setting.auto_launch.no: Não
 preferences.update: Atualizar
 preferences.update.insider_preview: Programa Insider Preview
-preferences.update.check: Verifique a nova versão
-preferences.update.check.failed: Tente novamente
+preferences.update.check: Procurar nova versão
+preferences.update.check.failed: Por favor, tente novamente
 preferences.update.version.current: Versão atual
 preferences.update.version.new: Nova versão
-preferences.update.version.no_new: Sem nova versão
+preferences.update.version.no_new: Nenhuma nova versào
 preferences.update.download: Download
-preferences.update.download.done: O pacote de atualização foi baixado
+preferences.update.download.done: Pacote de atualização baixado
 preferences.update.install_now: Instalar agora
 preferences.help: Ajuda
 preferences.help.user-manual: Manual do usuário
 preferences.about: Sobre
 
 # Home Window
-home.welcome: Olá mundo
+home.welcome: Hello World
 home.please_connect_kbd_with_cable: Por favor, conecte seu dispositivo via USB
-home.open_device_failed: A inicialização do dispositivo falhou
+home.open_device_failed: Inicialização do sistema falhou
 
 # Main Window, General
 kbd.general: Geral
-kbd.general.basic: Basic
+kbd.general.basic: Básico
 kbd.general.info: Informação
-kbd.general.info.device_model: Modelo do dispositivo
-kbd.general.info.serial_number: Número de série
+kbd.general.info.device_model: Modelo do Dispositivo
+kbd.general.info.serial_number: Número de Série
 kbd.general.info.battery: Bateria
-kbd.general.info.running_time: Tempo de execução
-kbd.general.setting: Definições
-kbd.general.setting.iso_character: ISO Character
+kbd.general.info.running_time: Tempo ativo
+kbd.general.setting: Configurações
 kbd.general.setting.layout: Layout
-kbd.general.setting.tap_layout: Toque
-kbd.general.setting.tap_sensitivity: Sensitivity
-kbd.general.setting.tap_combiantion: Tap key combination
-kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
-kbd.general.setting.magic_fn: Magic Fn
-kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
+kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_sensitivity: Sensibilidade
+kbd.general.setting.tap_combiantion: Combinaçao tecla TAP
+kbd.general.setting.tap_combiantion_tips:
+  Enquanto mantém pressionada qualquer tecla, a tecla TAP ainda pode disparar
+kbd.general.setting.magic_fn: Magic FN
+kbd.general.setting.magic_fn_tips: Associar tecla FN à tecla Capslock
 kbd.general.setting.macro_trigger: Macro
-kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting: Iluminação
 kbd.general.setting.lighting.backlight: Backlight
-kbd.general.setting.lighting.indicator: Indicator
-kbd.general.setting.capslock_led: LED do CapsLock
-kbd.general.setting.indicators: Indicators
-kbd.general.setting.auto_sleep: Hibernar automático
-kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
+kbd.general.setting.lighting.indicator: Indicador
+kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.auto_sleep: Hibernação
+kbd.general.setting.auto_sleep_tips:
+  No modo sem fio, o teclado entrará em hibernação após {{time}} ocioso
 kbd.general.setting.options.disable: Desabilitar
 kbd.general.setting.options.enable: Habilitar
 kbd.general.setting.options.default: Padrão
 kbd.general.setting.options.custom: Personalizado
-kbd.general.setting.options.fn: Fn
-kbd.general.setting.options.fn1: Fn1
-kbd.general.setting.options.fn2: Fn2
+kbd.general.setting.options.fn: FN
+kbd.general.setting.options.fn1: FN1
+kbd.general.setting.options.fn2: FN2
 kbd.general.setting.options.capslock_all: Todos
 kbd.general.bluetooth: Bluetooth
-kbd.general.bluetooth.bind: Ligação Bluetooth
+kbd.general.bluetooth.bind: Conexões Bluetooth 
 kbd.general.bluetooth.clean_bind: Limpar
 
 # Main Window, Firmware
-kbd.firmware: Atualização de Firmware
-kbd.firmware.key: Processador de aplicativos
-kbd.firmware.led: Processador de iluminação
-kbd.firmware.ble: Processador de Bluetooth
-kbd.firmware.current_version: Versão atual
-kbd.firmware.upgrade_source: Fonte de atualização
+kbd.firmware: Firmware
+kbd.firmware.key: Processador de Aplicativo
+kbd.firmware.led: Processador de Iluminação
+kbd.firmware.ble: Processador Bluetooth
+kbd.firmware.current_version: Versão Atual
+kbd.firmware.upgrade_source: Atualizar fonte
 kbd.firmware.latest: Firmware mais recente
-kbd.firmware.archive: Arquivo de Firmware
+kbd.firmware.archive: Lista de Firmwares
 kbd.firmware.annepro1.download.firmware: Baixar Firmware
 kbd.firmware.annepro1.download.latest_firmware: Baixar Firmware mais recente
-kbd.firmware.annepro1.download.dfu_tool: Baixar a ferramenta DFU
-kbd.firmware.find_new_version: "Procurar novo firmware: "
+kbd.firmware.annepro1.download.dfu_tool: Baixar ferramenta DFU
+kbd.firmware.find_new_version: 'Procurar firmware: '
 kbd.firmware.no_new_version: Seu firmware está atualizado
-kbd.firmware.upgrade.app_require: A versão necessária do ObinsKit é v{{requiredVersion}} ou superior, versão atual é v{{appVersion}}.
+kbd.firmware.upgrade.app_require:
+  A versão necessária do ObinsKit é v {{requiredVersion}} ou posterior, a versão atual é
+   v {{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Atualizar
-kbd.firmware.upgrade.title: Atualizar Firmware
-kbd.firmware.upgrade.content: Não desligue o cabo USB durante a atualização
-kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
-kbd.firmware.upgrade.enter_iap_timeout: Entrar automaticamente no modo IAP falhou, por favor, entre no modo IAP manualmente (segure a tecla ESC e, em seguida, insira o cabo USB)
+kbd.firmware.upgrade.title: Atualização do Firmware
+kbd.firmware.upgrade.content: Não desconecte o cabo USB durante a atualização
+kbd.firmware.upgrade.enter_iap_timeout:
+  Falha ao entrar automaticamente no modo IAP, entre no modo IAP manualmente (mantenha
+   a tecla ESC e, em seguida, insira o cabo USB)
 kbd.firmware.upgrade.status.downloading: Baixando firmware
-kbd.firmware.upgrade.status.download_failed: Falha no download do firmware
-kbd.firmware.upgrade.status.entering_aip: Entrando no modo de atualização (cerca de 6 segundos ou menos)
-kbd.firmware.upgrade.status.writing_key: Escrevendo dados no processador de aplicativos
-kbd.firmware.upgrade.status.writing_led: Escrevendo dados no processador de iluminação
-kbd.firmware.upgrade.status.writing_ble: Escrevendo dados no processador Bluetooth
-kbd.firmware.upgrade.status.restart: Reinicializando o teclado
+kbd.firmware.upgrade.status.download_failed: O download do Firmware falhou
+kbd.firmware.upgrade.status.entering_aip:
+  Entrando no modo de atualização (cerca de 6 segundos ou menos)
+kbd.firmware.upgrade.status.writing_key: Gravando dados no processador do aplicativo
+kbd.firmware.upgrade.status.writing_led: Gravando dados no processador de iluminação
+kbd.firmware.upgrade.status.writing_ble: Gravando dados no processador bluetooth
+kbd.firmware.upgrade.status.restart: Reiniciar teclado
 kbd.firmware.upgrade.status.success: Firmware atualizado com sucesso
 
 # Main Window, LEDs
-kbd.led: Iluminção
+kbd.led: Iluminação
 kbd.led.effect.profiles: Perfis de iluminação
-kbd.led.effect.profile.reset: Redefinir
-kbd.led.effect.profile.delete.confirm_content: Tem certeza que deseja excluir esse perfil?
-kbd.led.effect.profile: Detalhe do perfil
-kbd.led.effect.profile.limit.annepro1_three: Limite de 3 efeitos de iluminação por perfil (ANNE PRO 1)
-kbd.led.effect.profile.limit.annepro2_sixteen: Limite de 16 efeitos de iluminação por perfil
-kbd.led.effect.mode: Modo de iluminação
-kbd.led.effect.delete.confirm_content: Tem certeza que deseja excluir esse efeito de iluminação?
-kbd.led.effect.preview: Pré-visualizar
-kbd.led.effect.dynamic_colors: Dynamic Light Color Table
+kbd.led.effect.profile.reset: Reiniciar
+kbd.led.effect.profile.delete.confirm_content:
+  Tem certeza que deseja excluir este perfil?
+kbd.led.effect.profile: Detalhe do Perfil
+kbd.led.effect.profile.limit.annepro1_three:
+  Limite de 3 efeitos de iluminação por perfil (ANNE PRO 1)
+kbd.led.effect.profile.limit.annepro2_sixteen:
+  Limite de 16 efeitos de iluminação por perfil
+kbd.led.effect.mode: Modo Iluminação
+kbd.led.effect.delete.confirm_content:
+  Tem certeza de que deseja excluir este efeito de iluminação?
+kbd.led.effect.preview: Previsualizar
+kbd.led.effect.dynamic_colors: Tabela de cores dinâmica
 kbd.led.effect.dynamic_colors.random: Aleatório
-kbd.led.effect.dynamic_colors.no_empty: Por favor, adicione cor dinâmica
+kbd.led.effect.dynamic_colors.no_empty: Por favor, adicione uma cor dinâmica
 kbd.led.color.palette: Paleta de cores
 kbd.led.color.default: Padrão
-kbd.led.color.custom: Personalizado
+kbd.led.color.custom: Personalizada
 kbd.led.color.custom.save: Salvar cor atual
 # Keycap Groups
-kbd.keycap.group.function_keys: Teclas de função
+kbd.keycap.group.function_keys: Teclas FN
 kbd.keycap.group.alphabet: Caracteres
 kbd.keycap.group.numbers: Numerais
-kbd.keycap.group.bigs: Teclas grandes
-kbd.keycap.group.all: Todas as teclas
+kbd.keycap.group.bigs: Big keys
+kbd.keycap.group.all: Todas
 # Dynamic Light Effects
 dynamic.none: Estático
-dynamic.breath: Efeito respiratório
-dynamic.breath_grad: Efeito respiratório gradual
+dynamic.breath: Efeito respiração
+dynamic.breath_grad: Efeito respiração gradual
 dynamic.rainbow: Arco-íris
-dynamic.trigger: Trigger
-dynamic.trigger.poptang: Gatilho Poptang
-dynamic.trigger.breath_single: Respiração por tecla
-dynamic.trigger.breath: Gatilho de respiração
-dynamic.trigger.rainbow: Gatilho arco-íris
-dynamic.trigger.ripple: Gatilho de ondulação
-dynamic.trigger.pulse: Gatilho de pulso
-dynamic.trigger.star_fall: Gatilho de queda de estrelas
-dynamic.auto: Auto
+dynamic.trigger: Gatilho
+dynamic.trigger.poptang: Poptang
+dynamic.trigger.breath_single: Respiração (por tecla)
+dynamic.trigger.breath: Respiração
+dynamic.trigger.rainbow: Arco-íris
+dynamic.trigger.ripple: Ondulação
+dynamic.trigger.pulse: Pulsante
+dynamic.trigger.star_fall: Star Fall
+dynamic.auto: Automático
 dynamic.auto.starry_sky: Céu estrelado
 dynamic.auto.comet: Cometa
 dynamic.auto.colorful: Colorido
 dynamic.auto.wave: Onda
 dynamic.auto.black_hole: Buraco negro
 dynamic.auto.vertical_rainbow: Arco-íris vertical
-dynamic.auto.fountain: Chafariz
-dynamic.auto.snake: Cobra
-dynamic.auto.flame: Fogo
-dynamic.auto.firework: Fogo de artifício
+dynamic.auto.fountain: Fonte
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Padrão
 intl.led.red: Vermelho
@@ -239,51 +243,52 @@ intl.led.yellow: Amarelo
 intl.led.green: Verde
 intl.led.cyan: Ciano
 intl.led.blue: Azul
-intl.led.purple: Roxo
-intl.led.orange: Orange
-intl.led.static.single: Estático único
-intl.led.static.multi: Estático múltiplo
+intl.led.purple: Violeta
+intl.led.static.single: Esstático único
+intl.led.static.multi: Multi estático
 intl.dynamic.breath: Respiração
 intl.dynamic.breath.grad: Respiração gradual
 intl.dynamic.poptang: Poptang
 intl.dynamic.breath.rainbow: Arco-íris
-intl.dynamic.breath.single: Respiração por tecla
-intl.dynamic.trigger.breath: Gatilho de respiração
-intl.dynamic.trigger.rainbow: Gatilho arco-íris
+intl.dynamic.breath.single: Respiração (por tecla)
+intl.dynamic.trigger.breath: Gatilho Respiraçao
+intl.dynamic.trigger.rainbow: Gatilho Arco-íris
 
 # Main Window, Layout
 kbd.layout: Layout
-kbd.layout.default: Default
-kbd.layout.reset.confirm_content: Tem certeza de que deseja redefinir esse layout para padrão?
-kbd.layout.delete.confirm_content: Tem certeza que deseja excluir este layout?
+kbd.layout.default: Padrão
+kbd.layout.reset.confirm_content:
+  Tem certeza de que deseja redefinir este layout para o padrão?
+kbd.layout.delete.confirm_content: Tem certeza de que deseja excluir este layout?
 kbd.layout.set_keycap_null: Definir nulo
 # Sidebar titles
+kbd.keycode_group.d87: D87
+kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Sistema
-kbd.keycode_group.alphabet: Caractere
-kbd.keycode_group.number: Número
-kbd.keycode_group.modifier: Modificador
-kbd.keycode_group.arrow: Seta
-kbd.keycode_group.function: Função
+kbd.keycode_group.alphabet: Caracteres
+kbd.keycode_group.number: Números
+kbd.keycode_group.modifier: Modificadores
+kbd.keycode_group.arrow: Setas
+kbd.keycode_group.function: Funções
 kbd.keycode_group.media: Mídia
-kbd.keycode_group.keypad: Teclado numérico
-kbd.keycode_group.mouse: Mouse
+kbd.keycode_group.keypad: Teclado Numérico
 kbd.keycode_group.other: Outros
 # Key tooltips
-icon.left_gui: Esquerda Win/Cmd
-icon.right_gui: Direita Win/Cmd
-icon.mute: Mudo
-icon.volume.up: Aumentar volume
-icon.volume.down: Diminuir volume
-icon.bl.toggle: Alternar iluminação
-icon.bl.color: Trocar iluminação
+icon.left_gui: Win/Cmd Esquerdo
+icon.right_gui: Win/Cmd Direito
+icon.mute: Silenciar
+icon.volume.up: Aumentar Volume
+icon.volume.down: Diminuir Volume
+icon.bl.toggle: Alternar luz
+icon.bl.color: Trocar luz
 icon.bl.increase: Aumentar brilho
 icon.bl.decrease: Diminuir brilho
-icon.bl.battery: Nível de bateria
+icon.bl.battery: Nível bateria
 icon.ble.wl_1: Bluetooth 1
 icon.ble.wl_2: Bluetooth 2
 icon.ble.wl_3: Bluetooth 3
 icon.ble.wl_4: Bluetooth 4
-icon.fn.wheel: Roda de jogo
+icon.fn.wheel: Tecla Game
 icon.prev.track: Faixa anterior
 icon.next.track: Próxima faixa
 icon.play.pause: Tocar / Pausar
@@ -295,48 +300,51 @@ intl.keymap.mac: Mac
 intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
-kbd.macro: Macro
-kbd.macro.group: Grupo Macro
-kbd.macro.group.delete.confirm_content: Tem certeza de que deseja excluir este grupo de macros?
+kbd.macro: Macros
+kbd.macro.group: Grupo de Macros
+kbd.macro.group.delete.confirm_content:
+  Tem certeza de que deseja excluir este grupo de macros?
 kbd.macro.add: Adicionar macro
-kbd.macro.new: New Macro
-kbd.macro.clear: Clear Keyboard Macro
-kbd.macro.bind_key: Bind to key
-kbd.macro.bind_key_tips: Please select a key to bind
-kbd.macro.delete_macro_in_folder: Please delete macro in folder
+kbd.macro.new: Nova Macro
+kbd.macro.clear: Limpar Macros
+kbd.macro.bind_key: Associar à tecla
+kbd.macro.bind_key_tips: Por favor, selecione uma tecla para associar
+kbd.macro.delete_macro_in_folder: Por favor, exclua a macro da pasta
 kbd.macro.please_add_macro_group: Por favor, adicione um grupo de macros
-kbd.macro.please_add_macro: Por favor, adicione um macro
-kbd.macro.delete.confirm_content: Tem certeza de que deseja excluir esse macro?
-kbd.macro.amount_limit: "{{count}} macros maximum"
+kbd.macro.please_add_macro: Por favor, adicione uma macro
+kbd.macro.delete.confirm_content: Tem certeza de que deseja excluir esta macro?
+kbd.macro.amount_limit: 'Máximo de {{count}} macros'
 kbd.macro.code: Código Macro
-kbd.macro.code.rec: Gravar Macro
+kbd.macro.code.rec: Gravar
 kbd.macro.code.empty: Código macro vazio
 kbd.macro.code.exceeded: Capacidade de código macro excedida
-kbd.macro.code.missing_release_key: Tecla de liberação ausente
-kbd.macro.code.missing_press_key: Tecla de ativação ausente
+kbd.macro.code.missing_release_key: Chave de liberação ausente
+kbd.macro.code.missing_press_key: Chave de ativação ausente
 kbd.macro.code.value.insert_timer_block: Inserir bloco de tempo
-kbd.macro.code.value.move_up: Subir
-kbd.macro.code.value.move_down: Descer
-kbd.macro.block.property: Property
-kbd.macro.block.property.keypress: Key
-kbd.macro.block.property.key_info_input: Press desired key
-kbd.macro.block.property.time_duration: Duration
-kbd.macro.block.property.start_time: Start Time
-kbd.macro.block.property.relative_time: Relative Time
+kbd.macro.code.value.move_up: Mover para cima
+kbd.macro.code.value.move_down: Mover para baixo
+kbd.macro.block.property: Propriedade
+kbd.macro.block.property.keypress: Chave
+kbd.macro.block.property.key_info_input: Pressione a tecla desejada
+kbd.macro.block.property.time_duration: Duração
+kbd.macro.block.property.start_time: Hora de início
+kbd.macro.block.property.relative_time: Tempo Relativo
 
 # Audio Visualization
-kbd.audio: Visualização de áudio
-kbd.audio.describe: As luzes do teclado reagem ao áudio reproduzido por meio do dispositivo de som padrão
-kbd.audio.on: Ligado
-kbd.audio.off: Desligado
-kbd.audio.light_type: Modo de iluminação
+kbd.audio: Visualização de Áudio
+kbd.audio.describe:
+  As luzes do teclado reagem ao áudio reproduzido por meio do dispositivo de som padrão
+kbd.audio.on: Ligar
+kbd.audio.off: Desligar
+kbd.audio.light_type: Modo de Iluminação
 kbd.audio.light_type.pure: Cor pura
 kbd.audio.light_type.colorful: Colorido
-kbd.audio.required_led_firmware: A versão necessária do processador de iluminação é {{version}} ou superior.
+kbd.audio.required_led_firmware:
+  A versão necessária do Light Processor é {{version}} ou posterior.
 
 # Other Messages
 msg.open_device_failed: A inicialização do dispositivo falhou
 msg.missing_required_data_field: Campo de dados ausente
 msg.file_not_compatible_your_device: O arquivo não é compatível com o seu dispositivo
-msg.crc_check_error: Erro de verificação do CRC - Não edite arquivo exportado
+msg.crc_check_error: Erro de verificação CRC - Não edite o arquivo exportado
 msg.json_data_invalid: Dados JSON inválidos
