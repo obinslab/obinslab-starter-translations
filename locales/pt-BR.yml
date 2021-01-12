@@ -3,13 +3,20 @@ common.operate.failed: Operação falhou
 common.operate.success: Operação bem sucedida
 common.tooltip_title: Mensagem
 common.input.placeholder: Digite o nome
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Renomear
 common.import: Importar
 common.export: Exportar
 common.add: Adicionar
+common.new: New
+common.new_folder: New Folder
 common.create: Criar
 common.add.success: Adicionado com sucesso
 common.add.failed: Operação falhou
+common.remove: Remove
 common.delete: Excluir
 common.delete.success: Excluído com sucesso
 common.delete.failed: Exclusão falhou
@@ -24,17 +31,27 @@ common.ok: OK
 common.save: Salvar
 common.save_as: Salvar como
 common.save.success: Salvo com sucesso
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Aplicar
 common.apply.success: Aplicado com sucesso
 common.apply.failed: Operação falhou
 common.confirm.show_detail: Mostrar detalhes
 common.network.connection.error: Erro de conexão de rede
 common.please_quit_edit: Saia da edição antes de prosseguir
-common.time_unit.hours: " Horas"
+common.time_unit.hour: "{{count}} Hora"
+common.time_unit.hour_plural: "{{count}} Horas"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
 common.time_unit.millisecond: Milisegundos
 common.return: Retornar
 common.refresh: Atualizar
 common.date: Data
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Abrir ObinsKit
@@ -101,22 +118,34 @@ home.open_device_failed: A inicialização do dispositivo falhou
 
 # Main Window, General
 kbd.general: Geral
+kbd.general.basic: Basic
 kbd.general.info: Informação
 kbd.general.info.device_model: Modelo do dispositivo
 kbd.general.info.serial_number: Número de série
 kbd.general.info.battery: Bateria
 kbd.general.info.running_time: Tempo de execução
 kbd.general.setting: Definições
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Layout
 kbd.general.setting.tap_layout: Toque
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: LED do CapsLock
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Hibernar automático
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Desabilitar
 kbd.general.setting.options.enable: Habilitar
 kbd.general.setting.options.default: Padrão
 kbd.general.setting.options.custom: Personalizado
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Todos
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Atualizar
 kbd.firmware.upgrade.title: Atualizar Firmware
 kbd.firmware.upgrade.content: Não desligue o cabo USB durante a atualização
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Entrar automaticamente no modo IAP falhou, por favor, entre no modo IAP manualmente (segure a tecla ESC e, em seguida, insira o cabo USB)
 kbd.firmware.upgrade.status.downloading: Baixando firmware
 kbd.firmware.upgrade.status.download_failed: Falha no download do firmware
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Limite de 16 efeitos de iluminaç
 kbd.led.effect.mode: Modo de iluminação
 kbd.led.effect.delete.confirm_content: Tem certeza que deseja excluir esse efeito de iluminação?
 kbd.led.effect.preview: Pré-visualizar
+kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.effect.dynamic_colors.random: Aleatório
 kbd.led.effect.dynamic_colors.no_empty: Por favor, adicione cor dinâmica
 kbd.led.color.palette: Paleta de cores
@@ -182,6 +213,7 @@ dynamic.none: Estático
 dynamic.breath: Efeito respiratório
 dynamic.breath_grad: Efeito respiratório gradual
 dynamic.rainbow: Arco-íris
+dynamic.trigger: Trigger
 dynamic.trigger.poptang: Gatilho Poptang
 dynamic.trigger.breath_single: Respiração por tecla
 dynamic.trigger.breath: Gatilho de respiração
@@ -189,6 +221,7 @@ dynamic.trigger.rainbow: Gatilho arco-íris
 dynamic.trigger.ripple: Gatilho de ondulação
 dynamic.trigger.pulse: Gatilho de pulso
 dynamic.trigger.star_fall: Gatilho de queda de estrelas
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Céu estrelado
 dynamic.auto.comet: Cometa
 dynamic.auto.colorful: Colorido
@@ -207,6 +240,7 @@ intl.led.green: Verde
 intl.led.cyan: Ciano
 intl.led.blue: Azul
 intl.led.purple: Roxo
+intl.led.orange: Orange
 intl.led.static.single: Estático único
 intl.led.static.multi: Estático múltiplo
 intl.dynamic.breath: Respiração
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Gatilho arco-íris
 
 # Main Window, Layout
 kbd.layout: Layout
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Tem certeza de que deseja redefinir esse layout para padrão?
 kbd.layout.delete.confirm_content: Tem certeza que deseja excluir este layout?
 kbd.layout.set_keycap_null: Definir nulo
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Sistema
 kbd.keycode_group.alphabet: Caractere
 kbd.keycode_group.number: Número
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Seta
 kbd.keycode_group.function: Função
 kbd.keycode_group.media: Mídia
 kbd.keycode_group.keypad: Teclado numérico
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Outros
 # Key tooltips
 icon.left_gui: Esquerda Win/Cmd
@@ -264,11 +299,15 @@ kbd.macro: Macro
 kbd.macro.group: Grupo Macro
 kbd.macro.group.delete.confirm_content: Tem certeza de que deseja excluir este grupo de macros?
 kbd.macro.add: Adicionar macro
+kbd.macro.new: New Macro
+kbd.macro.clear: Clear Keyboard Macro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Por favor, adicione um grupo de macros
 kbd.macro.please_add_macro: Por favor, adicione um macro
 kbd.macro.delete.confirm_content: Tem certeza de que deseja excluir esse macro?
-kbd.macro.amount_limit.annepro2_sixteen: Máximo de 16 macros
-kbd.macro.amount_limit.annepro_eight: Máximo 8 macros para Anne Pro 1
+kbd.macro.amount_limit: "{{count}} macros maximum"
 kbd.macro.code: Código Macro
 kbd.macro.code.rec: Gravar Macro
 kbd.macro.code.empty: Código macro vazio
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: Tecla de ativação ausente
 kbd.macro.code.value.insert_timer_block: Inserir bloco de tempo
 kbd.macro.code.value.move_up: Subir
 kbd.macro.code.value.move_down: Descer
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Visualização de áudio

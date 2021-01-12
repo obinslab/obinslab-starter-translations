@@ -3,13 +3,20 @@ common.operate.failed: Ошибка при выполнении операции
 common.operate.success: Операция успешно завершилась
 common.tooltip_title: Сообщение
 common.input.placeholder: Введите имя
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Переименовать
 common.import: Импортировать
 common.export: Экспортировать
 common.add: Добавить
+common.new: New
+common.new_folder: New Folder
 common.create: Создать
 common.add.success: Успешно добавлено
 common.add.failed: Ошибка при добавлении
+common.remove: Remove
 common.delete: Удалить
 common.delete.success: Успешно удалено
 common.delete.failed: Ошибка при удалении
@@ -24,17 +31,27 @@ common.ok: OK
 common.save: Сохранить
 common.save_as: Сохранить как
 common.save.success: Успешно сохранено
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Применить
 common.apply.success: Успешно применено
 common.apply.failed: Ошибка при применении
 common.confirm.show_detail: Показать детали
 common.network.connection.error: Ошибка сетевого соединения
 common.please_quit_edit: Пожалуйста, выйдите из режима редактирования
-common.time_unit.hours: " часов"
-common.time_unit.millisecond: мс
-common.return: Назад
-common.refresh: Перезагрузить
-common.date: Дата
+common.time_unit.hour: '{{count}} hour'
+common.time_unit.hour_plural: '{{count}} hours'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
+common.return: Return
+common.refresh: Refresh
+common.date: Date
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Открыть ObinsKit
@@ -60,8 +77,8 @@ feedback.email.not_valid: Неправильный адрес электронн
 feedback.submit: Отправить
 feedback.submit.error: Ошибка при отправке. Пожалуйста, повторите попытку
 feedback.submit.success: Успешно отправлено. Нажмите, чтобы закрыть
-feedback.support_email: "Email службы поддержки: "
-feedback.debug_log: Лог дебага
+feedback.support_email: 'Email службы поддержки: '
+feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: Настройки
@@ -101,22 +118,34 @@ home.open_device_failed: Ошибка при открытии устройств
 
 # Main Window, General
 kbd.general: Общие параметры
+kbd.general.basic: Basic
 kbd.general.info: Информация
 kbd.general.info.device_model: Модель устройства
 kbd.general.info.serial_number: Серийный номер
 kbd.general.info.battery: Батарея
 kbd.general.info.running_time: Время работы
 kbd.general.setting: Опции
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Раскладка
 kbd.general.setting.tap_layout: Режим Tap
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Клавиша Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Макросы
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: Индикатор CapsLock
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Автовыключение
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Выкл.
 kbd.general.setting.options.enable: Вкл.
 kbd.general.setting.options.default: По умолчанию
 kbd.general.setting.options.custom: Пользовательская
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Все
@@ -126,31 +155,32 @@ kbd.general.bluetooth.clean_bind: Сбросить привязку
 
 # Main Window, Firmware
 kbd.firmware: Обновление прошивки
-kbd.firmware.key: Процессор приложения
-kbd.firmware.led: Процессор подсветки
-kbd.firmware.ble: Процессор Bluetooth
-kbd.firmware.current_version: Текушая версия
-kbd.firmware.upgrade_source: Источник обновлений
-kbd.firmware.latest: Актуальная прошивка
-kbd.firmware.archive: Архив прошивок
+kbd.firmware.key: Application Processor
+kbd.firmware.led: Light Processor
+kbd.firmware.ble: Bluetooth Processor
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Скачать прошивку
 kbd.firmware.annepro1.download.latest_firmware: Скачать актуальную прошивку
 kbd.firmware.annepro1.download.dfu_tool: Скачать DFU Tool
-kbd.firmware.find_new_version: "Найдена новая версия: "
+kbd.firmware.find_new_version: 'Найдена новая версия: '
 kbd.firmware.no_new_version: Текущая прошивка наиболее актуальная
-kbd.firmware.upgrade.app_require: Требуется ObinsKit версии v{{requiredVersion}} или более поздняя, текущая версия - v{{appVersion}}.
-kbd.firmware.upgrade.source.alpha: Альфа
-kbd.firmware.upgrade.source.latest: Релиз
+kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
+kbd.firmware.upgrade.source.alpha: Alpha
+kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Обновить
 kbd.firmware.upgrade.title: Обновление прошивки
 kbd.firmware.upgrade.content: Не отсоединяйте USB-кабель в процессе обновления
-kbd.firmware.upgrade.enter_iap_timeout: Автоматиеский переход в режим IAP произошёл с ошибкой, пожалуйста, зайдите в режим IAP самостоятельно (удерживайте клавишу ESC, а затем вставьте USB кабель)
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Скачивание прошивки...
 kbd.firmware.upgrade.status.download_failed: Ошибка при скачивании прошивки
-kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления (примерно 6 секунд или меньше)...
-kbd.firmware.upgrade.status.writing_key: Запись данных в процессор приложения...
-kbd.firmware.upgrade.status.writing_led: Запись данных в процессор подсветки...
-kbd.firmware.upgrade.status.writing_ble: Запись данных в процессор Bluetooth...
+kbd.firmware.upgrade.status.entering_aip: Переход в режим обновления(About 6 seconds or less)...
+kbd.firmware.upgrade.status.writing_key: Запись данных в application processor...
+kbd.firmware.upgrade.status.writing_led: Запись данных в light processor...
+kbd.firmware.upgrade.status.writing_ble: Запись данных в bluetooth processor...
 kbd.firmware.upgrade.status.restart: Перезапуск клавиатуры...
 kbd.firmware.upgrade.status.success: Прошивка успешно обновлена.
 
@@ -165,40 +195,43 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Максимальное коли
 kbd.led.effect.mode: Динамический эффект
 kbd.led.effect.delete.confirm_content: Вы уверены, что хотите удалить этот эффект?
 kbd.led.effect.preview: Просмотр
+kbd.led.effect.dynamic_colors: Таблица цветов
 kbd.led.effect.dynamic_colors.random: Random
-kbd.led.effect.dynamic_colors.no_empty: Пожалуйста, добавьте динамический цвет
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Цветовая палитра
 kbd.led.color.default: Основные
 kbd.led.color.custom: Свои
 kbd.led.color.custom.save: Сохранить текущий цвет
 # Keycap Groups
-kbd.keycap.group.function_keys: Функциональные клавиши
+kbd.keycap.group.function_keys: Function Keys
 kbd.keycap.group.alphabet: Символы
 kbd.keycap.group.numbers: Цифры
 kbd.keycap.group.bigs: Большие
 kbd.keycap.group.all: Все
 # Dynamic Light Effects
-dynamic.none: Статический
+dynamic.none: Static
 dynamic.breath: Дыхание
 dynamic.breath_grad: Дыхание (градиент)
 dynamic.rainbow: Радуга
-dynamic.trigger.poptang: Крест (триггер)
+dynamic.trigger: триггер
+dynamic.trigger.poptang: Крест
 dynamic.trigger.breath_single: Дыхание (нажатые клавиши)
-dynamic.trigger.breath: Дыхание (триггер)
-dynamic.trigger.rainbow: Радуга (триггер)
-dynamic.trigger.ripple: Рябь (триггер)
-dynamic.trigger.pulse: Пульсация (триггер)
-dynamic.trigger.star_fall: Звездопад (триггер)
-dynamic.auto.starry_sky: Звёздное небо
-dynamic.auto.comet: Комета
-dynamic.auto.colorful: Красочный
-dynamic.auto.wave: Волна
-dynamic.auto.black_hole: Чёрная Дыра 
-dynamic.auto.vertical_rainbow: Вертикальная радуга
-dynamic.auto.fountain: Фонтан
-dynamic.auto.snake: Змейка
-dynamic.auto.flame: Пламя
-dynamic.auto.firework: Салют
+dynamic.trigger.breath: Дыхание
+dynamic.trigger.rainbow: Радуга
+dynamic.trigger.ripple: Ripple
+dynamic.trigger.pulse: Pulse
+dynamic.trigger.star_fall: Star Fall
+dynamic.auto: Auto
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Предустановленные
 intl.led.red: Красный
@@ -207,6 +240,7 @@ intl.led.green: Зеленый
 intl.led.cyan: Бирюзовый
 intl.led.blue: Синий
 intl.led.purple: Пурпурный
+intl.led.orange: Orange
 intl.led.static.single: Статический одноцветный
 intl.led.static.multi: Статический многоцветный
 intl.dynamic.breath: Дыхание
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Радуга (триггер)
 
 # Main Window, Layout
 kbd.layout: Раскладка
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Вы уверены, что хотите сбросить эту раскладку к заводским настройкам?
 kbd.layout.delete.confirm_content: Вы уверены, что хотите удалить эту раскладку?
 kbd.layout.set_keycap_null: Убрать значение
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Системные
 kbd.keycode_group.alphabet: Символы
 kbd.keycode_group.number: Цифры
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Стрелки
 kbd.keycode_group.function: Функциональные
 kbd.keycode_group.media: Медиа
 kbd.keycode_group.keypad: Цифровой блок
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Другое
 # Key tooltips
 icon.left_gui: Левый Win/Cmd
@@ -264,13 +299,17 @@ kbd.macro: Макросы
 kbd.macro.group: Группы макросов
 kbd.macro.group.delete.confirm_content: Вы уверены, что хотите удалить эту группу макросов?
 kbd.macro.add: Добавить макрос
+kbd.macro.new: New макрос
+kbd.macro.clear: Clear Keyboard макрос
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Пожалуйста, добавьте группу макросов
 kbd.macro.please_add_macro: Пожалуйста, добавьте макрос
 kbd.macro.delete.confirm_content: Вы уверены, что хотите удалить этот макрос?
-kbd.macro.amount_limit.annepro2_sixteen: Anne Pro 2 поддерживает максимум 16 макросов
-kbd.macro.amount_limit.annepro_eight: Anne Pro 1 поддерживает максимум 8 макросов
+kbd.macro.amount_limit: поддерживает {{count}} макросов максимум
 kbd.macro.code: Код макроса
-kbd.macro.code.rec: Записать макрос
+kbd.macro.code.rec: Записать
 kbd.macro.code.empty: Код макроса пуст
 kbd.macro.code.exceeded: Превышен лимит макроса
 kbd.macro.code.missing_release_key: Пропущено отжатие клавиши
@@ -278,16 +317,22 @@ kbd.macro.code.missing_press_key: Пропущено нажатие клавиш
 kbd.macro.code.value.insert_timer_block: Вставить временну́ю задержку
 kbd.macro.code.value.move_up: Переместить вверх
 kbd.macro.code.value.move_down: Переместить вниз
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
-kbd.audio: Визуализация аудио
-kbd.audio.describe: Подсветка клавиатуры будет реагировать на звук
-kbd.audio.on: Вкл.
-kbd.audio.off: Выкл.
-kbd.audio.light_type: Режим подсветки
-kbd.audio.light_type.pure: "Чистый" цвет
-kbd.audio.light_type.colorful: Красочный режим
-kbd.audio.required_led_firmware: Требуется версия процессора подсветки не ниже v{{version}}.
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to audio playing via default sound device
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.light_type: Lighting Mode
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages
 msg.open_device_failed: Ошибка при открытии устройства

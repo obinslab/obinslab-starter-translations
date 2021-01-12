@@ -3,13 +3,20 @@ common.operate.failed: Błąd operacji
 common.operate.success: Operacja zakończona
 common.tooltip_title: Wiadomość
 common.input.placeholder: Podaj nazwę
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Zmień nazwę
 common.import: Importuj
 common.export: Exportuj
 common.add: Dodaj
+common.new: New
+common.new_folder: New Folder
 common.create: Dodaj
 common.add.success: Dodano
 common.add.failed: Błąd dodawania
+common.remove: Remove
 common.delete: Usuń
 common.delete.success: Usunięto
 common.delete.failed: Błąd usuwania
@@ -24,18 +31,27 @@ common.ok: OK
 common.save: Zapisz
 common.save_as: Zapisz jako
 common.save.success: Zapisano
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Zastosuj
 common.apply.success: Zmiany zapisane
 common.apply.failed: Błąd zapisu
 common.confirm.show_detail: Pokaż szczegóły
 common.network.connection.error: Błąd połączenia sieciowego
 common.please_quit_edit: Zakończ edycję
-common.time_unit.hour: " godz."
-common.time_unit.hours: " godz."
-common.time_unit.millisecond: ms
+common.time_unit.hour: '{{count}} hour'
+common.time_unit.hour_plural: '{{count}} hours'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
 common.return: Return
 common.refresh: Refresh
 common.date: Date
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Otwórz
@@ -61,7 +77,7 @@ feedback.email.not_valid: Błędny adres email
 feedback.submit: Wyślij
 feedback.submit.error: Błąd wysyłania, spróbuj ponownie
 feedback.submit.success: Wysłano, zamknij
-feedback.support_email: "Email pomocy: "
+feedback.support_email: 'Support email: '
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -96,59 +112,72 @@ preferences.help.user-manual: Instrukcja użytkownika
 preferences.about: O programie
 
 # Home Window
-home.welcome: Witaj świecie!
+home.welcome: Hello World
 home.please_connect_kbd_with_cable: Podłącz urządzenie USB
 home.open_device_failed: Błąd połączenia z urządzeniem
 
 # Main Window, General
 kbd.general: Ogólne
+kbd.general.basic: Basic
 kbd.general.info: Informacje
 kbd.general.info.device_model: Model urządzenia
 kbd.general.info.serial_number: Numer seryjny
 kbd.general.info.battery: Akumulator
 kbd.general.info.running_time: Czas pracy
 kbd.general.setting: Ustawienia
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Układ
 kbd.general.setting.tap_layout: Funkcja TAP
-kbd.general.setting.magic_fn: Funkcja Magic Fn
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
+kbd.general.setting.magic_fn: Magiczny Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makro
-kbd.general.setting.capslock_led: Dioda przycisku CapsLock
-kbd.general.setting.auto_sleep: Automatyczny tryb uśpienia
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
+kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.indicators: Indicators
+kbd.general.setting.auto_sleep: Auto Usypianie
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Wyłączone
 kbd.general.setting.options.enable: Włączone
 kbd.general.setting.options.default: Domyślny
 kbd.general.setting.options.custom: Własny
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Zawsze
 kbd.general.bluetooth: Bluetooth
-kbd.general.bluetooth.bind: Połączenia Bluetooth
-kbd.general.bluetooth.clean_bind: Usuń wszystkie
+kbd.general.bluetooth.bind: Połączenie Bluetooth
+kbd.general.bluetooth.clean_bind: Usuń połączenie Bluetooth
 
 # Main Window, Firmware
-kbd.firmware: Oprogramowanie
+kbd.firmware: Aktualizuj firmware
 kbd.firmware.key: Procesor aplikacji
 kbd.firmware.led: Procesor podświetlenia
 kbd.firmware.ble: Procesor Bluetooth
-kbd.firmware.current_version: Obecna wersja
-kbd.firmware.upgrade_source: Żródło aktualizacji
-kbd.firmware.latest: Najnowsze oprogramowanie
-kbd.firmware.archive: Archiwum oprogr.
-kbd.firmware.annepro1.download.firmware: Pobierz oprogramowanie
-kbd.firmware.annepro1.download.latest_firmware: Pobierz najnowsze oprogramowanie
+kbd.firmware.current_version: Current Version
+kbd.firmware.upgrade_source: Upgrade Source
+kbd.firmware.latest: Latest Firmware
+kbd.firmware.archive: Firmware Archive
+kbd.firmware.annepro1.download.firmware: Pobierz firmware
+kbd.firmware.annepro1.download.latest_firmware: Pobierz najnowszy firmware
 kbd.firmware.annepro1.download.dfu_tool: Pobierz narzędzia DFU
-kbd.firmware.find_new_version: "Znajdź najnowszr oprogramowanie: "
-kbd.firmware.no_new_version: Zainstalowane oprogramowanie jest aktualny
-kbd.firmware.upgrade.app_require: Wymagana wersja ObinsKit to v{{requiredVersion}} lub nowsza, obecna wersja to v{{appVersion}}.
+kbd.firmware.find_new_version: 'Znajdź najnowszy firmware: '
+kbd.firmware.no_new_version: Zainstalowany firmware jest aktualny
+kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Aktualizuj
-kbd.firmware.upgrade.title: Aktualizaja oprogr.
+kbd.firmware.upgrade.title: Aktualizaja firmware
 kbd.firmware.upgrade.content: Nie odłączaj kabla USB podczas aktualizacji
-kbd.firmware.upgrade.enter_iap_timeout: Automatyczne wejście w tryb IAP nie powiodło się, proszę to zrobić manualnie (przytrzymaj przycisk ESC, a nastepnie włóż kabel USB)
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Pobieranie oprogramowania...
 kbd.firmware.upgrade.status.download_failed: Błąd pobierania oprogramowania
-kbd.firmware.upgrade.status.entering_aip: Tryb aktualizacji(Około 6 sekund lub mniej)...
+kbd.firmware.upgrade.status.entering_aip: Tryb aktualizacji(About 6 seconds or less)...
 kbd.firmware.upgrade.status.writing_key: Aktualizuję procesor aplikacji...
 kbd.firmware.upgrade.status.writing_led: Aktualizuję procesor podświetlenia...
 kbd.firmware.upgrade.status.writing_ble: Aktualizuję procesor Bluetooth...
@@ -157,49 +186,52 @@ kbd.firmware.upgrade.status.success: Aktualizacja zakończona.
 
 # Main Window, LEDs
 kbd.led: Podświetlenie RGB
-kbd.led.effect.profiles: Grupy
+kbd.led.effect.profiles: Grupa
 kbd.led.effect.profile.reset: Przywróć ust. fabryczne
 kbd.led.effect.profile.delete.confirm_content: Czy chcesz usunąć tą grupę?
-kbd.led.effect.profile: Profile
-kbd.led.effect.profile.limit.annepro1_three: Ograniczenie do 3 profili dla jednej grupy dla ANNE PRO 1
-kbd.led.effect.profile.limit.annepro2_sixteen: Ograniczenie do 16 profili dla jednej grupy
+kbd.led.effect.profile: Profile oświetlenia
+kbd.led.effect.profile.limit.annepro1_three: Ograniczenie do 3 profili w jednej grupie dla ANNE PRO 1
+kbd.led.effect.profile.limit.annepro2_sixteen: Ograniczenie do 16 profili w jednej grupie
 kbd.led.effect.mode: Dynamiczne efekty świetlne
 kbd.led.effect.delete.confirm_content: Czy chcesz usunąć ten profil?
 kbd.led.effect.preview: Podgląd
-kbd.led.effect.dynamic_colors.random: Losowo
-kbd.led.effect.dynamic_colors.no_empty: Proszę dodać kolor dynamiczny
+kbd.led.effect.dynamic_colors: Tabela kolorów dynamicznych
+kbd.led.effect.dynamic_colors.random: Random
+kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Paleta kolorów
 kbd.led.color.default: Domyślne
 kbd.led.color.custom: Własne
 kbd.led.color.custom.save: Zapisz bieżący kolor
 # Keycap Groups
-kbd.keycap.group.function_keys: Przyciski funkcyjne
+kbd.keycap.group.function_keys: Function Keys
 kbd.keycap.group.alphabet: Litery
 kbd.keycap.group.numbers: Cyfry
 kbd.keycap.group.bigs: Duże
 kbd.keycap.group.all: Wszystkie
 # Dynamic Light Effects
-dynamic.none: Statyczny
+dynamic.none: Static
 dynamic.breath: Oddech
 dynamic.breath_grad: Oddech z gradientem
 dynamic.rainbow: Tęcza
-dynamic.trigger.poptang: Rozbłysk (wyzwalany)
+dynamic.trigger: Wyzwalany
+dynamic.trigger.poptang: Rozbłysk
 dynamic.trigger.breath_single: Pojedynczy oddech
-dynamic.trigger.breath: Oddech (wyzwalany)
-dynamic.trigger.rainbow: Tęcza (wyzwalany)
-dynamic.trigger.ripple: Ripple (wyzwalany)
-dynamic.trigger.pulse: Pulsujący (wyzwalany)
-dynamic.trigger.star_fall: Spadające gwiazdy (wyzwalany)
-dynamic.auto.starry_sky: Gwieździste niebo
-dynamic.auto.comet: Kometa
-dynamic.auto.colorful: Kolorowy
-dynamic.auto.wave: Fala
-dynamic.auto.black_hole: Czarna dziura
-dynamic.auto.vertical_rainbow: Pionowa tęcza
-dynamic.auto.fountain: Fontanna
-dynamic.auto.snake: Wąż
-dynamic.auto.flame: Ogień
-dynamic.auto.firework: Fajerwerki
+dynamic.trigger.breath: Oddech
+dynamic.trigger.rainbow: Tęcza
+dynamic.trigger.ripple: Ripple
+dynamic.trigger.pulse: Pulse
+dynamic.trigger.star_fall: Star Fall
+dynamic.auto: Auto
+dynamic.auto.starry_sky: Starry Sky
+dynamic.auto.comet: Comet
+dynamic.auto.colorful: Colorful
+dynamic.auto.wave: Wave
+dynamic.auto.black_hole: Black Hole
+dynamic.auto.vertical_rainbow: Vertical Rainbow
+dynamic.auto.fountain: Fountain
+dynamic.auto.snake: Snake
+dynamic.auto.flame: Flame
+dynamic.auto.firework: Firework
 # Default LED group
 intl.light.group.default: Domyślne
 intl.led.red: Czerwony
@@ -208,6 +240,7 @@ intl.led.green: Zielony
 intl.led.cyan: Błękitny
 intl.led.blue: Niebieski
 intl.led.purple: Fioletowy
+intl.led.orange: Orange
 intl.led.static.single: Jeden kolor
 intl.led.static.multi: Wielokolorowy
 intl.dynamic.breath: Oddech
@@ -219,12 +252,12 @@ intl.dynamic.trigger.breath: Oddech (wyzwalany)
 intl.dynamic.trigger.rainbow: Tęcza (wyzwalany)
 
 # Main Window, Layout
-kbd.layout: Układ klawiatury
+kbd.layout: Układ
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Czy przywrócić ten układ do ustawień domyślnych?
 kbd.layout.delete.confirm_content: Czy chcesz usunąć ten układ?
 kbd.layout.set_keycap_null: Wyzeruj
 # Sidebar titles
-kbd.keycode_group.annepro: Klawisze specjalne
 kbd.keycode_group.system: System
 kbd.keycode_group.alphabet: Znaki
 kbd.keycode_group.number: Cyfry
@@ -233,6 +266,7 @@ kbd.keycode_group.arrow: Strzałki
 kbd.keycode_group.function: Funkcyjne
 kbd.keycode_group.media: Multimedia
 kbd.keycode_group.keypad: Klaw. numeryczna
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Inne
 # Key tooltips
 icon.left_gui: Lewy Win/Cmd
@@ -257,7 +291,7 @@ icon.play.pause: Start Pauza
 intl.layout.current: Bieżący
 # default keyboard layouts
 intl.keymap.qwerty: QWERTY
-intl.keymap.mac: Mac
+intl.keymap.mac: Mac™
 intl.keymap.dvorak: Dvorak
 
 # Main Window, Macros
@@ -265,13 +299,17 @@ kbd.macro: Makro
 kbd.macro.group: Grupa makr
 kbd.macro.group.delete.confirm_content: Czy chcesz usunąć tą grupę makr?
 kbd.macro.add: Dodaj makro
+kbd.macro.new: New Makro
+kbd.macro.clear: Clear Keyboard Makro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Dodaj grupę makr
 kbd.macro.please_add_macro: Dodaj makro
 kbd.macro.delete.confirm_content: Czy chcesz usunąć to makro?
-kbd.macro.amount_limit.annepro2_sixteen: Można dodac max. 16 makr
-kbd.macro.amount_limit.annepro_eight: Można dodac max. 8 makr do Anne Pro 1
+kbd.macro.amount_limit: Można dodac max. {{count}} makr
 kbd.macro.code: Kod makro
-kbd.macro.code.rec: Nagrywaj makro
+kbd.macro.code.rec: Nagrywaj
 kbd.macro.code.empty: Pusty kod makro
 kbd.macro.code.exceeded: Kod makro przekroczony
 kbd.macro.code.missing_release_key: Brak zwolnienia klawisza
@@ -279,16 +317,22 @@ kbd.macro.code.missing_press_key: Brak wciśnięcia klawiasza
 kbd.macro.code.value.insert_timer_block: Wstaw blok czasowy
 kbd.macro.code.value.move_up: Przesuń w górę
 kbd.macro.code.value.move_down: Przesuń w dół
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
-kbd.audio: Wizualizacja audio
-kbd.audio.describe: Podświetlenie klawiatury reaguje na dźwięk grający z domyslnej karty dźwiękowej
-kbd.audio.on: Włączone
-kbd.audio.off: Wyłączone
-kbd.audio.light_type: Tryb podświetlenia
-kbd.audio.light_type.pure: Jednolity kolor
-kbd.audio.light_type.colorful: Kolorowy
-kbd.audio.required_led_firmware: Wymagana jest wersja procesora podświetlenia {{version}} lub nowsza.
+kbd.audio: Audio Visualization
+kbd.audio.describe: Keyboard lights react to the audio playing on the default sound card
+kbd.audio.on: On
+kbd.audio.off: Off
+kbd.audio.light_type: Lighting Mode
+kbd.audio.light_type.pure: Pure Color
+kbd.audio.light_type.colorful: Colorful
+kbd.audio.required_led_firmware: Required Light Processor version is {{version}} or later.
 
 # Other Messages
 msg.open_device_failed: Błąd komunikacji z urządzeniem

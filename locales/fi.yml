@@ -3,13 +3,20 @@ common.operate.failed: Operaatio epäonnistui
 common.operate.success: Operaatio onnistui
 common.tooltip_title: Viesti
 common.input.placeholder: Syötä nimi
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Uudelleennimeä
 common.import: Tuo
 common.export: Vie
 common.add: Lisää
+common.new: New
+common.new_folder: New Folder
 common.create: Luo
 common.add.success: Lisätty onnistuneesti
 common.add.failed: Operaatio epäonnistui
+common.remove: Remove
 common.delete: Poista
 common.delete.success: Poistettu onnistuneesti
 common.delete.failed: Poistaminen epäonnistui
@@ -24,17 +31,27 @@ common.ok: OK
 common.save: Tallenna
 common.save_as: Tallenna nimellä
 common.save.success: Tallennettu onnistuneesti
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Aseta
 common.apply.success: Asetettu onnistuneesti
 common.apply.failed: Operaatio epäonnistui
 common.confirm.show_detail: Näytä tiedot
 common.network.connection.error: Internet-yhteyden virhe
 common.please_quit_edit: Poistu editorista ensin sulkemista
-common.time_unit.hours: " Tuntia"
-common.time_unit.millisecond: Millisekuntia
+common.time_unit.hour: '{{count}} Tuntia'
+common.time_unit.hour_plural: '{{count}} Tuntia'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
 common.return: Palaa
 common.refresh: Virkistä
 common.date: Päivämäärä
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Avaa ObinsKit
@@ -53,14 +70,14 @@ feedback: Palaute
 feedback.title: Palaute
 feedback.content: Sisältö
 feedback.content.no_empty: Ole hyvä ja syötä sisältö
-feedback.content.max_1000: "Maksimi: 1,000 merkkiä"
+feedback.content.max_1000: 'Maksimi: 1,000 merkkiä'
 feedback.email.label: Sähköposti
 feedback.email.placeholder: Ole hyvä ja syötä sähköpostiosoitteesi
 feedback.email.not_valid: Virheellinen sähköpostiosoite
 feedback.submit: Lähetä
 feedback.submit.error: Lähetysvirhe - Yritä uudelleen
 feedback.submit.success: Lähetettiin onnistuneesti - Klikkaa sulkeaksesi
-feedback.support_email: "Tukisähköposti: "
+feedback.support_email: 'Tukisähköposti: '
 feedback.debug_log: Debuggausloki
 
 # Preference Window
@@ -101,22 +118,34 @@ home.open_device_failed: Laitteen alustaminen epäonnistui
 
 # Main Window, General
 kbd.general: Yleinen
+kbd.general.basic: Basic
 kbd.general.info: Tietoja
 kbd.general.info.device_model: Laitteen malli
 kbd.general.info.serial_number: Sarjanumero
 kbd.general.info.battery: Akku
 kbd.general.info.running_time: Akun kesto
 kbd.general.setting: Asetukset
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Asettelu
 kbd.general.setting.tap_layout: Napauta
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makro
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Automaattinen lepotila
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Pois käytöstä
 kbd.general.setting.options.enable: Käytössä
 kbd.general.setting.options.default: Oletus
 kbd.general.setting.options.custom: Muokattu
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Kaikki
@@ -136,7 +165,7 @@ kbd.firmware.archive: Laiteohjelmistoarkisto
 kbd.firmware.annepro1.download.firmware: Lataa laiteohjelmisto
 kbd.firmware.annepro1.download.latest_firmware: Lataa uusin laiteohjelmisto
 kbd.firmware.annepro1.download.dfu_tool: Lataa DFU-työkalu
-kbd.firmware.find_new_version: "Löydä uusi laiteohjelmisto: "
+kbd.firmware.find_new_version: 'Löydä uusi laiteohjelmisto: '
 kbd.firmware.no_new_version: Laiteohjelmistosi on ajan tasalla.
 kbd.firmware.upgrade.app_require: Vaadittu ObinsKit-versio on v{{requiredVersion}} tai uudempi, nykyinen versio on v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Julkaisu
 kbd.firmware.upgrade_btn: Päivitä
 kbd.firmware.upgrade.title: Laiteohjelmistopäivitys
 kbd.firmware.upgrade.content: Älä irroita USB-kaapelia päivityksen aikana
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Automaattinen IAP-tilaan siirtyminen epäonnistui, ole hyvä ja siirry IAP-tilaan manuaalisesti (pidä ESC-painiketta painettuna ja aseta USB-kaapeli näppäimistöön)
 kbd.firmware.upgrade.status.downloading: Ladataan laiteohjelmistoa
 kbd.firmware.upgrade.status.download_failed: Laiteohjelmiston lataaminen epäonnistui
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Kuudentoista valaistusefektin raj
 kbd.led.effect.mode: Valaistustila
 kbd.led.effect.delete.confirm_content: Haluatko aivan varmasti poistaa tämän valaistusefektin?
 kbd.led.effect.preview: Esikatselu
+kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.effect.dynamic_colors.random: Satunnainen
 kbd.led.effect.dynamic_colors.no_empty: Ole hyvä ja lisää dynaaminen väri
 kbd.led.color.palette: Väripaletti
@@ -182,6 +213,7 @@ dynamic.none: Staattinen
 dynamic.breath: Hengitysefekti
 dynamic.breath_grad: Asteittainen hengitysefekti
 dynamic.rainbow: Sateenkaari
+dynamic.trigger: Trigger
 dynamic.trigger.poptang: Poptang-laukaisija
 dynamic.trigger.breath_single: Hengitys per näppäin
 dynamic.trigger.breath: Hengitys-laukaisija
@@ -189,6 +221,7 @@ dynamic.trigger.rainbow: Sateenkaari-laukaisija
 dynamic.trigger.ripple: Värinä-laukaisija
 dynamic.trigger.pulse: Pulssi-laukaisija
 dynamic.trigger.star_fall: Tähdenlento-laukaisija
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Tähtitaivas
 dynamic.auto.comet: Komeetta
 dynamic.auto.colorful: Värikäs
@@ -207,6 +240,7 @@ intl.led.green: Vihreä
 intl.led.cyan: Turkoosi
 intl.led.blue: Sininen
 intl.led.purple: Violetti
+intl.led.orange: Orange
 intl.led.static.single: Yksi staattinen
 intl.led.static.multi: Useampi staattinen
 intl.dynamic.breath: Hengittävä
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Sateenkaari-laukaisija
 
 # Main Window, Layout
 kbd.layout: Asettelu
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Haluatko aivan varmasti resetoida tämän asettelun?
 kbd.layout.delete.confirm_content: Haluatko aivan varmasti poistaa tämän asettelun?
 kbd.layout.set_keycap_null: Aseta tyhjäksi
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Järjestelmä
 kbd.keycode_group.alphabet: Kirjain
 kbd.keycode_group.number: Numero
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Nuoli
 kbd.keycode_group.function: Funktio
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Näppäinpädi
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Muu
 # Key tooltips
 icon.left_gui: Vasen Win/Cmd
@@ -264,11 +299,15 @@ kbd.macro: Makro
 kbd.macro.group: Makroryhmä
 kbd.macro.group.delete.confirm_content: Haluatko aivan varmasti poistaa tämän makroryhmän?
 kbd.macro.add: Lisää makro
+kbd.macro.new: New Macro
+kbd.macro.clear: Clear Keyboard Macro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Ole hyvä ja lisää makroryhmä
 kbd.macro.please_add_macro: Ole hyvä ja lisää makro
 kbd.macro.delete.confirm_content: Haluatko aivan varmasti poistaa tämän makron?
-kbd.macro.amount_limit.annepro2_sixteen: maksimissaan 16 makroa
-kbd.macro.amount_limit.annepro_eight: 8 makroa maksimissaan Anne Pro 1lle
+kbd.macro.amount_limit: 'maksimissaan {{count}} makroa'
 kbd.macro.code: Makrokoodi
 kbd.macro.code.rec: Tallenna makro
 kbd.macro.code.empty: Tyhjennä makrokoodi
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: Aktivointipainike puuttuu
 kbd.macro.code.value.insert_timer_block: Lisää aikablokki
 kbd.macro.code.value.move_up: Siirrä ylös
 kbd.macro.code.value.move_down: Siirrä alas
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Äänivisualisaatio

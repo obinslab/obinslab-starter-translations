@@ -34,6 +34,9 @@ common.save.success: تم الحفظ
 common.download: تنزيل
 common.download.success: تم التنزيل
 common.download.failed: فشل في عملية التنزيل
+common.apply: Apply
+common.apply.success: Apply Success
+common.apply.failed: Apply Failed
 common.confirm.show_detail: عرض التفاصيل
 common.network.connection.error: خطأ في عملية الإتصال
 common.please_quit_edit: Quit Edit before proceeding
@@ -48,6 +51,7 @@ common.return: رجوع
 common.refresh: تحديث
 common.date: تاريخ
 common.library: مكتبة
+common.none: None
 
 # Tray
 app.tray.show_window: افتح ObinsKit
@@ -72,14 +76,14 @@ feedback.email.placeholder: الرجاء اداخل ايميلك الشخصي
 feedback.email.not_valid: ايميل خاطئ
 feedback.submit: إرسال
 feedback.submit.error: خطأ في الإرسال، الرجاء معاودة المحاولة
-feedback.submit.success: تم الإرسال بنجاح - اضغط للإغلاق 
+feedback.submit.success: تم الإرسال بنجاح - اضغط للإغلاق
 feedback.support_email: 'البريد الالكتروني للدعم: '
 feedback.debug_log: Debug Log
 
 # Preference Window
 preferences.setting: الإعدادات
 preferences.setting.language: اللغة
-preferences.setting.theme: الثيم 
+preferences.setting.theme: الثيم
 preferences.setting.theme.dark: ليلي
 preferences.setting.theme.light: نهاري
 preferences.setting.theme.cyan: سماوي
@@ -102,31 +106,31 @@ preferences.update.version.new: الإصدار الجديد
 preferences.update.version.no_new: لا يوجد إصدار جديد
 preferences.update.download: تحميل
 preferences.update.download.done: تم تحميل التحديث
-preferences.update.install_now: تثبيت الأن 
+preferences.update.install_now: تثبيت الأن
 preferences.help: مساعدة
 preferences.help.user-manual: دليل الإستخدام
 preferences.about: حول
 
 # Home Window
 home.welcome: Hello World
-home.please_connect_kbd_with_cable: رجاءاً اوصل لوحة المفاتيح بمنفذ الـ USB 
-home.open_device_failed: لم يتم التعرف على الجهاز 
+home.please_connect_kbd_with_cable: رجاءاً اوصل لوحة المفاتيح بمنفذ الـ USB
+home.open_device_failed: لم يتم التعرف على الجهاز
 
 # Main Window, General
 kbd.general: عام
 kbd.general.basic: أساسي
 kbd.general.info: المعلومات
 kbd.general.info.device_model: طراز الجهاز
-kbd.general.info.serial_number: الرقم التسلسلي 
+kbd.general.info.serial_number: الرقم التسلسلي
 kbd.general.info.battery: البطارية
 kbd.general.info.running_time: الوقت المتبقي
-kbd.general.setting: الإعدادات 
+kbd.general.setting: الإعدادات
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: التنسيق
 kbd.general.setting.tap_layout: الضغط السريع
 kbd.general.setting.tap_sensitivity: الحساسية
 kbd.general.setting.tap_combiantion: دمج ازرار الضغط
-kbd.general.setting.tap_combiantion_tips:
-  عند الضغط بشكل مطول على اي حرف، حروف الضغط ستستجيب لك
+kbd.general.setting.tap_combiantion_tips: عند الضغط بشكل مطول على اي حرف، حروف الضغط ستستجيب لك
 kbd.general.setting.magic_fn: Magic Fn
 kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: الأزرار المخصصة
@@ -134,9 +138,9 @@ kbd.general.setting.lighting: الإضاءة
 kbd.general.setting.lighting.backlight: مستوى الإضاءة
 kbd.general.setting.lighting.indicator: مؤشر الإضاءة
 kbd.general.setting.capslock_led: تغيير الإضاءة في وضعية الـ CapsLock
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: وضع السكون
-kbd.general.setting.auto_sleep_tips:
-  عند الاتصال لاسلكياً سيتم وضع لوحة المفاتيح في وضع السكون بعد {{time}}
+kbd.general.setting.auto_sleep_tips: عند الاتصال لاسلكياً سيتم وضع لوحة المفاتيح في وضع السكون بعد {{time}}
 kbd.general.setting.options.disable: تعطيل
 kbd.general.setting.options.enable: تفعيل
 kbd.general.setting.options.default: الافتراضي
@@ -159,45 +163,37 @@ kbd.firmware.upgrade_source: مصدر التحديثات
 kbd.firmware.latest: الإصادر الأخير
 kbd.firmware.archive: ارشيف الأنظمة
 kbd.firmware.annepro1.download.firmware: تحميل نظام تشغيلي
-kbd.firmware.annepro1.download.latest_firmware: تحميل اخر نسخة من النظام 
+kbd.firmware.annepro1.download.latest_firmware: تحميل اخر نسخة من النظام
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
 kbd.firmware.find_new_version: 'البحث عن نظام جديد:  '
 kbd.firmware.no_new_version: النظام التشغيلي الخاص بك محدث لأخر نسخة
-kbd.firmware.upgrade.app_require:
-  Required ObinsKit version is v{{requiredVersion}} or later, current version is
-  v{{appVersion}}.
+kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: تجريبي
 kbd.firmware.upgrade.source.latest: اصدار مستقر
 kbd.firmware.upgrade_btn: تحديث
 kbd.firmware.upgrade.title: تحديث النظام
-kbd.firmware.upgrade.content: لا تقم بفصل السلك خلال عملية التحديث 
-kbd.firmware.upgrade.enter_iap_timeout:
-  Automatically entering IAP mode failed, please enter IAP mode manually (hold
-  the ESC key, then insert the USB cable)
-kbd.firmware.upgrade.status.downloading: جاري تحميل النظام 
+kbd.firmware.upgrade.content: لا تقم بفصل السلك خلال عملية التحديث
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
+kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
+kbd.firmware.upgrade.status.downloading: جاري تحميل النظام
 kbd.firmware.upgrade.status.download_failed: فشل تحميل النظام
-kbd.firmware.upgrade.status.entering_aip:
-  جاري الدخول لوضع التحديث ( ٦ثواني او اقل)
+kbd.firmware.upgrade.status.entering_aip: جاري الدخول لوضع التحديث ( ٦ثواني او اقل)
 kbd.firmware.upgrade.status.writing_key: كتابة البيانات لمعالج التطبيق
 kbd.firmware.upgrade.status.writing_led: كتابة البيانات لمعالج الإضاءة
 kbd.firmware.upgrade.status.writing_ble: كتابة البيانات لمعالج البلوتوث
-kbd.firmware.upgrade.status.restart: إعادة تشغيل لوحة المفاتيح 
+kbd.firmware.upgrade.status.restart: إعادة تشغيل لوحة المفاتيح
 kbd.firmware.upgrade.status.success: تم تحديث النظام بنجاح
 
 # Main Window, LEDs
 kbd.led: الإضاءة
 kbd.led.effect.profiles: ملفات الإضاءة
 kbd.led.effect.profile.reset: إعادة تعيين
-kbd.led.effect.profile.delete.confirm_content:
-  هل انت متأكد من حذف هذا الملف؟ 
+kbd.led.effect.profile.delete.confirm_content: هل انت متأكد من حذف هذا الملف؟
 kbd.led.effect.profile: تفاصيل الملف
-kbd.led.effect.profile.limit.annepro1_three:
-  ثلاث تائيرات كحد اقصى للموديل Anne Pro 1 
-kbd.led.effect.profile.limit.annepro2_sixteen:
- ١٦ تأثير كحد أقصى لكل ملف 
+kbd.led.effect.profile.limit.annepro1_three: ثلاث تائيرات كحد اقصى للموديل Anne Pro 1
+kbd.led.effect.profile.limit.annepro2_sixteen: ١٦ تأثير كحد أقصى لكل ملف
 kbd.led.effect.mode: وضع الإضاءة
-kbd.led.effect.delete.confirm_content:
-  هل انت متأكد من حذف هذا التأثير؟ 
+kbd.led.effect.delete.confirm_content: هل انت متأكد من حذف هذا التأثير؟
 kbd.led.effect.preview: معاينة
 kbd.led.effect.dynamic_colors: قائمة الألوان الديناميكية
 kbd.led.effect.dynamic_colors.random: عشوائي
@@ -216,7 +212,7 @@ kbd.keycap.group.all: الكل
 dynamic.none: ثابت
 dynamic.breath: تنفس
 dynamic.breath_grad: تنفس تدريجي
-dynamic.rainbow: قوس المطر 
+dynamic.rainbow: قوس المطر
 dynamic.trigger: الاستجابة للضغط
 dynamic.trigger.poptang: Poptang
 dynamic.trigger.breath_single: تأثير التنفس لكل زر
@@ -244,26 +240,24 @@ intl.led.green: اخضر
 intl.led.cyan: سماوي
 intl.led.blue: ازرق
 intl.led.purple: بنفسجي
+intl.led.orange: Orange
 intl.led.static.single: لون ثابت واحد
 intl.led.static.multi: عدة الوان ثابتة
 intl.dynamic.breath: تنفس
 intl.dynamic.breath.grad: تنفس تدريجي
 intl.dynamic.poptang: Poptang
-intl.dynamic.breath.rainbow: قوس المطر 
+intl.dynamic.breath.rainbow: قوس المطر
 intl.dynamic.breath.single: التنفس عند الضغط على الزر
-intl.dynamic.trigger.breath:  التنفس عند الضغط على الزر
-intl.dynamic.trigger.rainbow: قوس المطر عند الضغط على اي زر 
+intl.dynamic.trigger.breath: التنفس عند الضغط على الزر
+intl.dynamic.trigger.rainbow: قوس المطر عند الضغط على اي زر
 
 # Main Window, Layout
 kbd.layout: التنسيق
 kbd.layout.default: افتراضي
-kbd.layout.reset.confirm_content:
-  هل انت متأكد من إعادة جميع التنسيقات إلى الوضع الافتراضي؟
-kbd.layout.delete.confirm_content: هل انت متأكد من حذف هذا التنسيق؟ 
+kbd.layout.reset.confirm_content: هل انت متأكد من إعادة جميع التنسيقات إلى الوضع الافتراضي؟
+kbd.layout.delete.confirm_content: هل انت متأكد من حذف هذا التنسيق؟
 kbd.layout.set_keycap_null: دون تعيين
 # Sidebar titles
-kbd.keycode_group.d87: D87
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: النظام
 kbd.keycode_group.alphabet: الأحرف
 kbd.keycode_group.number: الأرقام
@@ -272,6 +266,7 @@ kbd.keycode_group.arrow: الأسهم
 kbd.keycode_group.function: Function
 kbd.keycode_group.media: الوسائط
 kbd.keycode_group.keypad: Keypad
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: آخرى
 # Key tooltips
 icon.left_gui: اليسار Win/Cmd
@@ -291,7 +286,7 @@ icon.ble.wl_4: بلوتوث 4
 icon.fn.wheel: عجلة القيادة
 icon.prev.track: السابق
 icon.next.track: التالي
-icon.play.pause: ايقاف / تشغيل 
+icon.play.pause: ايقاف / تشغيل
 # The active layout read from keyboard
 intl.layout.current: الحالي
 # default keyboard layouts
@@ -302,8 +297,7 @@ intl.keymap.dvorak: Dvorak
 # Main Window, Macros
 kbd.macro: زر مخصص
 kbd.macro.group: مجموعة الأزرار المخصصة
-kbd.macro.group.delete.confirm_content:
-  هل انت متأككد من حذف المجموعة؟
+kbd.macro.group.delete.confirm_content: هل انت متأككد من حذف المجموعة؟
 kbd.macro.add: اضافة زر مخصص
 kbd.macro.new: زر مخصص جديد
 kbd.macro.clear: إزالة جميع الأزرار المخصصة
@@ -312,7 +306,7 @@ kbd.macro.bind_key_tips: الرجاء اخيار زر لربطة
 kbd.macro.delete_macro_in_folder: الرجاء حذف الزر المخصص في المجلد
 kbd.macro.please_add_macro_group: الرجائ اضافة مجموعة أزرار مخصصة
 kbd.macro.please_add_macro: الرجاء اضافة زر مخصص
-kbd.macro.delete.confirm_content: هل انت متأكد من حذف هذا الزر المخصص؟ 
+kbd.macro.delete.confirm_content: هل انت متأكد من حذف هذا الزر المخصص؟
 kbd.macro.amount_limit: '{{count}} الحد الأقصى للأزرار المخصصة'
 kbd.macro.code: رمز الزر المخصص
 kbd.macro.code.rec: تسجيل
@@ -332,18 +326,16 @@ kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: التأثيرات الصوتية
-kbd.audio.describe:
-  إضاءة لوحة المفاتيح تتفاعل مع الصوت 
+kbd.audio.describe: إضاءة لوحة المفاتيح تتفاعل مع الصوت
 kbd.audio.on: تفعيل
 kbd.audio.off: ايقاف
 kbd.audio.light_type: نوع الإضاءة
 kbd.audio.light_type.pure: لون واحد
 kbd.audio.light_type.colorful: ملون
-kbd.audio.required_led_firmware:
-  يتطلب معالج إضاءة بإصدار {{version}} او أعلى 
+kbd.audio.required_led_firmware: يتطلب معالج إضاءة بإصدار {{version}} او أعلى
 
 # Other Messages
-msg.open_device_failed: لم يتم التعرف على الجهاز 
+msg.open_device_failed: لم يتم التعرف على الجهاز
 msg.missing_required_data_field: بيانات ناقصة
 msg.file_not_compatible_your_device: الملف غير متوافق مع الجهاز
 msg.crc_check_error: CRC check error - Do not edit exported file

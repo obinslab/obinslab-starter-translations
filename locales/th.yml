@@ -3,13 +3,20 @@ common.operate.failed: การดำเนินการล้มเหลว
 common.operate.success: ประสบความสำเร็จในการดำเนินงาน
 common.tooltip_title: ข่าวสาร
 common.input.placeholder: กรุณาใส่ชื่อ
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: ตั้งชื่อใหม่
 common.import: นำเข้า
 common.export: ส่งออก
 common.add: เพิ่ม
+common.new: New
+common.new_folder: New Folder
 common.create: สร้าง
 common.add.success: เพิ่มสำเร็จแล้ว
 common.add.failed: การเพิ่มล้มเหลว
+common.remove: Remove
 common.delete: ลบ
 common.delete.success: ลบสำเร็จแล้ว
 common.delete.failed: การลบล้มเหลว
@@ -24,17 +31,27 @@ common.ok: ตกลง
 common.save: บันทึก
 common.save_as: บันทึกเป็น
 common.save.success: บันทึกเรียบร้อยแล้ว
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: ใช้
 common.apply.success: ใช้สำเร็จแล้ว
 common.apply.failed: การสมัครล้มเหลว
 common.confirm.show_detail: แสดงรายละเอียด
 common.network.connection.error: ข้อผิดพลาดการเชื่อมต่อเครือข่าย
 common.please_quit_edit: กรุณาออกจากการแก้ไข
-common.time_unit.hours: " ชั่วโมง"
-common.time_unit.millisecond: มิลลิวินาที
+common.time_unit.hour: '{{count}} hour'
+common.time_unit.hour_plural: '{{count}} hours'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
 common.return: Return
 common.refresh: Refresh
 common.date: Date
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: เปิด ObinsKit
@@ -60,7 +77,7 @@ feedback.email.not_valid: ที่อยู่อีเมลที่ไม่
 feedback.submit: เสนอ
 feedback.submit.error: ข้อผิดพลาดในการส่งโปรดลองอีกครั้ง
 feedback.submit.success: ส่งสำเร็จแล้วคลิกเพื่อปิด
-feedback.support_email: "อีเมลสนับสนุน: "
+feedback.support_email: 'อีเมลสนับสนุน: '
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -101,22 +118,34 @@ home.open_device_failed: การเปิดอุปกรณ์ล้มเ�
 
 # Main Window, General
 kbd.general: ทั่วไป
+kbd.general.basic: Basic
 kbd.general.info: ข้อมูล
 kbd.general.info.device_model: รุ่นอุปกรณ์
 kbd.general.info.serial_number: หมายเลขซีเรียล
 kbd.general.info.battery: แบตเตอรี่
 kbd.general.info.running_time: ใช้เวลา
 kbd.general.setting: การตั้งค่า
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Layout
 kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslocks
 kbd.general.setting.macro_trigger: Macro
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: CapsLock Led
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Auto Sleep
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: ปิดการใช้งาน
 kbd.general.setting.options.enable: เปิดการใช้งาน
 kbd.general.setting.options.default: ค่าเริ่มต้น
 kbd.general.setting.options.custom: กำหนดเอง
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: ทั้งหมด
@@ -136,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: ดาวน์โหลดเฟิร์มแวร์
 kbd.firmware.annepro1.download.latest_firmware: ดาวน์โหลดเฟิร์มแวร์ล่าสุด
 kbd.firmware.annepro1.download.dfu_tool: ดาวน์โหลดเครื่องมือ DFU
-kbd.firmware.find_new_version: "ค้นหาเฟิร์มแวร์ใหม่: "
+kbd.firmware.find_new_version: 'ค้นหาเฟิร์มแวร์ใหม่: '
 kbd.firmware.no_new_version: เฟิร์มแวร์ปัจจุบันเป็นเวอร์ชั่นล่าสุด
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: อัพเกรด
 kbd.firmware.upgrade.title: อัพเกรดเฟิร์มแวร์
 kbd.firmware.upgrade.content: กรุณาอย่าถอดสายเคเบิล USB ในระหว่างการอัพเกรด
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: กำลังดาวน์โหลดเฟิร์มแวร์ ...
 kbd.firmware.upgrade.status.download_failed: การดาวน์โหลดเฟิร์มแวร์ล้มเหลว
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: จำกัด เอฟเฟ�
 kbd.led.effect.mode: เอฟเฟกต์แสงแบบไดนามิก
 kbd.led.effect.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบเอฟเฟกต์แสงนี้?
 kbd.led.effect.preview: ดูตัวอย่าง
+kbd.led.effect.dynamic_colors: ตารางสีแสงแบบไดนามิก
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: จานสี
@@ -182,13 +213,15 @@ dynamic.none: Static
 dynamic.breath: ลมหายใจ
 dynamic.breath_grad: ลมหายใจ Grad
 dynamic.rainbow: Rainbow
-dynamic.trigger.poptang: Poptang(Trigger)
+dynamic.trigger: Trigger
+dynamic.trigger.poptang: Poptang
 dynamic.trigger.breath_single: ลมหายใจ เดียว
-dynamic.trigger.breath: ลมหายใจ(Trigger)
-dynamic.trigger.rainbow: Rainbow(Trigger)
-dynamic.trigger.ripple: Ripple trigger
-dynamic.trigger.pulse: Pulse trigger
-dynamic.trigger.star_fall: Star Fall trigger
+dynamic.trigger.breath: ลมหายใจ
+dynamic.trigger.rainbow: Rainbow
+dynamic.trigger.ripple: Ripple
+dynamic.trigger.pulse: Pulse
+dynamic.trigger.star_fall: Star Fall
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Starry Sky
 dynamic.auto.comet: Comet
 dynamic.auto.colorful: Colorful
@@ -207,6 +240,7 @@ intl.led.green: สีเขียว
 intl.led.cyan: สีฟ้า
 intl.led.blue: สีน้ำเงิน
 intl.led.purple: สีม่วง
+intl.led.orange: Orange
 intl.led.static.single: คงที่เดียว
 intl.led.static.multi: คงที่หลาย
 intl.dynamic.breath: ลมหายใจ
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: สีรุ้ง(Trigger)
 
 # Main Window, Layout
 kbd.layout: แบบ
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตเค้าโครงนี้เป็นค่าเริ่มต้น?
 kbd.layout.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบเลย์เอาต์นี้?
 kbd.layout.set_keycap_null: ตั้งค่าเป็นศูนย์
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: ระบบ
 kbd.keycode_group.alphabet: Character
 kbd.keycode_group.number: จำนวน
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Arrow
 kbd.keycode_group.function: Function
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Keypad
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Other
 # Key tooltips
 icon.left_gui: Left Win/Cmd
@@ -264,13 +299,17 @@ kbd.macro: มาโคร
 kbd.macro.group: กลุ่มมาโคร
 kbd.macro.group.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบกลุ่มแมโครนี้?
 kbd.macro.add: เพิ่มมาโคร
+kbd.macro.new: New Macro
+kbd.macro.clear: Clear Keyboard Macro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: โปรดเพิ่มกลุ่มแมโคร
 kbd.macro.please_add_macro: กรุณาเพิ่มมาโคร
 kbd.macro.delete.confirm_content: คุณแน่ใจหรือว่าต้องการลบมาโครนี้?
-kbd.macro.amount_limit.annepro2_sixteen: สามารถเพิ่มมาโครได้เพียง 16 ตัว
-kbd.macro.amount_limit.annepro_eight: สามารถเพิ่มมาโครได้เพียง 8 ตัวใน Anne Pro 1
+kbd.macro.amount_limit: สามารถเพิ่มมาโครได้เพียง {{count}} ตัว
 kbd.macro.code: Macro Code
-kbd.macro.code.rec: Rec Macro
+kbd.macro.code.rec: Record
 kbd.macro.code.empty: Macro Code ว่างเปล่า
 kbd.macro.code.exceeded: Macro Code Exceeded
 kbd.macro.code.missing_release_key: ไม่มีรหัสปลดล็อค
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: ไม่มีปุ่มกด
 kbd.macro.code.value.insert_timer_block: แทรกบล็อคเวลา
 kbd.macro.code.value.move_up: ขยับขึ้น
 kbd.macro.code.value.move_down: ย้ายลง
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Audio Visualization

@@ -34,20 +34,24 @@ common.save.success: 正常に保存されました
 common.download: ダウンロード
 common.download.success: ダウンロードに成功しました
 common.download.failed: 操作に失敗しました
+common.apply: Apply
+common.apply.success: Apply Success
+common.apply.failed: Apply Failed
 common.confirm.show_detail: 詳細を表示
 common.network.connection.error: ネットワーク接続エラー
 common.please_quit_edit: 続行する前に編集を終了します
-common.time_unit.hour: "{{count}}時間"
-common.time_unit.hour_plural: "{{count}}時間"
-common.time_unit.minute: "{{count}}分"
-common.time_unit.minute_plural: "{{count}}分"
-common.time_unit.second: "{{count}}秒"
-common.time_unit.second_plural: "{{count}}秒"
-common.time_unit.millisecond: "{{count}}ミリ秒"
+common.time_unit.hour: '{{count}}時間'
+common.time_unit.hour_plural: '{{count}}時間'
+common.time_unit.minute: '{{count}}分'
+common.time_unit.minute_plural: '{{count}}分'
+common.time_unit.second: '{{count}}秒'
+common.time_unit.second_plural: '{{count}}秒'
+common.time_unit.millisecond: '{{count}}ミリ秒'
 common.return: 戻る
 common.refresh: 更新
 common.date: 日付
 common.library: ライブラリ
+common.none: None
 
 # Tray
 app.tray.show_window: ObinsKitを開く
@@ -73,7 +77,7 @@ feedback.email.not_valid: 無効なメールアドレス
 feedback.submit: 参加する
 feedback.submit.error: 送信エラー-もう一度お試しください
 feedback.submit.success: 正常に送信されました-クリックして閉じます
-feedback.support_email: "サポートメール： "
+feedback.support_email: 'サポートメール： '
 feedback.debug_log: デバッグログ
 
 # Preference Window
@@ -121,12 +125,12 @@ kbd.general.info.serial_number: シリアルナンバー
 kbd.general.info.battery: バッテリー残量
 kbd.general.info.running_time: 使用時間
 kbd.general.setting: 設定
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: レイアウト
 kbd.general.setting.tap_layout: タップ
 kbd.general.setting.tap_sensitivity: 感度
 kbd.general.setting.tap_combiantion: タップキーの組み合わせ
 kbd.general.setting.tap_combiantion_tips: 任意のキーを押している間、タップキーをトリガーできます
-
 kbd.general.setting.magic_fn: マジックファンクション
 kbd.general.setting.magic_fn_tips: FnをCapslockにバインドする
 kbd.general.setting.macro_trigger: マクロ
@@ -134,9 +138,9 @@ kbd.general.setting.lighting: LED
 kbd.general.setting.lighting.backlight: バックライト
 kbd.general.setting.lighting.indicator: インジケータ
 kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: 自動スリープ
 kbd.general.setting.auto_sleep_tips: ワイヤレスモードでは、操作しないまま{{time}}後にスリープ状態になります
-
 kbd.general.setting.options.disable: 無効にする
 kbd.general.setting.options.enable: 有効にする
 kbd.general.setting.options.default: デフォルト
@@ -161,7 +165,7 @@ kbd.firmware.archive: ファームウェアアーカイブ
 kbd.firmware.annepro1.download.firmware: ファームウェアをダウンロード
 kbd.firmware.annepro1.download.latest_firmware: 最新のファームウェアをダウンロード
 kbd.firmware.annepro1.download.dfu_tool: DFUツールをダウンロード
-kbd.firmware.find_new_version: "新しいファームウェアを探す： "
+kbd.firmware.find_new_version: '新しいファームウェアを探す： '
 kbd.firmware.no_new_version: ファームウェアは最新です
 kbd.firmware.upgrade.app_require: 必要なObinsKitバージョンはv {{requiredVersion}}以降、現在のバージョンはv {{appVersion}}です。
 kbd.firmware.upgrade.source.alpha: α版
@@ -169,8 +173,8 @@ kbd.firmware.upgrade.source.latest: リリース版
 kbd.firmware.upgrade_btn: アップグレードする
 kbd.firmware.upgrade.title: アップグレード
 kbd.firmware.upgrade.content: アップデート中はUSBケーブルを取り外さないでください
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: IAPモードの自動入力に失敗しました。IAPモードを手動で入力してください（ESCキーを押しながらUSBケーブルを挿入してください）
-
 kbd.firmware.upgrade.status.downloading: ファームウェアのダウンロード
 kbd.firmware.upgrade.status.download_failed: ファームウェアのダウンロードに失敗しました
 kbd.firmware.upgrade.status.entering_aip: 約6秒以内アップグレードモードに入ります
@@ -185,15 +189,11 @@ kbd.led: LED
 kbd.led.effect.profiles: 照明プロファイル
 kbd.led.effect.profile.reset: リセット
 kbd.led.effect.profile.delete.confirm_content: このプロファイルを削除してもよろしいですか？
-
 kbd.led.effect.profile: プロファイルの詳細
 kbd.led.effect.profile.limit.annepro1_three: プロファイルごとに3つの照明効果の制限（ANNE PRO 1）
-
 kbd.led.effect.profile.limit.annepro2_sixteen: プロファイルあたり16の照明効果の制限
-
 kbd.led.effect.mode: 照明モード
 kbd.led.effect.delete.confirm_content: この照明効果を削除してもよろしいですか？
-
 kbd.led.effect.preview: プレビュー
 kbd.led.effect.dynamic_colors: ダイナミックライトカラーテーブル
 kbd.led.effect.dynamic_colors.random: ランダム
@@ -240,6 +240,7 @@ intl.led.green: 緑
 intl.led.cyan: シアン
 intl.led.blue: 青
 intl.led.purple: 紫
+intl.led.orange: Orange
 intl.led.static.single: 単色(静的)
 intl.led.static.multi: マルチカラー(静的)
 intl.dynamic.breath: サイクル
@@ -254,12 +255,9 @@ intl.dynamic.trigger.rainbow: レインボートリガー
 kbd.layout: レイアウト
 kbd.layout.default: デフォルト
 kbd.layout.reset.confirm_content: このレイアウトをデフォルトにリセットしてもよろしいですか？
-
 kbd.layout.delete.confirm_content: このレイアウトを削除してもよろしいですか？
 kbd.layout.set_keycap_null: 設定削除
 # Sidebar titles
-kbd.keycode_group.d87: D87
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: システム
 kbd.keycode_group.alphabet: 文字
 kbd.keycode_group.number: 数字
@@ -268,6 +266,7 @@ kbd.keycode_group.arrow: 矢印
 kbd.keycode_group.function: ファンクション
 kbd.keycode_group.media: メディア
 kbd.keycode_group.keypad: 10キーパッド
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: その他
 # Key tooltips
 icon.left_gui: 左 Win/Cmd
@@ -299,7 +298,6 @@ intl.keymap.dvorak: Dvorak
 kbd.macro: マクロ
 kbd.macro.group: マクログループ
 kbd.macro.group.delete.confirm_content: このマクログループを削除してもよろしいですか？
-
 kbd.macro.add: マクロを追加
 kbd.macro.new: 新しいマクロ
 kbd.macro.clear: キーボードマクロをクリア
@@ -309,7 +307,7 @@ kbd.macro.delete_macro_in_folder: フォルダ内のマクロを削除してく�
 kbd.macro.please_add_macro_group: マクログループを追加してください
 kbd.macro.please_add_macro: マクロを追加してください
 kbd.macro.delete.confirm_content: このマクロを削除してもよろしいですか？
-kbd.macro.amount_limit: "最大{{count}}マクロ"
+kbd.macro.amount_limit: '最大{{count}}マクロ'
 kbd.macro.code: マクロコード
 kbd.macro.code.rec: 記録
 kbd.macro.code.empty: 空のマクロコード

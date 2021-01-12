@@ -3,13 +3,20 @@ common.operate.failed: 操作失败
 common.operate.success: 操作成功
 common.tooltip_title: 提示
 common.input.placeholder: 请输入名称
+common.stop: 停止
+common.device: 设备
+common.preview: 预览
+common.edit: 编辑
 common.rename: 重命名
 common.import: 导入
 common.export: 导出
 common.add: 添加
+common.new: 新建
+common.new_folder: 新建文件夹
 common.create: 创建
 common.add.success: 添加成功
 common.add.failed: 添加失败
+common.remove: 移除
 common.delete: 删除
 common.delete.success: 删除成功
 common.delete.failed: 删除失败
@@ -24,17 +31,27 @@ common.ok: 确定
 common.save: 保存
 common.save_as: 另存为
 common.save.success: 保存成功
+common.download: 下载
+common.download.success: 下载成功
+common.download.failed: 下载失败
 common.apply: 应用
 common.apply.success: 应用成功
 common.apply.failed: 应用失败
 common.confirm.show_detail: 查看详情
 common.network.connection.error: 网络连接出错
 common.please_quit_edit: 请退出编辑
-common.time_unit.hours: " 小时"
-common.time_unit.millisecond: 毫秒
+common.time_unit.hour: '{{count}} 小时'
+common.time_unit.hour_plural: '{{count}} 小时'
+common.time_unit.minute: '{{count}} 分钟'
+common.time_unit.minute_plural: '{{count}} 分钟'
+common.time_unit.second: '{{count}} 秒'
+common.time_unit.second_plural: '{{count}} 秒'
+common.time_unit.millisecond: '{{count}} 毫秒'
 common.return: 返回
 common.refresh: 刷新
 common.date: 日期
+common.library: 库
+common.none: 空
 
 # 托盘
 app.tray.show_window: 打开ObinsKit
@@ -60,7 +77,7 @@ feedback.email.not_valid: 输入的邮箱非有效
 feedback.submit: 提交
 feedback.submit.error: 提交失败，请重试
 feedback.submit.success: 提交成功，点击关闭
-feedback.support_email: "支持邮箱: "
+feedback.support_email: '支持邮箱: '
 feedback.debug_log: 诊断日志
 
 # 首选项
@@ -100,23 +117,35 @@ home.please_connect_kbd_with_cable: 通过usb连接您的装备
 home.open_device_failed: 打开设备失败
 
 # 键盘信息，全局设置
-kbd.general: 基本信息
+kbd.general: 通用
+kbd.general.basic: 基本信息
 kbd.general.info: 运行参数
 kbd.general.info.device_model: 型号
 kbd.general.info.serial_number: 序列号
 kbd.general.info.battery: 电池电量
 kbd.general.info.running_time: 运行时间
 kbd.general.setting: 全局设置
+kbd.general.setting.iso_character: ISO字符
 kbd.general.setting.layout: 配列
 kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_sensitivity: 灵敏度
+kbd.general.setting.tap_combiantion: 组合键
+kbd.general.setting.tap_combiantion_tips: 在组合键中支持Tap层的按键
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: 将FN键绑定到Capslock
 kbd.general.setting.macro_trigger: 宏程序
+kbd.general.setting.lighting: 灯光
+kbd.general.setting.lighting.backlight: 灯光亮度
+kbd.general.setting.lighting.indicator: 指示灯亮度
 kbd.general.setting.capslock_led: CapsLock灯
+kbd.general.setting.indicators: 指示灯
 kbd.general.setting.auto_sleep: 休眠
+kbd.general.setting.auto_sleep_tips: 无线状态下，键盘闲置{{time}}，将自动进入休眠模式
 kbd.general.setting.options.disable: 关闭
 kbd.general.setting.options.enable: 开启
 kbd.general.setting.options.default: 默认
 kbd.general.setting.options.custom: 自定义
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: 全键盘
@@ -144,7 +173,8 @@ kbd.firmware.upgrade.source.latest: 正式版
 kbd.firmware.upgrade_btn: 更新
 kbd.firmware.upgrade.title: 固件更新
 kbd.firmware.upgrade.content: 更新过程中请不要在拔除USB线
-kbd.firmware.upgrade.enter_iap_timeout: 自动进入IAP模式失败，请手动进入IAP模式 (按住ESC键盘, 然后插入USB线)
+kbd.firmware.upgrade.no_ble: 暂不支持在蓝牙模式下进行固件升级，请使用USB模式！
+kbd.firmware.upgrade.enter_iap_timeout: 自动进入IAP模式失败，请手动进入IAP模式 (按住ESC键, 然后插入USB线)
 kbd.firmware.upgrade.status.downloading: 下载固件...
 kbd.firmware.upgrade.status.download_failed: 固件下载失败
 kbd.firmware.upgrade.status.entering_aip: 进入升级模式(最长需要等待6秒)...
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: 最多添加16个灯效
 kbd.led.effect.mode: 灯效模式
 kbd.led.effect.delete.confirm_content: 从列表中删除该灯效?
 kbd.led.effect.preview: 预览
+kbd.led.effect.dynamic_colors: 动态色谱
 kbd.led.effect.dynamic_colors.random: 随机
 kbd.led.effect.dynamic_colors.no_empty: 请添加动态色谱
 kbd.led.color.palette: 调色板
@@ -182,13 +213,15 @@ dynamic.none: 静态
 dynamic.breath: 呼吸灯
 dynamic.breath_grad: 渐变灯
 dynamic.rainbow: 七彩跑马灯
-dynamic.trigger.poptang: 泡泡堂-按键触发
+dynamic.trigger: 按键触发
+dynamic.trigger.poptang: 泡泡堂
 dynamic.trigger.breath_single: 单键灯呼吸
-dynamic.trigger.breath: 渐变-按键触发
-dynamic.trigger.rainbow: 跑马灯-按键触发
-dynamic.trigger.ripple: 涟漪-按键触发
-dynamic.trigger.pulse: 脉冲-按键触发
-dynamic.trigger.star_fall: 星落-按键触发
+dynamic.trigger.breath: 渐变
+dynamic.trigger.rainbow: 跑马灯
+dynamic.trigger.ripple: 涟漪
+dynamic.trigger.pulse: 脉冲
+dynamic.trigger.star_fall: 星落
+dynamic.auto: 自动
 dynamic.auto.starry_sky: 星空
 dynamic.auto.comet: 彗星
 dynamic.auto.colorful: 五彩缤纷
@@ -207,6 +240,7 @@ intl.led.green: 绿色
 intl.led.cyan: 青色
 intl.led.blue: 蓝色
 intl.led.purple: 紫色
+intl.led.orange: 橙色
 intl.led.static.single: 静态单色
 intl.led.static.multi: 静态多色
 intl.dynamic.breath: 呼吸灯
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: 跑马灯(按键触发)
 
 # 键盘配列
 kbd.layout: 配列
+kbd.layout.default: 默认
 kbd.layout.reset.confirm_content: 确认将此配列恢复为默认设置？
 kbd.layout.delete.confirm_content: 确定删除该配列?
 kbd.layout.set_keycap_null: 置空
 # 键盘码，分组名称
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: 系统
 kbd.keycode_group.alphabet: 字符
 kbd.keycode_group.number: 数字
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: 方向键
 kbd.keycode_group.function: 功能键
 kbd.keycode_group.media: 媒体
 kbd.keycode_group.keypad: 小键盘
+kbd.keycode_group.mouse: 鼠标
 kbd.keycode_group.other: 其它
 # 键盘码，图形说明
 icon.left_gui: 左Win/Cmd
@@ -252,6 +287,13 @@ icon.fn.wheel: 游戏
 icon.prev.track: 上一曲
 icon.next.track: 下一曲
 icon.play.pause: 暂停播放
+icon.mouse.btn1: 按键1
+icon.mouse.btn2: 按键2
+icon.mouse.btn3: 按键3
+icon.mouse.move.up: 向上移动
+icon.mouse.move.down: 向下移动
+icon.mouse.move.left: 向左移动
+icon.mouse.move.right: 向右移动
 # 从键盘内读取到的，当前正在使用的配列
 intl.layout.current: 当前
 # 预置配列
@@ -264,13 +306,17 @@ kbd.macro: 宏程序
 kbd.macro.group: 宏程序组
 kbd.macro.group.delete.confirm_content: 确定删除该宏程序组?
 kbd.macro.add: 添加宏
+kbd.macro.new: 新建宏
+kbd.macro.clear: 清除键盘内的宏
+kbd.macro.bind_key: 绑定到按键
+kbd.macro.bind_key_tips: 请选择一颗按键
+kbd.macro.delete_macro_in_folder: 请删除文件夹内的宏
 kbd.macro.please_add_macro_group: 请添加宏程序组
 kbd.macro.please_add_macro: 请添加宏程序
 kbd.macro.delete.confirm_content: 确定删除该宏程序?
-kbd.macro.amount_limit.annepro2_sixteen: 最多可添加16个宏
-kbd.macro.amount_limit.annepro_eight: ANNE PRO1最多可添加8个宏
+kbd.macro.amount_limit: 最多可添加{{count}}个宏
 kbd.macro.code: 宏代码
-kbd.macro.code.rec: 录制宏
+kbd.macro.code.rec: 录制
 kbd.macro.code.empty: 宏代码为空
 kbd.macro.code.exceeded: 宏代码长度超限
 kbd.macro.code.missing_release_key: 缺少按键释放
@@ -278,6 +324,12 @@ kbd.macro.code.missing_press_key: 缺少按键按下
 kbd.macro.code.value.insert_timer_block: 插入时间
 kbd.macro.code.value.move_up: 上移
 kbd.macro.code.value.move_down: 下移
+kbd.macro.block.property: 属性
+kbd.macro.block.property.keypress: 按键
+kbd.macro.block.property.key_info_input: 请输入按键
+kbd.macro.block.property.time_duration: 持续时间
+kbd.macro.block.property.start_time: 开始时间
+kbd.macro.block.property.relative_time: 使用相对时间
 
 # 音频可视化
 kbd.audio: 音频可视化

@@ -3,13 +3,20 @@ common.operate.failed: Operasjon mislykket
 common.operate.success: Operasjon vellykket
 common.tooltip_title: Melding
 common.input.placeholder: Vennligst skriv inn navn
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Gi nytt navn
 common.import: Importer
 common.export: Eksporter
 common.add: Legg til
+common.new: New
+common.new_folder: New Folder
 common.create: Ny
 common.add.success: Lagt til
 common.add.failed: Kunne ikke legge til
+common.remove: Remove
 common.delete: Fjern
 common.delete.success: Fjernet
 common.delete.failed: Fjerning mislykket
@@ -24,17 +31,27 @@ common.ok: OK
 common.save: Lagre
 common.save_as: Lagre Som
 common.save.success: Lagring vellykket
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Utfør
 common.apply.success: Utført
 common.apply.failed: Kunne ikke utføre
 common.confirm.show_detail: Vis Detaljer
 common.network.connection.error: Nettverksfeil
 common.please_quit_edit: Avslutt endringer før du fortsetter
-common.time_unit.hours: " Timer"
+common.time_unit.hour: "{{count}} Timer"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
 common.time_unit.millisecond: Millisekunder
 common.return: Tilbake
 common.refresh: Oppdater
 common.date: Dato
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Åpne ObinsKit
@@ -101,22 +118,34 @@ home.open_device_failed: Enhetsinitialisering mislykket
 
 # Main Window, General
 kbd.general: Generell
+kbd.general.basic: Basic
 kbd.general.info: Informasjon
 kbd.general.info.device_model: Enhets Modellnavn
 kbd.general.info.serial_number: Serienummer
 kbd.general.info.battery: Batteri
 kbd.general.info.running_time: Driftstid
 kbd.general.setting: Innstillinger
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Oppsett
 kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makro
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: CapsLock Lys
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Automatisk Dvalemodus
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Slå av
 kbd.general.setting.options.enable: Slå på
 kbd.general.setting.options.default: Standard
 kbd.general.setting.options.custom: Egendefinert
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Alle
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Utgivelse
 kbd.firmware.upgrade_btn: Oppgrader
 kbd.firmware.upgrade.title: Firmware Oppgradering
 kbd.firmware.upgrade.content: Ikke frakoble USB kabel under oppdatering
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Automatisk aktivering av IAP-tilstand mislykket, vennligst aktiver IAP-tilstand manuelt (hold ESC knappen, og deretter sett i USB kabelen)
 kbd.firmware.upgrade.status.downloading: Laster ned Firmware
 kbd.firmware.upgrade.status.download_failed: Firmware nedlastning mislykket
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Begrensning av 16 lyseffekter per
 kbd.led.effect.mode: Lysmodus
 kbd.led.effect.delete.confirm_content: Er du sikker på at du vil slette denne lyseffekten?
 kbd.led.effect.preview: Forhåndsvisning
+kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.effect.dynamic_colors.random: Tilfeldig
 kbd.led.effect.dynamic_colors.no_empty: Vennligst legg til dynamisk farge
 kbd.led.color.palette: Fargepalett
@@ -182,6 +213,7 @@ dynamic.none: Statisk
 dynamic.breath: Pustende effekt
 dynamic.breath_grad: Gradvis pustende effekt
 dynamic.rainbow: Regnbue
+dynamic.trigger: Trigger
 dynamic.trigger.poptang: Poptang utløser
 dynamic.trigger.breath_single: Pustende per tast
 dynamic.trigger.breath: Pustende utløser
@@ -189,6 +221,7 @@ dynamic.trigger.rainbow: Regnbue utløser
 dynamic.trigger.ripple: Ringvirkning utløser
 dynamic.trigger.pulse: Puls utløser
 dynamic.trigger.star_fall: Stjernefall utløser
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Stjernehimmel
 dynamic.auto.comet: Komet
 dynamic.auto.colorful: Fargerik
@@ -207,6 +240,7 @@ intl.led.green: Grønn
 intl.led.cyan: Cyan
 intl.led.blue: Blå
 intl.led.purple: Lilla
+intl.led.orange: Orange
 intl.led.static.single: Enkelt statisk
 intl.led.static.multi: Flere statisk
 intl.dynamic.breath: Pustende
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Regnbue utløser
 
 # Main Window, Layout
 kbd.layout: Oppsett
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Er du sikker på at du vil tilbakestille dette oppsettet til standard?
 kbd.layout.delete.confirm_content: Er du sikker på at du vil slette dette oppsettet?
 kbd.layout.set_keycap_null: Fjern
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
 kbd.keycode_group.alphabet: Bokstaver
 kbd.keycode_group.number: Nummer
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Piltaster
 kbd.keycode_group.function: Funksjon
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Numerisk tastatur
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Annet
 # Key tooltips
 icon.left_gui: Venstre Win/Cmd
@@ -264,11 +299,15 @@ kbd.macro: Makro
 kbd.macro.group: Makrogruppe
 kbd.macro.group.delete.confirm_content: Er du sikke på at du vil slette denne makrogruppen?
 kbd.macro.add: Legg til makro
+kbd.macro.new: New Macro
+kbd.macro.clear: Clear Keyboard Macro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Vennligst legg til en makrogruppe
 kbd.macro.please_add_macro: Vennligst legg til makro
 kbd.macro.delete.confirm_content: Er du sikker på at du vil slette denne makroen?
-kbd.macro.amount_limit.annepro2_sixteen: Maks 16 makroer
-kbd.macro.amount_limit.annepro_eight: Maks 8 makroer for Anne Pro 1
+kbd.macro.amount_limit: "Maks {{count}} makroer"
 kbd.macro.code: Makrokode
 kbd.macro.code.rec: Ta opp Makro
 kbd.macro.code.empty: Tøm makrokode
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: Manger aktiveringstast
 kbd.macro.code.value.insert_timer_block: Sett inn tidsperiode
 kbd.macro.code.value.move_up: Flytt opp
 kbd.macro.code.value.move_down: Flytt ned
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Lydvisualisering

@@ -3,13 +3,20 @@ common.operate.failed: Handling mislykkede
 common.operate.success: Handling gennemført
 common.tooltip_title: Besked
 common.input.placeholder: Indtast navn
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Omdøb
 common.import: Importer
 common.export: Eksporter
 common.add: Tilføj
+common.new: New
+common.new_folder: New Folder
 common.create: Opret
 common.add.success: Tilføjelse gennemført
 common.add.failed: Tilføjelse mislykkede
+common.remove: Remove
 common.delete: Fjern
 common.delete.success: Fjernelse gennemført
 common.delete.failed: Fjernelse mislykkede
@@ -24,17 +31,27 @@ common.ok: Ok
 common.save: Gem
 common.save_as: Gem Som
 common.save.success: Gemt succesfuldt
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Anvend
 common.apply.success: Anvendense gennemført
 common.apply.failed: Anvendense mislykkede
 common.confirm.show_detail: Vis detaljer
 common.network.connection.error: Netværksforbindelse fejl
 common.please_quit_edit: Afslut Rediger, før du fortsætter
-common.time_unit.hours: " Timer"
+common.time_unit.hour: '{{count}} Timer'
+common.time_unit.hour_plural: '{{count}} Timer'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
 common.time_unit.millisecond: Millisekunder
 common.return: Vend tilbage
 common.refresh: Opdater
 common.date: Dato
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Åben ObinsKit
@@ -53,14 +70,14 @@ feedback: Tilbagemelding
 feedback.title: Tilbagemelding
 feedback.content: Indhold
 feedback.content.no_empty: Skriv indhold
-feedback.content.max_1000: "Maksimum: 1.000 tegn"
+feedback.content.max_1000: 'Maksimum: 1.000 tegn'
 feedback.email.label: E-mail
 feedback.email.placeholder: Indtast e-mail
 feedback.email.not_valid: Ugyldig e-mail adresse
 feedback.submit: Indsend
 feedback.submit.error: Indsendelse fejlslået - Prøv venligst igen
 feedback.submit.success: Indsendelse afsendt - Klik for at lukke
-feedback.support_email: "Support e-mail: "
+feedback.support_email: 'Support e-mail: '
 feedback.debug_log: Debug-log
 
 # Preference Window
@@ -101,22 +118,34 @@ home.open_device_failed: Enheden kunne ikke tilsluttes
 
 # Main Window, General
 kbd.general: Generel
+kbd.general.basic: Basic
 kbd.general.info: Information
 kbd.general.info.device_model: Enhedsmodel
 kbd.general.info.serial_number: Serienummer
 kbd.general.info.battery: Batteri
 kbd.general.info.running_time: Løbe tid
 kbd.general.setting: Indstillinger
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Layout
 kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makro
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Automatisk Søvn
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Deaktiveret
 kbd.general.setting.options.enable: Aktiveret
 kbd.general.setting.options.default: Standard
 kbd.general.setting.options.custom: Brugerdefineret
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Alle
@@ -136,7 +165,7 @@ kbd.firmware.archive: Firmware Arkiv
 kbd.firmware.annepro1.download.firmware: Hent Firmware
 kbd.firmware.annepro1.download.latest_firmware: Hent Seneste Firmware
 kbd.firmware.annepro1.download.dfu_tool: Hent DFU Værktøj
-kbd.firmware.find_new_version: "Find ny firmware: "
+kbd.firmware.find_new_version: 'Find ny firmware: '
 kbd.firmware.no_new_version: Din firmware er opdateret
 kbd.firmware.upgrade.app_require: Kræver ObinsKit version v{{requiredVersion}} eller nyere, nuværende version er v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Udgivelse
 kbd.firmware.upgrade_btn: Opgrader
 kbd.firmware.upgrade.title: Opgrader Firmware
 kbd.firmware.upgrade.content: Frakobl ikke USB-kablet under opdateringen
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Automatisk aktivering af IAP-tilstand mislykkedes. Venligst aktiver IAP-tilstand manuelt (hold ESC-tasten nede, og sæt derefter USB-kablet i)
 kbd.firmware.upgrade.status.downloading: Henter firmware
 kbd.firmware.upgrade.status.download_failed: Firmware-download mislykkede
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Begrænsning af 16 lyseffekter pr
 kbd.led.effect.mode: Lys Tilstand
 kbd.led.effect.delete.confirm_content: Er du sikker på, at du vil slette denne lyseffekt?
 kbd.led.effect.preview: Forhåndsvisning
+kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.effect.dynamic_colors.random: Tilfældig
 kbd.led.effect.dynamic_colors.no_empty: Tilføj dynamisk farve
 kbd.led.color.palette: Color Palette
@@ -182,6 +213,7 @@ dynamic.none: Statisk
 dynamic.breath: Vejrtrækningseffekt
 dynamic.breath_grad: Gradvis vejrtrækningseffekt
 dynamic.rainbow: Regnbue
+dynamic.trigger: Trigger
 dynamic.trigger.poptang: Poptang reaktiv
 dynamic.trigger.breath_single: Individuel åndedræt
 dynamic.trigger.breath: Åndedræt reaktiv
@@ -189,6 +221,7 @@ dynamic.trigger.rainbow: Regnbue reaktiv
 dynamic.trigger.ripple: Ringvirkning reaktiv
 dynamic.trigger.pulse: Puls reaktiv
 dynamic.trigger.star_fall: Stjernefald reaktiv
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Stjernehimmel
 dynamic.auto.comet: Komet
 dynamic.auto.colorful: Farverig
@@ -207,6 +240,7 @@ intl.led.green: Græn
 intl.led.cyan: Cyan
 intl.led.blue: Blå
 intl.led.purple: Lilla
+intl.led.orange: Orange
 intl.led.static.single: Enkelt statisk
 intl.led.static.multi: Flere statisk
 intl.dynamic.breath: Åndedræt
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Regnbue reaktiv
 
 # Main Window, Layout
 kbd.layout: Layout
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Er du sikker på, at du vil nulstille dette layout til standard?
 kbd.layout.delete.confirm_content: Er du sikker på, at du vil slette dette layout?
 kbd.layout.set_keycap_null: Fjern
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
 kbd.keycode_group.alphabet: Bogstaver
 kbd.keycode_group.number: Tal
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Piletaster
 kbd.keycode_group.function: Funktion
 kbd.keycode_group.media: Medier
 kbd.keycode_group.keypad: Numpad
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Andet
 # Key tooltips
 icon.left_gui: Venstre Win/Cmd
@@ -264,11 +299,15 @@ kbd.macro: Makro
 kbd.macro.group: Makro Gruppe
 kbd.macro.group.delete.confirm_content: Er du sikker på, at du vil slette denne makrogruppe?
 kbd.macro.add: Tilføj macro
+kbd.macro.new: New Macro
+kbd.macro.clear: Clear Keyboard Macro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Tilføj en makrogruppe
 kbd.macro.please_add_macro: Tilføj en makro
 kbd.macro.delete.confirm_content: Er du sikker på, at du vil slette denne makro?
-kbd.macro.amount_limit.annepro2_sixteen: Højst 16 makroer
-kbd.macro.amount_limit.annepro_eight: Højst 8 makroer til Anne Pro 1
+kbd.macro.amount_limit: '{{count}} macros maximum'
 kbd.macro.code: Makro Kode
 kbd.macro.code.rec: Optag Makro
 kbd.macro.code.empty: Tom makrokode
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: Mangler tast tryk
 kbd.macro.code.value.insert_timer_block: Indsæt tidsblok
 kbd.macro.code.value.move_up: Ryk op
 kbd.macro.code.value.move_down: Ryk ned
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Audiovisualisering

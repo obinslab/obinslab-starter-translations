@@ -3,13 +3,20 @@ common.operate.failed: Provozní chyba
 common.operate.success: Operace je dokončena
 common.tooltip_title: Zpráva
 common.input.placeholder: Zadejte jméno
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Přejmenovat
 common.import: Import
 common.export: Vývozní
 common.add: Přidat
+common.new: New
+common.new_folder: New Folder
 common.create: Přidat
 common.add.success: Přidán
 common.add.failed: Chyba při přidávání
+common.remove: Remove
 common.delete: Vymazat
 common.delete.success: Odstraněno
 common.delete.failed: Chyba smazání
@@ -24,17 +31,27 @@ common.ok: OK
 common.save: Uložit
 common.save_as: Uložit jako
 common.save.success: Uložené
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Aplikovat
 common.apply.success: Změny uloženy
 common.apply.failed: Chyba zápisu
 common.confirm.show_detail: Ukaž mi podrobnosti
 common.network.connection.error: Chyba síťového připojení
 common.please_quit_edit: Dokončete úpravy
-common.time_unit.hours: h
-common.time_unit.millisecond: ms
+common.time_unit.hour: '{{count}} hour'
+common.time_unit.hour_plural: '{{count}} hours'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
 common.return: Vrátit se
 common.refresh: Obnovit
 common.date: Datum
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Otevřít
@@ -101,22 +118,34 @@ home.open_device_failed: Chyba připojení zařízení
 
 # Main Window, General
 kbd.general: Všeobecné
+kbd.general.basic: Basic
 kbd.general.info: Informace
 kbd.general.info.device_model: Model zařízení
 kbd.general.info.serial_number: Sériové číslo
 kbd.general.info.battery: Baterie
 kbd.general.info.running_time: Pracovní čas
 kbd.general.setting: Nastavení
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Systém
 kbd.general.setting.tap_layout: Funkce TAP
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Funkce Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makro
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: Kontrolka tlačítka Caps Lock
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Automatický režim spánku
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Vypnuto
 kbd.general.setting.options.enable: Zahrnuta
 kbd.general.setting.options.default: Výchozí
 kbd.general.setting.options.custom: Vlastní
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Vždy
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Aktualizace
 kbd.firmware.upgrade.title: Aktualizace softwaru
 kbd.firmware.upgrade.content: Během aktualizace neodpojujte kabel USB
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Automatický vstup do režimu IAP selhal, proveďte to prosím ručně (podržte tlačítko ESC a poté připojte kabel USB)
 kbd.firmware.upgrade.status.downloading: Stahování softwaru ...
 kbd.firmware.upgrade.status.download_failed: Chyba stahování softwaru
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Omezeno na 16 profilů pro jednu 
 kbd.led.effect.mode: Dynamické světelné efekty
 kbd.led.effect.delete.confirm_content: Chcete smazat tento profil?
 kbd.led.effect.preview: Podgląd
+kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.effect.dynamic_colors.random: Náhodně
 kbd.led.effect.dynamic_colors.no_empty: Přidejte dynamickou barvu
 kbd.led.color.palette: Paleta barev
@@ -182,6 +213,7 @@ dynamic.none: Statyczny
 dynamic.breath: Dech
 dynamic.breath_grad: Dech s přechodem
 dynamic.rainbow: Duha
+dynamic.trigger: spuštěna
 dynamic.trigger.poptang: Světlice (spuštěna)
 dynamic.trigger.breath_single: Jediný dech
 dynamic.trigger.breath: Dech (spuštěn)
@@ -189,6 +221,7 @@ dynamic.trigger.rainbow: Duha (spuštěna)
 dynamic.trigger.ripple: Zvlnění (spuštěno)
 dynamic.trigger.pulse: Pulzující (spuštěno)
 dynamic.trigger.star_fall: Padající hvězdy (spuštěno)
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Hvězdná obloha
 dynamic.auto.comet: Kometa
 dynamic.auto.colorful: Kolorowy
@@ -207,6 +240,7 @@ intl.led.green: Zelený
 intl.led.cyan: Tyrkysová
 intl.led.blue: Modrý
 intl.led.purple: Nachový
+intl.led.orange: Orange
 intl.led.static.single: Jedna barva
 intl.led.static.multi: Vícebarevný
 intl.dynamic.breath: Dech
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Duha (spuštěna)
 
 # Main Window, Layout
 kbd.layout: Rozložení klávesnice
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Chcete toto rozložení obnovit na výchozí nastavení?
 kbd.layout.delete.confirm_content: Chcete toto rozvržení smazat?
 kbd.layout.set_keycap_null: Resetovat
 # Sidebar titles
-kbd.keycode_group.annepro: Speciální klíče
 kbd.keycode_group.system: Systém
 kbd.keycode_group.alphabet: Znaky
 kbd.keycode_group.number: Čísla
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Šipky
 kbd.keycode_group.function: Funkční
 kbd.keycode_group.media: Multimédia
 kbd.keycode_group.keypad: Klaw. číselný
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Jiný
 # Key tooltips
 icon.left_gui: Leve Win/Cmd
@@ -264,11 +299,15 @@ kbd.macro: Makro
 kbd.macro.group: Makro skupina
 kbd.macro.group.delete.confirm_content: Chcete odstranit tuto skupinu maker?
 kbd.macro.add: Přidejte makro
+kbd.macro.new: New Macro
+kbd.macro.clear: Clear Keyboard Macro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Přidejte skupinu maker
 kbd.macro.please_add_macro: Přidejte makro
 kbd.macro.delete.confirm_content: Chcete toto makro smazat?
-kbd.macro.amount_limit.annepro2_sixteen: Můžete přidat max. 16 maker
-kbd.macro.amount_limit.annepro_eight: Můžete přidat max. 8 maker pro Anne Pro 1
+kbd.macro.amount_limit: '{{count}} macros maximum'
 kbd.macro.code: Makro kód
 kbd.macro.code.rec: Zaznamenejte makro
 kbd.macro.code.empty: Prázdný kód makra
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: Není stisknuto žádné tlačítko
 kbd.macro.code.value.insert_timer_block: Vložte časový blok
 kbd.macro.code.value.move_up: Posuňte se nahoru
 kbd.macro.code.value.move_down: Posunout dolů
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Zvuková vizualizace

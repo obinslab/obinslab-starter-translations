@@ -3,13 +3,20 @@ common.operate.failed: Operation fehlgeschlagen
 common.operate.success: Operation erfolgreich
 common.tooltip_title: Nachricht
 common.input.placeholder: Name eingeben
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Umbenennen
 common.import: Importieren
 common.export: Exportieren
 common.add: Hinzufügen
+common.new: New
+common.new_folder: New Folder
 common.create: Neu
 common.add.success: Erfolgreich hinzugefügt
 common.add.failed: Hinzufügen fehlgeschlagen
+common.remove: Remove
 common.delete: Löschen
 common.delete.success: Erfolgreich gelöscht
 common.delete.failed: Löschen fehlgeschlagen
@@ -24,17 +31,27 @@ common.ok: Ok
 common.save: Speichern
 common.save_as: Speichern unter
 common.save.success: Erfolgreich gespeichert
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Anwenden
 common.apply.success: Erfolgreich angewendet
 common.apply.failed: Fehlgeschlagen
 common.confirm.show_detail: Details anzeigen
 common.network.connection.error: Netzwerkverbindung fehlgeschlagen
 common.please_quit_edit: Bitte beende die Bearbeitung
-common.time_unit.hours: " Stunden"
-common.time_unit.millisecond: Millisekunden
+common.time_unit.hour: '{{count}} hour'
+common.time_unit.hour_plural: '{{count}} hours'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
 common.return: Return
 common.refresh: Refresh
 common.date: Date
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: ObinsKit öffnen
@@ -60,7 +77,7 @@ feedback.email.not_valid: Die E-Mail-Adresse ist ungültig
 feedback.submit: Abschicken
 feedback.submit.error: Fehler beim Abschicken, bitte versuche es erneut
 feedback.submit.success: Erfolgreich abgeschickt. Klicke zum schließen.
-feedback.support_email: "Support email: "
+feedback.support_email: 'Support email: '
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -101,22 +118,34 @@ home.open_device_failed: Fehler beim Verbinden mit dem Gerät
 
 # Main Window, General
 kbd.general: Generell
+kbd.general.basic: Basic
 kbd.general.info: Informationen
 kbd.general.info.device_model: Gerätemodell
 kbd.general.info.serial_number: Seriennummer
 kbd.general.info.battery: Akku
 kbd.general.info.running_time: Aktive Zeit
 kbd.general.setting: Einstellungen
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Tastaturbelegung
 kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makros
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: Caps Lock LED
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Automatischer Ruhezustand
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Deaktivieren
 kbd.general.setting.options.enable: Aktivieren
 kbd.general.setting.options.default: Standard
 kbd.general.setting.options.custom: Benutzerdefiniert
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Alle
@@ -136,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Firmware herunterladen
 kbd.firmware.annepro1.download.latest_firmware: Neuste Firmware herunterladen
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool herunterladen
-kbd.firmware.find_new_version: "Neue Firmware finden: "
+kbd.firmware.find_new_version: 'Neue Firmware finden: '
 kbd.firmware.no_new_version: Deine Firmware ist auf dem neusten Stand
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Aktualisieren
 kbd.firmware.upgrade.title: Firmware-Aktualisierung
 kbd.firmware.upgrade.content: Bitte nicht das USB-Kabel während dem Update trennen
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Firmware runterladen...
 kbd.firmware.upgrade.status.download_failed: Herunterladen der Firmware fehlgeschlagen
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Du kannst bis zu 16 Beleuchtungen
 kbd.led.effect.mode: Dynamische Effekte
 kbd.led.effect.delete.confirm_content: Möchtest du diese Beleuchtung wirklich löschen?
 kbd.led.effect.preview: Vorschau
+kbd.led.effect.dynamic_colors: 'Lichteffekt: Farben'
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Farbpalette
@@ -182,13 +213,15 @@ dynamic.none: Static
 dynamic.breath: Breathing effect
 dynamic.breath_grad: Gradual breathing effect
 dynamic.rainbow: Rainbow
-dynamic.trigger.poptang: Poptang trigger
+dynamic.trigger: Trigger
+dynamic.trigger.poptang: Poptang
 dynamic.trigger.breath_single: Breathing per key
-dynamic.trigger.breath: Breathing trigger
-dynamic.trigger.rainbow: Rainbow trigger
-dynamic.trigger.ripple: Ripple trigger
-dynamic.trigger.pulse: Pulse trigger
-dynamic.trigger.star_fall: Star Fall trigger
+dynamic.trigger.breath: Breathing
+dynamic.trigger.rainbow: Rainbow
+dynamic.trigger.ripple: Ripple
+dynamic.trigger.pulse: Pulse
+dynamic.trigger.star_fall: Star Fall
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Starry Sky
 dynamic.auto.comet: Comet
 dynamic.auto.colorful: Colorful
@@ -207,6 +240,7 @@ intl.led.green: Grün
 intl.led.cyan: Türkis
 intl.led.blue: Blau
 intl.led.purple: Lila
+intl.led.orange: Orange
 intl.led.static.single: Statisch einzeln
 intl.led.static.multi: Statisch mehrere
 intl.dynamic.breath: Atmen
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Main Window, Layout
 kbd.layout: Tastaturbelegung
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Möchtest du diese Belegung wirklich auf den Standard zurücksetzen?
 kbd.layout.delete.confirm_content: Möchtest du diese Belegung wirklich löschen?
 kbd.layout.set_keycap_null: Belegung entfernen
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: System
 kbd.keycode_group.alphabet: Zeichen
 kbd.keycode_group.number: Zahlen
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Pfeiltasten
 kbd.keycode_group.function: Funktionstasten
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Ziffernblock
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Andere
 # Key tooltips
 icon.left_gui: Links Win/Cmd
@@ -239,7 +274,7 @@ icon.right_gui: Rechts Win/Cmd
 icon.mute: Stumm
 icon.volume.up: Lautstärke erhöhen
 icon.volume.down: Lautstärke verringern
-icon.bl.toggle: "Beleuchtung an-/ausschalten"
+icon.bl.toggle: 'Beleuchtung an-/ausschalten'
 icon.bl.color: Beleuchtung wechseln
 icon.bl.increase: Beleuchtung heller
 icon.bl.decrease: Beleuchtung dunkler
@@ -264,13 +299,17 @@ kbd.macro: Makros
 kbd.macro.group: Makro Gruppe
 kbd.macro.group.delete.confirm_content: Möchtest du diese Makro Gruppe wirklich löschen?
 kbd.macro.add: Makro hinzufügen
+kbd.macro.new: New Makro
+kbd.macro.clear: Clear Keyboard Makro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Bitte erstelle eine Makro Gruppe
 kbd.macro.please_add_macro: Bitte erstelle ein Makro
 kbd.macro.delete.confirm_content: Möchtest du dieses Makro wirklich löschen?
-kbd.macro.amount_limit.annepro2_sixteen: Du kannst bis zu 16 Makros hinzufügen
-kbd.macro.amount_limit.annepro_eight: Du kannst bis zu acht Makros für deine ANNE PRO 1 erstellen
+kbd.macro.amount_limit: Du kannst bis zu {{count}} Makros hinzufügen
 kbd.macro.code: Makro Code
-kbd.macro.code.rec: Makro aufzeichnen
+kbd.macro.code.rec: Aufzeichnen
 kbd.macro.code.empty: Noch kein Makro Code
 kbd.macro.code.exceeded: Makro Code
 kbd.macro.code.missing_release_key: Fehlende losgelassene Taste
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: Fehlende gedrückte Taste
 kbd.macro.code.value.insert_timer_block: Zeitblock einfügen
 kbd.macro.code.value.move_up: Nach oben
 kbd.macro.code.value.move_down: Nach unten
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Audio Visualization

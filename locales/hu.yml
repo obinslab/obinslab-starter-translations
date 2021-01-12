@@ -3,13 +3,20 @@ common.operate.failed: Művelet sikertelen
 common.operate.success: Művelet sikeres
 common.tooltip_title: Üzenet
 common.input.placeholder: Nevezd el
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Átnevezés
 common.import: Importálás
 common.export: Exportálás
 common.add: Hozzáadás
+common.new: New
+common.new_folder: New Folder
 common.create: Létrehozás
 common.add.success: Sikeres hozzáadás
 common.add.failed: Művelet sikertelen
+common.remove: Remove
 common.delete: Törlés
 common.delete.success: Sikeres törlés
 common.delete.failed: Sikertelen törlés
@@ -24,17 +31,27 @@ common.ok: OK
 common.save: Mentés
 common.save_as: Mentés mint...
 common.save.success: Sikeres mentés
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Alkalmaz
 common.apply.success: Alkalmazva
 common.apply.failed: Művelet sikertelen
 common.confirm.show_detail: Részletek
 common.network.connection.error: Hálózati hiba
 common.please_quit_edit: Fejezd be a szerkesztést, mielőtt továbblépsz
-common.time_unit.hours: " óra"
-common.time_unit.millisecond: milliszekundum
+common.time_unit.hour: '{{count}} hour'
+common.time_unit.hour_plural: '{{count}} hours'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
 common.return: Vissza
 common.refresh: Frissítés
 common.date: Dátum
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: ObinsKit megnyitása
@@ -53,14 +70,14 @@ feedback: Visszajelzés
 feedback.title: Visszajelzés
 feedback.content: Üzenet
 feedback.content.no_empty: Az üzenet nem lehet üres
-feedback.content.max_1000: "Maximum 1000 karakter"
+feedback.content.max_1000: 'Maximum 1000 karakter'
 feedback.email.label: E-mail címed
 feedback.email.placeholder: Add meg az e-mail címed
 feedback.email.not_valid: Érvénytelen e-mail cím
 feedback.submit: Küldés
 feedback.submit.error: Nem sikerült elküldeni a visszajelzést, próbáld újra
 feedback.submit.success: Visszajelzés elküldve, kattints az ablak bezárásához
-feedback.support_email: "Kapcsolatfelvétel: "
+feedback.support_email: 'Kapcsolatfelvétel: '
 feedback.debug_log: Hibakeresési napló
 
 # Preference Window
@@ -101,22 +118,34 @@ home.open_device_failed: Az eszköz inicializálása sikertelen
 
 # Main Window, General
 kbd.general: Általános
+kbd.general.basic: Basic
 kbd.general.info: Információ
 kbd.general.info.device_model: Eszköz
 kbd.general.info.serial_number: Sorozatszám
 kbd.general.info.battery: Akkumulátor
 kbd.general.info.running_time: Futásidő
 kbd.general.setting: Beállítások
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Kiosztás
 kbd.general.setting.tap_layout: Tap
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makró
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: Caps Lock LED
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: A billentyűzet automatikusan alvó módba léphet
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Kikapcsolva
 kbd.general.setting.options.enable: Bekapcsolva
 kbd.general.setting.options.default: Alapértelmezett
 kbd.general.setting.options.custom: Egyedi
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Minden gomb
@@ -136,14 +165,15 @@ kbd.firmware.archive: Korábbi verziók
 kbd.firmware.annepro1.download.firmware: Letöltés
 kbd.firmware.annepro1.download.latest_firmware: Legújabb verzió letöltése
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool letöltése
-kbd.firmware.find_new_version: "Új firmware verzió érhető el: "
+kbd.firmware.find_new_version: 'Új firmware verzió érhető el: '
 kbd.firmware.no_new_version: Nem érhető el frissítés
-kbd.firmware.upgrade.app_require: "A frissítéshez szükséges az ObinsKit {{requiredVersion}}, vagy újabb verziója. A telepített verzió: {{appVersion}}."
+kbd.firmware.upgrade.app_require: 'A frissítéshez szükséges az ObinsKit {{requiredVersion}}, vagy újabb verziója. A telepített verzió: {{appVersion}}.'
 kbd.firmware.upgrade.source.alpha: Tesztverzió
 kbd.firmware.upgrade.source.latest: Stabil verzió
 kbd.firmware.upgrade_btn: Frissítés
 kbd.firmware.upgrade.title: Firmware frissítés
 kbd.firmware.upgrade.content: A frissítés közben ne húzd ki az USB kábelt és ne kapcsold ki a számítógépet!
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Nem sikerült frissítés módra váltani. Húzd ki az USB kábelt, majd dugd vissza, miközben az ESC billentyűt nyomva tartod.
 kbd.firmware.upgrade.status.downloading: Firmware letöltése
 kbd.firmware.upgrade.status.download_failed: Letöltés sikertelen
@@ -165,32 +195,33 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Legfeljebb 16 effektet menthetsz 
 kbd.led.effect.mode: Effekt
 kbd.led.effect.delete.confirm_content: Biztos törölni szeretnéd ezt az effektet?
 kbd.led.effect.preview: Előnézet
+kbd.led.effect.dynamic_colors: Dynamic Light Color Table
 kbd.led.effect.dynamic_colors.random: Véletlenszerű
 kbd.led.effect.dynamic_colors.no_empty: Legalább egy színt hozzá kell adnod
 kbd.led.color.palette: Színpaletta
 kbd.led.color.default: Alapértelmezett
 kbd.led.color.custom: Egyedi
 kbd.led.color.custom.save: Szín mentése
-
 # Keycap Groups
 kbd.keycap.group.function_keys: Funkciógombok
 kbd.keycap.group.alphabet: Karakterek
 kbd.keycap.group.numbers: Számok
 kbd.keycap.group.bigs: Nagy gombok
 kbd.keycap.group.all: Minden gomb
-
 # Dynamic Light Effects
 dynamic.none: Statikus
 dynamic.breath: Légzés
 dynamic.breath_grad: Fokozatos légzés
 dynamic.rainbow: Szivárvány
+dynamic.trigger: Leütés
 dynamic.trigger.poptang: Pukkanás
 dynamic.trigger.breath_single: Gombonkénti légzés
-dynamic.trigger.breath: Légzés (leütés)
-dynamic.trigger.rainbow: Szivárvány (leütés)
-dynamic.trigger.ripple: Fodrozódás (leütés)
-dynamic.trigger.pulse: Implulzus (leütés)
-dynamic.trigger.star_fall: Csillaghullás (leütés)
+dynamic.trigger.breath: Légzés
+dynamic.trigger.rainbow: Szivárvány
+dynamic.trigger.ripple: Fodrozódás
+dynamic.trigger.pulse: Implulzus
+dynamic.trigger.star_fall: Csillaghullás
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Csillagos ég
 dynamic.auto.comet: Üstökös
 dynamic.auto.colorful: Sokszínű
@@ -201,7 +232,6 @@ dynamic.auto.fountain: Szökőkút
 dynamic.auto.snake: Kígyó
 dynamic.auto.flame: Láng
 dynamic.auto.firework: Tüzijáték
-
 # Default LED group
 intl.light.group.default: Alapértelmezett
 intl.led.red: Piros
@@ -210,6 +240,7 @@ intl.led.green: Zöld
 intl.led.cyan: Cián
 intl.led.blue: Kék
 intl.led.purple: Lila
+intl.led.orange: Orange
 intl.led.static.single: Statikus egyszínű
 intl.led.static.multi: Statikus többszínű
 intl.dynamic.breath: Légzés
@@ -222,12 +253,11 @@ intl.dynamic.trigger.rainbow: Szivárvány (leütés)
 
 # Main Window, Layout
 kbd.layout: Kiosztás
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Biztos vissza szeretnéd állítani ezt a kiosztást az alapértelmezettre?
 kbd.layout.delete.confirm_content: Biztos törölni szeretnéd ezt a kiosztást?
 kbd.layout.set_keycap_null: Törlés
-
 # Sidebar titles
-kbd.keycode_group.annepro: Eszközspecifikus
 kbd.keycode_group.system: Rendszer
 kbd.keycode_group.alphabet: Karakterek
 kbd.keycode_group.number: Számok
@@ -236,8 +266,8 @@ kbd.keycode_group.arrow: Nyilak
 kbd.keycode_group.function: Funkciók
 kbd.keycode_group.media: Média gombok
 kbd.keycode_group.keypad: Numerikus billentyűzet
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Egyéb
-
 # Key tooltips
 icon.left_gui: Bal Win/Cmd
 icon.right_gui: Jobb Win/Cmd
@@ -257,10 +287,8 @@ icon.fn.wheel: Játékvezérlő mód
 icon.prev.track: Előző szám
 icon.next.track: Következő szám
 icon.play.pause: Lejátszás / megállítás
-
 # The active layout read from keyboard
 intl.layout.current: Jelenlegi
-
 # default keyboard layouts
 intl.keymap.qwerty: QWERTY
 intl.keymap.mac: Mac
@@ -271,11 +299,15 @@ kbd.macro: Makró
 kbd.macro.group: Makrócsoport
 kbd.macro.group.delete.confirm_content: Biztos törölni szeretnéd ezt a makrócsoportot?
 kbd.macro.add: Új makró
+kbd.macro.new: New makró
+kbd.macro.clear: Clear Keyboard makró
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Hozz létre egy makrócsportot
 kbd.macro.please_add_macro: Adj hozzá egy makrót
 kbd.macro.delete.confirm_content: Biztos törölni szeretnéd ezt a makrót?
-kbd.macro.amount_limit.annepro2_sixteen: Legfeljebb 16 makrót adhatsz hozzá
-kbd.macro.amount_limit.annepro_eight: Anne Pro 1 esetén legfeljebb 8 makrót adhatsz hozzá
+kbd.macro.amount_limit: Legfeljebb {{count}} makrót adhatsz hozzá
 kbd.macro.code: Makró műveletek
 kbd.macro.code.rec: Felvétel
 kbd.macro.code.empty: Ez a makró üres
@@ -285,6 +317,12 @@ kbd.macro.code.missing_press_key: Hiányzó gomblenyomás
 kbd.macro.code.value.insert_timer_block: Várakozás hozzáadása
 kbd.macro.code.value.move_up: Mozgatás fel
 kbd.macro.code.value.move_down: Mozgatás le
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Hangra reagáló effekt

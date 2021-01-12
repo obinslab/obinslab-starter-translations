@@ -3,13 +3,20 @@ common.operate.failed: Gagal untuk beroperasi
 common.operate.success: Berjaya untuk beroperasi
 common.tooltip_title: Mesej
 common.input.placeholder: Sila masukkan nama
+common.stop: Stop
+common.device: Device
+common.preview: Preview
+common.edit: Edit
 common.rename: Namakan semula
 common.import: Import
 common.export: Eksport
 common.add: Tambah
+common.new: New
+common.new_folder: New Folder
 common.create: Cipta
 common.add.success: Berjaya untuk tambah
 common.add.failed: Add Failed
+common.remove: Remove
 common.delete: Padam
 common.delete.success: Berjaya untuk padam
 common.delete.failed: Gagal untuk padam
@@ -24,17 +31,27 @@ common.ok: Ok
 common.save: Simpan
 common.save_as: Simpan Sebagai
 common.save.success: Berjaya untuk simpan
+common.download: Download
+common.download.success: Download successfully
+common.download.failed: Operation failed
 common.apply: Menerap
 common.apply.success: Berjaya untuk menerap
 common.apply.failed: Gagal untuk menerap
 common.confirm.show_detail: Tunjukkan Perincian
 common.network.connection.error: Ralat Sambungan Rangkaian
 common.please_quit_edit: Tolong Berhenti Edit
-common.time_unit.hours: " Jam"
-common.time_unit.millisecond: Milisaat
+common.time_unit.hour: '{{count}} hour'
+common.time_unit.hour_plural: '{{count}} hours'
+common.time_unit.minute: '{{count}} minute'
+common.time_unit.minute_plural: '{{count}} minutes'
+common.time_unit.second: '{{count}} second'
+common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.millisecond: '{{count}} ms'
 common.return: Return
 common.refresh: Refresh
 common.date: Date
+common.library: Library
+common.none: None
 
 # Tray
 app.tray.show_window: Buka ObinsKit
@@ -60,7 +77,7 @@ feedback.email.not_valid: Email tidak sah
 feedback.submit: Serah
 feedback.submit.error: Gagal untuk serah, sila cuba lagi
 feedback.submit.success: Berjaya untuk penyerahan, Klik untuk tutup
-feedback.support_email: "Email Sokongan: "
+feedback.support_email: 'Email Sokongan: '
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -101,22 +118,34 @@ home.open_device_failed: Gagal untuk membuka peranti
 
 # Main Window, General
 kbd.general: Am
+kbd.general.basic: Basic
 kbd.general.info: Maklumat
 kbd.general.info.device_model: Model Peranti
 kbd.general.info.serial_number: Nombor Siri
 kbd.general.info.battery: Bateri
 kbd.general.info.running_time: Masa Beroperasi
 kbd.general.setting: Tetapan
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Susun Atur
 kbd.general.setting.tap_layout: Ketik
+kbd.general.setting.tap_sensitivity: Sensitivity
+kbd.general.setting.tap_combiantion: Tap key combination
+kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
 kbd.general.setting.magic_fn: Magic Fn
+kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Makro
+kbd.general.setting.lighting: Lighting
+kbd.general.setting.lighting.backlight: Backlight
+kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: Led CapsLock
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Auto Tidur
+kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
 kbd.general.setting.options.disable: Melarangkan
 kbd.general.setting.options.enable: Membolehkan
 kbd.general.setting.options.default: Lalai
 kbd.general.setting.options.custom: Penyesuaian
+kbd.general.setting.options.fn: Fn
 kbd.general.setting.options.fn1: Fn1
 kbd.general.setting.options.fn2: Fn2
 kbd.general.setting.options.capslock_all: Semua
@@ -136,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Muat Turun Firmware
 kbd.firmware.annepro1.download.latest_firmware: Muat Turun Firmware Terkini
 kbd.firmware.annepro1.download.dfu_tool: Muat Turun Alat Dfu
-kbd.firmware.find_new_version: "Cari Firmware Baharu: "
+kbd.firmware.find_new_version: 'Cari Firmware Baharu: '
 kbd.firmware.no_new_version: Firmware semasa adalah terbaru
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -144,6 +173,7 @@ kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Naik Taraf
 kbd.firmware.upgrade.title: Naik Taraf Firmware
 kbd.firmware.upgrade.content: Tolong jangan cabut kabel USB semasa kenaikan taraf
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
 kbd.firmware.upgrade.enter_iap_timeout: Automatically entering IAP mode failed, please enter IAP mode manually (hold the ESC key, then insert the USB cable)
 kbd.firmware.upgrade.status.downloading: Memuat turun firmware...
 kbd.firmware.upgrade.status.download_failed: Gagal untuk memuat turun firmware
@@ -165,6 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Terhad kepada enam belas kesanan 
 kbd.led.effect.mode: Kesanan Cahaya Dinamik
 kbd.led.effect.delete.confirm_content: Anda pasti untuk padam lampu ini?
 kbd.led.effect.preview: Pratonton
+kbd.led.effect.dynamic_colors: Senarai Warna Lampu Dinamik
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Palet Warna
@@ -182,13 +213,15 @@ dynamic.none: Static
 dynamic.breath: Nafas
 dynamic.breath_grad: Grad Nafas
 dynamic.rainbow: Pelangi
-dynamic.trigger.poptang: Poptang(Trigger)
+dynamic.trigger: Trigger
+dynamic.trigger.poptang: Poptang
 dynamic.trigger.breath_single: Nafas tunggal
-dynamic.trigger.breath: Breath(Trigger)
-dynamic.trigger.rainbow: Rainbow(Trigger)
-dynamic.trigger.ripple: Ripple trigger
-dynamic.trigger.pulse: Pulse trigger
-dynamic.trigger.star_fall: Star Fall trigger
+dynamic.trigger.breath: Breath
+dynamic.trigger.rainbow: Rainbow
+dynamic.trigger.ripple: Ripple
+dynamic.trigger.pulse: Pulse
+dynamic.trigger.star_fall: Star Fall
+dynamic.auto: Auto
 dynamic.auto.starry_sky: Starry Sky
 dynamic.auto.comet: Comet
 dynamic.auto.colorful: Colorful
@@ -207,6 +240,7 @@ intl.led.green: Hijau
 intl.led.cyan: Cyan
 intl.led.blue: Biru
 intl.led.purple: Ungu
+intl.led.orange: Orange
 intl.led.static.single: Statik Tunggal
 intl.led.static.multi: Statik Pelbagai
 intl.dynamic.breath: Nafas
@@ -219,11 +253,11 @@ intl.dynamic.trigger.rainbow: Rainbow(Trigger)
 
 # Main Window, Layout
 kbd.layout: Susun Atur
+kbd.layout.default: Default
 kbd.layout.reset.confirm_content: Anda pasti untuk menetapkan semula susun atur ini ke lalai?
 kbd.layout.delete.confirm_content: Anda pasti untuk padamkan susun atur ini?
 kbd.layout.set_keycap_null: Tetapkan kepada null
 # Sidebar titles
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Sistem
 kbd.keycode_group.alphabet: Abjad
 kbd.keycode_group.number: Nombor
@@ -232,6 +266,7 @@ kbd.keycode_group.arrow: Anak Panah
 kbd.keycode_group.function: Fungsi
 kbd.keycode_group.media: Media
 kbd.keycode_group.keypad: Pad Kekunci
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Lain-lain
 # Key tooltips
 icon.left_gui: Win/Cmd Kiri
@@ -264,13 +299,17 @@ kbd.macro: Makro
 kbd.macro.group: Kumpulan Makro
 kbd.macro.group.delete.confirm_content: Anda pasti untuk padamkan kumpulan makro ini?
 kbd.macro.add: Tambah makro
+kbd.macro.new: New Makro
+kbd.macro.clear: Clear Keyboard Makro
+kbd.macro.bind_key: Bind to key
+kbd.macro.bind_key_tips: Please select a key to bind
+kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Tolong tambahkan kumpulan makro dahulu
 kbd.macro.please_add_macro: Tolong tambah makro dahulu
 kbd.macro.delete.confirm_content: Anda pasti untuk padamkan makro ini?
-kbd.macro.amount_limit.annepro2_sixteen: Terhad kepada enam belas kumpulan makro dalam satu kumpulan
-kbd.macro.amount_limit.annepro_eight: Terhad kepada lapan kumpulan makro dalam satu kumpulan bagi ANNE PRO 1
+kbd.macro.amount_limit: Terhad kepada {{count}} kumpulan makro dalam satu kumpulan
 kbd.macro.code: Kod Makro
-kbd.macro.code.rec: Rekod Makro
+kbd.macro.code.rec: Rekod
 kbd.macro.code.empty: Kosongkan Kod Makro
 kbd.macro.code.exceeded: Kod Makro Melebihi
 kbd.macro.code.missing_release_key: Tertinggal Anak Kunci 'Release'
@@ -278,6 +317,12 @@ kbd.macro.code.missing_press_key: Tertinggal Anak Kunci 'Press'
 kbd.macro.code.value.insert_timer_block: Masukkan Blok Masa
 kbd.macro.code.value.move_up: Bergerak ke Atas
 kbd.macro.code.value.move_down: Bergerak ke Bawah
+kbd.macro.block.property: Property
+kbd.macro.block.property.keypress: Key
+kbd.macro.block.property.key_info_input: Press desired key
+kbd.macro.block.property.time_duration: Duration
+kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
 kbd.audio: Audio Visualization
