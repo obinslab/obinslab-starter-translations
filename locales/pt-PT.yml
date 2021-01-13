@@ -40,13 +40,13 @@ common.apply.failed: A Operação Falhou
 common.confirm.show_detail: Mostrar Detalhes
 common.network.connection.error: Erro de conecção à rede
 common.please_quit_edit: Sair de editar antes de proceder
-common.time_unit.hour: '{{count}} Horas'
-common.time_unit.hour_plural: '{{count}} Horas'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} Horas"
+common.time_unit.hour_plural: "{{count}} Horas"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Voltar
 common.refresh: Atualizar
 common.date: Data
@@ -70,14 +70,14 @@ feedback: Comentários
 feedback.title: Comentários
 feedback.content: Conteúdo
 feedback.content.no_empty: Por favor introduza conteúdo
-feedback.content.max_1000: 'Máximo: 1,000 caracteres'
+feedback.content.max_1000: "Máximo: 1,000 caracteres"
 feedback.email.label: Email
 feedback.email.placeholder: Por favor introduza o seu email
 feedback.email.not_valid: Endereço de email inválido
 feedback.submit: Submeter
 feedback.submit.error: Erro de envio - Por favor tente de novo
 feedback.submit.success: Submetido com sucesso - Click para fechar
-feedback.support_email: 'Email de Suporte: '
+feedback.support_email: "Email de Suporte: "
 feedback.debug_log: Log de depuração
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Arquivo de Firmwares
 kbd.firmware.annepro1.download.firmware: Download Firmware
 kbd.firmware.annepro1.download.latest_firmware: Download do Firmware mais recente
 kbd.firmware.annepro1.download.dfu_tool: Download da ferramenta DFU
-kbd.firmware.find_new_version: 'Encontrar novo firmware: '
+kbd.firmware.find_new_version: "Encontrar novo firmware: "
 kbd.firmware.no_new_version: O seu firmware está na versão mais atual
 kbd.firmware.upgrade.app_require: Necessita a versão do ObinsKit v{{requiredVersion}} ou mais recente, a sua versão atual é v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alfa
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Por favor adicione um grupo de macros
 kbd.macro.please_add_macro: Por favor adicione uma macro
 kbd.macro.delete.confirm_content: Tem a certeza que pretende apagar esta macro?
-kbd.macro.amount_limit: 'Máximo de {{count}} macros'
+kbd.macro.amount_limit: "Máximo de {{count}} macros"
 kbd.macro.code: Código Macro
 kbd.macro.code.rec: Gravar Macro
 kbd.macro.code.empty: Código de Macro Vazio

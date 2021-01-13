@@ -40,13 +40,13 @@ common.apply.failed: Operaatio epäonnistui
 common.confirm.show_detail: Näytä tiedot
 common.network.connection.error: Internet-yhteyden virhe
 common.please_quit_edit: Poistu editorista ensin sulkemista
-common.time_unit.hour: '{{count}} Tuntia'
-common.time_unit.hour_plural: '{{count}} Tuntia'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} Tuntia"
+common.time_unit.hour_plural: "{{count}} Tuntia"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Palaa
 common.refresh: Virkistä
 common.date: Päivämäärä
@@ -70,14 +70,14 @@ feedback: Palaute
 feedback.title: Palaute
 feedback.content: Sisältö
 feedback.content.no_empty: Ole hyvä ja syötä sisältö
-feedback.content.max_1000: 'Maksimi: 1,000 merkkiä'
+feedback.content.max_1000: "Maksimi: 1,000 merkkiä"
 feedback.email.label: Sähköposti
 feedback.email.placeholder: Ole hyvä ja syötä sähköpostiosoitteesi
 feedback.email.not_valid: Virheellinen sähköpostiosoite
 feedback.submit: Lähetä
 feedback.submit.error: Lähetysvirhe - Yritä uudelleen
 feedback.submit.success: Lähetettiin onnistuneesti - Klikkaa sulkeaksesi
-feedback.support_email: 'Tukisähköposti: '
+feedback.support_email: "Tukisähköposti: "
 feedback.debug_log: Debuggausloki
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Laiteohjelmistoarkisto
 kbd.firmware.annepro1.download.firmware: Lataa laiteohjelmisto
 kbd.firmware.annepro1.download.latest_firmware: Lataa uusin laiteohjelmisto
 kbd.firmware.annepro1.download.dfu_tool: Lataa DFU-työkalu
-kbd.firmware.find_new_version: 'Löydä uusi laiteohjelmisto: '
+kbd.firmware.find_new_version: "Löydä uusi laiteohjelmisto: "
 kbd.firmware.no_new_version: Laiteohjelmistosi on ajan tasalla.
 kbd.firmware.upgrade.app_require: Vaadittu ObinsKit-versio on v{{requiredVersion}} tai uudempi, nykyinen versio on v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Ole hyvä ja lisää makroryhmä
 kbd.macro.please_add_macro: Ole hyvä ja lisää makro
 kbd.macro.delete.confirm_content: Haluatko aivan varmasti poistaa tämän makron?
-kbd.macro.amount_limit: 'maksimissaan {{count}} makroa'
+kbd.macro.amount_limit: "maksimissaan {{count}} makroa"
 kbd.macro.code: Makrokoodi
 kbd.macro.code.rec: Tallenna makro
 kbd.macro.code.empty: Tyhjennä makrokoodi

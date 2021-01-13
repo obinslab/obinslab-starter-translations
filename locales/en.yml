@@ -40,13 +40,13 @@ common.apply.failed: Apply Failed
 common.confirm.show_detail: Show Detail
 common.network.connection.error: Network connection error
 common.please_quit_edit: Quit Edit before proceeding
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Return
 common.refresh: Refresh
 common.date: Date
@@ -70,14 +70,14 @@ feedback: Feedback
 feedback.title: Feedback
 feedback.content: Content
 feedback.content.no_empty: Please input content
-feedback.content.max_1000: 'Maximum: 1,000 characters'
+feedback.content.max_1000: "Maximum: 1,000 characters"
 feedback.email.label: Email
 feedback.email.placeholder: Please enter your email
 feedback.email.not_valid: Invalid e-mail address
 feedback.submit: Submit
 feedback.submit.error: Send error - Please try again
 feedback.submit.success: Submitted successfully - Click to close
-feedback.support_email: 'Support email: '
+feedback.support_email: "Support email: "
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Download Firmware
 kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
-kbd.firmware.find_new_version: 'Find new firmware: '
+kbd.firmware.find_new_version: "Find new firmware: "
 kbd.firmware.no_new_version: Your firmware is up to date
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
 kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
-kbd.macro.amount_limit: '{{count}} macros maximum'
+kbd.macro.amount_limit: "{{count}} macros maximum"
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Record
 kbd.macro.code.empty: Empty macro code

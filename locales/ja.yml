@@ -40,13 +40,13 @@ common.apply.failed: Apply Failed
 common.confirm.show_detail: 詳細を表示
 common.network.connection.error: ネットワーク接続エラー
 common.please_quit_edit: 続行する前に編集を終了します
-common.time_unit.hour: '{{count}}時間'
-common.time_unit.hour_plural: '{{count}}時間'
-common.time_unit.minute: '{{count}}分'
-common.time_unit.minute_plural: '{{count}}分'
-common.time_unit.second: '{{count}}秒'
-common.time_unit.second_plural: '{{count}}秒'
-common.time_unit.millisecond: '{{count}}ミリ秒'
+common.time_unit.hour: "{{count}}時間"
+common.time_unit.hour_plural: "{{count}}時間"
+common.time_unit.minute: "{{count}}分"
+common.time_unit.minute_plural: "{{count}}分"
+common.time_unit.second: "{{count}}秒"
+common.time_unit.second_plural: "{{count}}秒"
+common.time_unit.millisecond: "{{count}}ミリ秒"
 common.return: 戻る
 common.refresh: 更新
 common.date: 日付
@@ -77,7 +77,7 @@ feedback.email.not_valid: 無効なメールアドレス
 feedback.submit: 参加する
 feedback.submit.error: 送信エラー-もう一度お試しください
 feedback.submit.success: 正常に送信されました-クリックして閉じます
-feedback.support_email: 'サポートメール： '
+feedback.support_email: "サポートメール： "
 feedback.debug_log: デバッグログ
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: ファームウェアアーカイブ
 kbd.firmware.annepro1.download.firmware: ファームウェアをダウンロード
 kbd.firmware.annepro1.download.latest_firmware: 最新のファームウェアをダウンロード
 kbd.firmware.annepro1.download.dfu_tool: DFUツールをダウンロード
-kbd.firmware.find_new_version: '新しいファームウェアを探す： '
+kbd.firmware.find_new_version: "新しいファームウェアを探す： "
 kbd.firmware.no_new_version: ファームウェアは最新です
 kbd.firmware.upgrade.app_require: 必要なObinsKitバージョンはv {{requiredVersion}}以降、現在のバージョンはv {{appVersion}}です。
 kbd.firmware.upgrade.source.alpha: α版
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: フォルダ内のマクロを削除してく�
 kbd.macro.please_add_macro_group: マクログループを追加してください
 kbd.macro.please_add_macro: マクロを追加してください
 kbd.macro.delete.confirm_content: このマクロを削除してもよろしいですか？
-kbd.macro.amount_limit: '最大{{count}}マクロ'
+kbd.macro.amount_limit: "最大{{count}}マクロ"
 kbd.macro.code: マクロコード
 kbd.macro.code.rec: 記録
 kbd.macro.code.empty: 空のマクロコード

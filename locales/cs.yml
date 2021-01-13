@@ -40,13 +40,13 @@ common.apply.failed: Chyba zápisu
 common.confirm.show_detail: Ukaž mi podrobnosti
 common.network.connection.error: Chyba síťového připojení
 common.please_quit_edit: Dokončete úpravy
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Vrátit se
 common.refresh: Obnovit
 common.date: Datum
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Přidejte skupinu maker
 kbd.macro.please_add_macro: Přidejte makro
 kbd.macro.delete.confirm_content: Chcete toto makro smazat?
-kbd.macro.amount_limit: '{{count}} macros maximum'
+kbd.macro.amount_limit: "{{count}} macros maximum"
 kbd.macro.code: Makro kód
 kbd.macro.code.rec: Zaznamenejte makro
 kbd.macro.code.empty: Prázdný kód makra

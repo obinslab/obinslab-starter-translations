@@ -40,13 +40,13 @@ common.apply.failed: Operasi gagal
 common.confirm.show_detail: Tampilkan detil
 common.network.connection.error: Koneksi jaringan gagal
 common.please_quit_edit: Keluar penyuntingan untuk melanjutkan
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Kembali
 common.resfesh: Segarkan
 common.date: Tanggal
@@ -70,14 +70,14 @@ feedback: Umpan Balik
 feedback.title: Umpan Balik
 feedback.content: Isi
 feedback.content.no_empty: Silahkan isi
-feedback.content.max_1000: 'Maksimum: 1000 karakter'
+feedback.content.max_1000: "Maksimum: 1000 karakter"
 feedback.email.label: Email (Opsional)
 feedback.email.placeholder: Masukkan email
 feedback.email.not_valid: Alamat email tidak tepat
 feedback.submit: Kirim
 feedback.submit.error: Tidak berhasil mengirim - silahkan coba lagi
 feedback.submit.success: Berhasil mengirim - klik untuk menutup
-feedback.support_email: 'Email bantuan: '
+feedback.support_email: "Email bantuan: "
 feedback.debug_log: Debug log
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Download Firmware
 kbd.firmware.annepro1.download.latest_firmware: Download Latest Firmware
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
-kbd.firmware.find_new_version: 'Find new firmware: '
+kbd.firmware.find_new_version: "Find new firmware: "
 kbd.firmware.no_new_version: Your firmware is up to date
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Please add a macro group
 kbd.macro.please_add_macro: Please add a macro
 kbd.macro.delete.confirm_content: Are you sure you want to delete this macro?
-kbd.macro.amount_limit: '{{count}} macros maximum'
+kbd.macro.amount_limit: "{{count}} macros maximum"
 kbd.macro.code: Macro Code
 kbd.macro.code.rec: Record
 kbd.macro.code.empty: Empty macro code

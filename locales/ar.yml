@@ -40,13 +40,13 @@ common.apply.failed: Apply Failed
 common.confirm.show_detail: عرض التفاصيل
 common.network.connection.error: خطأ في عملية الإتصال
 common.please_quit_edit: Quit Edit before proceeding
-common.time_unit.hour: '{{count}} ساعة'
-common.time_unit.hour_plural: '{{count}} ساعات'
-common.time_unit.minute: '{{count}} دقيقة'
-common.time_unit.minute_plural: '{{count}} دقائق'
-common.time_unit.second: '{{count}} ثواني'
-common.time_unit.second_plural: '{{count}} ثانية'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} ساعة"
+common.time_unit.hour_plural: "{{count}} ساعات"
+common.time_unit.minute: "{{count}} دقيقة"
+common.time_unit.minute_plural: "{{count}} دقائق"
+common.time_unit.second: "{{count}} ثواني"
+common.time_unit.second_plural: "{{count}} ثانية"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: رجوع
 common.refresh: تحديث
 common.date: تاريخ
@@ -70,14 +70,14 @@ feedback: تقييم
 feedback.title: تقييم
 feedback.content: الموضع
 feedback.content.no_empty: الرجاء إدخال الموضوع
-feedback.content.max_1000: 'الحد الأقصى هو ١٠٠٠ حرف'
+feedback.content.max_1000: "الحد الأقصى هو ١٠٠٠ حرف"
 feedback.email.label: الإيميل
 feedback.email.placeholder: الرجاء اداخل ايميلك الشخصي
 feedback.email.not_valid: ايميل خاطئ
 feedback.submit: إرسال
 feedback.submit.error: خطأ في الإرسال، الرجاء معاودة المحاولة
 feedback.submit.success: تم الإرسال بنجاح - اضغط للإغلاق
-feedback.support_email: 'البريد الالكتروني للدعم: '
+feedback.support_email: "البريد الالكتروني للدعم: "
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: ارشيف الأنظمة
 kbd.firmware.annepro1.download.firmware: تحميل نظام تشغيلي
 kbd.firmware.annepro1.download.latest_firmware: تحميل اخر نسخة من النظام
 kbd.firmware.annepro1.download.dfu_tool: Download DFU Tool
-kbd.firmware.find_new_version: 'البحث عن نظام جديد:  '
+kbd.firmware.find_new_version: "البحث عن نظام جديد:  "
 kbd.firmware.no_new_version: النظام التشغيلي الخاص بك محدث لأخر نسخة
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: تجريبي
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: الرجاء حذف الزر المخصص في
 kbd.macro.please_add_macro_group: الرجائ اضافة مجموعة أزرار مخصصة
 kbd.macro.please_add_macro: الرجاء اضافة زر مخصص
 kbd.macro.delete.confirm_content: هل انت متأكد من حذف هذا الزر المخصص؟
-kbd.macro.amount_limit: '{{count}} الحد الأقصى للأزرار المخصصة'
+kbd.macro.amount_limit: "{{count}} الحد الأقصى للأزرار المخصصة"
 kbd.macro.code: رمز الزر المخصص
 kbd.macro.code.rec: تسجيل
 kbd.macro.code.empty: Empty macro code

@@ -40,13 +40,13 @@ common.apply.failed: Művelet sikertelen
 common.confirm.show_detail: Részletek
 common.network.connection.error: Hálózati hiba
 common.please_quit_edit: Fejezd be a szerkesztést, mielőtt továbblépsz
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Vissza
 common.refresh: Frissítés
 common.date: Dátum
@@ -70,14 +70,14 @@ feedback: Visszajelzés
 feedback.title: Visszajelzés
 feedback.content: Üzenet
 feedback.content.no_empty: Az üzenet nem lehet üres
-feedback.content.max_1000: 'Maximum 1000 karakter'
+feedback.content.max_1000: "Maximum 1000 karakter"
 feedback.email.label: E-mail címed
 feedback.email.placeholder: Add meg az e-mail címed
 feedback.email.not_valid: Érvénytelen e-mail cím
 feedback.submit: Küldés
 feedback.submit.error: Nem sikerült elküldeni a visszajelzést, próbáld újra
 feedback.submit.success: Visszajelzés elküldve, kattints az ablak bezárásához
-feedback.support_email: 'Kapcsolatfelvétel: '
+feedback.support_email: "Kapcsolatfelvétel: "
 feedback.debug_log: Hibakeresési napló
 
 # Preference Window
@@ -165,9 +165,9 @@ kbd.firmware.archive: Korábbi verziók
 kbd.firmware.annepro1.download.firmware: Letöltés
 kbd.firmware.annepro1.download.latest_firmware: Legújabb verzió letöltése
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool letöltése
-kbd.firmware.find_new_version: 'Új firmware verzió érhető el: '
+kbd.firmware.find_new_version: "Új firmware verzió érhető el: "
 kbd.firmware.no_new_version: Nem érhető el frissítés
-kbd.firmware.upgrade.app_require: 'A frissítéshez szükséges az ObinsKit {{requiredVersion}}, vagy újabb verziója. A telepített verzió: {{appVersion}}.'
+kbd.firmware.upgrade.app_require: "A frissítéshez szükséges az ObinsKit {{requiredVersion}}, vagy újabb verziója. A telepített verzió: {{appVersion}}."
 kbd.firmware.upgrade.source.alpha: Tesztverzió
 kbd.firmware.upgrade.source.latest: Stabil verzió
 kbd.firmware.upgrade_btn: Frissítés

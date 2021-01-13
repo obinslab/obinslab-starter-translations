@@ -40,13 +40,13 @@ common.apply.failed: Échec de l'application
 common.confirm.show_detail: Montrer les détails
 common.network.connection.error: Erreur de connexion réseau
 common.please_quit_edit: S'il vous plaît quitter l'édition
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Return
 common.refresh: Refresh
 common.date: Date
@@ -77,7 +77,7 @@ feedback.email.not_valid: Adresse Email invalide
 feedback.submit: Soumettre
 feedback.submit.error: Échec d'envoi, merci de réessayer
 feedback.submit.success: Envoyé avec succès, cliquez pour fermer
-feedback.support_email: 'Email du support: '
+feedback.support_email: "Email du support: "
 feedback.debug_log: Debug Log
 
 # Préférences
@@ -165,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Télécharger le firmware
 kbd.firmware.annepro1.download.latest_firmware: Télécharger le dernier firmware
 kbd.firmware.annepro1.download.dfu_tool: Télécharger l'outil DFU
-kbd.firmware.find_new_version: 'Un nouveau firmware à été trouvé: '
+kbd.firmware.find_new_version: "Un nouveau firmware à été trouvé: "
 kbd.firmware.no_new_version: Pas de nouveau firmware trouvé
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha

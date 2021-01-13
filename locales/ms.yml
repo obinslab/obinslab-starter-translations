@@ -40,13 +40,13 @@ common.apply.failed: Gagal untuk menerap
 common.confirm.show_detail: Tunjukkan Perincian
 common.network.connection.error: Ralat Sambungan Rangkaian
 common.please_quit_edit: Tolong Berhenti Edit
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Return
 common.refresh: Refresh
 common.date: Date
@@ -77,7 +77,7 @@ feedback.email.not_valid: Email tidak sah
 feedback.submit: Serah
 feedback.submit.error: Gagal untuk serah, sila cuba lagi
 feedback.submit.success: Berjaya untuk penyerahan, Klik untuk tutup
-feedback.support_email: 'Email Sokongan: '
+feedback.support_email: "Email Sokongan: "
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Muat Turun Firmware
 kbd.firmware.annepro1.download.latest_firmware: Muat Turun Firmware Terkini
 kbd.firmware.annepro1.download.dfu_tool: Muat Turun Alat Dfu
-kbd.firmware.find_new_version: 'Cari Firmware Baharu: '
+kbd.firmware.find_new_version: "Cari Firmware Baharu: "
 kbd.firmware.no_new_version: Firmware semasa adalah terbaru
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha

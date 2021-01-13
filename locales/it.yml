@@ -40,13 +40,13 @@ common.apply.failed: Operazione fallita
 common.confirm.show_detail: Mostra dettagli
 common.network.connection.error: Errore di rete
 common.please_quit_edit: Termina le modifiche prima di procedere
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Indietro
 common.refresh: Aggiorna
 common.date: Data
@@ -70,14 +70,14 @@ feedback: Feedback
 feedback.title: Feedback
 feedback.content: Contenuto
 feedback.content.no_empty: Inserisci il contenuto
-feedback.content.max_1000: 'Massimo: 1,000 caratteri'
+feedback.content.max_1000: "Massimo: 1,000 caratteri"
 feedback.email.label: Email
 feedback.email.placeholder: Inserisci la tua e-mail
 feedback.email.not_valid: Indirizzo e-mail non valido
 feedback.submit: invia
 feedback.submit.error: Errore durante l'invio - Riprova
 feedback.submit.success: Invio completato - Clicca qui per chiudere
-feedback.support_email: 'E-mail di supporto: '
+feedback.support_email: "E-mail di supporto: "
 feedback.debug_log: Log di debug
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Archivio Firmware
 kbd.firmware.annepro1.download.firmware: Scarica Firmware
 kbd.firmware.annepro1.download.latest_firmware: Scarica l'ultimo Firmware
 kbd.firmware.annepro1.download.dfu_tool: Scarica strumento DFU
-kbd.firmware.find_new_version: 'Nuovo firmware trovato: '
+kbd.firmware.find_new_version: "Nuovo firmware trovato: "
 kbd.firmware.no_new_version: Il tuo firmware è aggiornato
 kbd.firmware.upgrade.app_require: La versione di ObinsKit richiesta è v{{requiredVersion}} o successive, quella attuale è v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha

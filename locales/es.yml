@@ -40,13 +40,13 @@ common.apply.failed: No se pudo Aplicar
 common.confirm.show_detail: Mostrar Detalle
 common.network.connection.error: Error En Conexión De Red
 common.please_quit_edit: Por favor Salga Del Modo Edición
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Regresar
 common.refresh: Refrescar
 common.date: Fecha
@@ -70,14 +70,14 @@ feedback: Valoración y Comentarios
 feedback.title: Valoración y Comentarios
 feedback.content: Contenido
 feedback.content.no_empty: Por favor introduzca contenido
-feedback.content.max_1000: 'Máximo: 1,000 caracteres'
+feedback.content.max_1000: "Máximo: 1,000 caracteres"
 feedback.email.label: Email
 feedback.email.placeholder: Por favor introduzca su email
 feedback.email.not_valid: Dirección de e-mail inválida
 feedback.submit: Enviar
 feedback.submit.error: Error de envio - Por favor intentelo de nuevo
 feedback.submit.success: Enviado con éxito - Click para cerrar
-feedback.support_email: 'Email de Soporte: '
+feedback.support_email: "Email de Soporte: "
 feedback.debug_log: Registro de Depuración
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Archivo de versión de Firmware
 kbd.firmware.annepro1.download.firmware: Descargar Firmware
 kbd.firmware.annepro1.download.latest_firmware: Descargar el Último Firmware
 kbd.firmware.annepro1.download.dfu_tool: Descargar Herramienta DFU
-kbd.firmware.find_new_version: 'Nueva versión de Firmware encontrada: '
+kbd.firmware.find_new_version: "Nueva versión de Firmware encontrada: "
 kbd.firmware.no_new_version: La versión de Firmware actual es la mas reciente
 kbd.firmware.upgrade.app_require: Se requiere ObinsKit en su versión v{{requiredVersion}} o posterior, la versión actual es v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha

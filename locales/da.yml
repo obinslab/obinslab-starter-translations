@@ -40,12 +40,12 @@ common.apply.failed: Anvendense mislykkede
 common.confirm.show_detail: Vis detaljer
 common.network.connection.error: Netværksforbindelse fejl
 common.please_quit_edit: Afslut Rediger, før du fortsætter
-common.time_unit.hour: '{{count}} Timer'
-common.time_unit.hour_plural: '{{count}} Timer'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
+common.time_unit.hour: "{{count}} Timer"
+common.time_unit.hour_plural: "{{count}} Timer"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
 common.time_unit.millisecond: Millisekunder
 common.return: Vend tilbage
 common.refresh: Opdater
@@ -70,14 +70,14 @@ feedback: Tilbagemelding
 feedback.title: Tilbagemelding
 feedback.content: Indhold
 feedback.content.no_empty: Skriv indhold
-feedback.content.max_1000: 'Maksimum: 1.000 tegn'
+feedback.content.max_1000: "Maksimum: 1.000 tegn"
 feedback.email.label: E-mail
 feedback.email.placeholder: Indtast e-mail
 feedback.email.not_valid: Ugyldig e-mail adresse
 feedback.submit: Indsend
 feedback.submit.error: Indsendelse fejlslået - Prøv venligst igen
 feedback.submit.success: Indsendelse afsendt - Klik for at lukke
-feedback.support_email: 'Support e-mail: '
+feedback.support_email: "Support e-mail: "
 feedback.debug_log: Debug-log
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Firmware Arkiv
 kbd.firmware.annepro1.download.firmware: Hent Firmware
 kbd.firmware.annepro1.download.latest_firmware: Hent Seneste Firmware
 kbd.firmware.annepro1.download.dfu_tool: Hent DFU Værktøj
-kbd.firmware.find_new_version: 'Find ny firmware: '
+kbd.firmware.find_new_version: "Find ny firmware: "
 kbd.firmware.no_new_version: Din firmware er opdateret
 kbd.firmware.upgrade.app_require: Kræver ObinsKit version v{{requiredVersion}} eller nyere, nuværende version er v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -307,7 +307,7 @@ kbd.macro.delete_macro_in_folder: Please delete macro in folder
 kbd.macro.please_add_macro_group: Tilføj en makrogruppe
 kbd.macro.please_add_macro: Tilføj en makro
 kbd.macro.delete.confirm_content: Er du sikker på, at du vil slette denne makro?
-kbd.macro.amount_limit: '{{count}} macros maximum'
+kbd.macro.amount_limit: "{{count}} macros maximum"
 kbd.macro.code: Makro Kode
 kbd.macro.code.rec: Optag Makro
 kbd.macro.code.empty: Tom makrokode

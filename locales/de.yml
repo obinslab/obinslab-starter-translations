@@ -40,13 +40,13 @@ common.apply.failed: Fehlgeschlagen
 common.confirm.show_detail: Details anzeigen
 common.network.connection.error: Netzwerkverbindung fehlgeschlagen
 common.please_quit_edit: Bitte beende die Bearbeitung
-common.time_unit.hour: '{{count}} hour'
-common.time_unit.hour_plural: '{{count}} hours'
-common.time_unit.minute: '{{count}} minute'
-common.time_unit.minute_plural: '{{count}} minutes'
-common.time_unit.second: '{{count}} second'
-common.time_unit.second_plural: '{{count}} seconds'
-common.time_unit.millisecond: '{{count}} ms'
+common.time_unit.hour: "{{count}} hour"
+common.time_unit.hour_plural: "{{count}} hours"
+common.time_unit.minute: "{{count}} minute"
+common.time_unit.minute_plural: "{{count}} minutes"
+common.time_unit.second: "{{count}} second"
+common.time_unit.second_plural: "{{count}} seconds"
+common.time_unit.millisecond: "{{count}} ms"
 common.return: Return
 common.refresh: Refresh
 common.date: Date
@@ -77,7 +77,7 @@ feedback.email.not_valid: Die E-Mail-Adresse ist ungültig
 feedback.submit: Abschicken
 feedback.submit.error: Fehler beim Abschicken, bitte versuche es erneut
 feedback.submit.success: Erfolgreich abgeschickt. Klicke zum schließen.
-feedback.support_email: 'Support email: '
+feedback.support_email: "Support email: "
 feedback.debug_log: Debug Log
 
 # Preference Window
@@ -165,7 +165,7 @@ kbd.firmware.archive: Firmware Archive
 kbd.firmware.annepro1.download.firmware: Firmware herunterladen
 kbd.firmware.annepro1.download.latest_firmware: Neuste Firmware herunterladen
 kbd.firmware.annepro1.download.dfu_tool: DFU Tool herunterladen
-kbd.firmware.find_new_version: 'Neue Firmware finden: '
+kbd.firmware.find_new_version: "Neue Firmware finden: "
 kbd.firmware.no_new_version: Deine Firmware ist auf dem neusten Stand
 kbd.firmware.upgrade.app_require: Required ObinsKit version is v{{requiredVersion}} or later, current version is v{{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
@@ -195,7 +195,7 @@ kbd.led.effect.profile.limit.annepro2_sixteen: Du kannst bis zu 16 Beleuchtungen
 kbd.led.effect.mode: Dynamische Effekte
 kbd.led.effect.delete.confirm_content: Möchtest du diese Beleuchtung wirklich löschen?
 kbd.led.effect.preview: Vorschau
-kbd.led.effect.dynamic_colors: 'Lichteffekt: Farben'
+kbd.led.effect.dynamic_colors: "Lichteffekt: Farben"
 kbd.led.effect.dynamic_colors.random: Random
 kbd.led.effect.dynamic_colors.no_empty: Please add dynamic color
 kbd.led.color.palette: Farbpalette
@@ -274,7 +274,7 @@ icon.right_gui: Rechts Win/Cmd
 icon.mute: Stumm
 icon.volume.up: Lautstärke erhöhen
 icon.volume.down: Lautstärke verringern
-icon.bl.toggle: 'Beleuchtung an-/ausschalten'
+icon.bl.toggle: "Beleuchtung an-/ausschalten"
 icon.bl.color: Beleuchtung wechseln
 icon.bl.increase: Beleuchtung heller
 icon.bl.decrease: Beleuchtung dunkler
