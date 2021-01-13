@@ -34,6 +34,9 @@ common.save.success: Salvo com sucesso
 common.download: Download
 common.download.success: Download concluído
 common.download.failed: Operação falhou
+common.apply: Apply
+common.apply.success: Apply Success
+common.apply.failed: Apply Failed
 common.confirm.show_detail: Mostrar detalhe
 common.network.connection.error: Erro de conexão de rede
 common.please_quit_edit: Saia do Edit antes de prosseguir
@@ -48,6 +51,7 @@ common.return: Voltar
 common.refresh: Atualizar
 common.date: Data
 common.library: Biblioteca
+common.none: None
 
 # Tray
 app.tray.show_window: Abrir ObinsKit
@@ -121,12 +125,12 @@ kbd.general.info.serial_number: Número de Série
 kbd.general.info.battery: Bateria
 kbd.general.info.running_time: Tempo ativo
 kbd.general.setting: Configurações
+kbd.general.setting.iso_character: ISO Character
 kbd.general.setting.layout: Layout
 kbd.general.setting.tap_layout: Tap
 kbd.general.setting.tap_sensitivity: Sensibilidade
 kbd.general.setting.tap_combiantion: Combinaçao tecla TAP
-kbd.general.setting.tap_combiantion_tips:
-  Enquanto mantém pressionada qualquer tecla, a tecla TAP ainda pode disparar
+kbd.general.setting.tap_combiantion_tips: Enquanto mantém pressionada qualquer tecla, a tecla TAP ainda pode disparar
 kbd.general.setting.magic_fn: Magic FN
 kbd.general.setting.magic_fn_tips: Associar tecla FN à tecla Capslock
 kbd.general.setting.macro_trigger: Macro
@@ -134,9 +138,9 @@ kbd.general.setting.lighting: Iluminação
 kbd.general.setting.lighting.backlight: Backlight
 kbd.general.setting.lighting.indicator: Indicador
 kbd.general.setting.capslock_led: CapsLock LED
+kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Hibernação
-kbd.general.setting.auto_sleep_tips:
-  No modo sem fio, o teclado entrará em hibernação após {{time}} ocioso
+kbd.general.setting.auto_sleep_tips: No modo sem fio, o teclado entrará em hibernação após {{time}} ocioso
 kbd.general.setting.options.disable: Desabilitar
 kbd.general.setting.options.enable: Habilitar
 kbd.general.setting.options.default: Padrão
@@ -146,7 +150,7 @@ kbd.general.setting.options.fn1: FN1
 kbd.general.setting.options.fn2: FN2
 kbd.general.setting.options.capslock_all: Todos
 kbd.general.bluetooth: Bluetooth
-kbd.general.bluetooth.bind: Conexões Bluetooth 
+kbd.general.bluetooth.bind: Conexões Bluetooth
 kbd.general.bluetooth.clean_bind: Limpar
 
 # Main Window, Firmware
@@ -163,21 +167,17 @@ kbd.firmware.annepro1.download.latest_firmware: Baixar Firmware mais recente
 kbd.firmware.annepro1.download.dfu_tool: Baixar ferramenta DFU
 kbd.firmware.find_new_version: 'Procurar firmware: '
 kbd.firmware.no_new_version: Seu firmware está atualizado
-kbd.firmware.upgrade.app_require:
-  A versão necessária do ObinsKit é v {{requiredVersion}} ou posterior, a versão atual é
-   v {{appVersion}}.
+kbd.firmware.upgrade.app_require: A versão necessária do ObinsKit é v {{requiredVersion}} ou posterior, a versão atual é v {{appVersion}}.
 kbd.firmware.upgrade.source.alpha: Alpha
 kbd.firmware.upgrade.source.latest: Release
 kbd.firmware.upgrade_btn: Atualizar
 kbd.firmware.upgrade.title: Atualização do Firmware
 kbd.firmware.upgrade.content: Não desconecte o cabo USB durante a atualização
-kbd.firmware.upgrade.enter_iap_timeout:
-  Falha ao entrar automaticamente no modo IAP, entre no modo IAP manualmente (mantenha
-   a tecla ESC e, em seguida, insira o cabo USB)
+kbd.firmware.upgrade.no_ble: Firmware upgrade in Bluetooth mode is not currently supported, please use USB mode.
+kbd.firmware.upgrade.enter_iap_timeout: Falha ao entrar automaticamente no modo IAP, entre no modo IAP manualmente (mantenha a tecla ESC e, em seguida, insira o cabo USB)
 kbd.firmware.upgrade.status.downloading: Baixando firmware
 kbd.firmware.upgrade.status.download_failed: O download do Firmware falhou
-kbd.firmware.upgrade.status.entering_aip:
-  Entrando no modo de atualização (cerca de 6 segundos ou menos)
+kbd.firmware.upgrade.status.entering_aip: Entrando no modo de atualização (cerca de 6 segundos ou menos)
 kbd.firmware.upgrade.status.writing_key: Gravando dados no processador do aplicativo
 kbd.firmware.upgrade.status.writing_led: Gravando dados no processador de iluminação
 kbd.firmware.upgrade.status.writing_ble: Gravando dados no processador bluetooth
@@ -188,16 +188,12 @@ kbd.firmware.upgrade.status.success: Firmware atualizado com sucesso
 kbd.led: Iluminação
 kbd.led.effect.profiles: Perfis de iluminação
 kbd.led.effect.profile.reset: Reiniciar
-kbd.led.effect.profile.delete.confirm_content:
-  Tem certeza que deseja excluir este perfil?
+kbd.led.effect.profile.delete.confirm_content: Tem certeza que deseja excluir este perfil?
 kbd.led.effect.profile: Detalhe do Perfil
-kbd.led.effect.profile.limit.annepro1_three:
-  Limite de 3 efeitos de iluminação por perfil (ANNE PRO 1)
-kbd.led.effect.profile.limit.annepro2_sixteen:
-  Limite de 16 efeitos de iluminação por perfil
+kbd.led.effect.profile.limit.annepro1_three: Limite de 3 efeitos de iluminação por perfil (ANNE PRO 1)
+kbd.led.effect.profile.limit.annepro2_sixteen: Limite de 16 efeitos de iluminação por perfil
 kbd.led.effect.mode: Modo Iluminação
-kbd.led.effect.delete.confirm_content:
-  Tem certeza de que deseja excluir este efeito de iluminação?
+kbd.led.effect.delete.confirm_content: Tem certeza de que deseja excluir este efeito de iluminação?
 kbd.led.effect.preview: Previsualizar
 kbd.led.effect.dynamic_colors: Tabela de cores dinâmica
 kbd.led.effect.dynamic_colors.random: Aleatório
@@ -244,6 +240,7 @@ intl.led.green: Verde
 intl.led.cyan: Ciano
 intl.led.blue: Azul
 intl.led.purple: Violeta
+intl.led.orange: Orange
 intl.led.static.single: Esstático único
 intl.led.static.multi: Multi estático
 intl.dynamic.breath: Respiração
@@ -257,13 +254,10 @@ intl.dynamic.trigger.rainbow: Gatilho Arco-íris
 # Main Window, Layout
 kbd.layout: Layout
 kbd.layout.default: Padrão
-kbd.layout.reset.confirm_content:
-  Tem certeza de que deseja redefinir este layout para o padrão?
+kbd.layout.reset.confirm_content: Tem certeza de que deseja redefinir este layout para o padrão?
 kbd.layout.delete.confirm_content: Tem certeza de que deseja excluir este layout?
 kbd.layout.set_keycap_null: Definir nulo
 # Sidebar titles
-kbd.keycode_group.d87: D87
-kbd.keycode_group.annepro: ANNE PRO
 kbd.keycode_group.system: Sistema
 kbd.keycode_group.alphabet: Caracteres
 kbd.keycode_group.number: Números
@@ -272,6 +266,7 @@ kbd.keycode_group.arrow: Setas
 kbd.keycode_group.function: Funções
 kbd.keycode_group.media: Mídia
 kbd.keycode_group.keypad: Teclado Numérico
+kbd.keycode_group.mouse: Mouse
 kbd.keycode_group.other: Outros
 # Key tooltips
 icon.left_gui: Win/Cmd Esquerdo
@@ -302,8 +297,7 @@ intl.keymap.dvorak: Dvorak
 # Main Window, Macros
 kbd.macro: Macros
 kbd.macro.group: Grupo de Macros
-kbd.macro.group.delete.confirm_content:
-  Tem certeza de que deseja excluir este grupo de macros?
+kbd.macro.group.delete.confirm_content: Tem certeza de que deseja excluir este grupo de macros?
 kbd.macro.add: Adicionar macro
 kbd.macro.new: Nova Macro
 kbd.macro.clear: Limpar Macros
@@ -332,15 +326,13 @@ kbd.macro.block.property.relative_time: Tempo Relativo
 
 # Audio Visualization
 kbd.audio: Visualização de Áudio
-kbd.audio.describe:
-  As luzes do teclado reagem ao áudio reproduzido por meio do dispositivo de som padrão
+kbd.audio.describe: As luzes do teclado reagem ao áudio reproduzido por meio do dispositivo de som padrão
 kbd.audio.on: Ligar
 kbd.audio.off: Desligar
 kbd.audio.light_type: Modo de Iluminação
 kbd.audio.light_type.pure: Cor pura
 kbd.audio.light_type.colorful: Colorido
-kbd.audio.required_led_firmware:
-  A versão necessária do Light Processor é {{version}} ou posterior.
+kbd.audio.required_led_firmware: A versão necessária do Light Processor é {{version}} ou posterior.
 
 # Other Messages
 msg.open_device_failed: A inicialização do dispositivo falhou
