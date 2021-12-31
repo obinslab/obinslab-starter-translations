@@ -3,20 +3,20 @@ common.operate.failed: Thực hiện thất bại
 common.operate.success: Thực hiện thành công
 common.tooltip_title: Thông báo
 common.input.placeholder: Hãy nhập tên
-common.stop: Stop
-common.device: Device
-common.preview: Preview
-common.edit: Edit
+common.stop: Dừng
+common.device: Thiết bị
+common.preview: Xem trước
+common.edit: Chỉnh sửa
 common.rename: Đổi tên
 common.import: Nhập vào
 common.export: Xuất ra
 common.add: Thêm
-common.new: New
-common.new_folder: New Folder
+common.new: Mới
+common.new_folder: Thư mục mới
 common.create: Tạo
 common.add.success: Thêm thành công
 common.add.failed: Thêm thất bại
-common.remove: Remove
+common.remove: Loại bỏ
 common.delete: Xoá
 common.delete.success: Xoá thành công
 common.delete.failed: Xoá thất bại
@@ -31,26 +31,26 @@ common.ok: OK
 common.save: Lưu
 common.save_as: Lưu dưới tên khác
 common.save.success: Lưu thành công
-common.download: Download
-common.download.success: Download successfully
-common.download.failed: Operation failed
+common.download: Tải xuống
+common.download.success: Tải xuống thành công
+common.download.failed: Tải xuống thất bại
 common.apply: Áp dụng
 common.apply.success: Áp dụng thành công
 common.apply.failed: Áp dụng thất bại
 common.confirm.show_detail: Xem chi tiết
 common.network.connection.error: Lỗi kết nối mạng
 common.please_quit_edit: Vui lòng thoát chế độ chỉnh sửa
-common.time_unit.hour: "{{count}} hour"
-common.time_unit.hour_plural: "{{count}} hours"
-common.time_unit.minute: "{{count}} minute"
-common.time_unit.minute_plural: "{{count}} minutes"
-common.time_unit.second: "{{count}} second"
-common.time_unit.second_plural: "{{count}} seconds"
-common.time_unit.millisecond: "{{count}} ms"
+common.time_unit.hour: "{{count}} giờ"
+common.time_unit.hour_plural: "{{count}} giờ"
+common.time_unit.minute: "{{count}} phút"
+common.time_unit.minute_plural: "{{count}} phút"
+common.time_unit.second: "{{count}} giây"
+common.time_unit.second_plural: "{{count}} giây"
+common.time_unit.millisecond: "{{count}} miligiây"
 common.return: Quay lại
 common.refresh: Quét lại
 common.date: Ngày
-common.library: Library
+common.library: Thư viện
 common.none: None
 
 # Tray
@@ -118,19 +118,19 @@ home.open_device_failed: Mở thiết bị thất bại
 
 # Main Window, General
 kbd.general: Cài đặt chung
-kbd.general.basic: Basic
+kbd.general.basic: Cơ bản
 kbd.general.info: Thông tin
 kbd.general.info.device_model: Mẫu sản phẩm
 kbd.general.info.serial_number: Mã số Seri
 kbd.general.info.battery: Dung lượng pin
 kbd.general.info.running_time: Thời gian đã hoạt động
 kbd.general.setting: Cài đặt
-kbd.general.setting.iso_character: ISO Character
+kbd.general.setting.iso_character: Kí tự ISO 
 kbd.general.setting.layout: Bố cục phím
 kbd.general.setting.tap_layout: Tap
-kbd.general.setting.tap_sensitivity: Sensitivity
-kbd.general.setting.tap_combiantion: Tap key combination
-kbd.general.setting.tap_combiantion_tips: While holding down any key, the tap key can still trigger
+kbd.general.setting.tap_sensitivity: Độ nhạy
+kbd.general.setting.tap_combiantion: Tổ hợp phím tap
+kbd.general.setting.tap_combiantion_tips: Bạn vẫn có thể kích hoạt phím tap trong khi giữ các phím khác
 kbd.general.setting.magic_fn: MagicFn
 kbd.general.setting.magic_fn_tips: Bind FN to key Capslock
 kbd.general.setting.macro_trigger: Macro
@@ -140,7 +140,7 @@ kbd.general.setting.lighting.indicator: Indicator
 kbd.general.setting.capslock_led: Đèn Capslock
 kbd.general.setting.indicators: Indicators
 kbd.general.setting.auto_sleep: Tự động ngủ
-kbd.general.setting.auto_sleep_tips: In wireless mode, keyboard will go into sleep after {{time}} of idle time
+kbd.general.setting.auto_sleep_tips: Trong chế độ không dây, bàn phím sẽ vào chế độ ngủ sau {{time}} giờ không hoạt động
 kbd.general.setting.options.disable: Tắt
 kbd.general.setting.options.enable: Bật
 kbd.general.setting.options.default: Mặc định
@@ -299,11 +299,11 @@ kbd.macro: Macro
 kbd.macro.group: Nhóm macro
 kbd.macro.group.delete.confirm_content: Bạn có muốn xoá nhóm macro?
 kbd.macro.add: Thêm macro
-kbd.macro.new: New Macro
-kbd.macro.clear: Clear Keyboard Macro
+kbd.macro.new: Macro mới
+kbd.macro.clear: Xóa toàn bộ macro của bàn phím
 kbd.macro.bind_key: Bind to key
 kbd.macro.bind_key_tips: Please select a key to bind
-kbd.macro.delete_macro_in_folder: Please delete macro in folder
+kbd.macro.delete_macro_in_folder: Vui lòng xóa macro trong thư mục
 kbd.macro.please_add_macro_group: Vui lòng thêm nhóm macro
 kbd.macro.please_add_macro: Vui lòng thêm macro
 kbd.macro.delete.confirm_content: Bạn có muốn xoá macro?
@@ -318,10 +318,10 @@ kbd.macro.code.value.insert_timer_block: Thêm khối thời gian
 kbd.macro.code.value.move_up: Dịch chuyển lên trên
 kbd.macro.code.value.move_down: Dịch chuyển xuống dưới
 kbd.macro.block.property: Property
-kbd.macro.block.property.keypress: Key
-kbd.macro.block.property.key_info_input: Press desired key
-kbd.macro.block.property.time_duration: Duration
-kbd.macro.block.property.start_time: Start Time
+kbd.macro.block.property.keypress: Phím
+kbd.macro.block.property.key_info_input: Vui lòng ấn nút bạn muốn
+kbd.macro.block.property.time_duration: Thời lượng
+kbd.macro.block.property.start_time: Thòi gian bắt đầu
 kbd.macro.block.property.relative_time: Relative Time
 
 # Audio Visualization
